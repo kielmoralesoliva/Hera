@@ -9,6 +9,12 @@
     include '../app/common/validation.php'; 
 
     include './classes/employee.php';
+    include './classes/signin.php';
+
+    $router->post('/signin', function () {
+        $entry = new Entry();
+        $entry->signin($_POST);
+    });
 
     $router->get('/employee-list', function () {
         $employee = new Employee();
