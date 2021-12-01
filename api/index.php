@@ -21,6 +21,12 @@
         $employee->get_employees($_GET);
     });
 
+    $router->post('/add-employee-form', function () {
+        $employee = new Employee();
+        $employee->add_employee($_POST);
+    });
+
+    
    
     $router->get('', function () {
         echo json_encode(array('errorCode'=>404,'message'=>'Invalid request'));
