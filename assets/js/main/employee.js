@@ -1,27 +1,30 @@
 var EmployeePage = {
-    init: function () {
-      $("#add-employee-form").submit(function (e) {
-        e.preventDefault();
-        var formData = new FormData($(this)[0]);
-        EmployeePage.create(formData);
-      });
-    },
-    create: function (formData) {
-        console.log(formData);
+  init: function () {
+    $("#add-employee-form").submit(function (e) {
+      e.preventDefault();
 
-      $.ajax({
-        type: "POST",
-        url: "api/add-employee-form",
-        data: formData,
-        contentType: false,
-        cache: false,
-        processData: false,
-        success: function (res) {
-          console.log("res ", res);
-        },
-      });
-    },  
-  };
-  
-  EmployeePage.init();
-  
+      console.log($(this).serialize());
+      const serializeData = $(this)
+        .serializeArray()
+        .reduce(function (a, x) {
+          a[x.name] = x.value;
+          return a;
+        }, {});
+      EmployeePage.create(serializeData);
+    });
+  },
+  create: function (formData) {
+    console.log(formData);
+
+    $.ajax({
+      type: "POST",
+      url: "api/add-employee-form",
+      data: formData,
+      success: function (res) {
+        console.log("res ", res);
+      },
+    });
+  },
+};
+
+EmployeePage.init();

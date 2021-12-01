@@ -8,17 +8,18 @@ class Entry
     {
         global $conn;
 
-        $sql = "SELECT `ID`, `Username`, `Password` FROM employeedata2";
-        $result = $conn->query($sql);
-
-        if ($result->num_rows > 0) {
+        $sql = "SELECT * FROM `user_account` WHERE `` ";
+        if ($conn->query($sql) === TRUE) {
             $row = $result->fetch_assoc();
             echo json_encode(array(
-                'errorCode'=>0,
-                'responseData'=> $row
+                'success'=>true,
+                'data'=> $row
             ));
         } else {
-            echo json_encode(array('errorCode'=>404,'errorMsg'=>'Invalid username or password'));
+            echo json_encode(array(
+                'success'=>false,
+                'message'=> 'Invalid account credentials'
+            ));
         }
     }
 }

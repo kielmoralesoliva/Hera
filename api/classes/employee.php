@@ -8,17 +8,17 @@ class Employee
     {
         global $conn;
 
-        $sql = "SELECT `ID`, `EmployeeSurname`, `EmployeeName`, `EmployeeMiddle`, `College`, `Age` FROM employeedata2";
+        $sql = "SELECT * FROM `user_account`";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
             $row = $result->fetch_assoc();
             echo json_encode(array(
-                'errorCode'=>0,
-                'responseData'=> $row
+                'success'=>true,
+                'data'=> $row
             ));
         } else {
-            echo json_encode(array('errorCode'=>404,'errorMsg'=>'No results'));
+            echo json_encode(array('success'=>false,'message'=>'No results'));
         }
     }
 
@@ -27,44 +27,44 @@ class Employee
     {
         
         global $conn;
-
-        $sql = "INSERT INTO `user_account`(`id`, `username`, `password`, `emailAddress`, `phoneNumber`, `accountType`, `employeeIdNumber`, `furname`, `name`, `middle`, `college`, `birthdate`, `gender`, `educBackground`, `academicRank`, `status`, `campus`, `sickLeave`, `vacationLeave`, `splLeave`, `mandatoryLeave`, `maternityLeave`, `PaternityLeave`, `SoloParentLeave`)
-                              VALUES ('',
-                              '".$post['furname']."',
-                              '".$post['furname']."',
-                              '',
-                              '',
-                              '".$post['accountType']."',
-                              '".$post['furname']."',
-                              '".$post['name']."'',
-                              '".$post['middle']."',
-                              '".$post['college']."',
-                              '',
-                              '".$post['gender']."',
-                              '',
-                              '".$post['academicRank']."',
-                              '".$post['status']."',
-                              '".$post['campus']."',
-                              '',
-                              '',
-                              '',
-                              '',
-                              '',
-                              '',
-                              '')";
-
-        if ($conn->query($sql) === TRUE) {
-            echo json_encode(array('success'=>true,'message'=>'Successfully Created'));
+        echo $post['furname'];
+        
+        try {
+            $sql = "INSERT INTO `user_account`(`id`, `username`, `password`, `emailAddress`, `phoneNumber`, `accountType`, `gender`, `employeeIdNumber`, `furname`, `name`, `middle`, `college`, `birthdate`, `educBackground`, `academicRank`, `status`, `campus`, `sickLeave`, `vacationLeave`, `splLeave`, `mandatoryLeave`, `maternityLeave`, `PaternityLeave`, `SoloParentLeave`)
+                              VALUES (
+                                  null,
+                                  '".$post['username']."',
+                                  '".$post['password']."',
+                                  '[value-4]',
+                                  '[value-5]',
+                                  'HR Officer',
+                                  'female',
+                                  '[value-7]',
+                                  '[value-8]',
+                                  '[value-9]',
+                                  '[value-10]',
+                                  '[value-11]',
+                                  '[value-12]',
+                                  '[value-13]',
+                                  '[value-14]',
+                                  'Temporary',
+                                  '[value-16]',
+                                  '[value-17]',
+                                  '[value-18]',
+                                  '[value-19]',
+                                  '[value-20]',
+                                  '[value-21]',
+                                  '[value-22]',
+                                  '[value-23]')";
+            if ($conn->query($sql) === TRUE) {
+                echo json_encode(array('success'=>true,'message'=>'Successfully Created'));
+            }
+            else {
+                echo json_encode(array('success'=>false,'message'=>'Unable to create data', 'errorDetails'=>$conn->error));
+            }
+        } catch (\Throwable $th) {
+            echo json_encode(array('success'=>false,'message'=>'Unable to process your data. Paki ayos naman'));
         }
-        else {
-            echo json_encode(array('success'=>false,'message'=>'No results'));
-        }
-
-
-
-
-
-
 
     }
 

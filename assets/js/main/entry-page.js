@@ -2,8 +2,13 @@ var EntryPage = {
   init: function () {
     $("#signin-form").submit(function (e) {
       e.preventDefault();
-      var formData = new FormData($(this)[0]);
-      EntryPage.signin(formData);
+      const serializeData = $(this)
+        .serializeArray()
+        .reduce(function (a, x) {
+          a[x.name] = x.value;
+          return a;
+        }, {});
+      EntryPage.signin(serializeData);
     });
   },
   signin: function (formData) {
