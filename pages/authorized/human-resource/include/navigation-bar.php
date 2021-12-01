@@ -199,27 +199,89 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name"> Emily Smith </div>
+                            <div class="sidebar-userpic-name"> Maricar Falogme </div>
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
                     <li class="header"> Navigation</li>
 
 
-
+                    <?php 
+                            
                     
-                    <li>
+                    ?>
+                    
+                    <li class="<?php echo $activation == "dashboard"? "active": ""; ?>">
                         <a href="dashboard">
                             <i data-feather="calendar"></i>
                             <span>Dashboard</span>
                         </a>
                     </li>
-                    <li>
-                        <a href="employee-list">
+
+
+                    <li class="<?php echo $activation == "announcement"? "active": ""; ?>">
+                        <a href="#" onClick="return false;" class="menu-toggle">
+                            <i data-feather="trello"></i>
+                            <span>Announcement</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li class="">
+                                <a href="">All Announcement</a>
+                            </li>
+                            <li class="">
+                                <a href="announcement">Add Announcement</a>
+                            </li>               
+                        </ul>
+                    </li>
+                    <li class="<?php echo $activation == "leave-request"? "active": ""; ?>">
+                        <a href="#" onClick="return false;" class="menu-toggle">
+                            <i data-feather="clipboard"></i>
+                            <span>Leave Management</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="leave-request">All Leave Request</a>
+                            </li>
+                            <li>
+                                <a href="">Leave Balance</a>
+                            </li>
+                            <li class="">
+                                <a href="leave-types">Leave Types</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+
+
+                    <li class="<?php echo $activation == "employee-list"? "active": ""; ?>">
+                        <a href="#" onClick="return false;" class="menu-toggle">
+                            <i data-feather="users"></i>
+                            <span>Employees</span>
+                        </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="employee-list">All Employee</a>
+                            </li>
+                            <li>
+                                <a href="add-employee">Add Employee</a>
+                            </li>
+                            <li>
+                                <a href="pages/employee/edit-employee.html">Edit Employee</a>
+                            </li>
+                        </ul>
+                    </li>
+
+
+                    <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
+                        <a href="holiday">
                             <i data-feather="calendar"></i>
-                            <span>Employee List</span>
+                            <span>Holiday</span>
                         </a>
                     </li>
+
+
+
 
                 </ul>
             </div>

@@ -5,15 +5,43 @@
 
 
 
+   $activation = null;
 
     $router->get('/dashboard', function () {
+        $activation = "dashboard";
+
         include './pages/authorized/human-resource/dashboard.php';
     });
 
     $router->get('/employee-list', function () {
+        $activation = "employee-list";
         include './pages/authorized/human-resource/employee-list.php';
     });
 
+    $router->get('/add-employee', function () {
+        $activation = "employee-list";
+        include './pages/authorized/human-resource/add-employee.php';
+    });
+
+    $router->get('/announcement', function () {
+        $activation = "announcement";
+        include './pages/authorized/human-resource/announcement.php';
+    });
+
+    $router->get('/leave-request', function () {
+        $activation = "leave-request";
+        include './pages/authorized/human-resource/leave-request.php';
+    });
+
+    $router->get('/leave-types', function () {
+        $activation = "leave-request";
+        include './pages/authorized/human-resource/leave-types.php';
+    });
+
+    $router->get('/holiday', function () {
+        $activation = "holiday";
+        include './pages/authorized/human-resource/holiday.php';
+    });
 
 
 

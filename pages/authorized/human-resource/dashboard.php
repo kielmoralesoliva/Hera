@@ -37,7 +37,7 @@
     <!-- #Top Bar -->
     <div>
 
-    
+
     <?php include './pages/authorized/human-resource/include/navigation-bar.php';   ?>
 
 
@@ -68,21 +68,21 @@
                         <div class="info-box-5 p-4">
                             <div class="card-icon card-icon-large"><i class="far fa-window-restore"></i></div>
                             <div class="mb-4">
-                                <h5 class="font-20 mb-0">Projects</h5>
+                                <h5 class="font-20 mb-0">Total Employees</h5>
                             </div>
                             <div class="row align-items-center mb-2 d-flex">
                                 <div class="col-8">
                                     <h2 class="d-flex align-items-center mb-0">
-                                        125
+                                        280
                                     </h2>
                                 </div>
                                 <div class="col-4 text-end">
-                                    <span class="fw-bold">24.7% <i class="fa fa-arrow-up"></i></span>
+                                    <span class="fw-bold">100% <i class="fa fa-arrow-up"></i></span>
                                 </div>
                             </div>
                             <div class="progress mt-1 " data-height="8" style="height: 8px;">
-                                <div class="progress-bar l-bg-cyan" role="progressbar" data-width="25%"
-                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+                                <div class="progress-bar l-bg-cyan" role="progressbar" data-width="100%"
+                                    aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
                                 </div>
                             </div>
                         </div>
@@ -93,12 +93,12 @@
                         <div class="info-box-5 p-4">
                             <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
                             <div class="mb-4">
-                                <h5 class="font-20 mb-0">New Employee</h5>
+                                <h5 class="font-20 mb-0">Regular Faculty</h5>
                             </div>
                             <div class="row align-items-center mb-2 d-flex">
                                 <div class="col-8">
                                     <h2 class="d-flex align-items-center mb-0">
-                                        213
+                                        113
                                     </h2>
                                 </div>
                                 <div class="col-4 text-end">
@@ -107,7 +107,7 @@
                             </div>
                             <div class="progress mt-1 " data-height="8" style="height: 8px;">
                                 <div class="progress-bar l-bg-green" role="progressbar" data-width="25%"
-                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 55%;">
                                 </div>
                             </div>
                         </div>
@@ -118,12 +118,12 @@
                         <div class="info-box-5 p-4">
                             <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
                             <div class="mb-4">
-                                <h5 class="font-20 mb-0">Running Tasks</h5>
+                                <h5 class="font-20 mb-0">Non-Teaching Personnel</h5>
                             </div>
                             <div class="row align-items-center mb-2 d-flex">
                                 <div class="col-8">
                                     <h2 class="d-flex align-items-center mb-0">
-                                        10,225
+                                        102
                                     </h2>
                                 </div>
                                 <div class="col-4 text-end">
@@ -132,7 +132,7 @@
                             </div>
                             <div class="progress mt-1 " data-height="8" style="height: 8px;">
                                 <div class="progress-bar l-bg-orange" role="progressbar" data-width="25%"
-                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 25%;">
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: 45%;">
                                 </div>
                             </div>
                         </div>
