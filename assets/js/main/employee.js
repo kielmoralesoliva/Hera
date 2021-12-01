@@ -1,24 +1,25 @@
-var EntryPage = {
+var EmployeePage = {
   init: function () {
-    $("#signin-form").submit(function (e) {
+    $("#add-employee-form").submit(function (e) {
       e.preventDefault();
+
+      console.log($(this).serialize());
       const serializeData = $(this)
         .serializeArray()
         .reduce(function (a, x) {
           a[x.name] = x.value;
           return a;
         }, {});
-      EntryPage.signin(serializeData);
+      EmployeePage.create(serializeData);
     });
   },
-  signin: function (formData) {
+  create: function (formData) {
+    console.log(formData);
+
     $.ajax({
       type: "POST",
-      url: API_URL + "/signin",
+      url: "api/add-employee-form",
       data: formData,
-      contentType: false,
-      cache: false,
-      processData: false,
       success: function (res) {
         console.log("res ", res);
       },
@@ -26,4 +27,4 @@ var EntryPage = {
   },
 };
 
-EntryPage.init();
+EmployeePage.init();

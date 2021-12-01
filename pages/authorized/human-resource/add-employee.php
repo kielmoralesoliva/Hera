@@ -10,6 +10,8 @@
     <title>AtrioHR - HR and Company Management Admin Template</title>
     <!-- Favicon-->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link href="assets/js/bundles/multiselect/css/multi-select.css" rel="stylesheet">
+    <link href="assets/js/bundles/bootstrap-colorpicker/dist/css/bootstrap-colorpicker.css" rel="stylesheet" />
     <!-- Plugins Core Css -->
     <link href="assets/css/app.min.css" rel="stylesheet">
     <!-- Custom Css -->
@@ -40,11 +42,7 @@
     
     <?php include './pages/authorized/human-resource/include/navigation-bar.php';   ?>
 
-
-
-
     </div>
-
 
     <section class="content">
         <div class="container-fluid">
@@ -93,90 +91,103 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="body">
-                            <div class="row clearfix">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="First Name" />
+                        <form method="post" enctype="multipart/form-data" id="add-employee-form">
+                            <div class="body">
+                                <div class="row clearfix">
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <div class="form-line">
+                                                <input type="text" name="furname" class="form-control" placeholder="First Name" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-6">
+                                        <div class="form-group">
+                                            <div class="form-line">
+                                                <input type="text" name="middle" class="form-control" placeholder="Middle Name" />
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-sm-6">
+                                <div class="row clearfix">
+                                    <div class="col-sm-6">
                                     <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="Last Name" />
+                                            <div class="form-line">
+                                                <input type="text" name="name" class="form-control" placeholder="Last Name" />
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <div class="row clearfix">
-                                <div class="col-sm-6">
+                                    <div class="col-sm-6">
                                     <div class="form-group">
-                                        <div class="form-line">
-                                            <input id="email" type="email" class="validate form-control"
-                                                placeholder="Email">
+                                            
+                                    
+                                    <select class="form-control" name="accountType">
+                                                <option disabled selected hidden>Select Account Type</option>
+                                                <option value="Employee">Employee</option>
+                                                <option value="Employee">HR Officer</option>
+                                    
+                                            </select>
+                                
                                         </div>
-                                    </div>
                                 </div>
+
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input type="text" class="form-control datetimepicker"
-                                            placeholder="Joining Date" name="date1" id="date1">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row clearfix">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="Designation" />
+                                            
+                                    
+                                    <select class="form-control" name="gender">
+                                                <option disabled selected hidden>Select Gender</option>
+                                                <option value="male">Male</option>
+                                                <option value="female">Female</option>
+                                    
+                                            </select>
+                                
                                         </div>
-                                    </div>
+                                </div>
+                            
+                                
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                            
+                                    
+                                    <select class="form-control">
+                                                <option disabled selected hidden>Academic Rank</option>
+                                                <option>Instructor I</option>
+                                                <option>Instructor II</option>
+                        
+                                            </select>
+                                
+                                        </div>
                                 </div>
                                 <div class="col-sm-6">
-                                    <div class="form-group form-float">
-                                        <div class="form-line">
-                                            <select class="col-12 m-t-20 p-l-0">
-                                                <option disabled selected>Gender</option>
-                                                <option>Male</option>
-                                                <option>Female</option>
+                                    <div class="form-group">
+                                    <select class="form-control" name="status">
+                                                <option disabled selected hidden>Status</option>
+                                                <option value="Regular">Regular</option>
+                                                <option value="Temporary">Temporary</option>
                                             </select>
                                         </div>
-                                    </div>
                                 </div>
-                            </div>
-                            <div class="row clearfix">
+
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="Telephone" />
+                                    <select class="form-control" name="campus">
+                                                <option disabled selected hidden>Campus Assigned</option>
+                                                <option value="Main">Main</option>
+                                                <option value="Calatrava"> Calatrava</option>
+                                            </select>
                                         </div>
-                                    </div>
                                 </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control datetimepicker" placeholder="Birth Date"
-                                            name="date2" id="date2">
-                                    </div>
+                            
+                            
+                                <div class="col-lg-12 p-t-20 text-center">
+                                    <button type="submit" class="btn btn-primary waves-effect m-r-15">Submit</button>
+                                    <button type="button" class="btn btn-danger waves-effect">Cancel</button>
                                 </div>
+
                             </div>
-                            <div class="row clearfix">
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <div class="form-line">
-                                            <textarea rows="4" class="form-control no-resize"
-                                                placeholder="Address"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                           
-                            <div class="col-lg-12 p-t-20 text-center">
-                                <button type="button" class="btn btn-primary waves-effect m-r-15">Submit</button>
-                                <button type="button" class="btn btn-danger waves-effect">Cancel</button>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -186,21 +197,15 @@
 
 
 
-
     <script src="assets/js/app.min.js"></script>
-    <script src="assets/js/chart.min.js"></script>
     <!-- Custom Js -->
     <script src="assets/js/admin.js"></script>
-    <script src="assets/js/bundles/echart/echarts.js"></script>
-    <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
     <script src="assets/js/pages/index.js"></script>
-    <script src="assets/js/pages/todo/todo.js"></script>
     <script src="assets/js/table.min.js"></script>
     <!-- Custom Js -->
     <script src="assets/js/admin.js"></script>
-    <script src="assets/js/pages/tables/jquery-datatable.js"></script>
+    <script src="assets/js/main/employee.js"></script>
 </body>
 
 
-<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 19:34:28 GMT -->
 </html>

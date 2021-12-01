@@ -42,6 +42,13 @@
             $activation = "holiday";
             include './pages/authorized/human-resource/holiday.php';
         });
+
+        $router->get('/employee', function () {
+          
+            include './pages/authorized/employee/employee-dashboard.php';
+        });
+
+ 
   //  } 
    // else {
 
