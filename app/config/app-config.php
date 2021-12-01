@@ -11,9 +11,9 @@
 	if(ENVIRONMENT == 'DEV') {
 		define('PROTOCOL', 'http://');
 		define('ASSET_URL', PROTOCOL.''.getenv('HTTP_HOST').'/hera/assets');
-		define('API_URL', PROTOCOL.''.getenv('HTTP_HOST').'/hera/api/v1');
+		define('API_URL', PROTOCOL.''.getenv('HTTP_HOST').'/hera/api');
 		define('SITE_URL', PROTOCOL.''.getenv('HTTP_HOST').'/hera');  
-		define('API_VERSION', '/api/v1');
+		define('API_VERSION', '/v1');
 
 		// Database Configurations
 		define('SERVERNAME', 'localhost');
@@ -37,11 +37,11 @@
 	}
 
 	// Create database connection
-	//$conn = new mysqli(SERVERNAME, USERNAME, PASSWORD, DATABASE);
+	$conn = new mysqli(SERVERNAME, USERNAME, PASSWORD, DATABASE);
 	// Check database connection
-	//if ($conn->connect_error)
-	//{
-//		die("Database Connection failed: "); // Die the whole page when the connection goes failed
-//	}
+	if ($conn->connect_error)
+	{
+		die("Database Connection failed: "); // Die the whole page when the connection goes failed
+	}
 
 ?>
