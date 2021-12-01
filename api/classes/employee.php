@@ -23,7 +23,7 @@ class Employee
     }
 
 
-    public function insert_employee($post)
+    public function add_employee($post)
     {
         
         global $conn;
@@ -36,7 +36,7 @@ class Employee
                               '',
                               '".$post['accountType']."',
                               '".$post['furname']."',
-                              '".$post['name']."',e-8]',
+                              '".$post['name']."'',
                               '".$post['middle']."',
                               '".$post['college']."',
                               '',
