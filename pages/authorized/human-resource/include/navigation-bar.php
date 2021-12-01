@@ -203,7 +203,7 @@
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
-                    <li class="header"> Navigation</li>
+                    <li class="header">-- HR Services</li>
 
 
                     <?php 
@@ -245,9 +245,9 @@
                             <li>
                                 <a href="">Leave Balance</a>
                             </li>
-                            <li class="">
+                           <li class="">
                                 <a href="leave-types">Leave Types</a>
-                            </li>
+                            </li> 
                         </ul>
                     </li>
 
@@ -280,6 +280,14 @@
                         </a>
                     </li>
 
+
+                    <li class="header">-- HR Information</li>
+                    <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
+                        <a href="holiday">
+                            <i data-feather="user"></i>
+                            <span>HR Team</span>
+                        </a>
+                    </li>
 
 
 

@@ -43,7 +43,10 @@
         include './pages/authorized/human-resource/holiday.php';
     });
 
-
+    $router->get('/hr-profile', function () {
+        $activation = "hr-profile";
+        include './pages/authorized/human-resource/hr-profile.php';
+    });
 
 
    /* if( isset( $_COOKIE['user_id'] ) AND !empty( $_COOKIE['user_id'] ) ) {
