@@ -2,8 +2,13 @@
 
 ### Push to Github
 
+- `git add .`
+- `git commit -m “Updates”`
+- `git push origin main`
 
+### Tech Stack
 
-`git add .`
-`git commit -m “Updates”`
-`git push origin main`
+- `PHP`
+- `JavasScript`
+- `MySql`
+- `Bootstrap`

@@ -10,24 +10,23 @@
 
 	if(ENVIRONMENT == 'DEV') {
 		define('PROTOCOL', 'http://');
-		define('ASSET_URL', PROTOCOL.''.getenv('HTTP_HOST').'/iris-webmon/assets');
-		define('API_URL', PROTOCOL.''.getenv('HTTP_HOST').'/iris-webmon/api/v1');
-		define('SITE_URL', PROTOCOL.''.getenv('HTTP_HOST').'/iris-webmon');  
-		define('SOCKET_URL', PROTOCOL.'localhost:3000');
-		define('API_VERSION', '/v1');
+		define('ASSET_URL', PROTOCOL.''.getenv('HTTP_HOST').'/hera/assets');
+		define('API_URL', PROTOCOL.''.getenv('HTTP_HOST').'/hera/api/v1');
+		define('SITE_URL', PROTOCOL.''.getenv('HTTP_HOST').'/hera');  
+		define('API_VERSION', '/api/v1');
 
 		// Database Configurations
 		define('SERVERNAME', 'localhost');
 		define('USERNAME', 'root');
-		define('PASSWORD', '');
+		define('PASSWORD', 'root');
 		define('DATABASE', 'hera_db');
 
 	}
 	else if(ENVIRONMENT == 'PROD') {
 		define('PROTOCOL', 'https://');
-		define('ASSET_URL', 'https://iris-webmon.herokuapp.com/assets');
-		define('API_URL', 'https://iris-webmon.herokuapp.com/api/v1');
-		define('SITE_URL', 'https://iris-webmon.herokuapp.com');
+		define('ASSET_URL', 'https://hera.herokuapp.com/assets');
+		define('API_URL', 'https://hera.herokuapp.com/api/v1');
+		define('SITE_URL', 'https://hera.herokuapp.com');
 		define('API_VERSION', '/v1');
 
 		// Database Configurations

@@ -1,14 +1,14 @@
 <?php
 
 
-class Employee
+class Entry
 {
    
-    public function get_employees($get)
+    public function signin($post)
     {
         global $conn;
 
-        $sql = "SELECT `ID`, `EmployeeSurname`, `EmployeeName`, `EmployeeMiddle`, `College`, `Age` FROM employeedata2";
+        $sql = "SELECT `ID`, `Username`, `Password` FROM employeedata2";
         $result = $conn->query($sql);
 
         if ($result->num_rows > 0) {
@@ -18,7 +18,7 @@ class Employee
                 'responseData'=> $row
             ));
         } else {
-            echo json_encode(array('errorCode'=>404,'errorMsg'=>'No results'));
+            echo json_encode(array('errorCode'=>404,'errorMsg'=>'Invalid username or password'));
         }
     }
 }
