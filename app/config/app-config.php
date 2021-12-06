@@ -37,7 +37,7 @@
 	}
 
 	//Create database connection
-	$conn = new mysqli(SERVERNAME, USERNAME, PASSWORD, DATABASE);
+//	$conn = new mysqli(SERVERNAME, USERNAME, PASSWORD, DATABASE);
 	// Check database connection
 	//if ($conn->connect_error)
 	//{
