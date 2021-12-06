@@ -23,11 +23,11 @@
             enctype="multipart/form-data"
             id="signin-form"
           >
-            <span class="login100-form-title p-b-45"> Login Account </span>
+            <span class="login100-form-title p-b-45"> Login to Hera </span>
             <div class="wrap-input100 validate-input">
               <input class="input100" type="text" name="email" />
               <span class="focus-input100"></span>
-              <span class="label-input100">Email</span>
+              <span class="label-input100">Employee Number</span>
             </div>
             <div
               class="wrap-input100 validate-input"

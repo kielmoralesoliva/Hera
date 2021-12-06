@@ -143,12 +143,12 @@
                         <div class="info-box-5 p-4">
                             <div class="card-icon card-icon-large"><i class="fas fa-money-check-alt"></i></div>
                             <div class="mb-4">
-                                <h5 class="font-20 mb-0">Earning</h5>
+                                <h5 class="font-20 mb-0">Job Order</h5>
                             </div>
                             <div class="row align-items-center mb-2 d-flex">
                                 <div class="col-8">
                                     <h2 class="d-flex align-items-center mb-0">
-                                        $2,658
+                                        58
                                     </h2>
                                 </div>
                                 <div class="col-4 text-end">
