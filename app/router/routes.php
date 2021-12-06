@@ -54,14 +54,14 @@
 
        
         /* Homepage route route */
-        $router->get('/', function () {
-            include './pages/unauthorized/home.php';
-        });
+        //$router->get('/', function () {
+          //  include './pages/unauthorized/home.php';
+        //});
 
          /* (Sign In) route */
-        $router->get('/signin', function () {
-            include './pages/unauthorized/dashboard.php';
-        });
+        //$router->get('/signin', function () {
+         //   include './pages/unauthorized/dashboard.php';
+       // });
 
   //  }
     
