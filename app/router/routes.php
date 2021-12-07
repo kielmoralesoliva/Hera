@@ -47,21 +47,36 @@
           
             include './pages/authorized/employee/employee-dashboard.php';
         });
-
+        $router->get('/employee-dashboard', function () {
+          
+            include './pages/authorized/employee/employee-dashboard.php';
+        });
+        $router->get('/employee-announcement', function () {
+          
+            include './pages/authorized/employee/employee-dashboard2.php';
+        });
+        $router->get('/employee-leave-balance', function () {
+          
+            include './pages/authorized/employee/leave-balance.php';
+        });
+        $router->get('/employee-leave-types', function () {
+          
+            include './pages/authorized/employee/leave-types.php';
+        });
  
   //  } 
    // else {
 
        
         /* Homepage route route */
-        //$router->get('/', function () {
-          //  include './pages/unauthorized/home.php';
-        //});
+        $router->get('/', function () {
+            include './pages/unauthorized/home.php';
+        });
 
          /* (Sign In) route */
-        //$router->get('/signin', function () {
-         //   include './pages/unauthorized/dashboard.php';
-       // });
+        $router->get('/signin', function () {
+            include './pages/unauthorized/signin.php';
+        });
 
   //  }
     

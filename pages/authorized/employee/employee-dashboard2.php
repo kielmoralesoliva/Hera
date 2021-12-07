@@ -1,4 +1,43 @@
-<nav class="navbar">
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 19:33:46 GMT -->
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title> Romblon State University Human Resource</title>
+    <!-- Favicon-->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- Plugins Core Css -->
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- You can choose a theme from css/styles instead of get all themes -->
+    <link href="assets/css/styles/all-themes.css" rel="stylesheet" />
+</head>
+
+<body class="light">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="m-t-30">
+                <img class="loading-img-spin" src="assets/images/loading.png" alt="admin">
+            </div>
+            <p>Please wait...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Top Bar -->
+  
+    <!-- #Top Bar -->
+    <div>
+
+    <nav class="navbar">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a href="#" onClick="return false;" class="navbar-toggle collapsed" data-bs-toggle="collapse"
@@ -12,7 +51,8 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="pull-left">
                     <li>
-                        <a href="#" onClick="return data-feather="menu"></i>
+                        <a href="#" onClick="return false;" class="sidemenu-collapse">
+                            <i data-feather="menu"></i>
                         </a>
                     </li>
                 </ul>
@@ -186,7 +226,6 @@
 
 
     
-
     <aside id="leftsidebar" class="sidebar">
             <!-- Menu -->
             <div class="menu">
@@ -202,7 +241,7 @@
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
-                    <li class="header">-- HR Services</li>
+                    <li class="header"> Navigation</li>
 
 
                     <?php 
@@ -210,43 +249,35 @@
                     
                     ?>
                     
-                    <li class="<?php echo $activation == "dashboard"? "active": ""; ?>">
-                        <a href="dashboard">
+        
+
+                    <li class="active">
+                        <a href="employee-announcement">
+                            <i data-feather="calendar"></i>
+                            <span>Announcement</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="employee-dashboard">
                             <i data-feather="calendar"></i>
                             <span>Dashboard</span>
                         </a>
                     </li>
-
-
-                    <li class="<?php echo $activation == "announcement"? "active": ""; ?>">
-                        <a href="#" onClick="return false;" class="menu-toggle">
-                            <i data-feather="trello"></i>
-                            <span>Announcement</span>
-                        </a>
-                        <ul class="ml-menu">
-                            <li class="">
-                                <a href="">All Announcement</a>
-                            </li>
-                            <li class="">
-                                <a href="announcement">Add Announcement</a>
-                            </li>               
-                        </ul>
-                    </li>
-                    <li class="<?php echo $activation == "leave-request"? "active": ""; ?>">
-                        <a href="#" onClick="return false;" class="menu-toggle">
+                    <li>
+                        <a href="" onClick="return false;" class="menu-toggle">
                             <i data-feather="clipboard"></i>
                             <span>Leave Management</span>
                         </a>
                         <ul class="ml-menu">
                             <li>
-                                <a href="leave-request">All Leave Request</a>
+                                <a href="employee-leave-balance">Leave Balance</a>
+                            </li>
+                            <li class="">
+                            <a href="employee-leave-types">Leave Types</a>
                             </li>
                             <li>
-                                <a href="">Leave Balance</a>
+                                <a href="">Request for Leave</a>
                             </li>
-                           <li class="">
-                                <a href="leave-types">Leave Types</a>
-                            </li> 
                         </ul>
                     </li>
 
@@ -280,17 +311,34 @@
                     </li>
 
 
-                    <li class="header">-- HR Information</li>
-                    <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
-                        <a href="holiday">
-                            <i data-feather="user"></i>
-                            <span>HR Team</span>
-                        </a>
-                    </li>
-
 
 
                 </ul>
             </div>
             <!-- #Menu -->
         </aside>
+ 
+
+
+    </div>
+
+    <?php include './pages/authorized/employee/announcement.php';   ?>
+    
+
+
+
+
+
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <!-- Custom Js -->
+    <script src="assets/js/admin.js"></script>
+    <script src="assets/js/bundles/echart/echarts.js"></script>
+    <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/js/pages/index.js"></script>
+    <script src="assets/js/pages/todo/todo.js"></script>
+</body>
+
+
+<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 19:34:28 GMT -->
+</html>

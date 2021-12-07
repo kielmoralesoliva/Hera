@@ -113,26 +113,10 @@
                                         <tr class="odd gradeX">
                                             <td class="center">1</td>
                                             <td class="center">New Year's Day</td>
-                                            <td class="center">Public Holiday</td>
-                                            <td class="center">01 January 2017</td>
-                                            <td class="center">03 January 2017</td>
-                                            <td class="center"> Lorem Ipsum is simply dummy text</td>
-                                            <td class="center">
-                                                <a href="edit-holiday.html" class="btn btn-tbl-edit">
-                                                    <i class="material-icons">create</i>
-                                                </a>
-                                                <a href="" class="btn btn-tbl-delete">
-                                                    <i class="material-icons">delete_forever</i>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <tr class="odd gradeX">
-                                            <td class="center">1</td>
-                                            <td class="center">New Year's Day</td>
-                                            <td class="center">Public Holiday</td>
-                                            <td class="center">01 January 2017</td>
-                                            <td class="center">03 January 2017</td>
-                                            <td class="center"> Lorem Ipsum is simply dummy text</td>
+                                            <td class="center">Regular Holiday</td>
+                                            <td class="center">January 1</td>
+                                            <td class="center">January 3</td>
+                                            <td class="center">Celebrating New Year's Eve Yearly</td>
                                             <td class="center">
                                                 <a href="edit-holiday.html" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
@@ -144,11 +128,11 @@
                                         </tr>
                                         <tr class="odd gradeX">
                                             <td class="center">2</td>
-                                            <td class="center">Memorial Day</td>
-                                            <td class="center">Public Holiday</td>
-                                            <td class="center">29 May 2017</td>
-                                            <td class="center">29 May 2017</td>
-                                            <td class="center"> Lorem Ipsum is simply dummy text</td>
+                                            <td class="center">Bataan Day</td>
+                                            <td class="center">Regular Holiday</td>
+                                            <td class="center">April 9</td>
+                                            <td class="center">April 9</td>
+                                            <td class="center"> Araw ng Kagitingan, also known as Bataan Day</td>
                                             <td class="center">
                                                 <a href="edit-holiday.html" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
@@ -160,11 +144,11 @@
                                         </tr>
                                         <tr class="odd gradeX">
                                             <td class="center">3</td>
-                                            <td class="center">Christmas Day</td>
-                                            <td class="center">Public Holiday</td>
-                                            <td class="center">25 December 2017</td>
-                                            <td class="center">03 January 2017</td>
-                                            <td class="center"> Lorem Ipsum is simply dummy text</td>
+                                            <td class="center">Maundy Thursday</td>
+                                            <td class="center">Regular Holiday</td>
+                                            <td class="center">April 1</td>
+                                            <td class="center">April 1</td>
+                                            <td class="center">Celebration of the Holy Week</td>
                                             <td class="center">
                                                 <a href="edit-holiday.html" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
@@ -176,11 +160,11 @@
                                         </tr>
                                         <tr class="odd gradeX">
                                             <td class="center">4</td>
-                                            <td class="center">Annual Function</td>
-                                            <td class="center">Holiday By Collage</td>
-                                            <td class="center">01 March 2017</td>
-                                            <td class="center">03 March 2017</td>
-                                            <td class="center"> Lorem Ipsum is simply dummy text</td>
+                                            <td class="center">Good Friday</td>
+                                            <td class="center">Regular Holiday</td>
+                                            <td class="center">April 2</td>
+                                            <td class="center">April 2</td>
+                                            <td class="center"> Celebration of the Holy Week</td>
                                             <td class="center">
                                                 <a href="edit-holiday.html" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
@@ -192,11 +176,11 @@
                                         </tr>
                                         <tr class="odd gradeX">
                                             <td class="center">5</td>
-                                            <td class="center">New Year's Day</td>
-                                            <td class="center">Public Holiday</td>
-                                            <td class="center">01 January 2017</td>
-                                            <td class="center">03 January 2017</td>
-                                            <td class="center"> Lorem Ipsum is simply dummy text</td>
+                                            <td class="center">Labor Day</td>
+                                            <td class="center">Regular Holiday</td>
+                                            <td class="center">May 1</td>
+                                            <td class="center">May 1</td>
+                                            <td class="center">Celebration of Labor Day</td>
                                             <td class="center">
                                                 <a href="edit-holiday.html" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
@@ -208,11 +192,11 @@
                                         </tr>
                                         <tr class="odd gradeX">
                                             <td class="center">6</td>
-                                            <td class="center">Memorial Day</td>
-                                            <td class="center">Public Holiday</td>
-                                            <td class="center">29 May 2017</td>
-                                            <td class="center">29 May 2017</td>
-                                            <td class="center"> Lorem Ipsum is simply dummy text</td>
+                                            <td class="center">Eid'l Fitr</td>
+                                            <td class="center">Regular Holiday</td>
+                                            <td class="center">May 13</td>
+                                            <td class="center">May 13</td>
+                                            <td class="center">Feast of Ramadhan</td>
                                             <td class="center">
                                                 <a href="edit-holiday.html" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
@@ -224,11 +208,11 @@
                                         </tr>
                                         <tr class="odd gradeX">
                                             <td class="center">7</td>
-                                            <td class="center">Christmas Day</td>
-                                            <td class="center">Public Holiday</td>
-                                            <td class="center">25 December 2017</td>
-                                            <td class="center">03 January 2017</td>
-                                            <td class="center"> Lorem Ipsum is simply dummy text</td>
+                                            <td class="center">Independence Day</td>
+                                            <td class="center">Regular Holiday</td>
+                                            <td class="center">June 12</td>
+                                            <td class="center">June 12</td>
+                                            <td class="center">Celebrating Philippine Independence</td>
                                             <td class="center">
                                                 <a href="edit-holiday.html" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
@@ -240,11 +224,11 @@
                                         </tr>
                                         <tr class="odd gradeX">
                                             <td class="center">8</td>
-                                            <td class="center">Annual Function</td>
-                                            <td class="center">Holiday By Collage</td>
-                                            <td class="center">01 March 2017</td>
-                                            <td class="center">03 March 2017</td>
-                                            <td class="center"> Lorem Ipsum is simply dummy text</td>
+                                            <td class="center">Eid'l Adha</td>
+                                            <td class="center">Regular Holiday</td>
+                                            <td class="center">July 20</td>
+                                            <td class="center">July 20</td>
+                                            <td class="center">Feast of Sacrifice</td>
                                             <td class="center">
                                                 <a href="edit-holiday.html" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
@@ -256,11 +240,11 @@
                                         </tr>
                                         <tr class="odd gradeX">
                                             <td class="center">9</td>
-                                            <td class="center">New Year's Day</td>
-                                            <td class="center">Public Holiday</td>
-                                            <td class="center">01 January 2017</td>
-                                            <td class="center">03 January 2017</td>
-                                            <td class="center"> Lorem Ipsum is simply dummy text</td>
+                                            <td class="center">National Heroes Day</td>
+                                            <td class="center">Regular Holiday</td>
+                                            <td class="center">August 30</td>
+                                            <td class="center">August 30</td>
+                                            <td class="center">Celebrating Heroes Day</td>
                                             <td class="center">
                                                 <a href="edit-holiday.html" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
@@ -272,11 +256,11 @@
                                         </tr>
                                         <tr class="odd gradeX">
                                             <td class="center">10</td>
-                                            <td class="center">Memorial Day</td>
-                                            <td class="center">Public Holiday</td>
-                                            <td class="center">29 May 2017</td>
-                                            <td class="center">29 May 2017</td>
-                                            <td class="center"> Lorem Ipsum is simply dummy text</td>
+                                            <td class="center">Bonifacio Day</td>
+                                            <td class="center">Regular Holiday</td>
+                                            <td class="center">November 30</td>
+                                            <td class="center">November 30</td>
+                                            <td class="center">Celebrating Bonifacio Day</td>
                                             <td class="center">
                                                 <a href="edit-holiday.html" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
@@ -289,10 +273,10 @@
                                         <tr class="odd gradeX">
                                             <td class="center">11</td>
                                             <td class="center">Christmas Day</td>
-                                            <td class="center">Public Holiday</td>
-                                            <td class="center">25 December 2017</td>
-                                            <td class="center">03 January 2017</td>
-                                            <td class="center"> Lorem Ipsum is simply dummy text</td>
+                                            <td class="center">Regular Holiday</td>
+                                            <td class="center">December 25</td>
+                                            <td class="center">December 25</td>
+                                            <td class="center"> Celebration of Christmas Day</td>
                                             <td class="center">
                                                 <a href="edit-holiday.html" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
@@ -304,11 +288,11 @@
                                         </tr>
                                         <tr class="odd gradeX">
                                             <td class="center">12</td>
-                                            <td class="center">Annual Function</td>
-                                            <td class="center">Holiday By Collage</td>
-                                            <td class="center">01 March 2017</td>
-                                            <td class="center">03 March 2017</td>
-                                            <td class="center"> Lorem Ipsum is simply dummy text</td>
+                                            <td class="center">Rizal Day</td>
+                                            <td class="center">Regular Holiday</td>
+                                            <td class="center">December 30</td>
+                                            <td class="center">December 30</td>
+                                            <td class="center"> Celebration of Jose Rizal Day</td>
                                             <td class="center">
                                                 <a href="edit-holiday.html" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
@@ -318,16 +302,165 @@
                                                 </a>
                                             </td>
                                         </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">13</td>
+                                            <td class="center">Chinese New year</td>
+                                            <td class="center">Special Non-Working Holiday</td>
+                                            <td class="center">February 12</td>
+                                            <td class="center">February 12</td>
+                                            <td class="center">Chinese New Year Celebration</td>
+                                            <td class="center">
+                                                <a href="edit-holiday.html" class="btn btn-tbl-edit">
+                                                    <i class="material-icons">create</i>
+                                                </a>
+                                                <a href="" class="btn btn-tbl-delete">
+                                                    <i class="material-icons">delete_forever</i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">14</td>
+                                            <td class="center">EDSA People Power Revolution</td>
+                                            <td class="center">Special Non-Working Holiday</td>
+                                            <td class="center">February 25</td>
+                                            <td class="center">February 25</td>
+                                            <td class="center">EDSA Revolution Celebration</td>
+                                            <td class="center">
+                                                <a href="edit-holiday.html" class="btn btn-tbl-edit">
+                                                    <i class="material-icons">create</i>
+                                                </a>
+                                                <a href="" class="btn btn-tbl-delete">
+                                                    <i class="material-icons">delete_forever</i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">15</td>
+                                            <td class="center">Black Saturday</td>
+                                            <td class="center">Special Non-Working Holiday</td>
+                                            <td class="center">April 3</td>
+                                            <td class="center">April 3</td>
+                                            <td class="center">Holy Week Celebration</td>
+                                            <td class="center">
+                                                <a href="edit-holiday.html" class="btn btn-tbl-edit">
+                                                    <i class="material-icons">create</i>
+                                                </a>
+                                                <a href="" class="btn btn-tbl-delete">
+                                                    <i class="material-icons">delete_forever</i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">16</td>
+                                            <td class="center">Ninoy Aquino Day</td>
+                                            <td class="center">Special Non-Working Holiday</td>
+                                            <td class="center">August 21</td>
+                                            <td class="center">August 21</td>
+                                            <td class="center">Ninoy Aquino Day</td>
+                                            <td class="center">
+                                                <a href="edit-holiday.html" class="btn btn-tbl-edit">
+                                                    <i class="material-icons">create</i>
+                                                </a>
+                                                <a href="" class="btn btn-tbl-delete">
+                                                    <i class="material-icons">delete_forever</i>
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                            <td class="center">17</td>
+                                            <td class="center">All Saint's Day</td>
+                                            <td class="center">Special Non-Working Holiday</td>
+                                            <td class="center">November 1</td>
+                                            <td class="center">November 1</td>
+                                            <td class="center">All Saint's Day Celebration</td>
+                                            <td class="center">
+                                                <a href="edit-holiday.html" class="btn btn-tbl-edit">
+                                                    <i class="material-icons">create</i>
+                                                </a>
+                                                <a href="" class="btn btn-tbl-delete">
+                                                    <i class="material-icons">delete_forever</i>
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                        
+                                        <tr class="odd gradeX">
+                                            <td class="center">18</td>
+                                            <td class="center">Feast of Immaculate Concepcion of Mary</td>
+                                            <td class="center">Special Non-Working Holiday</td>
+                                            <td class="center">December 8</td>
+                                            <td class="center">December 8</td>
+                                            <td class="center">Immaculate Concepcion Celebration</td>
+                                            <td class="center">
+                                                <a href="edit-holiday.html" class="btn btn-tbl-edit">
+                                                    <i class="material-icons">create</i>
+                                                </a>
+                                                <a href="" class="btn btn-tbl-delete">
+                                                    <i class="material-icons">delete_forever</i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">19</td>
+                                            <td class="center">All Soul's Day</td>
+                                            <td class="center">Special Working Holiday</td>
+                                            <td class="center">December 8</td>
+                                            <td class="center">December 8</td>
+                                            <td class="center">All Soul's Day Celebration</td>
+                                            <td class="center">
+                                                <a href="edit-holiday.html" class="btn btn-tbl-edit">
+                                                    <i class="material-icons">create</i>
+                                                </a>
+                                                <a href="" class="btn btn-tbl-delete">
+                                                    <i class="material-icons">delete_forever</i>
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                            <td class="center">20</td>
+                                            <td class="center">Christmas Eve</td>
+                                            <td class="center">Special Working Holiday</td>
+                                            <td class="center">December 24</td>
+                                            <td class="center">December 24</td>
+                                            <td class="center">Christmas Eve Celebration</td>
+                                            <td class="center">
+                                                <a href="edit-holiday.html" class="btn btn-tbl-edit">
+                                                    <i class="material-icons">create</i>
+                                                </a>
+                                                <a href="" class="btn btn-tbl-delete">
+                                                    <i class="material-icons">delete_forever</i>
+                                                </a>
+                                            </td>
+                                        </tr>
+
+                                        <tr class="odd gradeX">
+                                            <td class="center">21</td>
+                                            <td class="center">Last Day of the Year</td>
+                                            <td class="center">Special Working Holiday</td>
+                                            <td class="center">December 31</td>
+                                            <td class="center">December 31</td>
+                                            <td class="center">New Year's Eve Celebration</td>
+                                            <td class="center">
+                                                <a href="edit-holiday.html" class="btn btn-tbl-edit">
+                                                    <i class="material-icons">create</i>
+                                                </a>
+                                                <a href="" class="btn btn-tbl-delete">
+                                                    <i class="material-icons">delete_forever</i>
+                                                </a>
+                                            </td>
+                                        </tr>
+
                                     </tbody>
                                     <tfoot>
                                         <tr>
-                                            <th class="center">#</th>
-                                            <th class="center"> Title </th>
-                                            <th class="center"> Type </th>
-                                            <th class="center"> Start Date </th>
-                                            <th class="center"> End Date </th>
-                                            <th class="center"> Details </th>
-                                            <th class="center"> Action </th>
+                                            <th class="center"></th>
+                                            <th class="center"></th>
+                                            <th class="center"> Reference </th>
+                                            <th class="center"> https://www.officialgazette.gov.ph/nationwide-holidays/ </th>
+                                            <th class="center"> Proclamation No. 1107, s 2021 </th>
+
                                         </tr>
                                     </tfoot>
                                 </table>
