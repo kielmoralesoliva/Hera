@@ -8,7 +8,7 @@
                                 <h4 class="page-title">Pricing</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="../../index.html">
+                                <a href=" index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
                             <li class="breadcrumb-item bcrumb-2">
@@ -49,78 +49,39 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="body">
-                        <div class="demo">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="pricingTable">
-                                        <div class="pricingTable-header">
-                                            <i class="material-icons">brightness_medium</i>
-                                            <div class="price-value"> Memorandum
-                                                <span class="month">President/University Updates</span>
-                                            </div>
-                                        </div>
-                                        <h3 class="heading">President Updates</h3>
-                                        <div class="pricing-content">
-                                         
-                                        </div>
-                                        <div class="pricingTable-signup">
-                                            <a href="#">View Announcement</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="pricingTable greenColor">
-                                        <div class="pricingTable-header">
-                                            <i class="material-icons">local_mall</i>
-                                            <div class="price-value"> Vacancies
-                                                <span class="month">Hiring Updates</span>
-                                            </div>
-                                        </div>
-                                        <h3 class="heading">Hiring Updates</h3>
-                                        <div class="pricing-content">
-                                        </div>
-                                        <div class="pricingTable-signup">
-                                            <a href="#">View Announcement</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="pricingTable redColor">
-                                        <div class="pricingTable-header">
-                                            <i class="material-icons">spa</i>
-                                            <div class="price-value"> Submission
-                                                <span class="month">per month</span>
-                                            </div>
-                                        </div>
-                                        <h3 class="heading">Urgent Documents</h3>
-                                        <div class="pricing-content">
-                                        </div>
-                                        <div class="pricingTable-signup">
-                                            <a href="#">View Announcement</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="pricingTable blueColor">
-                                        <div class="pricingTable-header">
-                                            <i class="material-icons">filter_vintage</i>
-                                            <div class="price-value"> HR Updates
-                                                <span class="month">per month</span>
-                                            </div>
-                                        </div>
-                                        <h3 class="heading">HR Daily Updates</h3>
-                                        <div class="pricing-content">
-                                        </div>
-                                        <div class="pricingTable-signup">
-                                            <a href="#">View Announcement</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+               
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+        <div class="row">
+                <div class="col-lg-12 col-md-6 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="image">
+            
+                                            <span class="table-img msg-user">
+                                                <img src="assets/images/Hera/Happy-Hera.png" alt="">
+                                            </span>
+                                            
+                                            
+</div>
+                                      
+</div>
+
+                        </div>
+                                
+
+
+
+                            
+                         
+                         
+</div>
+                 
     </section>

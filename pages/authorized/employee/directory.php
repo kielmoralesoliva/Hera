@@ -147,14 +147,13 @@
                             <span>Announcement</span>
                         </a>
                     </li>
-                    
                     <li>
                         <a href="employee-dashboard">
                             <i data-feather="calendar"></i>
-                            <span>Campus Data</span>
+                            <span>Dashboard</span>
                         </a>
                     </li>
-                    <li class="active">
+                    <li class="">
                         <a href="#" onClick="return false;" class="menu-toggle">
                             <i data-feather="clipboard"></i>
                             <span>Leave Management</span>
@@ -163,7 +162,7 @@
                             <li class="">
                                 <a href="employee-leave-balance"> Leave Balance</a>
                             </li>
-                            <li class="active">
+                            <li class="">
                                 <a href="leave-types">Leave Types</a>
                             </li>
                             <li>
@@ -175,51 +174,24 @@
 
 
 
-                  <li class="<?php echo $activation == "employee-list"? "active": ""; ?>">
+                    <li class="<?php echo $activation == "employee-list"? "active": ""; ?>">
                         <a href="#" onClick="return false;" class="menu-toggle">
-                            <i data-feather="check-circle"></i>
-                            <span>Request a Form</span>
+                            <i data-feather="users"></i>
+                            <span>Employees</span>
                         </a>
                         <ul class="ml-menu">
-                        <li>
-                                <a href="pages/employee/edit-employee.html">Civil Service Forms</a>
+                            <li>
+                                <a href="employee-list">All Employee</a>
                             </li>
                             <li>
-                                <a href="pages/employee/edit-employee.html">RSU Local Forms</a>
+                                <a href="add-employee">Add Employee</a>
                             </li>
                             <li>
-                                <a href="pages/employee/edit-employee.html">GSIS Forms</a>
+                                <a href="pages/employee/edit-employee.html">Edit Employee</a>
                             </li>
-               
                         </ul>
                     </li>
 
-
-
-
-
-                    <li class="header">-- Personal</li>
-                    <li class="">
-                        <a href="saln">  
-                    <i class="
-far fa-folder"></i>
-                            <span>My Files</span>
-                        </a>
-                    </li>
-
-                    <li class="">
-                        <a href="saln">  
-                    <i class="fas fa-user-circle"></i>
-                            <span>My Profile</span>
-                        </a>
-                    </li>
-                    <li class="header">-- Others</li>
-                    <li class="">
-                        <a href="directory">  
-                    <i class="fas fa-phone-volume"></i>
-                            <span>Officials Directory</span>
-                        </a>
-                    </li>
 
                     <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
                         <a href="holiday">
@@ -231,17 +203,13 @@ far fa-folder"></i>
 
 
 
-
-
-
                 </ul>
             </div>
             <!-- #Menu -->
         </aside>
- 
-
-
     </div>
+
+
 
     <section class="content">
         <div class="container-fluid">
@@ -250,16 +218,16 @@ far fa-folder"></i>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">Leave Type</h4>
+                                <h4 class="page-title">All Clients</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
                                 <a href="../../index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
                             <li class="breadcrumb-item bcrumb-2">
-                                <a href="#" onClick="return false;">Leave</a>
+                                <a href="#" onClick="return false;">Clients</a>
                             </li>
-                            <li class="breadcrumb-item active">Leave Type</li>
+                            <li class="breadcrumb-item active">All Clients</li>
                         </ul>
                     </div>
                 </div>
@@ -269,28 +237,8 @@ far fa-folder"></i>
                     <div class="card">
                         <div class="header">
                             <h2>
-                                <strong>Leave</strong> Type
+                                <strong>Faculty</strong> with Designation
                             </h2>
-                            <ul class="header-dropdown m-r--5">
-                                <li class="dropdown">
-                                    <a href="#" onClick="return false;" class="dropdown-toggle"
-                                        data-bs-toggle="dropdown" role="button" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        <i class="material-icons">more_vert</i>
-                                    </a>
-                                    <ul class="dropdown-menu float-end">
-                                        <li>
-                                            <a href="#" onClick="return false;">Action</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" onClick="return false;">Another action</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" onClick="return false;">Something else here</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
                         </div>
                         <div class="body">
                             <div class="table-responsive">
@@ -298,124 +246,35 @@ far fa-folder"></i>
                                     <thead>
                                         <tr>
                                             <th class="center"> Name </th>
-                                            <th class="center"> Leave Type </th>
-                                            <th class="center"> Status </th>
-                                            <th class="center"> Action </th>
+                                            <th class="center"> Position </th>
+                                            <th class="center"> Telephone Number </th>
+                                            <th class="center"> Cellphone Number </th>
+                                            <th class="center"> Office</th>
+                                            <th class="center"> Email Address </th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr class="odd gradeX">
-                                            <td class="center">Annual Leave</td>
-                                            <td class="center">Paid</td>
-                                            <td class="center">
-                                                <div class="badge col-green">Active</div>
+                                            <td class="center font-bold col-red">Ricky Michael M. Oliva, MIT
                                             </td>
-                                            <td class="center">
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">mode_edit</i>
-                                                </button>
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">delete</i>
-                                                </button>
-                                            </td>
+                                            <td class="center">Head, Data Information and Management Unit, PDO</td>
+                                            <td class="center">None</td>
+                                            <td class="center">+639312194983</td>
+                                            <td class="center">Planning and Development Office</td>
+                                            <td class="center font-bold col-blue">kielmoralesoliva@gmail.com</td>
                                         </tr>
-                                        <tr class="odd gradeX">
-                                            <td class="center">Casual Leave</td>
-                                            <td class="center">Paid</td>
-                                            <td class="center">
-                                                <div class="badge col-green">Active</div>
-                                            </td>
-                                            <td class="center">
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">mode_edit</i>
-                                                </button>
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">delete</i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr class="odd gradeX">
-                                            <td class="center">Emergency Leave</td>
-                                            <td class="center">Paid</td>
-                                            <td class="center">
-                                                <div class="badge col-orange">Deactive</div>
-                                            </td>
-                                            <td class="center">
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">mode_edit</i>
-                                                </button>
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">delete</i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr class="odd gradeX">
-                                            <td class="center">Work From Home Leave</td>
-                                            <td class="center">Paid</td>
-                                            <td class="center">
-                                                <div class="badge col-orange">Deactive</div>
-                                            </td>
-                                            <td class="center">
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">mode_edit</i>
-                                                </button>
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">delete</i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr class="odd gradeX">
-                                            <td class="center">Family Leave</td>
-                                            <td class="center">Paid</td>
-                                            <td class="center">
-                                                <div class="badge col-green">Active</div>
-                                            </td>
-                                            <td class="center">
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">mode_edit</i>
-                                                </button>
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">delete</i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr class="odd gradeX">
-                                            <td class="center">Sick Leave</td>
-                                            <td class="center">Paid</td>
-                                            <td class="center">
-                                                <div class="badge col-green">Active</div>
-                                            </td>
-                                            <td class="center">
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">mode_edit</i>
-                                                </button>
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">delete</i>
-                                                </button>
-                                            </td>
-                                        </tr>
-                                        <tr class="odd gradeX">
-                                            <td class="center">Maternity Leave</td>
-                                            <td class="center">Paid</td>
-                                            <td class="center">
-                                                <div class="badge col-green">Active</div>
-                                            </td>
-                                            <td class="center">
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">mode_edit</i>
-                                                </button>
-                                                <button class="btn tblActnBtn">
-                                                    <i class="material-icons">delete</i>
-                                                </button>
-                                            </td>
-                                        </tr>
+                        
+                               
                                     </tbody>
                                     <tfoot>
                                         <tr>
-                                            <th class="center"> Name </th>
-                                            <th class="center"> Leave Type </th>
-                                            <th class="center"> Status </th>
-                                            <th class="center"> Action </th>
+                                            <th class="center">Name</th>
+                                            <th class="center"> Position </th>
+                                            <th class="center"> Telephone Number </th>
+                                            <th class="center"> Cellphone Number </th>
+                                            <th class="center"> Office </th>
+                                            <th class="center"> Email Address </th>
+                
                                         </tr>
                                     </tfoot>
                                 </table>
@@ -426,6 +285,13 @@ far fa-folder"></i>
             </div>
         </div>
     </section>
+
+
+
+
+
+
+
 
 
 

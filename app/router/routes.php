@@ -63,7 +63,16 @@
           
             include './pages/authorized/employee/leave-types.php';
         });
- 
+        $router->get('/directory', function () {
+          
+            include './pages/authorized/employee/directory.php';
+        });
+        $router->get('/employee-home', function () {
+          
+            include './pages/authorized/employee/employee-home.php';
+        });
+
+        
   //  } 
    // else {
 

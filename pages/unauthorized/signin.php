@@ -43,7 +43,7 @@
           </form>
           <div
             class="login100-more"
-            style="background-image: url('assets/images/pages/bg-01.png')"
+            style="background-image: url('assets/images/pages/bg-03.png')"
           ></div>
         </div>
       </div>

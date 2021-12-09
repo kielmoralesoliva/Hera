@@ -135,13 +135,12 @@
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
-                    <li class="header"> Navigation</li>
+                   
 
 
-                    <?php 
-                            
-                    
-                    ?>
+
+  <li class="header">-- HR Services</li>
+
                     
         
 
@@ -154,7 +153,7 @@
                     <li>
                         <a href="employee-dashboard">
                             <i data-feather="calendar"></i>
-                            <span>Dashboard</span>
+                            <span>Campus Data</span>
                         </a>
                     </li>
                     <li class="active">
@@ -163,10 +162,10 @@
                             <span>Leave Management</span>
                         </a>
                         <ul class="ml-menu">
-                            <li class="">
+                            <li class="active">
                                 <a href=""> Leave Balance</a>
                             </li>
-                            <li class="active">
+                            <li class="">
                             <a href="employee-leave-types">Leave Types</a>
                             </li>
                             <li>
@@ -180,19 +179,20 @@
 
                     <li class="<?php echo $activation == "employee-list"? "active": ""; ?>">
                         <a href="#" onClick="return false;" class="menu-toggle">
-                            <i data-feather="users"></i>
-                            <span>Employees</span>
+                            <i data-feather="check-circle"></i>
+                            <span>Request a Form</span>
                         </a>
                         <ul class="ml-menu">
-                            <li>
-                                <a href="employee-list">All Employee</a>
+                        <li>
+                                <a href="pages/employee/edit-employee.html">Civil Service Forms</a>
                             </li>
                             <li>
-                                <a href="add-employee">Add Employee</a>
+                                <a href="pages/employee/edit-employee.html">RSU Local Forms</a>
                             </li>
                             <li>
-                                <a href="pages/employee/edit-employee.html">Edit Employee</a>
+                                <a href="pages/employee/edit-employee.html">GSIS Forms</a>
                             </li>
+               
                         </ul>
                     </li>
 
@@ -204,7 +204,15 @@
                         </a>
                     </li>
 
+                    <li class="">
+                        <a href="holiday">
+                            <i data-feather="check-circle"></i>
+                            <span>Request a Form</span>
+                        </a>
+                    </li>
 
+
+                    <li class="header">-- Employee Data</li>
 
 
                 </ul>
@@ -214,7 +222,7 @@
  
 
 
-    </div>
+    </div></div>
 
     <section class="content">
         <div class="container-fluid">
@@ -236,7 +244,7 @@
             </div>
             <div class="header"> 
            <h3> <strong>Available</strong> Leave Balance<br></h3>
-</div>
+
             <div class="row ">
                 <div class="col-xl-3 col-sm-6">
                     <div class="card l-bg-purple">
@@ -391,7 +399,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+
 
         
       
