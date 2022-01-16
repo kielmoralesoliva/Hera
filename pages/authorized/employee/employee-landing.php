@@ -231,7 +231,7 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name"> Maricar Falogme </div>
+                            <div class="sidebar-userpic-name"> <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?> </div>
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>

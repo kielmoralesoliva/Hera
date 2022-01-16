@@ -20,7 +20,7 @@
 		// Database Configurations
 		define('SERVERNAME', 'localhost');
 		define('USERNAME', 'root');
-		define('PASSWORD', 'root');
+		define('PASSWORD', '');
 		define('DATABASE', 'hera_db');
 
 	}
@@ -35,7 +35,7 @@
 		define('SERVERNAME', 'us-cdbr-iron-east-01.cleardb.net');
 		define('USERNAME', 'b4f2d02d7653be');
 		define('PASSWORD', '98e88c3b');
-		define('DATABASE', 'heroku_134a490cd4702ee');
+		define('DATABASE', 'heroku_134a490cd4702ee');	
 	}
 
 
@@ -46,8 +46,11 @@
 		die("Database Connection failed: "); // Die the whole page when the connection goes failed
 	}      
 
-	if(isset($_SESSION['loggedin-account-info'])) {
-		 echo json_encode($_SESSION['loggedin-account-info']);
-	}
+
+
+
+
+
+	
 
 ?>

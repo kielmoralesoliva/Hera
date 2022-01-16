@@ -18,6 +18,12 @@ var EntryPage = {
       data: formData,
       success: function (res) {
         console.log("res ", res);
+
+        if (!res.success) {
+          swal ( "Wrong Credentials!" ,  "Username or Password is incorrect!" ,  "error" )
+        }
+
+
       },
     });
   },

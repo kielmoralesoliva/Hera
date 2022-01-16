@@ -15,17 +15,14 @@
    if( isset( $_SESSION['loggedin-account-info'] ) AND !empty( $_SESSION['loggedin-account-info'] ) ) {
 
 
-    $accType =  $_SESSION['loggedin-user-info']['accountType'];
 
-    if($accType == 'Employee') {
-        echo 'this is for employee';
-    }
-    
-    if($accType == 'HR Officer') {
-        echo 'this is for Officer';
-    }
+    define ('ACCOUNT_INFO', $_SESSION['loggedin-account-info']);
 
-
+    if(ACCOUNT_INFO['accountType'] == 'Employee') {
+      
+        $router->get('/', function () {
+            include './pages/authorized/employee/employee-landing.php';
+        });
         $router->get('/employee-landing', function () {
             include './pages/authorized/employee/employee-landing.php';
         });
@@ -63,6 +60,16 @@
           
             include './pages/authorized/employee/employee-request.php';
         });
+
+
+    }
+    
+    if(ACCOUNT_INFO['accountType'] == 'HR Officer') {
+        echo 'this is for Officer';
+    }
+
+
+       
 
 
 
