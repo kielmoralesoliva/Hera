@@ -5,26 +5,25 @@
     include '../app/router/router.php'; 
 
     // App Configuration
-    include '../app/config/app-config.php'; 
-    include '../app/common/validation.php'; 
+    include '../app/config/app-config.php';
 
-    include './classes/employee.php';
-    include './classes/signin.php';
+    include './classes/entry.php';
+    // include './classes/employee.php';
 
     $router->post('/signin', function () {
         $entry = new Entry();
         $entry->signin($_POST);
     });
 
-    $router->get('/employee-list', function () {
-        $employee = new Employee();
-        $employee->get_employees($_GET);
-    });
+    // $router->get('/employee-list', function () {
+    //     $employee = new Employee();
+    //     $employee->get_employees($_GET);
+    // });
 
-    $router->post('/add-employee-form', function () {
-        $employee = new Employee();
-        $employee->add_employee($_POST);
-    });
+    // $router->post('/add-employee-form', function () {
+    //     $employee = new Employee();
+    //     $employee->add_employee($_POST);
+    // });
 
     
    

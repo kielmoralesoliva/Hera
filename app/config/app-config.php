@@ -1,5 +1,7 @@
 <?php
 
+	session_start();
+	
 	date_default_timezone_set('Asia/Manila');
 	
 	define('ENVIRONMENT', 'DEV'); // Change this environment for the development and production
@@ -12,13 +14,13 @@
 		define('PROTOCOL', 'http://');
 		define('ASSET_URL', PROTOCOL.''.getenv('HTTP_HOST').'/hera/assets');
 		define('API_URL', PROTOCOL.''.getenv('HTTP_HOST').'/hera/api');
-		define('SITE_URL', PROTOCOL.''.getenv('HTTP_HOST').'/hera');  
+		define('SITE_URL', PROTOCOL.''.getenv('HTTP_HOST').'/hera');
 		define('API_VERSION', '/v1');
 
 		// Database Configurations
 		define('SERVERNAME', 'localhost');
 		define('USERNAME', 'root');
-		define('PASSWORD', '');
+		define('PASSWORD', 'root');
 		define('DATABASE', 'hera_db');
 
 	}
@@ -37,10 +39,15 @@
 	}
 
 
-$conn = new mysqli(SERVERNAME, USERNAME, PASSWORD, DATABASE);
-	// Check database connection
-if ($conn->connect_error)
-{	die("Database Connection failed: "); // Die the whole page when the connection goes failed
+	$conn = new mysqli(SERVERNAME, USERNAME, PASSWORD, DATABASE); // Check database connection
+	
+	if ($conn->connect_error)
+	{	
+		die("Database Connection failed: "); // Die the whole page when the connection goes failed
+	}      
+
+	if(isset($_SESSION['loggedin-account-info'])) {
+		 echo json_encode($_SESSION['loggedin-account-info']);
 	}
 
 ?>

@@ -20,18 +20,18 @@
 		<div class="container-login100">
 			<div class="wrap-login100">
 				
-				<form class="login100-form validate-form">
-					<span class="login100-form-title p-b-45"><div class="header">
+				<form class="login100-form validate-form" id="signin-form">
+				<div class="header">
 					<img src="assets/images/logo/hewa.png" alt="Hera Cute" width="200" height="185"> </div>
 				Log in to HERA
 					</span>
 					<div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
-						<input class="input100" type="text" name="email">
+						<input class="input100" type="text" name="username">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Email</span>
 					</div>
 					<div class="wrap-input100 validate-input" data-validate="Password is required">
-						<input class="input100" type="password" name="pass">
+						<input class="input100" type="password" name="password">
 						<span class="focus-input100"></span>
 						<span class="label-input100">Password</span>
 					</div>
@@ -51,7 +51,6 @@
 						</div>
 					</div>
 					<div class="container-login100-form-btn">
-			     	<button class="btn btn-success">
 							Login
 						</button>
 					</div>
@@ -79,6 +78,7 @@
 	<script src="assets/js/app.min.js"></script>
 	<!-- Extra page Js -->
 	<script src="assets/js/pages/examples/pages.js"></script>
+	<script src="assets/js/main/entry-page.js"></script>
 </body>
 
 </html>

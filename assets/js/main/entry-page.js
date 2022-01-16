@@ -16,9 +16,6 @@ var EntryPage = {
       type: "POST",
       url: API_URL + "/signin",
       data: formData,
-      contentType: false,
-      cache: false,
-      processData: false,
       success: function (res) {
         console.log("res ", res);
       },

@@ -1,22 +1,32 @@
 <?php
     include './app/router/router.php';
-    
-    include './app/config/app-config.php';   
+    include './app/config/app-config.php'; 
+?>
 
+<script>
+    var API_URL = '<?php echo API_URL;?>';
+    var ASSET_URL = '<?php echo ASSET_URL;?>';
+</script>
 
+<?php
 
    $activation = null;
  
- //   if( isset( $_COOKIE['user_id'] ) AND !empty( $_COOKIE['user_id'] ) ) {
+   if( isset( $_SESSION['loggedin-account-info'] ) AND !empty( $_SESSION['loggedin-account-info'] ) ) {
 
 
+    $accType =  $_SESSION['loggedin-user-info']['accountType'];
 
+    if($accType == 'Employee') {
+        echo 'this is for employee';
+    }
+    
+    if($accType == 'HR Officer') {
+        echo 'this is for Officer';
+    }
 
-
-  
 
         $router->get('/employee-landing', function () {
-          
             include './pages/authorized/employee/employee-landing.php';
         });
         $router->get('/employee-leave-balance', function () {
@@ -114,10 +124,8 @@
         
 
         
-  //  } 
-   // else {
-
-       
+   } 
+   else {
 
         $router->get('/', function () {
             include './pages/unauthorized/home.php';
@@ -128,7 +136,7 @@
             include './pages/unauthorized/login.php';
         });
 
-  //  }
+   }
     
 
 
