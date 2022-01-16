@@ -200,7 +200,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" onClick="return false;">
+                                        <a href="#" id ="logout">
                                             <i class="material-icons">power_settings_new</i>Logout
                                         </a>
                                     </li>
@@ -232,7 +232,7 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name"> Maricar Falogme </div>
+                            <div class="sidebar-userpic-name">  <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?></div>
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
@@ -352,7 +352,7 @@
                         <div class="info-box-5 p-4">
                             <div class="card-icon card-icon-large"><i class="far fa-window-restore"></i></div>
                             <div class="mb-4">
-                                <h5 class="font-20 mb-0">Vacation Leave</h5>
+                                <h5 class="font-20 mb-0"> <?php echo  ACCOUNT_INFO['sickLeave']; ?></h5>
                             </div>
                             <div class="row align-items-center mb-2 d-flex">
                                 <div class="col-8">
@@ -669,6 +669,8 @@
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
     <script src="assets/js/pages/ui/dialogs.js"></script>
+
+    <script src="assets/js/main/logout.js"></script>
 </body>
 
 

@@ -299,7 +299,7 @@
                         </a>
                     </li>
 
-                    <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
+                    <li class="">
                         <a href="holiday">
                             <i data-feather="calendar"></i>
                             <span>Holiday</span>
@@ -349,7 +349,7 @@
                             <div class="row align-items-center mb-2 d-flex">
                                 <div class="col-8">
                                     <h2 class="d-flex align-items-center mb-0">
-                                        280
+                                        <?php echo totalEmployees(); ?>
                                     </h2>
                                 </div>
                                 <div class="col-4 text-end">
@@ -374,7 +374,7 @@
                             <div class="row align-items-center mb-2 d-flex">
                                 <div class="col-8">
                                     <h2 class="d-flex align-items-center mb-0">
-                                        113
+                                    <?php echo totalRegularFaculty(); ?>
                                     </h2>
                                 </div>
                                 <div class="col-4 text-end">

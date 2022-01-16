@@ -1,12 +1,20 @@
 <?php
     include './app/router/router.php';
     include './app/config/app-config.php'; 
+    include './app/utility/campus-data-utility.php';
+
 ?>
 
 <script>
     var API_URL = '<?php echo API_URL;?>';
     var ASSET_URL = '<?php echo ASSET_URL;?>';
+    var  SITE_URL = '<?php echo SITE_URL;?>';
 </script>
+
+
+
+
+
 
 <?php
 
@@ -130,3 +138,6 @@
     
     
 ?>
+
+
+

@@ -231,7 +231,7 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name"> Maricar Falogme </div>
+                            <div class="sidebar-userpic-name"> <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?> </div>
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
@@ -363,7 +363,7 @@
     <div class="col-sm">
     <div class="body">
                         <div class="button-demo">
-                            <p>Statement of Assets and Liabilities</p> <button type="button" class="btn btn-outline-danger btn-border-radius">Download SALN Form</button>
+                            <p>Statement of Assets and Liabilities</p> <button type="button" requestfile="SALN Form" id="downloadform" class="btn btn-outline-danger btn-border-radius">Download SALN Form</button>
                             <p>Personal Data Sheet</p> <button type="button" class="btn btn-outline-danger btn-border-radius">Download PDS Form  </button>
                             <p>Work Sheet Experience</p> <button type="button" class="btn btn-outline-danger btn-border-radius">Download WSE Form  </button>
                             </div>
@@ -508,6 +508,7 @@
     <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
+    <script src="assets/js/main/request-file.js"></script>
 </body>
 
 
