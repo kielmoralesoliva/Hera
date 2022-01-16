@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -240,70 +241,45 @@
                     
         
 
-                    <li class="active">
+                    <li class="">
                         <a href="employee-landing">
                             <i data-feather="calendar"></i>
-                            <span>Announcement</span>
+                            <span>AllRequests</span>
                         </a>
                     </li>
                     
                     <li>
                         <a href="employee-dashboard">
                             <i data-feather="calendar"></i>
-                            <span>Campus Data</span>
+                            <span>Announcements</span>
                         </a>
                     </li>
                     <li>
                         <a href="employee-leave-balance">
+                            <i data-feather="mail"></i>
+                            <span>Campus Data</span>
+                        </a>
+                    </li>
+
+
+
+
+                    <li class="active">
+                        <a href="downloadable">
+                            <i data-feather="check-circle"></i>
+                            <span>Employee Data</span>
+                        </a>
+
+                    <li class="">
+                         <a href="employee-announcement">
                             <i data-feather="clipboard"></i>
                             <span>Leave Management</span>
                         </a>
                     </li>
 
-
-
-
-                    <li>
-                        <a href="downloadable">
-                            <i data-feather="check-circle"></i>
-                            <span>Request Forms</span>
-                        </a>
-
-
-                    <li class="header">-- Personal</li>
-                    
-                    <li class="">
-                         <a href="employee-announcement">
-                            <i data-feather="mail"></i>
-                            <span>My Files</span>
-                        </a>
-                    </li>
-
            
                                         
-                                
-
-
-                    <li class="">
-                    <a href="employee-profile">
-                            <i data-feather="users"></i>
-                            <span>My Profile</span>
-                        </a>
-                    </li>
-                    <li class="header">-- Others</li>
-                    <li class="">
-                        <a href="directory">  
-                    <i class="fas fa-phone-volume"></i>
-                            <span>Officials Directory</span>
-                        </a>
-                    </li>
-
-                    <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
-                        <a href="holiday">
-                            <i data-feather="calendar"></i>
-                            <span>Holiday</span>
-                        </a>
-                    </li>
+                            
 
 
 
@@ -317,10 +293,6 @@
         </aside>
         <!-- #END# Right Sidebar -->
     </div>
-  
-
-
-
 
 
     <section class="content">

@@ -83,38 +83,18 @@
             include './pages/authorized/human-resource/include/hr-add-employee.php';
         });
    
-        $router->get('/request-list', function () {
+        $router->get('/hr-landing', function () {
           
-            include './pages/authorized/human-resource/include/request.php';
+            include './pages/authorized/human-resource/include/humanresource-landing.php';
         });
-
-        $router->get('/downloadable', function () {
+        $router->get('/hr-file-leave', function () {
           
-            include './pages/authorized/employee/downloadable.php';
+            include './pages/authorized/human-resource/include/file-leave.php';
         });
-        $router->get('/holiday', function () {
+        $router->get('/hr-all-requests', function () {
           
-            include './pages/authorized/human-resource/holiday.php';
+            include './pages/authorized/human-resource/include/hr-all-requests.php';
         });
-
-        $router->get('/employee-profile', function () {
-          
-            include './pages/authorized/employee/employee-profile.php';
-        });
-        $router->get('/file-leave', function () {
-          
-            include './pages/authorized/employee/file-leave.php';
-        });
-        $router->get('/employee-request', function () {
-          
-            include './pages/authorized/employee/employee-request.php';
-        });
-
-
-
-
-
-
 
 
 
