@@ -9,7 +9,7 @@
 
     include './classes/entry.php';
     include './classes/file-leave.php';
-    include './classes/request-file.php';
+    include './classes/request-form.php';
 
     // include './classes/employee.php';
 
@@ -24,12 +24,8 @@
     });
 
     $router->post('/request-file', function () {
-       // echo json_encode(array(
-         //   'success'=>false,
-           // 'message'=> $_POST,
-       // ));
-       $entry = new RequestFile();
-       $entry->requestfile($_POST);
+       $rf = new RequestForm();
+       $rf->request($_POST);
     });
 
     $router->post('/logout', function () {

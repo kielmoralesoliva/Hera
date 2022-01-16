@@ -18,8 +18,6 @@ class FileLeave
           echo "Error: " . $sql . "<br>" . $conn->error;
         }
         
-
-
     }
 }
 
