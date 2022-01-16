@@ -36,12 +36,11 @@
 		define('DATABASE', 'heroku_134a490cd4702ee');
 	}
 
-	//Create database connection
-//	$conn = new mysqli(SERVERNAME, USERNAME, PASSWORD, DATABASE);
+
+$conn = new mysqli(SERVERNAME, USERNAME, PASSWORD, DATABASE);
 	// Check database connection
-	//if ($conn->connect_error)
-//	{
-//	die("Database Connection failed: "); // Die the whole page when the connection goes failed
-//	}
+if ($conn->connect_error)
+{	die("Database Connection failed: "); // Die the whole page when the connection goes failed
+	}
 
 ?>

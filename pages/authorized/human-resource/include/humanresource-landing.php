@@ -241,7 +241,7 @@
                     
         
 
-                    <li class="">
+                    <li class="active">
                         <a href="employee-landing">
                             <i data-feather="calendar"></i>
                             <span>Announcement</span>
@@ -292,7 +292,7 @@
                         </a>
                     </li>
                     <li class="header">-- Others</li>
-                    <li class="active">
+                    <li class="">
                         <a href="directory">  
                     <i class="fas fa-phone-volume"></i>
                             <span>Officials Directory</span>
@@ -318,6 +318,10 @@
         </aside>
         <!-- #END# Right Sidebar -->
     </div>
+
+
+       
+
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
@@ -325,139 +329,186 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">Dashboard</h4>
+                                <h4 class="page-title">Welcome to HERA</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="index.html">
+                                <a href="employee-landing">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
-                            <li class="breadcrumb-item active">Dashboard</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="header"> 
-           <h3> <strong>Offices</strong> Directory<br></h3>
+        </div>
 
-         
-        <div class="row">
-        <div class="col-xl-9">
-                    <div class="card">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+
+
+        
+        <div class="row clearfix">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <div class="header">
+                        <h2>   
+                   
+                    </div>
+                    <div class="body">
+                        <div class="demo">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="pricingTable greenColor">
+                                        <div class="pricingTable-header">              
+                                          
+                                        </div>
+                                        <img src="assets/images/Hera/Happy-Hera-with-Dialog.png" alt="Hera Cute" width="384" height="335"> 
+                                        <div class="pricing-content">
+                                            
+                                        </div>
+                                        
+                                    
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="pricingTable">
+                                        <div class="pricingTable-header">
+                                            <i class="material-icons">local_mall</i>
+                                            <div class="price-value"> Take a rest
+                                            </div>
+                                        </div>
+                                        <div class="pricing-content">
+                                        <img src="assets/images/logo/hewa2.png" alt="Hera Cute" width="200" height="185"> 
+                                        </div>
+                                        <div class="pricingTable-signup">
+                                            <a href="employee-leave-balance">FILE LEAVE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="pricingTable blueColor">
+                                        <div class="pricingTable-header">
+                                            <i class="material-icons">spa</i>
+                                            <div class="price-value">Forms
+                                         
+                                            </div>
+                                        </div>
+                                        <div class="pricing-content">
+                                        <img src="assets/images/logo/hewa.png" alt="Hera Cute" width="200" height="185"> 
+                                        </div>
+                                        <div class="pricingTable-signup">
+                                            <a href="downloadable">Request Forms</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="pricingTable redColor">
+                                        <div class="pricingTable-header">
+                                            <i class="material-icons">filter_vintage</i>
+                                            <div class="price-value"> Statistics
+                                            </div>
+                                        </div>
+                                        <div class="pricing-content">
+                                        <img src="assets/images/logo/hewa3.png" alt="Hera Cute" width="200" height="185"> 
+                                        </div>
+                                        <div class="pricingTable-signup">
+                                            <a href="employee-dashboard">Access Stats</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+                <div class="row clearfix">
+                <!-- Basic Examples -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-3">
                     <div class="card">
                         <div class="header">
                             <h2>
-                                <strong>Faculty</strong> with Designation
+                                <strong>RSU HRMO Announcements</strong>
+                                <small>Make sure to read</small>
                             </h2>
+
                         </div>
                         <div class="body">
-                            <div class="table-responsive">
-                                <table class="table table-hover js-basic-example contact_list">
-                                    <thead>
-                                        <tr>
-                                            <th class="center"> Name </th>
-                                            <th class="center"> Position </th>
-                                            <th class="center"> Telephone Number </th>
-                                            <th class="center"> Cellphone Number </th>
-                                            <th class="center"> Office</th>
-                                            <th class="center"> Email Address </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="odd gradeX">
-                                            <td class="center font-bold col-red">Ricky Michael M. Oliva, MIT
-                                            </td>
-                                            <td class="center">Head, Data Information and Management Unit, PDO</td>
-                                            <td class="center">None</td>
-                                            <td class="center">+639312194983</td>
-                                            <td class="center">Planning and Development Office</td>
-                                            <td class="center font-bold col-blue">kielmoralesoliva@gmail.com</td>
-                                        </tr>
-                        
-                               
-                                    </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <th class="center">Name</th>
-                                            <th class="center"> Position </th>
-                                            <th class="center"> Telephone Number </th>
-                                            <th class="center"> Cellphone Number </th>
-                                            <th class="center"> Office </th>
-                                            <th class="center"> Email Address </th>
-                
-                                        </tr>
-                                    </tfoot>
-                                </table>
+                            <div class="row clearfix">
+                                <div class="col-xs-12 ol-sm-12 col-md-12 col-lg-12">
+                                    <div class="panel-group" id="accordion_1" role="tablist"
+                                        aria-multiselectable="true">
+                                        <div class="panel panel-primary">
+                                            <div class="panel-heading" role="tab" id="headingThree_11">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-bs-toggle="collapse"
+                                                        data-parent="#accordion_1" href="#collapseThree_2"
+                                                        aria-expanded="false" aria-controls="collapseThree_1">
+                                                     <h3> Submissions </h3>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree_2" class="panel-collapse collapse" role="tabpanel"
+                                                aria-labelledby="headingThree_1">
+                                                <div class="panel-body">
+                                                    Completed my graduation in Arts from the well known and renowned
+                                                    institution of India – SARDAR PATEL ARTS COLLEGE, BARODA
+                                                    in 2000-01, which was affiliated to M.S. University. I ranker in
+                                                    University
+                                                    exams from the same university from 1996-01.
+                                                </div>
+                                                <div class="p-l-20 p-b-20">
+                                                    <button type="button"
+                                                        class="btn btn-success btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">thumb_up</i>
+                                                    </button>
+                                                    <button type="button"
+                                                        class="btn btn-danger btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">thumb_down</i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-primary">
+                                            <div class="panel-heading" role="tab" id="headingThree_1">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-bs-toggle="collapse"
+                                                        data-parent="#accordion_1" href="#collapseThree_1"
+                                                        aria-expanded="false" aria-controls="collapseThree_1">
+                                                        <h3> Vacancies </h3>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree_1" class="panel-collapse collapse" role="tabpanel"
+                                                aria-labelledby="headingThree_1">
+                                                <div class="panel-body">
+                                                    Completed my graduation in Arts from the well known and renowned
+                                                    institution of India – SARDAR PATEL ARTS COLLEGE, BARODA
+                                                    in 2000-01, which was affiliated to M.S. University. I ranker in
+                                                    University
+                                                    exams from the same university from 1996-01.
+                                                </div>
+                                                <div class="p-l-20 p-b-20">
+                                                    <button type="button"
+                                                        class="btn btn-success btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">thumb_up</i>
+                                                    </button>
+                                                    <button type="button"
+                                                        class="btn btn-danger btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">thumb_down</i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-
-                    </div>
-                </div>
-</div></div>
-                <div class="col-lg-3">
-                    
-                    <div class="card">
-                        
-                        <div class="header">
-                         
-
-       
-                  
-                                <img src="assets/images/logo/hewa6.png" alt="Hera Cute" width="394" height="345"> 
-                                <div class="header">
-                      
-
-                                <div class="row clearfix js-sweetalert">
-                        
-
-                                <center><button type="button" class="btn btn-danger" onclick="location.href='file-leave'">Click here to file Leave</button></center>
-                                </div>
-                               
-
-                               
-</div>
-                             
-
-
-                 
-                        </div>
-                        
-
-
-                        
-                    </div>
-                </div>
-
-           
-
-
-                    </div>
-                </div>
             </div>
-            
-       
-
-        
+        </div>
     </section>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="assets/js/app.min.js"></script>
-    <script src="assets/js/chart.min.js"></script>
     <!-- Custom Js -->
     <script src="assets/js/admin.js"></script>
     <script src="assets/js/bundles/echart/echarts.js"></script>
@@ -467,5 +518,4 @@
 </body>
 
 
-<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 19:34:28 GMT -->
 </html>

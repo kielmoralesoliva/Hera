@@ -285,14 +285,14 @@
                                 
 
 
-                    <li class="">
+                    <li class="active">
                     <a href="employee-profile">
                             <i data-feather="users"></i>
                             <span>My Profile</span>
                         </a>
                     </li>
                     <li class="header">-- Others</li>
-                    <li class="active">
+                    <li class="">
                         <a href="directory">  
                     <i class="fas fa-phone-volume"></i>
                             <span>Officials Directory</span>
@@ -318,6 +318,8 @@
         </aside>
         <!-- #END# Right Sidebar -->
     </div>
+
+
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
@@ -325,123 +327,286 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">Dashboard</h4>
+                                <h4 class="page-title">Profile</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="index.html">
+                                <a href="../../index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
-                            <li class="breadcrumb-item active">Dashboard</li>
+                            <li class="breadcrumb-item bcrumb-2">
+                                <a href="#" onClick="return false;">Extra</a>
+                            </li>
+                            <li class="breadcrumb-item active">Profile</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="header"> 
-           <h3> <strong>Offices</strong> Directory<br></h3>
-
-         
-        <div class="row">
-        <div class="col-xl-9">
+            <!-- Your content goes here  -->
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-12">
                     <div class="card">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="card">
-                        <div class="header">
-                            <h2>
-                                <strong>Faculty</strong> with Designation
-                            </h2>
-                        </div>
-                        <div class="body">
-                            <div class="table-responsive">
-                                <table class="table table-hover js-basic-example contact_list">
-                                    <thead>
-                                        <tr>
-                                            <th class="center"> Name </th>
-                                            <th class="center"> Position </th>
-                                            <th class="center"> Telephone Number </th>
-                                            <th class="center"> Cellphone Number </th>
-                                            <th class="center"> Office</th>
-                                            <th class="center"> Email Address </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="odd gradeX">
-                                            <td class="center font-bold col-red">Ricky Michael M. Oliva, MIT
-                                            </td>
-                                            <td class="center">Head, Data Information and Management Unit, PDO</td>
-                                            <td class="center">None</td>
-                                            <td class="center">+639312194983</td>
-                                            <td class="center">Planning and Development Office</td>
-                                            <td class="center font-bold col-blue">kielmoralesoliva@gmail.com</td>
-                                        </tr>
-                        
-                               
-                                    </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <th class="center">Name</th>
-                                            <th class="center"> Position </th>
-                                            <th class="center"> Telephone Number </th>
-                                            <th class="center"> Cellphone Number </th>
-                                            <th class="center"> Office </th>
-                                            <th class="center"> Email Address </th>
-                
-                                        </tr>
-                                    </tfoot>
-                                </table>
+                        <div class="m-b-20">
+                            <div class="contact-grid">
+                                <div class="profile-header bg-dark">
+                                    <div class="user-name"><h3>Ricky Michael M. Oliva</h3></div>
+                                    <div class="name-center"><h4>Assistant Professor I</h4></div>
+                                </div>
+                                <img src="assets/images/logo/hewa.png" class="user-img" alt="">
+                                <p>
+                                    2017-201420
+                                    <br />Permanent Status
+                                </p>
+                                <div>
+                                    <span class="phone">
+                                        <i class="material-icons">phone</i> +639312104093</span><br>
+                                    <p> kielmoralesoliva@gmail.com</p>
+                                    <h5> Head, Data and Information Management Unit </h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h5>Calatrava Campus</h5>
+                                        <small>Assigned Campus</small>
+                                    </div>
+                                    <div class="col-6">
+                                        <h5>Planning and Development Office</h5>
+                                        <small>Office/Department</small>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-
                     </div>
-                </div>
-</div></div>
-                <div class="col-lg-3">
-                    
                     <div class="card">
-                        
-                        <div class="header">
-                         
+                    <img src="assets/images/logo/hewa5.png" alt="Hera Cute" width="344" height="335"> 
 
-       
-                  
-                                <img src="assets/images/logo/hewa6.png" alt="Hera Cute" width="394" height="345"> 
-                                <div class="header">
-                      
 
-                                <div class="row clearfix js-sweetalert">
-                        
-
-                                <center><button type="button" class="btn btn-danger" onclick="location.href='file-leave'">Click here to file Leave</button></center>
-                                </div>
-                               
-
-                               
 </div>
-                             
-
-
                  
-                        </div>
-                        
-
-
-                        
-                    </div>
                 </div>
+                <div class="col-lg-8 col-md-12">
+                    <div class="card">
+                        <div class="profile-tab-box">
+                            <div class="p-l-20">
+                                <ul class="nav ">
+                                    <li class="nav-item tab-all">
+                                        <a class="nav-link active show" href="#project" data-bs-toggle="tab">About
+                                            Me</a>
+                                    </li>
+                                    <li class="nav-item tab-all p-l-20">
+                                        <a class="nav-link" href="#usersettings" data-bs-toggle="tab">Settings</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="project" aria-expanded="true">
+                            <div class="row clearfix">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="card project_widget">
+                                        <div class="header">
+                                            <h2>About</h2>
+                                        </div>
+                                        <div class="body">
+                                            <div class="row">
+                                                <div class="col-md-3 col-6 b-r">
+                                                    <strong>Surname</strong>
+                                                    <br>
+                                                    <p class="text-muted">Oliva</p>
+                                                </div>
+                                                <div class="col-md-3 col-6 b-r">
+                                                    <strong>First Name</strong>
+                                                    <br>
+                                                    <p class="text-muted">Ricky Michael</p>
+                                                </div>
+                                                <div class="col-md-3 col-6 b-r">
+                                                    <strong>Middle Name</strong>
+                                                    <br>
+                                                    <p class="text-muted">Morales</p>  
+                                                   </div>
+                                                <div class="col-md-3 col-6">
+                                                    <strong>Birth Date</strong>
+                                                    <br>
+                                                    <p class="text-muted">07/04/1997</p>
+                                                </div>
+                                            </div>
+                                        
+                                          
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="card project_widget">
+                                        <div class="header">
+                                            <h2>Education</h2>
+                                        </div>
+                                        <div class="body">
+                                        <div class="row">
+                                                <div class="col">
+                                                    <strong>Bachelor's Degree</strong>
+                                                    <br>
+                                                    <p class="text-muted">Bachelor of Science in Computer Science</p>
+                                                    <strong>Major</strong>
+                                                    <p class="text-muted">Game Development</p>
+                                                    <strong>University</strong>
+                                                    <br>
+                                                    <p class="text-muted">University of Caloocan City</p>
+                                                </div>
 
-           
-
-
+                                                <div class="col">
+                                                    <strong>Master's Degree</strong>
+                                                    <br>
+                                                    <p class="text-muted">Master in Information Technology</p>
+                                                    <strong>Major</strong>
+                                                    <p class="text-muted">Augmented Reality and Game Development</p>
+                                                    <strong>University</strong>
+                                                    <br>
+                                                    <p class="text-muted">University of Caloocan City</p>
+                                                </div>
+                                                <div class="col">
+                                                    <strong>Doctorate Degree</strong>
+                                                    <br>
+                                                    <p class="text-muted">Master in Information Technology</p>
+                                                    <strong>Major</strong>
+                                                    <p class="text-muted">Augmented Reality and Game Development</p>
+                                                    <strong>University</strong>
+                                                    <br>
+                                                    <p class="text-muted">University of Caloocan City</p>
+                                                   </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="card project_widget">
+                                        <div class="header">
+                                            <h2>Experience</h2>
+                                        </div>
+                                        <div class="body">
+                                        wqe
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="card project_widget">
+                                        <div class="header">
+                                            <h2>Conferences, Cources &amp; Workshop Attended</h2>
+                                        </div>
+                                        <div class="body">
+                                           qwe
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="timeline" aria-expanded="false">
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="usersettings" aria-expanded="false">
+                            <div class="card">
+                                <div class="header">
+                                    <h2>
+                                        <strong>Security</strong> Settings</h2>
+                                </div>
+                                <div class="body">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Username">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="Current Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="New Password">
+                                    </div>
+                                    <button class="btn btn-info btn-round">Save Changes</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="header">
+                                    <h2>
+                                        <strong>Account</strong> Settings</h2>
+                                </div>
+                                <div class="body">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="First Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="City">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="E-mail">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Country">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea rows="4" class="form-control no-resize"
+                                                    placeholder="Address Line 1"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <div class="form-check m-l-10">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox" id="checkbox"
+                                                            name="checkbox"> Profile Visibility For Everyone
+                                                        <span class="form-check-sign">
+                                                            <span class="check"></span>
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-check m-l-10">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox" id="checkbox1"
+                                                            name="checkbox"> New task notifications
+                                                        <span class="form-check-sign">
+                                                            <span class="check"></span>
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-check m-l-10">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox" id="checkbox2"
+                                                            name="checkbox"> New friend request notifications
+                                                        <span class="form-check-sign">
+                                                            <span class="check"></span>
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <button class="btn btn-primary btn-round">Save Changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            
+        </div>
+    </section>
        
 
-        
-    </section>
-
-
+   
 
 
 
@@ -457,7 +622,6 @@
 
 
     <script src="assets/js/app.min.js"></script>
-    <script src="assets/js/chart.min.js"></script>
     <!-- Custom Js -->
     <script src="assets/js/admin.js"></script>
     <script src="assets/js/bundles/echart/echarts.js"></script>
@@ -467,5 +631,4 @@
 </body>
 
 
-<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 19:34:28 GMT -->
 </html>

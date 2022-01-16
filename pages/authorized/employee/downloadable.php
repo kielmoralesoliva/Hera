@@ -264,7 +264,7 @@
 
 
 
-                    <li>
+                    <li class="active">
                         <a href="downloadable">
                             <i data-feather="check-circle"></i>
                             <span>Request Forms</span>
@@ -292,7 +292,7 @@
                         </a>
                     </li>
                     <li class="header">-- Others</li>
-                    <li class="active">
+                    <li class="">
                         <a href="directory">  
                     <i class="fas fa-phone-volume"></i>
                             <span>Officials Directory</span>
@@ -318,6 +318,8 @@
         </aside>
         <!-- #END# Right Sidebar -->
     </div>
+
+
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
@@ -325,139 +327,181 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">Dashboard</h4>
+                                <h4 class="page-title">HERA</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="index.html">
+                                <a href="../../index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
-                            <li class="breadcrumb-item active">Dashboard</li>
+                            <li class="breadcrumb-item active">Request a Form</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="header"> 
-           <h3> <strong>Offices</strong> Directory<br></h3>
-
-         
-        <div class="row">
-        <div class="col-xl-9">
-                    <div class="card">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="card">
-                        <div class="header">
-                            <h2>
-                                <strong>Faculty</strong> with Designation
-                            </h2>
-                        </div>
-                        <div class="body">
-                            <div class="table-responsive">
-                                <table class="table table-hover js-basic-example contact_list">
-                                    <thead>
-                                        <tr>
-                                            <th class="center"> Name </th>
-                                            <th class="center"> Position </th>
-                                            <th class="center"> Telephone Number </th>
-                                            <th class="center"> Cellphone Number </th>
-                                            <th class="center"> Office</th>
-                                            <th class="center"> Email Address </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="odd gradeX">
-                                            <td class="center font-bold col-red">Ricky Michael M. Oliva, MIT
-                                            </td>
-                                            <td class="center">Head, Data Information and Management Unit, PDO</td>
-                                            <td class="center">None</td>
-                                            <td class="center">+639312194983</td>
-                                            <td class="center">Planning and Development Office</td>
-                                            <td class="center font-bold col-blue">kielmoralesoliva@gmail.com</td>
-                                        </tr>
-                        
-                               
-                                    </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <th class="center">Name</th>
-                                            <th class="center"> Position </th>
-                                            <th class="center"> Telephone Number </th>
-                                            <th class="center"> Cellphone Number </th>
-                                            <th class="center"> Office </th>
-                                            <th class="center"> Email Address </th>
-                
-                                        </tr>
-                                    </tfoot>
-                                </table>
-                            </div>
-                        </div>
-
-
-                    </div>
-                </div>
-</div></div>
-                <div class="col-lg-3">
-                    
-                    <div class="card">
-                        
-                        <div class="header">
-                         
-
-       
-                  
-                                <img src="assets/images/logo/hewa6.png" alt="Hera Cute" width="394" height="345"> 
-                                <div class="header">
-                      
-
-                                <div class="row clearfix js-sweetalert">
-                        
-
-                                <center><button type="button" class="btn btn-danger" onclick="location.href='file-leave'">Click here to file Leave</button></center>
-                                </div>
-                               
-
-                               
-</div>
-                             
-
-
-                 
-                        </div>
-                        
-
-
-                        
-                    </div>
-                </div>
-
            
 
 
+            <div class="block-header">
+                <h2>
+                   HERA Downloadable Forms
+                </h2>
+            </div>
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="header bg-red">
+                            <h2>
+                               Civil Service Commission Forms
+                                <small>Government Released form</small>
+                            </h2>
+                            
+                        </div>
+
+                      
+<div class="container">
+  <div class="row">  
+    <div class="col-sm">
+    <div class="body">
+                        <div class="button-demo">
+                            <p>Statement of Assets and Liabilities</p> <button type="button" class="btn btn-outline-danger btn-border-radius">Download SALN Form</button>
+                            <p>Personal Data Sheet</p> <button type="button" class="btn btn-outline-danger btn-border-radius">Download PDS Form  </button>
+                            <p>Work Sheet Experience</p> <button type="button" class="btn btn-outline-danger btn-border-radius">Download WSE Form  </button>
+                            </div>
+
+                        </div>
+    </div>
+    <div class="col-sm">
+                                                <img src="assets/images/logo/csc.png" alt="">
+                                    
+    </div>
+  </div>
+</div>
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="header bg-light-green">
+                            <h2>
+                                RSU Local Forms
+                                <small>Romblon State University Local Forms</small>
+                            </h2>
+                        </div>
+
+                        <div class="row">  
+    <div class="col-sm">
+    <div class="body">
+                        <div class="button-demo">
+                        <p>Leave Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download Leave Form</button>
+                            <p>Clearance Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download Clearance Form  </button>
+                            <p>Certificate of Leave Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download COL Form  </button>
+                            </div>
+                            
+                        </div>
+    </div>
+    <div class="col-sm">
+                                                <img src="assets/images/logo/rsu.png" alt="">
+                                    
+    </div>
+  </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="header bg-green">
+                            <h2>
+                                GSIS Forms
+                                <small>Description text here...</small>
+                            </h2>
+                            <ul class="header-dropdown m-r-0">
+                                <li>
+                                    <a href="#" onClick="return false;">
+                                        <i class="material-icons">info_outline</i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" onClick="return false;">
+                                        <i class="material-icons">help_outline</i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="container">
+  <div class="row">  
+    <div class="col-sm">
+    <div class="body">
+                        <div class="button-demo">
+                        <p>Retirement and Separation Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download RS Form</button>
+                            <p>Life Insurance Benefit Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download LIB Form  </button>
+                            <p>Declaration of Pendency and Non Pendency Case Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download DPNPC Form  </button>
+                       
+                            </div>
+
+                        </div>
+    </div>
+    <div class="col-sm">
+                                                <img src="assets/images/logo/gsis.png" alt="">
+                                    
+    </div>
+  </div>
+</div>                    
                     </div>
                 </div>
             </div>
-            
        
+            <div class="block-header">
+                <h2>Record Request</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="header bg-light-blue">
+                            <h2>
+                                Official Release Forms
+                                <small>Signatory forms</small>
+                            </h2>
 
-        
+                        </div>
+
+
+                        <div class="row">  
+    <div class="col-sm">
+    <div class="body">
+                        <div class="button-demo">
+                        <p>Service Record</p> <button type="button" class="btn btn-outline-info btn-border-radius">Request for Service Record</button>
+                        <p>Certificate of Employment</p> <button type="button" class="btn btn-outline-info btn-border-radius">Request for Certificate</button>
+                            </div>
+
+                        </div>
+    </div>
+    <div class="col-sm">
+                                                <img src="assets/images/logo/hewa.png" alt="">
+                                    
+    </div>
+  </div>
+</div>                    
+
+
+
+                    </div>
+                </div>
+             
+            </div>
+            <!-- #END# Colored Card - With Loading -->
+    
+            
+        </div>
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+       
 
 
     <script src="assets/js/app.min.js"></script>
-    <script src="assets/js/chart.min.js"></script>
     <!-- Custom Js -->
     <script src="assets/js/admin.js"></script>
     <script src="assets/js/bundles/echart/echarts.js"></script>
@@ -467,5 +511,4 @@
 </body>
 
 
-<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 19:34:28 GMT -->
 </html>

@@ -285,14 +285,14 @@
                                 
 
 
-                    <li class="">
+                    <li class="active">
                     <a href="employee-profile">
                             <i data-feather="users"></i>
                             <span>My Profile</span>
                         </a>
                     </li>
                     <li class="header">-- Others</li>
-                    <li class="active">
+                    <li class="">
                         <a href="directory">  
                     <i class="fas fa-phone-volume"></i>
                             <span>Officials Directory</span>
@@ -318,6 +318,8 @@
         </aside>
         <!-- #END# Right Sidebar -->
     </div>
+
+
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
@@ -325,120 +327,210 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">Dashboard</h4>
+                                <h4 class="page-title">All Projects</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="index.html">
+                                <a href="../../index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
-                            <li class="breadcrumb-item active">Dashboard</li>
+                            <li class="breadcrumb-item bcrumb-2">
+                                <a href="#" onClick="return false;">Projects</a>
+                            </li>
+                            <li class="breadcrumb-item active">All Projects</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="header"> 
-           <h3> <strong>Offices</strong> Directory<br></h3>
-
-         
-        <div class="row">
-        <div class="col-xl-9">
-                    <div class="card">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="card">
                         <div class="header">
                             <h2>
-                                <strong>Faculty</strong> with Designation
+                                <strong>All</strong> Projects
                             </h2>
+                            <ul class="header-dropdown m-r--5">
+                                <li class="dropdown">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-bs-toggle="dropdown"
+                                        role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="material-icons">more_vert</i>
+                                    </a>
+                                    <ul class="dropdown-menu float-end">
+                                        <li>
+                                            <a href="javascript:void(0);">Action</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">Another action</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">Something else here</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                         <div class="body">
                             <div class="table-responsive">
                                 <table class="table table-hover js-basic-example contact_list">
                                     <thead>
                                         <tr>
-                                            <th class="center"> Name </th>
-                                            <th class="center"> Position </th>
-                                            <th class="center"> Telephone Number </th>
-                                            <th class="center"> Cellphone Number </th>
-                                            <th class="center"> Office</th>
-                                            <th class="center"> Email Address </th>
+                                            <th class="center"> Employee Request </th>
+                                            <th class="center"> Date Requested </th>
+                                            <th class="center"> Authorized Officer </th>
+                                            <th class="center"> Authorized Official </th>
+                                            <th class="center"> Date Released </th>
+                                            <th class="center"> Status </th>
+                                            <th class="center"> Progress</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr class="odd gradeX">
-                                            <td class="center font-bold col-red">Ricky Michael M. Oliva, MIT
+                                            <td class="center">Redstar Hospital</td>
+                                            <td class="center">Rajesh</td>
+                                            <td class="center">11-10-2018</td>                           
+                                            <td class="center">
+                                                <div class="badge col-green">Released</div>
                                             </td>
-                                            <td class="center">Head, Data Information and Management Unit, PDO</td>
-                                            <td class="center">None</td>
-                                            <td class="center">+639312194983</td>
-                                            <td class="center">Planning and Development Office</td>
-                                            <td class="center font-bold col-blue">kielmoralesoliva@gmail.com</td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-success" role="progressbar"
+                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 25%">
+                                                        <span class="sr-only">25%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                          
                                         </tr>
-                        
-                               
+                                        <tr class="odd gradeX">
+                                            <td class="center">MarQ Angular 6</td>
+                                            <td class="center">Donald</td>
+                                            <td class="center">02-03-2019</td>                          
+                                            <td class="center">
+                                                <div class="badge col-orange">Pending</div>
+                                            </td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-warning" role="progressbar"
+                                                        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 40%">
+                                                        <span class="sr-only">40%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                           
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">Smile Admin</td>
+                                            <td class="center">Sarah Smith</td>
+                                            <td class="center">18-12-2018</td>
+                                            
+                                            <td class="center">
+                                                <div class="badge col-green">Active</div>
+                                            </td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-success" role="progressbar"
+                                                        aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 56%">
+                                                        <span class="sr-only">56%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                           
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">Smart University</td>
+                                            <td class="center">John Wick</td>
+                                            <td class="center">22-07-2019</td>
+                                         
+                                            <td class="center">
+                                                <div class="badge col-red">Closed</div>
+                                            </td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-danger" role="progressbar"
+                                                        aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 78%">
+                                                        <span class="sr-only">78%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                          
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">Xyz Website</td>
+                                            <td class="center">Rajesh</td>
+                                            <td class="center">11-10-2018</td>
+                                          
+                                            <td class="center">
+                                                <div class="badge col-green">Active</div>
+                                            </td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-success" role="progressbar"
+                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 25%">
+                                                        <span class="sr-only">25%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                          
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">SpinzHR Admin</td>
+                                            <td class="center">Sarah Smith</td>
+                                            <td class="center">18-12-2018</td>
+                                          
+                                            <td class="center">
+                                                <div class="badge col-green">Active</div>
+                                            </td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-success" role="progressbar"
+                                                        aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 56%">
+                                                        <span class="sr-only">56%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                          
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">Sunray Hospital</td>
+                                            <td class="center">John Wick</td>
+                                            <td class="center">22-07-2019</td>
+                                           
+                                            <td class="center">
+                                                <div class="badge col-red">Closed</div>
+                                            </td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-danger" role="progressbar"
+                                                        aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 78%">
+                                                        <span class="sr-only">78%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                           
+                                        </tr>
                                     </tbody>
                                     <tfoot>
                                         <tr>
-                                            <th class="center">Name</th>
-                                            <th class="center"> Position </th>
-                                            <th class="center"> Telephone Number </th>
-                                            <th class="center"> Cellphone Number </th>
-                                            <th class="center"> Office </th>
-                                            <th class="center"> Email Address </th>
-                
+                                            <th class="center"> Employee Request </th>
+                                            <th class="center"> Client name </th>
+                                            <th class="center"> DeadLine </th>
+                                            <th class="center"> Status </th>
+                                            <th class="center"> Progress</th>
                                         </tr>
                                     </tfoot>
                                 </table>
                             </div>
                         </div>
-
-
-                    </div>
-                </div>
-</div></div>
-                <div class="col-lg-3">
-                    
-                    <div class="card">
-                        
-                        <div class="header">
-                         
-
-       
-                  
-                                <img src="assets/images/logo/hewa6.png" alt="Hera Cute" width="394" height="345"> 
-                                <div class="header">
-                      
-
-                                <div class="row clearfix js-sweetalert">
-                        
-
-                                <center><button type="button" class="btn btn-danger" onclick="location.href='file-leave'">Click here to file Leave</button></center>
-                                </div>
-                               
-
-                               
-</div>
-                             
-
-
-                 
-                        </div>
-                        
-
-
-                        
-                    </div>
-                </div>
-
-           
-
-
                     </div>
                 </div>
             </div>
-            
-       
-
-        
+        </div>
     </section>
 
 
@@ -451,21 +543,15 @@
 
 
 
-
-
-
-
-
     <script src="assets/js/app.min.js"></script>
-    <script src="assets/js/chart.min.js"></script>
-    <!-- Custom Js -->
+    <script src="assets/js/pages/forms/form-data.js"></script>
+    <script src="assets/js/form.min.js"></script>
+
+
     <script src="assets/js/admin.js"></script>
     <script src="assets/js/bundles/echart/echarts.js"></script>
     <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
 </body>
-
-
-<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 19:34:28 GMT -->
 </html>

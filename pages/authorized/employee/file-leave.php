@@ -8,6 +8,7 @@
     <title>Hera RSU HRMO</title>
     <!-- Favicon-->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <link href="assets/css/form.min.css" rel="stylesheet">
     <!-- Plugins Core Css -->
     <link href="assets/css/app.min.css" rel="stylesheet">
     <!-- Custom Css -->
@@ -292,7 +293,7 @@
                         </a>
                     </li>
                     <li class="header">-- Others</li>
-                    <li class="active">
+                    <li class="">
                         <a href="directory">  
                     <i class="fas fa-phone-volume"></i>
                             <span>Officials Directory</span>
@@ -318,6 +319,7 @@
         </aside>
         <!-- #END# Right Sidebar -->
     </div>
+
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
@@ -325,140 +327,193 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">Dashboard</h4>
+                                <h4 class="page-title">File Leave</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="index.html">
+                                <a href="../../index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
-                            <li class="breadcrumb-item active">Dashboard</li>
+                            <li class="breadcrumb-item bcrumb-2">
+                                <a href="#" onClick="return false;">Leave Management</a>
+                            </li>
+                            <li class="breadcrumb-item active">File Leave</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="header"> 
-           <h3> <strong>Offices</strong> Directory<br></h3>
-
-         
-        <div class="row">
-        <div class="col-xl-9">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="card">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="card">
+                        <div class="row">
+                            <div class="col">
                         <div class="header">
                             <h2>
-                                <strong>Faculty</strong> with Designation
-                            </h2>
+                                <strong>Leave</strong> Details</h2>
+                         
                         </div>
+</div>
+<div class="col">
+                        <div class="header">
+                            <h2>
+                                Date of Filing</h2>
+                         
+                        </div>
+</div>
+</div>
                         <div class="body">
-                            <div class="table-responsive">
-                                <table class="table table-hover js-basic-example contact_list">
-                                    <thead>
-                                        <tr>
-                                            <th class="center"> Name </th>
-                                            <th class="center"> Position </th>
-                                            <th class="center"> Telephone Number </th>
-                                            <th class="center"> Cellphone Number </th>
-                                            <th class="center"> Office</th>
-                                            <th class="center"> Email Address </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="odd gradeX">
-                                            <td class="center font-bold col-red">Ricky Michael M. Oliva, MIT
-                                            </td>
-                                            <td class="center">Head, Data Information and Management Unit, PDO</td>
-                                            <td class="center">None</td>
-                                            <td class="center">+639312194983</td>
-                                            <td class="center">Planning and Development Office</td>
-                                            <td class="center font-bold col-blue">kielmoralesoliva@gmail.com</td>
-                                        </tr>
+                            <div class="row clearfix">
+                                <div class="col-sm-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                            <select class="col-12 m-t-20 p-l-0">
+                                                <option disabled selected>Select Type of Leave to be Availed of</option>
+                                                <option><h2>VACATION LEAVE</h2>(Sec. 51, Rule XVI, Omnibus Rules Implementing E.O. No. 292</option>
+                                                <option>MANDATORY/FORCED LEAVE(Sec. 25, Rule XVI, Omnibus Rules Implementing E.O. No. 292</option>
+                                                <option>SICK LEAVE  (Sec. 43, Rule XVI, Omnibus Rules Implementing E.O. No. 292)</option>
+                                                <option>MATERNITY LEAVE (R.A. No. 11210 / IRR issued by CSC, DOLE and SSS</option>
+                                                <option>PATERNITY LEAVE (R.A. No. 8187 / CSC MC No. 71, s. 1998, as amended</option>
+                                                <option>SPECIAL PRIVILEGE LEAVE (Sec. 21, Rule XVI, Omnibus Rules Implementing E.O. No. 292)</option>
+                                                <option>SOLO PARENT LEAVE (RA No. 8972 / CSC MC No. 8, s. 2004)</option>
+                                                <option>STUDY LEAVE (Sec. 68, Rule XVI, Omnibus Rules Implementing E.O. No. 292</option>
+                                                <option>10-DAY VAWC LEAVE (RA No. 9262 / CSC MC No. 15, s. 2005</option>
+                                                <option>REHABILITATION PRIVILEGE (Sec. 55, Rule XVI, Omnibus Rules Implementing E.O. No. 292)</option>
+                                                <option>SPECIAL LEAVE BENEFITS FOR WOMEN (RA No. 9710 / CSC MC No. 25, s. 2010)</option>
+                                                <option>SPECIAL EMERGENCY (CALAMITY) LEAVE (CSC MC No. 2, s. 2012, as amended)</option>
+                                            </select>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="col-sm-6">
+                                <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="" disabled value="<?php echo date("m-d-Y");?>"/>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                            <h5>
+                                In case of Vacation/Special Privilege Leave:</h5>
                         
-                               
-                                    </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <th class="center">Name</th>
-                                            <th class="center"> Position </th>
-                                            <th class="center"> Telephone Number </th>
-                                            <th class="center"> Cellphone Number </th>
-                                            <th class="center"> Office </th>
-                                            <th class="center"> Email Address </th>
-                
-                                        </tr>
-                                    </tfoot>
-                                </table>
+                                <div class="col-sm-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                            <select class="col-12 m-t-20 p-l-0">
+                                                <option disabled selected>VL/SPL Leave Details</option>
+                                                <option><h2>Within the Philippines</option>        
+                                                <option><h2>Abroad (Specify)</option>           
+                                            </select>
+                                        </div>
+                                    </div> 
+                                </div>
+                                <div class="col-sm-6">
+                                <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="Specify Leave Location" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                            <h5>
+                                In case of Sick Leave</h5>
+                                <div class="col-sm-6">
+                                <div class="form-group">
+                                    <div class="form-line">
+                                            <select class="col-12 m-t-20 p-l-0">
+                                                <option disabled selected>Sick Leave Details</option>
+                                                <option><h2>In Hospital (Specify Illness)</option>        
+                                                <option><h2>Out Patient (Specify Illness))</option>           
+                                            </select>
+                                        </div>
+                                    </div>  
+                                </div>
+                                <div class="col-sm-6">
+                                <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="Specify Illness" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <div class="row clearfix">
+                            <h5>
+                                Number of Working Days applied for</h5>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="Input Number of Working Days applied for" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                <div class="row">
+                                <div class="col">
+                                <div class="form-group form-float">
+                                        <div class="form-line">
+                                            <select class="col-12 m-t-20 p-l-0">
+                                                <option disabled selected>Month</option>
+                                                <option>January</option>
+                                                <option>February</option>
+                                                <option>March</option>
+                                                <option>April</option>
+                                                <option>May</option>
+                                                <option>June</option>
+                                                <option>July</option>
+                                                <option>August</option>
+                                                <option>September</option>
+                                                <option>October</option>
+                                                <option>November</option>
+                                                <option>December</option>
+                                            </select>
+                                        </div>
+                                    </div>
+</div>
+<div class="col">
+                                    <div class="form-group">
+                                    <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="Inclusive Dates (Ex. 23-26 / 23,24,26)" />
+                                        </div>
+                                    </div>
+
+
+</div>
+</div>
+
+
+
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                            <h5>
+                                Reason for Filing Leave</h5>
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                            <input type="text" class="form-control" placeholder="Specify Reason for Filing Leave" />
+                                        </div>
+                                    </div>
+                                </div>
+        
+                            <div class="col-lg-12 p-t-20 text-center">
+                                <button type="button"  class="btn btn-success waves-effect m-r-15">File Leave</button>
+                                <button type="button" onclick="location.href='employee-leave-balance'" class="btn btn-danger waves-effect">Cancel</button>
                             </div>
                         </div>
-
-
-                    </div>
-                </div>
-</div></div>
-                <div class="col-lg-3">
-                    
-                    <div class="card">
-                        
-                        <div class="header">
-                         
-
-       
-                  
-                                <img src="assets/images/logo/hewa6.png" alt="Hera Cute" width="394" height="345"> 
-                                <div class="header">
-                      
-
-                                <div class="row clearfix js-sweetalert">
-                        
-
-                                <center><button type="button" class="btn btn-danger" onclick="location.href='file-leave'">Click here to file Leave</button></center>
-                                </div>
-                               
-
-                               
-</div>
-                             
-
-
-                 
-                        </div>
-                        
-
-
-                        
-                    </div>
-                </div>
-
-           
-
-
                     </div>
                 </div>
             </div>
-            
-       
-
-        
+        </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+  
 
 
     <script src="assets/js/app.min.js"></script>
-    <script src="assets/js/chart.min.js"></script>
-    <!-- Custom Js -->
+    <script src="assets/js/pages/forms/form-data.js"></script>
+    <script src="assets/js/form.min.js"></script>
+
+
     <script src="assets/js/admin.js"></script>
     <script src="assets/js/bundles/echart/echarts.js"></script>
     <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
@@ -467,5 +522,4 @@
 </body>
 
 
-<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 19:34:28 GMT -->
 </html>

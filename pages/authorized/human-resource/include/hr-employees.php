@@ -244,67 +244,42 @@
                     <li class="">
                         <a href="employee-landing">
                             <i data-feather="calendar"></i>
-                            <span>Announcement</span>
+                            <span>AllRequests</span>
                         </a>
                     </li>
                     
                     <li>
                         <a href="employee-dashboard">
                             <i data-feather="calendar"></i>
-                            <span>Campus Data</span>
+                            <span>Announcements</span>
                         </a>
                     </li>
                     <li>
                         <a href="employee-leave-balance">
+                            <i data-feather="mail"></i>
+                            <span>Campus Data</span>
+                        </a>
+                    </li>
+
+
+
+
+                    <li class="active">
+                        <a href="downloadable">
+                            <i data-feather="check-circle"></i>
+                            <span>Employee Data</span>
+                        </a>
+
+                    <li class="">
+                         <a href="employee-announcement">
                             <i data-feather="clipboard"></i>
                             <span>Leave Management</span>
                         </a>
                     </li>
 
-
-
-
-                    <li>
-                        <a href="downloadable">
-                            <i data-feather="check-circle"></i>
-                            <span>Request Forms</span>
-                        </a>
-
-
-                    <li class="header">-- Personal</li>
-                    
-                    <li class="">
-                         <a href="employee-announcement">
-                            <i data-feather="mail"></i>
-                            <span>My Files</span>
-                        </a>
-                    </li>
-
            
                                         
-                                
-
-
-                    <li class="">
-                    <a href="employee-profile">
-                            <i data-feather="users"></i>
-                            <span>My Profile</span>
-                        </a>
-                    </li>
-                    <li class="header">-- Others</li>
-                    <li class="active">
-                        <a href="directory">  
-                    <i class="fas fa-phone-volume"></i>
-                            <span>Officials Directory</span>
-                        </a>
-                    </li>
-
-                    <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
-                        <a href="holiday">
-                            <i data-feather="calendar"></i>
-                            <span>Holiday</span>
-                        </a>
-                    </li>
+                            
 
 
 
@@ -325,120 +300,106 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">Dashboard</h4>
+                                <h4 class="page-title">All Employees</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="index.html">
+                                <a href="../../index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
-                            <li class="breadcrumb-item active">Dashboard</li>
+                            <li class="breadcrumb-item bcrumb-2">
+                                <a href="#" onClick="return false;">Employee</a>
+                            </li>
+                            <li class="breadcrumb-item active">All Employees</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="header"> 
-           <h3> <strong>Offices</strong> Directory<br></h3>
-
-         
-        <div class="row">
-        <div class="col-xl-9">
-                    <div class="card">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="card">
                         <div class="header">
                             <h2>
-                                <strong>Faculty</strong> with Designation
+                                <strong>All</strong> Employees
                             </h2>
+                            <ul class="header-dropdown m-r--5">
+                                <li class="dropdown">
+                                    <a href="#" onClick="return false;" class="dropdown-toggle"
+                                        data-bs-toggle="dropdown" role="button" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <i class="material-icons">more_vert</i>
+                                    </a>
+                                    <ul class="dropdown-menu float-end">
+                                        <li>
+                                            <a href="#" onClick="return false;">Action</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">Another action</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">Something else here</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
                         </div>
                         <div class="body">
                             <div class="table-responsive">
                                 <table class="table table-hover js-basic-example contact_list">
                                     <thead>
                                         <tr>
-                                            <th class="center"> Name </th>
-                                            <th class="center"> Position </th>
-                                            <th class="center"> Telephone Number </th>
-                                            <th class="center"> Cellphone Number </th>
-                                            <th class="center"> Office</th>
-                                            <th class="center"> Email Address </th>
+                                            <th class="center">ID</th>
+                                            <th class="center"> Last Name </th>
+                                            <th class="center"> First Name </th>
+                                            <th class="center"> Middle Name </th>
+                                            <th class="center"> Birth Date </th>
+                                            <th class="center">Academic Rank</th>
+                                            <th class="center"> Status </th>
+                                            <th class="center"> Campus </th>
+                                            <th class="center"> Education </th>
+                                            <th class="center"> Designation </th>
+                                            <th class="center"> Appointment Date</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         <tr class="odd gradeX">
-                                            <td class="center font-bold col-red">Ricky Michael M. Oliva, MIT
+                                            <td class="center">1
                                             </td>
-                                            <td class="center">Head, Data Information and Management Unit, PDO</td>
-                                            <td class="center">None</td>
-                                            <td class="center">+639312194983</td>
-                                            <td class="center">Planning and Development Office</td>
-                                            <td class="center font-bold col-blue">kielmoralesoliva@gmail.com</td>
+                                            <td class="center">Oliva</td>
+                                            <td class="center">Ricky Michael</td>
+                                            <td class="center">Morales</td>
+                                            <td class="center">07-04-1997</td>
+                                            <td class="center">Assistant Professor I</td>
+                                            <td class="center">Permanent</td>
+                                            <td class="center">Odiongan</td>
+                                            <td class="center">Doctorate Units</td>
+                                            <td class="center">Head, DIMU</td>
+                                            <td class="center">11-05-2021</td>
                                         </tr>
-                        
-                               
+                                   
+                         
                                     </tbody>
                                     <tfoot>
                                         <tr>
-                                            <th class="center">Name</th>
-                                            <th class="center"> Position </th>
-                                            <th class="center"> Telephone Number </th>
-                                            <th class="center"> Cellphone Number </th>
-                                            <th class="center"> Office </th>
-                                            <th class="center"> Email Address </th>
-                
+                                        <th class="center">ID</th>
+                                            <th class="center"> Last Name </th>
+                                            <th class="center"> First Name </th>
+                                            <th class="center"> Middle Name </th>
+                                            <th class="center"> Birth Date </th>
+                                            <th class="center">Academic Rank</th>
+                                            <th class="center"> Status </th>
+                                            <th class="center"> Campus </th>
+                                            <th class="center"> Education </th>
+                                            <th class="center"> Designation </th>
+                                            <th class="center"> Appointment Date </th>
                                         </tr>
                                     </tfoot>
                                 </table>
                             </div>
                         </div>
-
-
-                    </div>
-                </div>
-</div></div>
-                <div class="col-lg-3">
-                    
-                    <div class="card">
-                        
-                        <div class="header">
-                         
-
-       
-                  
-                                <img src="assets/images/logo/hewa6.png" alt="Hera Cute" width="394" height="345"> 
-                                <div class="header">
-                      
-
-                                <div class="row clearfix js-sweetalert">
-                        
-
-                                <center><button type="button" class="btn btn-danger" onclick="location.href='file-leave'">Click here to file Leave</button></center>
-                                </div>
-                               
-
-                               
-</div>
-                             
-
-
-                 
-                        </div>
-                        
-
-
-                        
-                    </div>
-                </div>
-
-           
-
-
                     </div>
                 </div>
             </div>
-            
-       
-
-        
+        </div>
     </section>
 
 
@@ -458,12 +419,14 @@
 
     <script src="assets/js/app.min.js"></script>
     <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/table.min.js"></script>
     <!-- Custom Js -->
     <script src="assets/js/admin.js"></script>
     <script src="assets/js/bundles/echart/echarts.js"></script>
     <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
+    <script src="assets/js/pages/tables/jquery-datatable.js"></script>
 </body>
 
 

@@ -340,6 +340,10 @@ far fa-folder"></i>
         </aside>
         <!-- #END# Right Sidebar -->
     </div>
+
+
+       
+
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
@@ -347,118 +351,160 @@ far fa-folder"></i>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">Welcome to Hera!</h4>
+                                <h4 class="page-title">Pricing</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="index.html">
+                                <a href="../../index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
+                            <li class="breadcrumb-item bcrumb-2">
+                                <a href="#" onClick="return false;">Extra</a>
+                            </li>
+                            <li class="breadcrumb-item active">Pricing</li>
                         </ul>
                     </div>
                 </div>
             </div>
         </div>
-   
 
-       
-                                         
+
+
 
         
+        <div class="row clearfix">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="card">
+                    <div class="header">
+                        <h2>
+                            <strong>Pricing</strong> Page</h2>
+                        <ul class="header-dropdown">
+                            <li class="dropdown">
+                                <a href="#" onClick="return false;" class="dropdown-toggle" data-bs-toggle="dropdown"
+                                    role="button" aria-haspopup="true" aria-hexpanded="false">
+                                    <i class="material-icons">more_vert</i>
+                                </a>
+                                <ul class="dropdown-menu float-end">
+                                    <li>
+                                        <a href="#" onClick="return false;" class=" waves-effect waves-block">Action</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" onClick="return false;" class=" waves-effect waves-block">Another
+                                            action</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" onClick="return false;" class=" waves-effect waves-block">Something
+                                            else
+                                            here</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
                     <div class="body">
                         <div class="demo">
-                            <div class="row m-5">
-                                <div class="col-md-3 col-sm-2">
-                                    <div class="pricingTable">
-                                        <div class="pricingTable-header">
-
-                                        </div>
-                                        <img src="assets/images/Hera/Happy-Hera-with-Dialog.png" alt="">
-                                        <div class="pricing-content">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="pricingTable greenColor">
+                                        <div class="pricingTable-header">              
                                           
                                         </div>
+                                        <img src="assets/images/Hera/Happy-Hera-with-Dialog.png" alt="Hera Cute" width="384" height="395"> 
+                                        <div class="pricing-content">
+                                            
+                                        </div>
+                                        
+                                    
                                     </div>
                                 </div>
-                                
-                                <div class="col-md-2 col-sm-6">
-                                    <div class="pricingTable greenColor">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="pricingTable">
                                         <div class="pricingTable-header">
-                                            <i class="material-icons">pan_tool</i>
-                                            <div class="price-value" style="font-size:150%  "> Want to take a rest?
-                                                <span class="month"></span>
+                                            <i class="material-icons">local_mall</i>
+                                            <div class="price-value"> Take a rest
+                                            
                                             </div>
                                         </div>
-                                     <br>
-                            <h3 class="heading">File Leave<br><br>Leave Balance</h3>
+                                        <h3 class="heading">File Leave</h3>
                                         <div class="pricing-content">
-                                    
+                                            <ul>
+                                                <li>
+                                                      <b>Special</b> Privilege Leave</li>
+                                                <li>
+                                                      <b>Vacation</b>Leave</li>
+                                                <li>
+                                                      <b>Special</b> Privilege Leave</li>
+                                                <li>
+                                                    <b>15</b> subdomains</li>
+                                                <li>
+                                                    <b>20</b> Domains</li>
+                                            </ul>
                                         </div>
-                                        <div class="pricingTable-signup"><br><br><br>
-                                            <a href="#">File a Leave</a>
+                                        <div class="pricingTable-signup">
+                                            <a href="#">sign up</a>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-2 col-sm-6">
-                                    <div class="pricingTable yellowColor">
-                                        <div class="pricingTable-header">
-                                            <i class="material-icons">work</i>
-                                            <div class="price-value" style="font-size:150%  "> Request forms?
-                                                <span class="month"></span>
-                                            </div>
-                                        </div>
-                                     <br>
-                            <h3 class="heading">CSC Forms<br><br>RSU Documents</h3>
-                                        <div class="pricing-content">
-                                    
-                                        </div>
-                                        <div class="pricingTable-signup"><br><br><br>
-                                            <a href="#">Request Documents</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6">
-                                    <div class="pricingTable redColor">
-                                        <div class="pricingTable-header">
-                                            <i class="material-icons">announcement</i>
-                                            <div class="price-value" style="font-size:150%  "> Announcements?
-                                                <span class="month"></span>
-                                            </div>
-                                        </div>
-                                     <br>
-                            <h3 class="heading">Vacancies<br><br>Campus Updates</h3>
-                                        <div class="pricing-content">
-                                    
-                                        </div>
-                                        <div class="pricingTable-signup"><br><br><br>
-                                            <a href="#">See Posting</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-2 col-sm-6">
+                                <div class="col-md-3 col-sm-6">
                                     <div class="pricingTable blueColor">
                                         <div class="pricingTable-header">
-                                            <i class="material-icons">format_align_justify</i>
-                                            <div class="price-value" style="font-size:150%  "> Campus Stats?
-                                                <span class="month"></span>
+                                            <i class="material-icons">spa</i>
+                                            <div class="price-value">Forms
+                                         
                                             </div>
                                         </div>
-                                     <br>
-                            <h3 class="heading">Statistics<br><br>Employees</h3>
+                                        <h3 class="heading">REQUEST FORMS</h3>
                                         <div class="pricing-content">
-                                    
+                                            <ul>
+                                                <li>
+                                                    <b>70GB</b> Disk Space</li>
+                                                <li>
+                                                    <b>70</b> Email Accounts</li>
+                                                <li>
+                                                    <b>70GB</b> Monthly Bandwidth</li>
+                                                <li>
+                                                    <b>20</b> subdomains</li>
+                                                <li>
+                                                    <b>25</b> Domains</li>
+                                            </ul>
                                         </div>
-                                        <div class="pricingTable-signup"><br><br><br>
-                                            <a href="#">Campus Stats</a>
+                                        <div class="pricingTable-signup">
+                                            <a href="#">sign up</a>
                                         </div>
                                     </div>
                                 </div>
-
-                         </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="pricingTable redColor">
+                                        <div class="pricingTable-header">
+                                            <i class="material-icons">filter_vintage</i>
+                                            <div class="price-value"> Statistics
+                                            </div>
+                                        </div>
+                                        <h3 class="heading">ACCESS STATS</h3>
+                                        <div class="pricing-content">
+                                            <ul>
+                                                <li>
+                                                    <b>80GB</b> Disk Space</li>
+                                                <li>
+                                                    <b>80</b> Email Accounts</li>
+                                                <li>
+                                                    <b>80GB</b> Monthly Bandwidth</li>
+                                                <li>
+                                                    <b>20</b> subdomains</li>
+                                                <li>
+                                                    <b>35</b> Domains</li>
+                                            </ul>
+                                        </div>
+                                        <div class="pricingTable-signup">
+                                            <a href="#">sign up</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    
                 </div>
-            </div>
-        </div>
-        <div class="row clearfix">
+                <div class="row clearfix">
                 <!-- Basic Examples -->
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-3">
                     <div class="card">
@@ -561,15 +607,9 @@ far fa-folder"></i>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!-- #END# Basic Examples -->
             </div>
-
-        
+        </div>
     </section>
-
-
 
 
 

@@ -19,9 +19,11 @@
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100">
+				
 				<form class="login100-form validate-form">
-					<span class="login100-form-title p-b-45">
-					Sign in
+					<span class="login100-form-title p-b-45"><div class="header">
+					<img src="assets/images/logo/hewa.png" alt="Hera Cute" width="200" height="185"> </div>
+				Log in to HERA
 					</span>
 					<div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
 						<input class="input100" type="text" name="email">
@@ -49,25 +51,26 @@
 						</div>
 					</div>
 					<div class="container-login100-form-btn">
-						<button class="login100-form-btn">
+			     	<button class="btn btn-success">
 							Login
 						</button>
 					</div>
 					<div class="text-center p-t-45 p-b-20">
 						<span class="txt2">
-							or sign up using
+							Visit Facebook HRMO and RSU Page
 						</span>
 					</div>
 					<div class="login100-form-social flex-c-m">
-						<a href="#" class="login100-form-social-item flex-c-m bg1 m-r-5">
+						<a href="https://web.facebook.com/profile.php?id=100064406182920" class="login100-form-social-item flex-c-m bg1 m-r-5">
 							<i class="fab fa-facebook-f"></i>
 						</a>
-						<a href="#" class="login100-form-social-item flex-c-m bg2 m-r-5">
-							<i class="fab fa-twitter"></i>
+						<a href="https://web.facebook.com/RomblonStateUniversity" class="login100-form-social-item flex-c-m bg1 m-r-5">
+							<i class="fab fa-facebook-f"></i>
 						</a>
 					</div>
+					
 				</form>
-				<div class="login100-more" style="background-image: url('assets/images/pages/bg-01.png');">
+				<div class="login100-more" style="background-image: url('assets/images/pages/login.png');">
 				</div>
 			</div>
 		</div>

@@ -41,7 +41,7 @@ function showBasicMessage() {
 }
 
 function showWithTitleMessage() {
-    swal("Here's a message!", "It's pretty, isn't it?");
+    swal("Vacation Leave!", "It shall  be  filed five  (5)  days in  advance,whenever possible,of  the effective date ofsuch leave.Vacation leave within in the Philippines or abroad  shall  be  indicated  in  theform  for  purposes  of  securing  travel authority    and    completing    clearance    from    money    and    work accountabilities");
 }
 
 function showSuccessMessage() {
