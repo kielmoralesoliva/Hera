@@ -108,7 +108,7 @@
    else {
 
         $router->get('/', function () {
-            include './pages/unauthorized/home.php';
+            include './pages/unauthorized/login.php';
         });
 
          /* (Sign In) route */
