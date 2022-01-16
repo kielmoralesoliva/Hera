@@ -1,18 +1,52 @@
-<nav class="navbar">
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Hera RSU HRMO</title>
+    <!-- Favicon-->
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+    <!-- Plugins Core Css -->
+    <link href="assets/css/app.min.css" rel="stylesheet">
+    <!-- Custom Css -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+    <!-- You can choose a theme from css/styles instead of get all themes -->
+    <link href="assets/css/styles/all-themes.css" rel="stylesheet" />
+</head>
+
+<body class="light">
+    <!-- Page Loader -->
+    <div class="page-loader-wrapper">
+        <div class="loader">
+            <div class="m-t-30">
+                <img class="loading-img-spin" src="assets/images/loading.png" alt="admin">
+            </div>
+            <p>Please wait...</p>
+        </div>
+    </div>
+    <!-- #END# Page Loader -->
+    <!-- Overlay For Sidebars -->
+    <div class="overlay"></div>
+    <!-- #END# Overlay For Sidebars -->
+    <!-- Top Bar -->
+    <nav class="navbar">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a href="#" onClick="return false;" class="navbar-toggle collapsed" data-bs-toggle="collapse"
                     data-target="#navbar-collapse" aria-expanded="false"></a>
                 <a href="#" onClick="return false;" class="bars"></a>
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="employee-landing">
                     <img src="assets/images/logo.png" alt="" />
-                    <span class="logo-name">HeraHR</span>
+                    <span class="logo-name">HERA</span>
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="pull-left">
+                <ul class="float-start">
                     <li>
-                        <a href="#" onClick="return data-feather="menu"></i>
+                        <a href="#" onClick="return false;" class="sidemenu-collapse">
+                            <i data-feather="menu"></i>
                         </a>
                     </li>
                 </ul>
@@ -174,7 +208,7 @@
                         </ul>
                     </li>
                     <!-- #END# Tasks -->
-                    <li class="pull-right">
+                    <li class="float-end">
                         <a href="#" onClick="return false;" class="js-right-sidebar" data-close="true">
                             <i class="fas fa-cog"></i>
                         </a>
@@ -183,11 +217,10 @@
             </div>
         </div>
     </nav>
-
-
-    
-
-    <aside id="leftsidebar" class="sidebar">
+    <!-- #Top Bar -->
+    <div>
+        <!-- Left Sidebar -->
+        <aside id="leftsidebar" class="sidebar">
             <!-- Menu -->
             <div class="menu">
                 <ul class="list">
@@ -202,91 +235,55 @@
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
+
                     <li class="header">-- HR Services</li>
-
-
-                    <?php 
-                            
                     
-                    ?>
                     
-                    <li class="<?php echo $activation == "dashboard"? "active": ""; ?>">
-                        <a href="dashboard">
+        
+
+                    <li class="active">
+                        <a href="employee-landing">
                             <i data-feather="calendar"></i>
-                            <span>Dashboard</span>
+                            <span>All Requests</span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="employee-dashboard">
+                            <i data-feather="calendar"></i>
+                            <span>Announcements</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="employee-leave-balance">
+                            <i data-feather="mail"></i>
+                            <span>Campus Data</span>
                         </a>
                     </li>
 
 
-                    <li class="<?php echo $activation == "announcement"? "active": ""; ?>">
-                        <a href="#" onClick="return false;" class="menu-toggle">
-                            <i data-feather="trello"></i>
-                            <span>Announcement</span>
+
+
+                    <li class="">
+                        <a href="downloadable">
+                            <i data-feather="check-circle"></i>
+                            <span>Employee Data</span>
                         </a>
-                        <ul class="ml-menu">
-                            <li class="">
-                                <a href="">All Announcement</a>
-                            </li>
-                            <li class="">
-                                <a href="announcement">Add Announcement</a>
-                            </li>               
-                        </ul>
-                    </li>
-                    <li class="<?php echo $activation == "leave-request"? "active": ""; ?>">
-                        <a href="#" onClick="return false;" class="menu-toggle">
+
+                    <li class="">
+                         <a href="employee-announcement">
                             <i data-feather="clipboard"></i>
                             <span>Leave Management</span>
                         </a>
-                        <ul class="ml-menu">
-                            <li>
-                                <a href="leave-request">All Leave Request</a>
-                            </li>
-                            <li>
-                                <a href="">Leave Balance</a>
-                            </li>
-                           <li class="">
-                                <a href="leave-types">Leave Types</a>
-                            </li> 
-                        </ul>
                     </li>
 
+           
+                                        
+                            
 
 
 
-                    <li class="<?php echo $activation == "employee-list"? "active": ""; ?>">
-                        <a href="#" onClick="return false;" class="menu-toggle">
-                            <i data-feather="users"></i>
-                            <span>Employees</span>
-                        </a>
-                        <ul class="ml-menu">
-                            <li>
-                                <a href="employee-list">All Employee</a>
-                            </li>
-                            <li>
-                                <a href="add-employee">Add Employee</a>
-                            </li>
-                            <li>
-                                <a href="pages/employee/edit-employee.html">Edit Employee</a>
-                            </li>
-                        </ul>
-                    </li>
 
-
-                    <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
-                        <a href="holiday">
-                            <i data-feather="calendar"></i>
-                            <span>Holiday</span>
-                        </a>
-                    </li>
-
-
-                    <li class="header">-- HR Information</li>
-                    <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
-                        <a href="holiday">
-                            <i data-feather="user"></i>
-                            <span>HR Team</span>
-                        </a>
-                    </li>
 
 
 
@@ -294,3 +291,132 @@
             </div>
             <!-- #Menu -->
         </aside>
+        <!-- #END# Right Sidebar -->
+    </div>
+    <section class="content">
+        <div class="container-fluid">
+            <div class="block-header">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <ul class="breadcrumb breadcrumb-style ">
+                            <li class="breadcrumb-item">
+                                <h4 class="page-title">All Request</h4>
+                            </li>
+                            <li class="breadcrumb-item bcrumb-1">
+                                <a href="../../index.html">
+                                    <i class="fas fa-home"></i> Home</a>
+                            </li>
+                            <li class="breadcrumb-item active">All Requests</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2>
+                                <strong>All</strong> Requests
+                            </h2>
+                            <ul class="header-dropdown m-r--5">
+                                <li class="dropdown">
+                                    <a href="#" onClick="return false;" class="dropdown-toggle"
+                                        data-bs-toggle="dropdown" role="button" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <i class="material-icons">more_vert</i>
+                                    </a>
+                                    <ul class="dropdown-menu float-end">
+                                        <li>
+                                            <a href="#" onClick="return false;">Action</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">Another action</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">Something else here</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="body">
+                            <div class="table-responsive">
+                                <table class="table table-hover js-basic-example contact_list">
+                                    <thead>
+                                        <tr>
+                                            <th class="center">Request ID</th>
+                                            <th class="center"> Requestee</th>
+                                            <th class="center"> Requested Document </th>
+                                            <th class="center"> Date Requested </th>
+                                            <th class="center"> Authorized Officer </th>
+                                            <th class="center"> Authorized Official </th>
+                                            <th class="center"> Date Released </th>
+                                            <th class="center"> Status </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="odd gradeX">
+                                            <td class="center">1
+                                            </td>
+                                            <td class="center">Oliva, Ricky Michael</td>
+                                            <td class="center">SALN</td>
+                                            <td class="center">07-07-1997</td>
+                                            <td class="center">N/A</td>
+                                            <td class="center">N/A</td>
+                                            <td class="center">07-07-1997</td>
+                                            <td class="center">Released</td>
+                                        </tr>
+                                        
+
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                        <th class="center">Request ID</th>
+                                            <th class="center"> Requestee</th>
+                                            <th class="center"> Requested Document </th>
+                                            <th class="center"> Date Requested </th>
+                                            <th class="center"> Authorized Officer </th>
+                                            <th class="center"> Authorized Official </th>
+                                            <th class="center"> Date Released </th>
+                                            <th class="center"> Status </th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+    <script src="assets/js/table.min.js"></script>
+    <!-- Custom Js -->
+    <script src="assets/js/admin.js"></script>
+    <script src="assets/js/bundles/echart/echarts.js"></script>
+    <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/js/pages/index.js"></script>
+    <script src="assets/js/pages/todo/todo.js"></script>
+    <script src="assets/js/pages/tables/jquery-datatable.js"></script>
+</body>
+
+
+<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 19:34:28 GMT -->
+</html>
