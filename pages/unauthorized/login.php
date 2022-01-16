@@ -51,6 +51,7 @@
 						</div>
 					</div>
 					<div class="container-login100-form-btn">
+						<button class="btn btn-success">
 							Login
 						</button>
 					</div>
