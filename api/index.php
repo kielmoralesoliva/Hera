@@ -10,8 +10,7 @@
     include './classes/entry.php';
     include './classes/file-leave.php';
     include './classes/request-form.php';
-
-    // include './classes/employee.php';
+    include './classes/my-files.php';
 
     $router->post('/signin', function () {
         $entry = new Entry();
@@ -27,16 +26,25 @@
        $rf = new RequestForm();
        $rf->request($_POST);
     });
+
     $router->post('/request-file-pending', function () {
         $rf = new RequestFormPending();
         $rf->request_pending($_POST);
      });
- 
 
-
-        $router->post('/approve-request-file', function () {
+    $router->post('/approve-request-file', function () {
        $rf = new RequestForm();
        $rf->approveRequest($_POST);
+    });
+
+    $router->post('/upload-my-files', function () {
+       $rf = new MyFiles();
+       $rf->upload($_POST, $_FILES);
+    });
+
+    $router->post('/delete-my-files', function () {
+       $rf = new MyFiles();
+       $rf->delete($_POST);
     });
 
     $router->post('/logout', function () {
