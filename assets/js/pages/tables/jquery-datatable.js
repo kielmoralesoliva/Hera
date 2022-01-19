@@ -2,6 +2,9 @@
 $(function () {
   $(".js-basic-example").DataTable({
     responsive: true,
+    dom: "Bfrtip",
+    buttons: ["csv"],
+    order: [[0, "desc"]],
   });
 
   $(".save-stage").DataTable({
@@ -42,17 +45,17 @@ $(function () {
 
   // #start# Group table
   var table = $("#tableGroup").DataTable({
-    columnDefs: [{ visible: false, targets: 2 }],
+    columnDefs: [{visible: false, targets: 2}],
     order: [[2, "asc"]],
     scrollX: true,
     displayLength: 25,
     drawCallback: function (settings) {
       var api = this.api();
-      var rows = api.rows({ page: "current" }).nodes();
+      var rows = api.rows({page: "current"}).nodes();
       var last = null;
 
       api
-        .column(2, { page: "current" })
+        .column(2, {page: "current"})
         .data()
         .each(function (group, i) {
           if (last !== group) {
@@ -299,10 +302,10 @@ function childRowTable() {
         data: null,
         defaultContent: "",
       },
-      { data: "name" },
-      { data: "position" },
-      { data: "office" },
-      { data: "salary" },
+      {data: "name"},
+      {data: "position"},
+      {data: "office"},
+      {data: "salary"},
     ],
     order: [[1, "asc"]],
   });

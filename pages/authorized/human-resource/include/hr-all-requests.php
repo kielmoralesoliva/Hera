@@ -315,37 +315,11 @@
             <div class="row">
                 <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="card">
-                        <div class="header">
-                            <h2>
-                                <strong>All</strong> Requests
-                            </h2>
-                            <ul class="header-dropdown m-r--5">
-                                <li class="dropdown">
-                                    <a href="#" onClick="return false;" class="dropdown-toggle"
-                                        data-bs-toggle="dropdown" role="button" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        <i class="material-icons">more_vert</i>
-                                    </a>
-                                    <ul class="dropdown-menu float-end">
-                                        <li>
-                                            <a href="#" onClick="return false;">Action</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" onClick="return false;">Another action</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" onClick="return false;">Something else here</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
                         <div class="body">
                             <div class="table-responsive">
                                 <table class="table table-hover js-basic-example contact_list">
                                     <thead>
                                         <tr>
-                                            <th class="center">Request ID</th>
                                             <th class="center"> Requestee</th>
                                             <th class="center"> Department</th>
                                             <th class="center"> Campus</th>
@@ -360,7 +334,6 @@
                                     <tbody>
                                     <?php for ($i=0, $fc = count((userRequests())); $i < $fc; $i++) {?>
                                         <tr class="odd gradeX">
-                                        <td class="center"><?php echo userRequests()[$i]["Request_ID"];?></td>
                                         <td class="center"><?php echo userRequests()[$i]["Employee"];?></td>
                                         <td class="center"><?php echo userRequests()[$i]["College"];?></td>
                                         <td class="center"><?php echo userRequests()[$i]["Campus"];?></td>
@@ -398,7 +371,6 @@
                                     </tbody>
                                     <tfoot>
                                         <tr>
-                                        <th class="center">Request ID</th>
                                             <th class="center"> Requestee</th>
                                             <th class="center"> Department</th>
                                             <th class="center"> Campus</th>
@@ -439,17 +411,15 @@
     <script src="assets/js/table.min.js"></script>
     <!-- Custom Js -->
     <script src="assets/js/admin.js"></script>
-    <script src="assets/js/bundles/echart/echarts.js"></script>
-    <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
-    <script src="assets/js/pages/index.js"></script>
-    <script src="assets/js/pages/todo/todo.js"></script>
     <script src="assets/js/pages/tables/jquery-datatable.js"></script>
-    <script src="assets/js/main/logout.js"></script>>
-    
+    <script src="assets/js/bundles/export-tables/dataTables.buttons.min.js"></script>
+    <script src="assets/js/bundles/export-tables/buttons.flash.min.js"></script>
+    <script src="assets/js/bundles/export-tables/jszip.min.js"></script>
+    <script src="assets/js/bundles/export-tables/vfs_fonts.js"></script>
+    <script src="assets/js/bundles/export-tables/buttons.html5.min.js"></script>
+    <script src="assets/js/main/logout.js"></script>
 
 
 </body>
 
-
-<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 19:34:28 GMT -->
 </html>
