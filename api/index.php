@@ -10,8 +10,6 @@
     include './classes/entry.php';
     include './classes/file-leave.php';
     include './classes/request-form.php';
-    include './classes/request-form-pending.php';
-
 
     // include './classes/employee.php';
 
@@ -35,6 +33,11 @@
      });
  
 
+
+        $router->post('/approve-request-file', function () {
+       $rf = new RequestForm();
+       $rf->approveRequest($_POST);
+    });
 
     $router->post('/logout', function () {
         session_unset();

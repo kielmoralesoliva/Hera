@@ -36,8 +36,27 @@ class RequestForm
               'errorDetail' =>  $sql . "<br>" . $conn->error
           ));
         }
-        
+    }
 
+     public function approveRequest($post)
+    {
+        global $conn;
+       
+        $sql = "UPDATE request_traffic SET `Status`='Approved' WHERE `Request_ID`='".$post['requestId']."'";
+
+        if ($conn->query($sql) === TRUE) {
+          echo json_encode(array(
+            'success'=>true,
+            'message'=> 'Successfully updated',
+            'error' => $sql
+          ));
+        } else {
+          echo json_encode(array(
+            'success'=>false,
+            'message'=> 'Unable to process the request',
+            'errorDetail' =>  $sql . "<br>" . $conn->error
+          ));
+        }
 
     }
 }

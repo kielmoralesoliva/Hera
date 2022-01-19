@@ -80,7 +80,10 @@ $router->get('/request-form', function () {
           
             include './pages/authorized/employee/employee-request.php';
         });
-
+        $router->get('/my-files', function () {
+          
+            include './pages/authorized/employee//include/my-files.php';
+        });
 
     }
     
@@ -94,6 +97,7 @@ $router->get('/request-form', function () {
           
                 include './pages/authorized/human-resource/include/hr-employees.php';
             });
+      
             $router->get('/hr-leave-management', function () {
           
                 include './pages/authorized/human-resource/include/leave-management.php';

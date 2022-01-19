@@ -199,8 +199,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#"   id ="logout">
-
+                                        <a href="#" id="logout">
                                             <i class="material-icons">power_settings_new</i>Logout
                                         </a>
                                     </li>
@@ -233,7 +232,7 @@
                         </div>
                         <div class="profile-usertitle">
                             <div class="sidebar-userpic-name"> <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?> </div>
-                            <div class="profile-usertitle-job ">HR Staff </div>
+                            <div class="profile-usertitle-job ">Employee </div>
                         </div>
                     </li>
 
@@ -242,55 +241,72 @@
                     
         
 
-                    <li class="active">
-                        <a href="hr-all-requests">
+                    <li class="">
+                        <a href="employee-landing">
                             <i data-feather="calendar"></i>
-                            <span>All Requests</span>
+                            <span>Announcement</span>
                         </a>
                     </li>
                     
                     <li>
                         <a href="employee-dashboard">
                             <i data-feather="calendar"></i>
-                            <span>Announcements</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="hr-campus-data">
-                            <i data-feather="mail"></i>
                             <span>Campus Data</span>
                         </a>
                     </li>
-
-                    <li class="">
-                         <a href="hr-leave-management">
+                    <li>
+                        <a href="employee-leave-balance">
                             <i data-feather="clipboard"></i>
                             <span>Leave Management</span>
                         </a>
                     </li>
-                    <li class="header">-- Employee Data</li>
+
+
+
+
+                    <li class="active">
+                        <a href="downloadable">
+                            <i data-feather="check-circle"></i>
+                            <span>Request Forms</span>
+                        </a>
+
+
+                    <li class="header">-- Personal</li>
+                    
+                    <li class="">
+                         <a href="employee-announcement">
+                            <i data-feather="mail"></i>
+                            <span>My Files</span>
+                        </a>
+                    </li>
+
            
-                        
-                    <li class="">
-                        <a href="hr-employees">
-                            <i data-feather="check-circle"></i>
-                            <span>Regular Employee</span>
-                        </a>
-                    </li>                  
-                            
-                    <li class="">
-                        <a href="hr-employees">
-                            <i data-feather="check-circle"></i>
-                            <span>College Lecturers</span>
-                        </a>
-                    </li>      
+                                        
+                                
+
 
                     <li class="">
-                        <a href="hr-employees">
-                            <i data-feather="check-circle"></i>
-                            <span>Job Orders</span>
+                    <a href="employee-profile">
+                            <i data-feather="users"></i>
+                            <span>My Profile</span>
                         </a>
-                    </li>      
+                    </li>
+                    <li class="header">-- Others</li>
+                    <li class="">
+                        <a href="directory">  
+                    <i class="fas fa-phone-volume"></i>
+                            <span>Officials Directory</span>
+                        </a>
+                    </li>
+
+                    <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
+                        <a href="holiday">
+                            <i data-feather="calendar"></i>
+                            <span>Holiday</span>
+                        </a>
+                    </li>
+
+
 
 
 
@@ -302,6 +318,8 @@
         </aside>
         <!-- #END# Right Sidebar -->
     </div>
+
+
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
@@ -309,108 +327,146 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">All Request</h4>
+                                <h4 class="page-title">HERA</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="index.html">
+                                <a href="../../index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
-                            <li class="breadcrumb-item active">All Requests</li>
+                            <li class="breadcrumb-item active">Request a Form</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12">
-                    <div class="card">
-                        <div class="body">
-                            <div class="table-responsive">
-                                <table class="table table-hover js-basic-example contact_list">
-                                    <thead>
-                                        <tr>
-                                            <th class="center"> Requestee</th>
-                                            <th class="center"> Department</th>
-                                            <th class="center"> Campus</th>
-                                            <th class="center"> Email </th>
-                                            <th class="center"> Document </th>
-                                            <th class="center"> Date Requested </th>
-                                            <th class="center"> Date Released </th>
-                                            <th class="center"> Status </th>
-                                            <th class="center"> Action </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                    <?php for ($i=0, $fc = count((userRequests())); $i < $fc; $i++) {?>
-                                        <tr class="odd gradeX">
-                                        <td class="center"><?php echo userRequests()[$i]["Employee"];?></td>
-                                        <td class="center"><?php echo userRequests()[$i]["College"];?></td>
-                                        <td class="center"><?php echo userRequests()[$i]["Campus"];?></td>
-                                        <td class="center"><?php echo userRequests()[$i]["Email"];?></td>
-                                        <td class="center"><?php echo userRequests()[$i]["Request_Type"];?></td>
-                                        <td class="center"><?php echo userRequests()[$i]["Data_Requested"];?></td>
-                                        <td class="center"><?php echo userRequests()[$i]["Date_Released"];?></td>
-                                        <td class="center"><?php 
-                                        $status =  userRequests()[$i]["Status"];
-                                    
-                                        if ($status =="Released") { echo '<button type="button" class="btn btn-info btn-border-radius waves-effect"
-                                            disabled="disabled">Released</button>'; }
-                                        else  if ($status =="Declined") { echo '<button type="button" class="btn btn-warning btn-border-radius waves-effect"
-                                            disabled="disabled">Declined</button>'; }
-                                        else  if ($status =="Approved") { echo '<button type="button" class="btn btn-success btn-border-radius waves-effect"
-                                            disabled="disabled">Approved</button>'; }
-                                        else  if ($status =="Pending") { echo '<button type="button" class="btn btn-warning btn-border-radius waves-effect"
-                                            disabled="disabled">Pending</button>'; }?>
-                                       
-                                      </td> 
-                                     
-                                        <td class="center">
-                                                <a target="_blank" href="print-request?id=<?php echo userRequests()[$i]["Request_ID"]?>" class="btn btn-tbl-edit">
-                                                    <i class="material-icons">create</i>
-                                                </a>
-                                                <a href="#"
-                                                    class="btn btn-tbl-delete btn-approved-request"
-                                                    data-request-id="<?php echo userRequests()[$i]["Request_ID"];?>">
-                                                    <i class="material-icons">playlist_add_check</i>
-                                                </a>
-                                            </td>
-                                        </tr>
-                                        <?php } ?>
+           
 
-                                    </tbody>
-                                    <tfoot>
-                                        <tr>
-                                            <th class="center"> Requestee</th>
-                                            <th class="center"> Department</th>
-                                            <th class="center"> Campus</th>
-                                            <th class="center"> Email </th>
-                                            <th class="center"> Document </th>
-                                            <th class="center"> Date Requested </th>
-                                            <th class="center"> Date Released </th>
-                                            <th class="center"> Status </th>
-                                            <th class="center"> Action </th>
-                                        </tr>
-                                    </tfoot>
-                                </table>
-                            </div>
+
+            <div class="block-header">
+                <h2>
+                   HERA Downloadable Forms
+                </h2>
+            </div>
+            <div class="row clearfix">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="header bg-red">
+                            <h2>
+                               Form List
+                                <small>Employee Repository</small>
+                            </h2>
+                            
+                        </div>
+
+                      
+<div class="container">
+  <div class="row">  
+    <div class="col-sm">
+    <div class="body">
+                        <div class="button-demo">
+                     
+                    
+                    
+                    </div>
+
+                        </div>
+    </div>
+  
+  </div>
+</div>
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                    <div class="card">
+                        <div class="header bg-light-green">
+                            <h2>
+                                Upload File
+                                <small>Upload your files here</small>
+                            </h2>
+                        </div>
+
+                        <div class="row">  
+    <div class="col-sm">
+    <div class="body">
+                        <div class="button-demo">
+                        
+
+                        <div class="row clearfix">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="header">
+                            <h2>
+                                <strong>File</strong> Upload</h2>
+                            <ul class="header-dropdown m-r--5">
+                                <li class="dropdown">
+                                    <a href="#" onClick="return false;" class="dropdown-toggle"
+                                        data-bs-toggle="dropdown" role="button" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <i class="material-icons">more_vert</i>
+                                    </a>
+                                    <ul class="dropdown-menu float-end">
+                                        <li>
+                                            <a href="#" onClick="return false;">Action</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">Another action</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">Something else here</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="body">
+                            <form action="/" id="frmFileUpload" class="dropzone" method="post"
+                                enctype="multipart/form-data">
+                                <div class="dz-message">
+                                    <div class="drag-icon-cph">
+                                        <i class="material-icons">touch_app</i>
+                                    </div>
+                                    <h3>Drop files here or click to upload.</h3>
+                                    <em>(This is just a demo dropzone. Selected files are
+                                        <strong>not</strong> actually uploaded.)
+                                    </em>
+                                </div>
+                                <div class="fallback">
+                                    <input name="file" type="file" multiple />
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+                        </div>
+    </div>
+  
+
+    
+  </div>
+                    </div>
+                </div>
+            
     </section>
+       
+
 
     <script src="assets/js/app.min.js"></script>
-    <script src="assets/js/chart.min.js"></script>
-    <script src="assets/js/table.min.js"></script>
+    <!-- Custom Js -->
     <script src="assets/js/admin.js"></script>
-    <script src="assets/js/pages/tables/jquery-datatable.js"></script>
-    <script src="assets/js/bundles/export-tables/dataTables.buttons.min.js"></script>
-    <script src="assets/js/bundles/export-tables/buttons.flash.min.js"></script>
-    <script src="assets/js/bundles/export-tables/jszip.min.js"></script>
-    <script src="assets/js/bundles/export-tables/vfs_fonts.js"></script>
-    <script src="assets/js/bundles/export-tables/buttons.html5.min.js"></script>
+    <script src="assets/js/bundles/echart/echarts.js"></script>
+    <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/js/pages/index.js"></script>
+    <script src="assets/js/pages/todo/todo.js"></script>
+    <script src="assets/js/main/request-file.js"></script>
+    <script src="assets/js/main/request-file-pending.js"></script>
     <script src="assets/js/main/logout.js"></script>
-    <script src="assets/js/main/hr-all-request.js"></script>
+    <script src="assets/js/pages/forms/basic-form-elements.js"></script>
 </body>
+
 
 </html>
