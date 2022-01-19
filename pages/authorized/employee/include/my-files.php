@@ -264,7 +264,7 @@
 
 
 
-                    <li class="active">
+                    <li class="">
                         <a href="downloadable">
                             <i data-feather="check-circle"></i>
                             <span>Request Forms</span>
@@ -273,7 +273,7 @@
 
                     <li class="header">-- Personal</li>
                     
-                    <li class="">
+                    <li class="active">
                          <a href="employee-announcement">
                             <i data-feather="mail"></i>
                             <span>My Files</span>

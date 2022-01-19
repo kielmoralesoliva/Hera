@@ -45,10 +45,6 @@ function hrTotalEmployees() {
 
         while($row = $result->fetch_assoc()) {
             array_push($list,$row);
-
-          
-
-
         }
     } 
     return $list;

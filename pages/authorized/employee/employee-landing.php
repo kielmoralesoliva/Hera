@@ -274,7 +274,7 @@
                     <li class="header">-- Personal</li>
                     
                     <li class="">
-                         <a href="employee-announcement">
+                         <a href="my-files">
                             <i data-feather="mail"></i>
                             <span>My Files</span>
                         </a>
