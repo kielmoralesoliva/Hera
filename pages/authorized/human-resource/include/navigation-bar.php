@@ -1,52 +1,18 @@
-
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-    <title>Hera RSU HRMO</title>
-    <!-- Favicon-->
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <!-- Plugins Core Css -->
-    <link href="assets/css/app.min.css" rel="stylesheet">
-    <!-- Custom Css -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-    <!-- You can choose a theme from css/styles instead of get all themes -->
-    <link href="assets/css/styles/all-themes.css" rel="stylesheet" />
-</head>
-
-<body class="light">
-    <!-- Page Loader -->
-    <div class="page-loader-wrapper">
-        <div class="loader">
-            <div class="m-t-30">
-                <img class="loading-img-spin" src="assets/images/loading.png" alt="admin">
-            </div>
-            <p>Please wait...</p>
-        </div>
-    </div>
-    <!-- #END# Page Loader -->
-    <!-- Overlay For Sidebars -->
-    <div class="overlay"></div>
-    <!-- #END# Overlay For Sidebars -->
-    <!-- Top Bar -->
-    <nav class="navbar">
+<nav class="navbar">
         <div class="container-fluid">
             <div class="navbar-header">
                 <a href="#" onClick="return false;" class="navbar-toggle collapsed" data-bs-toggle="collapse"
                     data-target="#navbar-collapse" aria-expanded="false"></a>
                 <a href="#" onClick="return false;" class="bars"></a>
-                <a class="navbar-brand" href="employee-landing">
+                <a class="navbar-brand" href="index.html">
                     <img src="assets/images/logo.png" alt="" />
-                    <span class="logo-name">HERA</span>
+                    <span class="logo-name">HeraHR</span>
                 </a>
             </div>
             <div class="collapse navbar-collapse" id="navbar-collapse">
-                <ul class="float-start">
+                <ul class="pull-left">
                     <li>
-                        <a href="#" onClick="return false;" class="sidemenu-collapse">
-                            <i data-feather="menu"></i>
+                        <a href="#" onClick="return data-feather="menu"></i>
                         </a>
                     </li>
                 </ul>
@@ -199,7 +165,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" id="logout">
+                                        <a href="#" onClick="return false;">
                                             <i class="material-icons">power_settings_new</i>Logout
                                         </a>
                                     </li>
@@ -208,7 +174,7 @@
                         </ul>
                     </li>
                     <!-- #END# Tasks -->
-                    <li class="float-end">
+                    <li class="pull-right">
                         <a href="#" onClick="return false;" class="js-right-sidebar" data-close="true">
                             <i class="fas fa-cog"></i>
                         </a>
@@ -217,10 +183,11 @@
             </div>
         </div>
     </nav>
-    <!-- #Top Bar -->
-    <div>
-        <!-- Left Sidebar -->
-        <aside id="leftsidebar" class="sidebar">
+
+
+    
+
+    <aside id="leftsidebar" class="sidebar">
             <!-- Menu -->
             <div class="menu">
                 <ul class="list">
@@ -231,73 +198,79 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name"> <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?> </div>
+                            <div class="sidebar-userpic-name"> Maricar Falogme </div>
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
-
                     <li class="header">-- HR Services</li>
-                    
-                    
-        
 
-                    <li class="">
-                        <a href="employee-landing">
+
+                    <?php 
+                            
+                    
+                    ?>
+                    
+                    <li class="<?php echo $activation == "dashboard"? "active": ""; ?>">
+                        <a href="dashboard">
                             <i data-feather="calendar"></i>
+                            <span>Dashboard</span>
+                        </a>
+                    </li>
+
+
+                    <li class="<?php echo $activation == "announcement"? "active": ""; ?>">
+                        <a href="#" onClick="return false;" class="menu-toggle">
+                            <i data-feather="trello"></i>
                             <span>Announcement</span>
                         </a>
+                        <ul class="ml-menu">
+                            <li class="">
+                                <a href="">All Announcement</a>
+                            </li>
+                            <li class="">
+                                <a href="announcement">Add Announcement</a>
+                            </li>               
+                        </ul>
                     </li>
-                    
-                    <li>
-                        <a href="employee-dashboard">
-                            <i data-feather="calendar"></i>
-                            <span>Campus Data</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="employee-leave-balance">
+                    <li class="<?php echo $activation == "leave-request"? "active": ""; ?>">
+                        <a href="#" onClick="return false;" class="menu-toggle">
                             <i data-feather="clipboard"></i>
                             <span>Leave Management</span>
                         </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="leave-request">All Leave Request</a>
+                            </li>
+                            <li>
+                                <a href="">Leave Balance</a>
+                            </li>
+                           <li class="">
+                                <a href="leave-types">Leave Types</a>
+                            </li> 
+                        </ul>
                     </li>
 
 
 
 
-                    <li class="active">
-                        <a href="downloadable">
-                            <i data-feather="check-circle"></i>
-                            <span>Request Forms</span>
-                        </a>
-
-
-                    <li class="header">-- Personal</li>
-                    
-                    <li class="">
-                         <a href="employee-announcement">
-                            <i data-feather="mail"></i>
-                            <span>My Files</span>
-                        </a>
-                    </li>
-
-           
-                                        
-                                
-
-
-                    <li class="">
-                    <a href="employee-profile">
+                    <li class="<?php echo $activation == "employee-list"? "active": ""; ?>">
+                        <a href="#" onClick="return false;" class="menu-toggle">
                             <i data-feather="users"></i>
-                            <span>My Profile</span>
+                            <span>Employees</span>
                         </a>
+                        <ul class="ml-menu">
+                            <li>
+                                <a href="employee-list">All Employee</a>
+                            </li>
+                            <li>
+                                <a href="add-employee">Add Employee</a>
+                            </li>
+                            <li>
+                                <a href="pages/employee/edit-employee.html">Edit Employee</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li class="header">-- Others</li>
-                    <li class="">
-                        <a href="directory">  
-                    <i class="fas fa-phone-volume"></i>
-                            <span>Officials Directory</span>
-                        </a>
-                    </li>
+
 
                     <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
                         <a href="holiday">
@@ -307,8 +280,13 @@
                     </li>
 
 
-
-
+                    <li class="header">-- HR Information</li>
+                    <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
+                        <a href="holiday">
+                            <i data-feather="user"></i>
+                            <span>HR Team</span>
+                        </a>
+                    </li>
 
 
 
@@ -316,201 +294,3 @@
             </div>
             <!-- #Menu -->
         </aside>
-        <!-- #END# Right Sidebar -->
-    </div>
-
-
-    <section class="content">
-        <div class="container-fluid">
-            <div class="block-header">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                        <ul class="breadcrumb breadcrumb-style ">
-                            <li class="breadcrumb-item">
-                                <h4 class="page-title">HERA</h4>
-                            </li>
-                            <li class="breadcrumb-item bcrumb-1">
-                                <a href="../../index.html">
-                                    <i class="fas fa-home"></i> Home</a>
-                            </li>
-                            <li class="breadcrumb-item active">Request a Form</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-           
-
-
-            <div class="block-header">
-                <h2>
-                   HERA Downloadable Forms
-                </h2>
-            </div>
-            <div class="row clearfix">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-red">
-                            <h2>
-                               Civil Service Commission Forms
-                                <small>Government Released form</small>
-                            </h2>
-                            
-                        </div>
-
-                      
-<div class="container">
-  <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                            <p>Statement of Assets and Liabilities</p> <button type="button" documenttype="Statement of Assets and Liabilities" requestfile="SALN Form" downloadlink ="./assets/downloadables/SALN.doc" id="downloadSALN" class="btn btn-outline-danger btn-border-radius">Download SALN Form</button>
-                            <p>Personal Data Sheet</p> <button type="button" documenttype="Personal Data Sheet" downloadlink ="./assets/downloadables/PDS.xlsx" requestfile="PDS Form" id="downloadPDS" class="btn btn-outline-danger btn-border-radius">Download PDS Form  </button>
-                            <p>Work Experience Sheet</p> <button type="button" documenttype="Work Experience Sheet" downloadlink ="./assets/downloadables/WSE.docx" requestfile="WSE Form" id="downloadWSE" class="btn btn-outline-danger btn-border-radius">Download WSE Form  </button>
-                                     </div>
-
-                        </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/csc.png" alt="">
-                                    
-    </div>
-  </div>
-</div>
-
-
-                    </div>
-                </div>
-
-
-
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-light-green">
-                            <h2>
-                                RSU Local Forms
-                                <small>Romblon State University Local Forms</small>
-                            </h2>
-                        </div>
-
-                        <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Leave Form</p> <button type="button" documenttype="Leave Form" downloadlink ="./assets/downloadables/LEAVE.pdf" requestfile="WLeave Form" id="downloadLF" class="btn btn-outline-success btn-border-radius">Download Leave Form  </button>
-                            <p>Clearance Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download Clearance Form  </button>
-                            <p>Certificate of Leave Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download COL Form  </button>
-                            </div>
-                            
-                        </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/rsu.png" alt="">
-                                    
-    </div>
-  </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-green">
-                            <h2>
-                                GSIS Forms
-                                <small>Description text here...</small>
-                            </h2>
-                            <ul class="header-dropdown m-r-0">
-                                <li>
-                                    <a href="#" onClick="return false;">
-                                        <i class="material-icons">info_outline</i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" onClick="return false;">
-                                        <i class="material-icons">help_outline</i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-
-                        <div class="container">
-  <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Retirement and Separation Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download RS Form</button>
-                            <p>Life Insurance Benefit Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download LIB Form  </button>
-                            <p>Declaration of Pendency and Non Pendency Case Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download DPNPC Form  </button>
-                       
-                            </div>
-
-                        </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/gsis.png" alt="">
-                                    
-    </div>
-  </div>
-</div>                    
-                    </div>
-                </div>
-            </div>
-       
-            <div class="block-header">
-                <h2>Record Request</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-light-blue">
-                            <h2>
-                                Official Release Forms
-                                <small>Signatory forms</small>
-                            </h2>
-
-                        </div>
-
-
-                        <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Service Record</p> <button type="button" class="btn btn-outline-info btn-border-radius">Request for Service Record</button>
-                        <p>Certificate of Employment</p> <button type="button" class="btn btn-outline-info btn-border-radius">Request for Certificate</button>
-                            </div>
-
-                        </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/hewa.png" alt="">
-                                    
-    </div>
-  </div>
-</div>                    
-
-
-
-                    </div>
-                </div>
-             
-            </div>
-            <!-- #END# Colored Card - With Loading -->
-    
-            
-        </div>
-    </section>
-       
-
-
-    <script src="assets/js/app.min.js"></script>
-    <!-- Custom Js -->
-    <script src="assets/js/admin.js"></script>
-    <script src="assets/js/bundles/echart/echarts.js"></script>
-    <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
-    <script src="assets/js/pages/index.js"></script>
-    <script src="assets/js/pages/todo/todo.js"></script>
-    <script src="assets/js/main/request-file.js"></script>
-    <script src="assets/js/main/logout.js"></script>
-</body>
-
-
-</html>

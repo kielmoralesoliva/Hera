@@ -231,8 +231,8 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name"> Maricar Falogme </div>
-                            <div class="profile-usertitle-job ">HR Staff </div>
+                            <div class="sidebar-userpic-name"> <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?></div>
+                            <div class="profile-usertitle-job "><?php echo  ACCOUNT_INFO['academicRank'];?></div>
                         </div>
                     </li>
 
@@ -348,27 +348,27 @@
                         <div class="m-b-20">
                             <div class="contact-grid">
                                 <div class="profile-header bg-dark">
-                                    <div class="user-name"><h3>Ricky Michael M. Oliva</h3></div>
-                                    <div class="name-center"><h4>Assistant Professor I</h4></div>
+                                    <div class="user-name"><h3><?php echo  ACCOUNT_INFO['fullname'];?></h3></div>
+                                    <div class="name-center"><h4><?php echo  ACCOUNT_INFO['academicRank'];?></h4></div>
                                 </div>
                                 <img src="assets/images/logo/hewa.png" class="user-img" alt="">
                                 <p>
-                                    2017-201420
-                                    <br />Permanent Status
+                                <?php echo  ACCOUNT_INFO['employee_ID'];?>
+                                    <br /><?php echo  ACCOUNT_INFO['status'];?>
                                 </p>
                                 <div>
                                     <span class="phone">
-                                        <i class="material-icons">phone</i> +639312104093</span><br>
-                                    <p> kielmoralesoliva@gmail.com</p>
+                                        <i class="material-icons">phone</i> <?php echo  ACCOUNT_INFO['phoneNumber'];?></span><br>
+                                    <p> <?php echo  ACCOUNT_INFO['emailAddress'];?></p>
                                     <h5> Head, Data and Information Management Unit </h5>
                                 </div>
                                 <div class="row">
                                     <div class="col-6">
-                                        <h5>Calatrava Campus</h5>
+                                        <h5><?php echo  ACCOUNT_INFO['campus'];?></h5>
                                         <small>Assigned Campus</small>
                                     </div>
                                     <div class="col-6">
-                                        <h5>Planning and Development Office</h5>
+                                        <h5><?php echo  ACCOUNT_INFO['college'];?></h5>
                                         <small>Office/Department</small>
                                     </div>
                                 </div>
@@ -411,22 +411,22 @@
                                                 <div class="col-md-3 col-6 b-r">
                                                     <strong>Surname</strong>
                                                     <br>
-                                                    <p class="text-muted">Oliva</p>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['surname'];?></p>
                                                 </div>
                                                 <div class="col-md-3 col-6 b-r">
                                                     <strong>First Name</strong>
                                                     <br>
-                                                    <p class="text-muted">Ricky Michael</p>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['firstname'];?></p>
                                                 </div>
                                                 <div class="col-md-3 col-6 b-r">
                                                     <strong>Middle Name</strong>
                                                     <br>
-                                                    <p class="text-muted">Morales</p>  
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['middlename'];?></p>  
                                                    </div>
                                                 <div class="col-md-3 col-6">
                                                     <strong>Birth Date</strong>
                                                     <br>
-                                                    <p class="text-muted">07/04/1997</p>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['birthdate'];?></p>
                                                 </div>
                                             </div>
                                         
@@ -444,33 +444,33 @@
                                                 <div class="col">
                                                     <strong>Bachelor's Degree</strong>
                                                     <br>
-                                                    <p class="text-muted">Bachelor of Science in Computer Science</p>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['bachelorsDegree'];?></p>
                                                     <strong>Major</strong>
-                                                    <p class="text-muted">Game Development</p>
+                                                    <p class="text-muted"></p>
                                                     <strong>University</strong>
                                                     <br>
-                                                    <p class="text-muted">University of Caloocan City</p>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['bachelorsUniv'];?></p>
                                                 </div>
 
                                                 <div class="col">
                                                     <strong>Master's Degree</strong>
                                                     <br>
-                                                    <p class="text-muted">Master in Information Technology</p>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['mastersDegree'];?></p>
                                                     <strong>Major</strong>
-                                                    <p class="text-muted">Augmented Reality and Game Development</p>
+                                                    <p class="text-muted"></p>
                                                     <strong>University</strong>
                                                     <br>
-                                                    <p class="text-muted">University of Caloocan City</p>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['mastersUniv'];?></p>
                                                 </div>
                                                 <div class="col">
                                                     <strong>Doctorate Degree</strong>
                                                     <br>
-                                                    <p class="text-muted">Master in Information Technology</p>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['doctorateDegree'];?></p>
                                                     <strong>Major</strong>
-                                                    <p class="text-muted">Augmented Reality and Game Development</p>
+                                                    <p class="text-muted"></p>
                                                     <strong>University</strong>
                                                     <br>
-                                                    <p class="text-muted">University of Caloocan City</p>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['doctorateUniv'];?></p>
                                                    </div>
                                             </div>
                                         </div>
@@ -479,10 +479,36 @@
                                 <div class="col-lg-12 col-md-12 col-sm-12">
                                     <div class="card project_widget">
                                         <div class="header">
-                                            <h2>Experience</h2>
+                                            <h2>Government Identifications </h2>
                                         </div>
                                         <div class="body">
-                                        wqe
+                                        <div class="row">   
+                                                <div class="col">
+                                                    <strong>GSIS ID Number</strong>
+                                                    <br>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['gsisID'];?></p>
+                                                    <strong>PAG-IBIG ID Number</strong>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['pagibigID'];?></p>
+                                                </div>
+
+                                                <div class="col">
+                                                    <strong>PHILHEALTH Number</strong>
+                                                    <br>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['philhealthID'];?></p>
+                                                    <strong>SSS Number</strong>
+                                                    <br>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['sssID'];?></p>
+                                                </div>
+                                                <div class="col">
+                                                    <strong>TIN Number</strong>
+                                                    <br>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['tinID'];?></p>
+                                                    <p class="text-muted"></p>
+                                                    <strong>AGENCY EMPLOYEE Number</strong>
+                                                    <br>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['empID'];?></p>
+                                                   </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>

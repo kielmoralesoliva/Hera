@@ -199,7 +199,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" id="logout">
+                                        <a href="#" onClick="return false;">
                                             <i class="material-icons">power_settings_new</i>Logout
                                         </a>
                                     </li>
@@ -231,7 +231,7 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name"> <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?> </div>
+                            <div class="sidebar-userpic-name"> Maricar Falogme </div>
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
@@ -264,7 +264,7 @@
 
 
 
-                    <li class="active">
+                    <li>
                         <a href="downloadable">
                             <i data-feather="check-circle"></i>
                             <span>Request Forms</span>
@@ -285,7 +285,7 @@
                                 
 
 
-                    <li class="">
+                    <li class="active">
                     <a href="employee-profile">
                             <i data-feather="users"></i>
                             <span>My Profile</span>
@@ -327,190 +327,231 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">HERA</h4>
+                                <h4 class="page-title">All Projects</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
                                 <a href="../../index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
-                            <li class="breadcrumb-item active">Request a Form</li>
+                            <li class="breadcrumb-item bcrumb-2">
+                                <a href="#" onClick="return false;">Projects</a>
+                            </li>
+                            <li class="breadcrumb-item active">All Projects</li>
                         </ul>
                     </div>
                 </div>
             </div>
-           
-
-
-            <div class="block-header">
-                <h2>
-                   HERA Downloadable Forms
-                </h2>
-            </div>
-            <div class="row clearfix">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="card">
-                        <div class="header bg-red">
+                        <div class="header">
                             <h2>
-                               Civil Service Commission Forms
-                                <small>Government Released form</small>
+                                <strong>All</strong> Projects
                             </h2>
-                            
-                        </div>
-
-                      
-<div class="container">
-  <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                            <p>Statement of Assets and Liabilities</p> <button type="button" documenttype="Statement of Assets and Liabilities" requestfile="SALN Form" downloadlink ="./assets/downloadables/SALN.doc" id="downloadSALN" class="btn btn-outline-danger btn-border-radius">Download SALN Form</button>
-                            <p>Personal Data Sheet</p> <button type="button" documenttype="Personal Data Sheet" downloadlink ="./assets/downloadables/PDS.xlsx" requestfile="PDS Form" id="downloadPDS" class="btn btn-outline-danger btn-border-radius">Download PDS Form  </button>
-                            <p>Work Experience Sheet</p> <button type="button" documenttype="Work Experience Sheet" downloadlink ="./assets/downloadables/WSE.docx" requestfile="WSE Form" id="downloadWSE" class="btn btn-outline-danger btn-border-radius">Download WSE Form  </button>
-                                     </div>
-
-                        </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/csc.png" alt="">
-                                    
-    </div>
-  </div>
-</div>
-
-
-                    </div>
-                </div>
-
-
-
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-light-green">
-                            <h2>
-                                RSU Local Forms
-                                <small>Romblon State University Local Forms</small>
-                            </h2>
-                        </div>
-
-                        <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Leave Form</p> <button type="button" documenttype="Leave Form" downloadlink ="./assets/downloadables/LEAVE.pdf" requestfile="WLeave Form" id="downloadLF" class="btn btn-outline-success btn-border-radius">Download Leave Form  </button>
-                            <p>Clearance Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download Clearance Form  </button>
-                            <p>Certificate of Leave Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download COL Form  </button>
-                            </div>
-                            
-                        </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/rsu.png" alt="">
-                                    
-    </div>
-  </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-green">
-                            <h2>
-                                GSIS Forms
-                                <small>Description text here...</small>
-                            </h2>
-                            <ul class="header-dropdown m-r-0">
-                                <li>
-                                    <a href="#" onClick="return false;">
-                                        <i class="material-icons">info_outline</i>
+                            <ul class="header-dropdown m-r--5">
+                                <li class="dropdown">
+                                    <a href="javascript:void(0);" class="dropdown-toggle" data-bs-toggle="dropdown"
+                                        role="button" aria-haspopup="true" aria-expanded="false">
+                                        <i class="material-icons">more_vert</i>
                                     </a>
-                                </li>
-                                <li>
-                                    <a href="#" onClick="return false;">
-                                        <i class="material-icons">help_outline</i>
-                                    </a>
+                                    <ul class="dropdown-menu float-end">
+                                        <li>
+                                            <a href="javascript:void(0);">Action</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">Another action</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);">Something else here</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </div>
-
-
-                        <div class="container">
-  <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Retirement and Separation Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download RS Form</button>
-                            <p>Life Insurance Benefit Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download LIB Form  </button>
-                            <p>Declaration of Pendency and Non Pendency Case Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download DPNPC Form  </button>
-                       
+                        <div class="body">
+                            <div class="table-responsive">
+                                <table class="table table-hover js-basic-example contact_list">
+                                    <thead>
+                                        <tr>
+                                            <th class="center"> Employee Request </th>
+                                            <th class="center"> Date Requested </th>
+                                            <th class="center"> Authorized Officer </th>
+                                            <th class="center"> Authorized Official </th>
+                                            <th class="center"> Date Released </th>
+                                            <th class="center"> Status </th>
+                                            <th class="center"> Progress</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="odd gradeX">
+                                            <td class="center">Redstar Hospital</td>
+                                            <td class="center">Rajesh</td>
+                                            <td class="center">11-10-2018</td>                           
+                                            <td class="center">
+                                                <div class="badge col-green">Released</div>
+                                            </td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-success" role="progressbar"
+                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 25%">
+                                                        <span class="sr-only">25%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                          
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">MarQ Angular 6</td>
+                                            <td class="center">Donald</td>
+                                            <td class="center">02-03-2019</td>                          
+                                            <td class="center">
+                                                <div class="badge col-orange">Pending</div>
+                                            </td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-warning" role="progressbar"
+                                                        aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 40%">
+                                                        <span class="sr-only">40%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                           
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">Smile Admin</td>
+                                            <td class="center">Sarah Smith</td>
+                                            <td class="center">18-12-2018</td>
+                                            
+                                            <td class="center">
+                                                <div class="badge col-green">Active</div>
+                                            </td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-success" role="progressbar"
+                                                        aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 56%">
+                                                        <span class="sr-only">56%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                           
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">Smart University</td>
+                                            <td class="center">John Wick</td>
+                                            <td class="center">22-07-2019</td>
+                                         
+                                            <td class="center">
+                                                <div class="badge col-red">Closed</div>
+                                            </td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-danger" role="progressbar"
+                                                        aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 78%">
+                                                        <span class="sr-only">78%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                          
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">Xyz Website</td>
+                                            <td class="center">Rajesh</td>
+                                            <td class="center">11-10-2018</td>
+                                          
+                                            <td class="center">
+                                                <div class="badge col-green">Active</div>
+                                            </td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-success" role="progressbar"
+                                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 25%">
+                                                        <span class="sr-only">25%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                          
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">SpinzHR Admin</td>
+                                            <td class="center">Sarah Smith</td>
+                                            <td class="center">18-12-2018</td>
+                                          
+                                            <td class="center">
+                                                <div class="badge col-green">Active</div>
+                                            </td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-success" role="progressbar"
+                                                        aria-valuenow="56" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 56%">
+                                                        <span class="sr-only">56%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                          
+                                        </tr>
+                                        <tr class="odd gradeX">
+                                            <td class="center">Sunray Hospital</td>
+                                            <td class="center">John Wick</td>
+                                            <td class="center">22-07-2019</td>
+                                           
+                                            <td class="center">
+                                                <div class="badge col-red">Closed</div>
+                                            </td>
+                                            <td class="center">
+                                                <div class="progress-xs not-rounded progress">
+                                                    <div class="progress-bar progress-bar-danger" role="progressbar"
+                                                        aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"
+                                                        style="width: 78%">
+                                                        <span class="sr-only">78%</span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                           
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th class="center"> Employee Request </th>
+                                            <th class="center"> Client name </th>
+                                            <th class="center"> DeadLine </th>
+                                            <th class="center"> Status </th>
+                                            <th class="center"> Progress</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
                             </div>
-
                         </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/gsis.png" alt="">
-                                    
-    </div>
-  </div>
-</div>                    
                     </div>
                 </div>
             </div>
-       
-            <div class="block-header">
-                <h2>Record Request</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-light-blue">
-                            <h2>
-                                Official Release Forms
-                                <small>Signatory forms</small>
-                            </h2>
-
-                        </div>
-
-
-                        <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Service Record</p> <button type="button" class="btn btn-outline-info btn-border-radius">Request for Service Record</button>
-                        <p>Certificate of Employment</p> <button type="button" class="btn btn-outline-info btn-border-radius">Request for Certificate</button>
-                            </div>
-
-                        </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/hewa.png" alt="">
-                                    
-    </div>
-  </div>
-</div>                    
-
-
-
-                    </div>
-                </div>
-             
-            </div>
-            <!-- #END# Colored Card - With Loading -->
-    
-            
         </div>
     </section>
-       
+
+
+
+
+
+
+
+
+
 
 
     <script src="assets/js/app.min.js"></script>
-    <!-- Custom Js -->
+    <script src="assets/js/pages/forms/form-data.js"></script>
+    <script src="assets/js/form.min.js"></script>
+
+
     <script src="assets/js/admin.js"></script>
     <script src="assets/js/bundles/echart/echarts.js"></script>
     <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
-    <script src="assets/js/main/request-file.js"></script>
-    <script src="assets/js/main/logout.js"></script>
 </body>
-
-
 </html>

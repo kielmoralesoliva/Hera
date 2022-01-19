@@ -37,7 +37,7 @@
                 <a href="#" onClick="return false;" class="navbar-toggle collapsed" data-bs-toggle="collapse"
                     data-target="#navbar-collapse" aria-expanded="false"></a>
                 <a href="#" onClick="return false;" class="bars"></a>
-                <a class="navbar-brand" href="index.html">
+                <a class="navbar-brand" href="employee-landing">
                     <img src="assets/images/logo.png" alt="" />
                     <span class="logo-name">HERA</span>
                 </a>
@@ -199,7 +199,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" onClick="return false;">
+                                        <a href="#" id="logout">
                                             <i class="material-icons">power_settings_new</i>Logout
                                         </a>
                                     </li>
@@ -241,75 +241,53 @@
                     
         
 
-                    <li class="active">
-                        <a href="employee-announcement">
+                    <li class="">
+                        <a href="employee-landing">
                             <i data-feather="calendar"></i>
                             <span>Announcement</span>
                         </a>
                     </li>
                     
-                    <li>
+                    <li class="active">
                         <a href="employee-dashboard">
                             <i data-feather="calendar"></i>
                             <span>Campus Data</span>
                         </a>
                     </li>
                     <li>
-                        <a href="#" onClick="return false;" class="menu-toggle">
+                        <a href="employee-leave-balance">
                             <i data-feather="clipboard"></i>
                             <span>Leave Management</span>
                         </a>
-                        <ul class="ml-menu">
-                            <li class="">
-                                <a href="employee-leave-balance"> Leave Balance</a>
-                            </li>
-                            <li class="active">
-                                <a href="leave-types">Leave Types</a>
-                            </li>
-                            <li>
-                                <a href="">Request for Leave</a>
-                            </li>
-                        </ul>
                     </li>
 
 
 
 
-                  <li class="<?php echo $activation == "employee-list"? "active": ""; ?>">
-                        <a href="#" onClick="return false;" class="menu-toggle">
+                    <li>
+                        <a href="downloadable">
                             <i data-feather="check-circle"></i>
-                            <span>Request a Form</span>
+                            <span>Request Forms</span>
                         </a>
-                        <ul class="ml-menu">
-                        <li>
-                                <a href="pages/employee/edit-employee.html">Civil Service Forms</a>
-                            </li>
-                            <li>
-                                <a href="pages/employee/edit-employee.html">RSU Local Forms</a>
-                            </li>
-                            <li>
-                                <a href="pages/employee/edit-employee.html">GSIS Forms</a>
-                            </li>
-               
-                        </ul>
-                    </li>
-
-
-
 
 
                     <li class="header">-- Personal</li>
+                    
                     <li class="">
-                        <a href="saln">  
-                    <i class="
-far fa-folder"></i>
+                         <a href="employee-announcement">
+                            <i data-feather="mail"></i>
                             <span>My Files</span>
                         </a>
                     </li>
 
+           
+                                        
+                                
+
+
                     <li class="">
-                        <a href="saln">  
-                    <i class="fas fa-user-circle"></i>
+                    <a href="employee-profile">
+                            <i data-feather="users"></i>
                             <span>My Profile</span>
                         </a>
                     </li>
@@ -321,7 +299,7 @@ far fa-folder"></i>
                         </a>
                     </li>
 
-                    <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
+                    <li class="">
                         <a href="holiday">
                             <i data-feather="calendar"></i>
                             <span>Holiday</span>
@@ -342,8 +320,6 @@ far fa-folder"></i>
     </div>
 
 
-       
-
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
@@ -351,276 +327,474 @@ far fa-folder"></i>
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">Pricing</h4>
+                                <h4 class="page-title">Dashboard QuickView</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="../../index.html">
+                                <a href="employee-landing">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
-                            <li class="breadcrumb-item bcrumb-2">
-                                <a href="#" onClick="return false;">Extra</a>
-                            </li>
-                            <li class="breadcrumb-item active">Pricing</li>
+                            <li class="breadcrumb-item active">Dashboard</li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-
-
-
-
-        
-        <div class="row clearfix">
-            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                <div class="card">
-                    <div class="header">
-                        <h2>
-                            <strong>Pricing</strong> Page</h2>
-                        <ul class="header-dropdown">
-                            <li class="dropdown">
-                                <a href="#" onClick="return false;" class="dropdown-toggle" data-bs-toggle="dropdown"
-                                    role="button" aria-haspopup="true" aria-hexpanded="false">
-                                    <i class="material-icons">more_vert</i>
-                                </a>
-                                <ul class="dropdown-menu float-end">
-                                    <li>
-                                        <a href="#" onClick="return false;" class=" waves-effect waves-block">Action</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" onClick="return false;" class=" waves-effect waves-block">Another
-                                            action</a>
-                                    </li>
-                                    <li>
-                                        <a href="#" onClick="return false;" class=" waves-effect waves-block">Something
-                                            else
-                                            here</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="body">
-                        <div class="demo">
-                            <div class="row">
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="pricingTable greenColor">
-                                        <div class="pricingTable-header">              
-                                          
-                                        </div>
-                                        <img src="assets/images/Hera/Happy-Hera-with-Dialog.png" alt="Hera Cute" width="384" height="395"> 
-                                        <div class="pricing-content">
-                                            
-                                        </div>
-                                        
-                                    
-                                    </div>
+            <div class="row ">
+            <h5 class="page-title text-center">Employees Count</h5>
+                <div class="col-xl-3 col-sm-6">
+                    <div class="card l-bg-purple">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="far fa-window-restore"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Total Employees</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                        <?php echo totalEmployees(); ?>
+                                    </h2>
                                 </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="pricingTable">
-                                        <div class="pricingTable-header">
-                                            <i class="material-icons">local_mall</i>
-                                            <div class="price-value"> Take a rest
-                                            
-                                            </div>
-                                        </div>
-                                        <h3 class="heading">File Leave</h3>
-                                        <div class="pricing-content">
-                                            <ul>
-                                                <li>
-                                                      <b>Special</b> Privilege Leave</li>
-                                                <li>
-                                                      <b>Vacation</b>Leave</li>
-                                                <li>
-                                                      <b>Special</b> Privilege Leave</li>
-                                                <li>
-                                                    <b>15</b> subdomains</li>
-                                                <li>
-                                                    <b>20</b> Domains</li>
-                                            </ul>
-                                        </div>
-                                        <div class="pricingTable-signup">
-                                            <a href="#">sign up</a>
-                                        </div>
-                                    </div>
+                                <div class="col-4 text-end">
+                                    <span class="fw-bold">100% <i class="fa fa-arrow-up"></i></span>
                                 </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="pricingTable blueColor">
-                                        <div class="pricingTable-header">
-                                            <i class="material-icons">spa</i>
-                                            <div class="price-value">Forms
-                                         
-                                            </div>
-                                        </div>
-                                        <h3 class="heading">REQUEST FORMS</h3>
-                                        <div class="pricing-content">
-                                            <ul>
-                                                <li>
-                                                    <b>70GB</b> Disk Space</li>
-                                                <li>
-                                                    <b>70</b> Email Accounts</li>
-                                                <li>
-                                                    <b>70GB</b> Monthly Bandwidth</li>
-                                                <li>
-                                                    <b>20</b> subdomains</li>
-                                                <li>
-                                                    <b>25</b> Domains</li>
-                                            </ul>
-                                        </div>
-                                        <div class="pricingTable-signup">
-                                            <a href="#">sign up</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-md-3 col-sm-6">
-                                    <div class="pricingTable redColor">
-                                        <div class="pricingTable-header">
-                                            <i class="material-icons">filter_vintage</i>
-                                            <div class="price-value"> Statistics
-                                            </div>
-                                        </div>
-                                        <h3 class="heading">ACCESS STATS</h3>
-                                        <div class="pricing-content">
-                                            <ul>
-                                                <li>
-                                                    <b>80GB</b> Disk Space</li>
-                                                <li>
-                                                    <b>80</b> Email Accounts</li>
-                                                <li>
-                                                    <b>80GB</b> Monthly Bandwidth</li>
-                                                <li>
-                                                    <b>20</b> subdomains</li>
-                                                <li>
-                                                    <b>35</b> Domains</li>
-                                            </ul>
-                                        </div>
-                                        <div class="pricingTable-signup">
-                                            <a href="#">sign up</a>
-                                        </div>
-                                    </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-cyan" role="progressbar" data-width="100%"
+                                    aria-valuenow="5" aria-valuemin="0" aria-valuemax="100" style="width: 100%;">
                                 </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
-                <div class="row clearfix">
-                <!-- Basic Examples -->
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-3">
-                    <div class="card">
-                        <div class="header">
-                            <h2>
-                                <strong>RSU HRMO Announcements</strong>
-                                <small>Make sure to read</small>
-                            </h2>
-                            <ul class="header-dropdown m-r--5">
-                                <li class="dropdown">
-                                    <a href="#" onClick="return false;" class="dropdown-toggle"
-                                        data-bs-toggle="dropdown" role="button" aria-haspopup="true"
-                                        aria-expanded="false">
-                                        <i class="material-icons">more_vert</i>
-                                    </a>
-                                    <ul class="dropdown-menu float-end">
-                                        <li>
-                                            <a href="#" onClick="return false;">Action</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" onClick="return false;">Another action</a>
-                                        </li>
-                                        <li>
-                                            <a href="#" onClick="return false;">Something else here</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="body">
-                            <div class="row clearfix">
-                                <div class="col-xs-12 ol-sm-12 col-md-12 col-lg-12">
-                                    <div class="panel-group" id="accordion_1" role="tablist"
-                                        aria-multiselectable="true">
-                                        <div class="panel panel-primary">
-                                            <div class="panel-heading" role="tab" id="headingThree_11">
-                                                <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-bs-toggle="collapse"
-                                                        data-parent="#accordion_1" href="#collapseThree_2"
-                                                        aria-expanded="false" aria-controls="collapseThree_1">
-                                                     <h3> Submissions </h3>
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div id="collapseThree_2" class="panel-collapse collapse" role="tabpanel"
-                                                aria-labelledby="headingThree_1">
-                                                <div class="panel-body">
-                                                    Completed my graduation in Arts from the well known and renowned
-                                                    institution of India – SARDAR PATEL ARTS COLLEGE, BARODA
-                                                    in 2000-01, which was affiliated to M.S. University. I ranker in
-                                                    University
-                                                    exams from the same university from 1996-01.
-                                                </div>
-                                                <div class="p-l-20 p-b-20">
-                                                    <button type="button"
-                                                        class="btn btn-success btn-circle waves-effect waves-circle waves-float">
-                                                        <i class="material-icons">thumb_up</i>
-                                                    </button>
-                                                    <button type="button"
-                                                        class="btn btn-danger btn-circle waves-effect waves-circle waves-float">
-                                                        <i class="material-icons">thumb_down</i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="panel panel-primary">
-                                            <div class="panel-heading" role="tab" id="headingThree_1">
-                                                <h4 class="panel-title">
-                                                    <a class="collapsed" role="button" data-bs-toggle="collapse"
-                                                        data-parent="#accordion_1" href="#collapseThree_1"
-                                                        aria-expanded="false" aria-controls="collapseThree_1">
-                                                        <h3> Vacancies </h3>
-                                                    </a>
-                                                </h4>
-                                            </div>
-                                            <div id="collapseThree_1" class="panel-collapse collapse" role="tabpanel"
-                                                aria-labelledby="headingThree_1">
-                                                <div class="panel-body">
-                                                    Completed my graduation in Arts from the well known and renowned
-                                                    institution of India – SARDAR PATEL ARTS COLLEGE, BARODA
-                                                    in 2000-01, which was affiliated to M.S. University. I ranker in
-                                                    University
-                                                    exams from the same university from 1996-01.
-                                                </div>
-                                                <div class="p-l-20 p-b-20">
-                                                    <button type="button"
-                                                        class="btn btn-success btn-circle waves-effect waves-circle waves-float">
-                                                        <i class="material-icons">thumb_up</i>
-                                                    </button>
-                                                    <button type="button"
-                                                        class="btn btn-danger btn-circle waves-effect waves-circle waves-float">
-                                                        <i class="material-icons">thumb_down</i>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                       
-                                        </div>
-                                    </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-blue-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Regular Employees</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php echo totalRegularFaculty(); ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php echo percentage1(); ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-green" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo percentage1(); ?>%;">
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-green-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Job Orders</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php echo totalJobOrders(); ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php echo percentage2(); ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-orange" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo percentage2(); ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-orange-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-money-check-alt"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Lecturers</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php echo totalLecturers(); ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php echo percentage3(); ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-cyan" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo percentage3(); ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row ">
+                <div class="col-xl-3 col-sm-6">
+                <div class="card l-bg-cyan">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Regular Teaching</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php echo totalRegularTeaching(); ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php echo percentage4(); ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-green" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo percentage3(); ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-green">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Regular Non-Teaching</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php echo totalRegularNonTeaching(); ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php echo percentage5(); ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-orange" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo percentage5(); ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-orange">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Regular Permanent</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php echo totalPermanent(); ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php echo percentage6(); ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-green" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo percentage6(); ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-purple">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-money-check-alt"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Regular Temporary</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php echo TotalTemporary(); ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php echo percentage7(); ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-cyan" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php echo percentage7(); ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+
+            <div class="row">
+            <h5 class="page-title text-center">Educational Details</h5>
+            <div class="col-xl-3 col-lg-6">
+            <div class="card l-bg-orange-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Master's Graduate</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php  ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php  ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-green" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php ; ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-blue-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Masters On-Going</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php  ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php  ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-green" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php ; ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-green-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Doctorate On-Going</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php  ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php  ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-orange" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php  ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-orange-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-money-check-alt"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Doctorate Graduate</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php  ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php  ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-cyan" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php  ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+    
+            <div class="row ">
+            <h5 class="page-title text-center">Per nb Campus Details</h5>
+                <div class="col-xl-3 col-sm-6">
+                <div class="card l-bg-cyan">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Master's Graduate</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php ; ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-green" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-green">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-users"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Regular Non-Teaching</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php  ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-orange" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php  ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-orange">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Regular Permanent</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php  ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-green" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php  ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-purple">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-money-check-alt"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Regular Temporary</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php  ?>
+                                    </h2>
+                                </div>
+                                <div class="col-4 text-end">
+                                    <span><?php  ?>% <i class="fa fa-arrow-up"></i></span>
+                                </div>
+                            </div>
+                            <div class="progress mt-1 " data-height="8" style="height: 8px;">
+                                <div class="progress-bar l-bg-cyan" role="progressbar" data-width="25%"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100" style="width: <?php  ?>%;">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
 
 
+
     <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
     <!-- Custom Js -->
     <script src="assets/js/admin.js"></script>
     <script src="assets/js/bundles/echart/echarts.js"></script>
     <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
+       <script src="assets/js/main/logout.js"></script>
+
+
+       <script src="assets/js/bundles/amcharts4/core.js"></script>
+    <script src="assets/js/bundles/amcharts4/charts.js"></script>
+    <script src="assets/js/bundles/amcharts4/animated.js"></script>
+    <script src="assets/js/bundles/amcharts4/worldLow.js"></script>
+    <script src="assets/js/bundles/amcharts4/maps.js"></script>
+    <script src="assets/js/pages/charts/amchart.js"></script>
+    <!-- Custom Js -->
 </body>
 
 
+<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 19:34:28 GMT -->
 </html>

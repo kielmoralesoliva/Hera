@@ -199,7 +199,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" id="logout">
+                                        <a href="#" onClick="return false;">
                                             <i class="material-icons">power_settings_new</i>Logout
                                         </a>
                                     </li>
@@ -231,7 +231,7 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name"> <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?> </div>
+                            <div class="sidebar-userpic-name"> Maricar Falogme </div>
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
@@ -241,7 +241,7 @@
                     
         
 
-                    <li class="">
+                    <li class="active">
                         <a href="employee-landing">
                             <i data-feather="calendar"></i>
                             <span>Announcement</span>
@@ -264,7 +264,7 @@
 
 
 
-                    <li class="active">
+                    <li>
                         <a href="downloadable">
                             <i data-feather="check-circle"></i>
                             <span>Request Forms</span>
@@ -320,6 +320,8 @@
     </div>
 
 
+       
+
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
@@ -327,178 +329,183 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">HERA</h4>
+                                <h4 class="page-title">Welcome to HERA</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="../../index.html">
+                                <a href="employee-landing">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
-                            <li class="breadcrumb-item active">Request a Form</li>
                         </ul>
                     </div>
                 </div>
             </div>
-           
+        </div>
 
 
-            <div class="block-header">
-                <h2>
-                   HERA Downloadable Forms
-                </h2>
-            </div>
-            <div class="row clearfix">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-red">
-                            <h2>
-                               Civil Service Commission Forms
-                                <small>Government Released form</small>
-                            </h2>
-                            
-                        </div>
-
-                      
-<div class="container">
-  <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                            <p>Statement of Assets and Liabilities</p> <button type="button" documenttype="Statement of Assets and Liabilities" requestfile="SALN Form" downloadlink ="./assets/downloadables/SALN.doc" id="downloadSALN" class="btn btn-outline-danger btn-border-radius">Download SALN Form</button>
-                            <p>Personal Data Sheet</p> <button type="button" documenttype="Personal Data Sheet" downloadlink ="./assets/downloadables/PDS.xlsx" requestfile="PDS Form" id="downloadPDS" class="btn btn-outline-danger btn-border-radius">Download PDS Form  </button>
-                            <p>Work Experience Sheet</p> <button type="button" documenttype="Work Experience Sheet" downloadlink ="./assets/downloadables/WSE.docx" requestfile="WSE Form" id="downloadWSE" class="btn btn-outline-danger btn-border-radius">Download WSE Form  </button>
-                                     </div>
-
-                        </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/csc.png" alt="">
-                                    
-    </div>
-  </div>
-</div>
 
 
+        
+        <div class="row clearfix">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+
+                    <div class="header">
+                        <h2>   
+                   
                     </div>
-                </div>
-
-
-
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-light-green">
-                            <h2>
-                                RSU Local Forms
-                                <small>Romblon State University Local Forms</small>
-                            </h2>
-                        </div>
-
-                        <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Leave Form</p> <button type="button" documenttype="Leave Form" downloadlink ="./assets/downloadables/LEAVE.pdf" requestfile="WLeave Form" id="downloadLF" class="btn btn-outline-success btn-border-radius">Download Leave Form  </button>
-                            <p>Clearance Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download Clearance Form  </button>
-                            <p>Certificate of Leave Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download COL Form  </button>
+                    <div class="body">
+                        <div class="demo">
+                            <div class="row">
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="pricingTable greenColor">
+                                        <div class="pricingTable-header">              
+                                          
+                                        </div>
+                                        <img src="assets/images/Hera/Happy-Hera-with-Dialog.png" alt="Hera Cute" width="384" height="335"> 
+                                        <div class="pricing-content">
+                                            
+                                        </div>
+                                        
+                                    
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="pricingTable">
+                                        <div class="pricingTable-header">
+                                            <i class="material-icons">local_mall</i>
+                                            <div class="price-value"> Take a rest
+                                            </div>
+                                        </div>
+                                        <div class="pricing-content">
+                                        <img src="assets/images/logo/hewa2.png" alt="Hera Cute" width="200" height="185"> 
+                                        </div>
+                                        <div class="pricingTable-signup">
+                                            <a href="employee-leave-balance">FILE LEAVE</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="pricingTable blueColor">
+                                        <div class="pricingTable-header">
+                                            <i class="material-icons">spa</i>
+                                            <div class="price-value">Forms
+                                         
+                                            </div>
+                                        </div>
+                                        <div class="pricing-content">
+                                        <img src="assets/images/logo/hewa.png" alt="Hera Cute" width="200" height="185"> 
+                                        </div>
+                                        <div class="pricingTable-signup">
+                                            <a href="downloadable">Request Forms</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6">
+                                    <div class="pricingTable redColor">
+                                        <div class="pricingTable-header">
+                                            <i class="material-icons">filter_vintage</i>
+                                            <div class="price-value"> Statistics
+                                            </div>
+                                        </div>
+                                        <div class="pricing-content">
+                                        <img src="assets/images/logo/hewa3.png" alt="Hera Cute" width="200" height="185"> 
+                                        </div>
+                                        <div class="pricingTable-signup">
+                                            <a href="employee-dashboard">Access Stats</a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            
                         </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/rsu.png" alt="">
-                                    
-    </div>
-  </div>
-                    </div>
+                    
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="row clearfix">
+                <!-- Basic Examples -->
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-3">
                     <div class="card">
-                        <div class="header bg-green">
+                        <div class="header">
                             <h2>
-                                GSIS Forms
-                                <small>Description text here...</small>
-                            </h2>
-                            <ul class="header-dropdown m-r-0">
-                                <li>
-                                    <a href="#" onClick="return false;">
-                                        <i class="material-icons">info_outline</i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" onClick="return false;">
-                                        <i class="material-icons">help_outline</i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-
-
-                        <div class="container">
-  <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Retirement and Separation Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download RS Form</button>
-                            <p>Life Insurance Benefit Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download LIB Form  </button>
-                            <p>Declaration of Pendency and Non Pendency Case Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download DPNPC Form  </button>
-                       
-                            </div>
-
-                        </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/gsis.png" alt="">
-                                    
-    </div>
-  </div>
-</div>                    
-                    </div>
-                </div>
-            </div>
-       
-            <div class="block-header">
-                <h2>Record Request</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-light-blue">
-                            <h2>
-                                Official Release Forms
-                                <small>Signatory forms</small>
+                                <strong>RSU HRMO Announcements</strong>
+                                <small>Make sure to read</small>
                             </h2>
 
                         </div>
-
-
-                        <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Service Record</p> <button type="button" class="btn btn-outline-info btn-border-radius">Request for Service Record</button>
-                        <p>Certificate of Employment</p> <button type="button" class="btn btn-outline-info btn-border-radius">Request for Certificate</button>
+                        <div class="body">
+                            <div class="row clearfix">
+                                <div class="col-xs-12 ol-sm-12 col-md-12 col-lg-12">
+                                    <div class="panel-group" id="accordion_1" role="tablist"
+                                        aria-multiselectable="true">
+                                        <div class="panel panel-primary">
+                                            <div class="panel-heading" role="tab" id="headingThree_11">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-bs-toggle="collapse"
+                                                        data-parent="#accordion_1" href="#collapseThree_2"
+                                                        aria-expanded="false" aria-controls="collapseThree_1">
+                                                     <h3> Submissions </h3>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree_2" class="panel-collapse collapse" role="tabpanel"
+                                                aria-labelledby="headingThree_1">
+                                                <div class="panel-body">
+                                                    Completed my graduation in Arts from the well known and renowned
+                                                    institution of India – SARDAR PATEL ARTS COLLEGE, BARODA
+                                                    in 2000-01, which was affiliated to M.S. University. I ranker in
+                                                    University
+                                                    exams from the same university from 1996-01.
+                                                </div>
+                                                <div class="p-l-20 p-b-20">
+                                                    <button type="button"
+                                                        class="btn btn-success btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">thumb_up</i>
+                                                    </button>
+                                                    <button type="button"
+                                                        class="btn btn-danger btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">thumb_down</i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-primary">
+                                            <div class="panel-heading" role="tab" id="headingThree_1">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-bs-toggle="collapse"
+                                                        data-parent="#accordion_1" href="#collapseThree_1"
+                                                        aria-expanded="false" aria-controls="collapseThree_1">
+                                                        <h3> Vacancies </h3>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseThree_1" class="panel-collapse collapse" role="tabpanel"
+                                                aria-labelledby="headingThree_1">
+                                                <div class="panel-body">
+                                                    Completed my graduation in Arts from the well known and renowned
+                                                    institution of India – SARDAR PATEL ARTS COLLEGE, BARODA
+                                                    in 2000-01, which was affiliated to M.S. University. I ranker in
+                                                    University
+                                                    exams from the same university from 1996-01.
+                                                </div>
+                                                <div class="p-l-20 p-b-20">
+                                                    <button type="button"
+                                                        class="btn btn-success btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">thumb_up</i>
+                                                    </button>
+                                                    <button type="button"
+                                                        class="btn btn-danger btn-circle waves-effect waves-circle waves-float">
+                                                        <i class="material-icons">thumb_down</i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                       
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-
                         </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/hewa.png" alt="">
-                                    
-    </div>
-  </div>
-</div>                    
-
-
-
-                    </div>
-                </div>
-             
             </div>
-            <!-- #END# Colored Card - With Loading -->
-    
-            
         </div>
     </section>
-       
+
 
 
     <script src="assets/js/app.min.js"></script>
@@ -508,8 +515,6 @@
     <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
-    <script src="assets/js/main/request-file.js"></script>
-    <script src="assets/js/main/logout.js"></script>
 </body>
 
 

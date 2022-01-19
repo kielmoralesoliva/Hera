@@ -2,6 +2,8 @@
     include './app/router/router.php';
     include './app/config/app-config.php'; 
     include './app/utility/campus-data-utility.php';
+    include './app/utility/hr-campus-data.php';
+    include './app/utility/print-request.php';
 
 ?>
 
@@ -17,6 +19,12 @@
 
 
 <?php
+
+$router->get('/request-form', function () {
+          
+    include './assets/printable/request-form.php';
+});
+
 
    $activation = null;
  
@@ -47,6 +55,10 @@
           
             include './pages/authorized/employee/employee-dashboard.php';
         });
+        $router->get('/employee-extended', function () {
+          
+            include './pages/authorized/employee/employee-dashboard2.php';
+        });
         $router->get('/downloadable', function () {
           
             include './pages/authorized/employee/downloadable.php';
@@ -73,7 +85,46 @@
     }
     
     if(ACCOUNT_INFO['accountType'] == 'HR Officer') {
-        echo 'this is for Officer';
+        $router->get('/', function () {
+          
+            include './pages/authorized/human-resource/include/hr-all-requests.php';
+        });
+        
+            $router->get('/hr-employees', function () {
+          
+                include './pages/authorized/human-resource/include/hr-employees.php';
+            });
+            $router->get('/hr-add-employee', function () {
+              
+                include './pages/authorized/human-resource/include/hr-add-employee.php';
+            });
+       
+            $router->get('/hr-landing', function () {
+              
+                include './pages/authorized/human-resource/include/humanresource-landing.php';
+            });
+            $router->get('/hr-file-leave', function () {
+              
+                include './pages/authorized/human-resource/include/file-leave.php';
+            });
+            $router->get('/hr-all-requests', function () {
+              
+                include './pages/authorized/human-resource/include/hr-all-requests.php';
+            });
+
+            $router->get('/print-request', function () {
+              
+                include './pages/authorized/human-resource/include/print-request-form.php';
+            });
+
+
+
+
+
+            
+    
+
+
     }
 
 
@@ -84,37 +135,12 @@
 
         $router->get('/page-error', function () {
           
-            include './pages/authorized/employee/error.php';
+            include './pages/unauthorized/error.php';
         });
 
 
-   
-        $router->get('/hr-employees', function () {
-          
-            include './pages/authorized/human-resource/include/hr-employees.php';
-        });
-        $router->get('/hr-add-employee', function () {
-          
-            include './pages/authorized/human-resource/include/hr-add-employee.php';
-        });
-   
-        $router->get('/hr-landing', function () {
-          
-            include './pages/authorized/human-resource/include/humanresource-landing.php';
-        });
-        $router->get('/hr-file-leave', function () {
-          
-            include './pages/authorized/human-resource/include/file-leave.php';
-        });
-        $router->get('/hr-all-requests', function () {
-          
-            include './pages/authorized/human-resource/include/hr-all-requests.php';
-        });
-
-
-
-
-
+      
+    
 
         
 

@@ -352,12 +352,12 @@
                         <div class="info-box-5 p-4">
                             <div class="card-icon card-icon-large"><i class="far fa-window-restore"></i></div>
                             <div class="mb-4">
-                                <h5 class="font-20 mb-0"> <?php echo  ACCOUNT_INFO['sickLeave']; ?></h5>
+                                <h5 class="font-20 mb-0">Vacation Leave</h5>
                             </div>
                             <div class="row align-items-center mb-2 d-flex">
                                 <div class="col-8">
                                     <h1 class="d-flex align-items-right mb-0">
-                                       0
+                                    <?php echo  ACCOUNT_INFO['vacationLeave']; ?>
                                     </h1>
                                 </div>
                                
@@ -373,12 +373,12 @@
                         <div class="info-box-5 p-4">
                             <div class="card-icon card-icon-large"><i class="fas fa-walking"></i></div>
                             <div class="mb-4">
-                                <h5 class="font-20 mb-0">Mandatory/Force Leave</h5>
+                                <h5 class="font-20 mb-0">Force Leave</h5>
                             </div>
                             <div class="row align-items-center mb-2 d-flex">
                                 <div class="col-8">
                                     <h1 class="d-flex align-items-right mb-0">
-                                       0
+                                    <?php echo  ACCOUNT_INFO['mandatoryLeave']; ?>
                                     </h1>
                                 </div>
                                
@@ -397,7 +397,7 @@
                             <div class="row align-items-center mb-2 d-flex">
                                 <div class="col-8">
                                     <h2 class="d-flex align-items-center mb-0">
-                                        0
+                                    <?php echo  ACCOUNT_INFO['sickLeave']; ?>
                                     </h2>
                                 </div>
                               
@@ -416,7 +416,7 @@
                             <div class="row align-items-center mb-2 d-flex">
                                 <div class="col-8">
                                     <h2 class="d-flex align-items-center mb-0">
-                                       0
+                                    <?php echo  ACCOUNT_INFO['maternityLeave']; ?>
                                     </h2>
                                 </div>
                               
@@ -435,7 +435,7 @@
                             <div class="row align-items-center mb-2 d-flex">
                                 <div class="col-8">
                                     <h2 class="d-flex align-items-center mb-0">
-                                      0
+                                    <?php echo  ACCOUNT_INFO['PaternityLeave']; ?>
                                     </h2>
                                 </div>
                               
@@ -449,12 +449,12 @@
                         <div class="info-box-5 p-4">
                             <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
                             <div class="mb-4">
-                                <h5 class="font-20 mb-0">Special Privilege Leave</h5>
+                                <h5 class="font-20 mb-0">Special Privilege</h5>
                             </div>
                             <div class="row align-items-center mb-2 d-flex">
                                 <div class="col-8">
                                     <h2 class="d-flex align-items-center mb-0">
-                                        0
+                                    <?php echo  ACCOUNT_INFO['splLeave']; ?>
                                     </h2>
                                 </div>
                               

@@ -199,7 +199,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" id="logout">
+                                        <a href="#" onClick="return false;">
                                             <i class="material-icons">power_settings_new</i>Logout
                                         </a>
                                     </li>
@@ -231,7 +231,7 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name"> <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?> </div>
+                            <div class="sidebar-userpic-name"> Maricar Falogme </div>
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
@@ -363,10 +363,10 @@
     <div class="col-sm">
     <div class="body">
                         <div class="button-demo">
-                            <p>Statement of Assets and Liabilities</p> <button type="button" documenttype="Statement of Assets and Liabilities" requestfile="SALN Form" downloadlink ="./assets/downloadables/SALN.doc" id="downloadSALN" class="btn btn-outline-danger btn-border-radius">Download SALN Form</button>
-                            <p>Personal Data Sheet</p> <button type="button" documenttype="Personal Data Sheet" downloadlink ="./assets/downloadables/PDS.xlsx" requestfile="PDS Form" id="downloadPDS" class="btn btn-outline-danger btn-border-radius">Download PDS Form  </button>
-                            <p>Work Experience Sheet</p> <button type="button" documenttype="Work Experience Sheet" downloadlink ="./assets/downloadables/WSE.docx" requestfile="WSE Form" id="downloadWSE" class="btn btn-outline-danger btn-border-radius">Download WSE Form  </button>
-                                     </div>
+                            <p>Statement of Assets and Liabilities</p> <button type="button" class="btn btn-outline-danger btn-border-radius">Download SALN Form</button>
+                            <p>Personal Data Sheet</p> <button type="button" class="btn btn-outline-danger btn-border-radius">Download PDS Form  </button>
+                            <p>Work Sheet Experience</p> <button type="button" class="btn btn-outline-danger btn-border-radius">Download WSE Form  </button>
+                            </div>
 
                         </div>
     </div>
@@ -396,7 +396,7 @@
     <div class="col-sm">
     <div class="body">
                         <div class="button-demo">
-                        <p>Leave Form</p> <button type="button" documenttype="Leave Form" downloadlink ="./assets/downloadables/LEAVE.pdf" requestfile="WLeave Form" id="downloadLF" class="btn btn-outline-success btn-border-radius">Download Leave Form  </button>
+                        <p>Leave Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download Leave Form</button>
                             <p>Clearance Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download Clearance Form  </button>
                             <p>Certificate of Leave Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download COL Form  </button>
                             </div>
@@ -508,8 +508,6 @@
     <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
-    <script src="assets/js/main/request-file.js"></script>
-    <script src="assets/js/main/logout.js"></script>
 </body>
 
 

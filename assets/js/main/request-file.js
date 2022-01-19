@@ -1,8 +1,11 @@
 var RequestFilePage = {
   init: function () {
-    $("#downloadform").click(function (e) {
+    $("#downloadWSE,#downloadSALN,#downloadPDS,#downloadLF").click(function (e) {
       console.log("wew");
       var requestfile = $(this).attr("requestfile");
+      var downloadlink = $(this).attr("downloadlink");
+      var documenttype = $(this).attr("documenttype");
+
 
       e.preventDefault();
       swal(
@@ -19,7 +22,13 @@ var RequestFilePage = {
         },
         function (isConfirm) {
           if (isConfirm) {
-            RequestFilePage.requestfile(requestfile);
+
+
+            RequestFilePage.requestfile(requestfile,downloadlink,documenttype);
+
+
+
+
           } else {
             swal("Cancelled", "Your imaginary file is safe :)", "error");
           }
@@ -28,7 +37,7 @@ var RequestFilePage = {
     });
   },
 
-  requestfile: function (requestType) {
+  requestfile: function (requestType,downloadlink,documenttype) {
     $.ajax({
       type: "POST",
       url: API_URL + "/request-file",
@@ -38,12 +47,12 @@ var RequestFilePage = {
         console.log("res ", res);
 
         if (res.success) {
-          // location.href=  SITE_URL;
+          location.href=  SITE_URL;
           var link = document.createElement("a");
           document.body.appendChild(link);
-          link.href = url;
+          link.href = downloadlink;
           link.target = "_blank";
-          link.download = "Request Form";
+          link.download = documenttype;
           link.click();
         }
       },

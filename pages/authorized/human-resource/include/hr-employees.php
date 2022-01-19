@@ -23,7 +23,7 @@
             <div class="m-t-30">
                 <img class="loading-img-spin" src="assets/images/loading.png" alt="admin">
             </div>
-            <p>Please wait...</p>
+            <p>You are loading all employee records. This will take time.</p>
         </div>
     </div>
     <!-- #END# Page Loader -->
@@ -361,20 +361,22 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                        <?php for ($i=0, $fc = count(hrTotalEmployees()); $i < $fc; $i++) {?>
                                         <tr class="odd gradeX">
-                                            <td class="center">1
+                                            <td class="center"><?php echo hrTotalEmployees()[$i]["id"];?>
                                             </td>
-                                            <td class="center">Oliva</td>
-                                            <td class="center">Ricky Michael</td>
-                                            <td class="center">Morales</td>
-                                            <td class="center">07-04-1997</td>
-                                            <td class="center">Assistant Professor I</td>
-                                            <td class="center">Permanent</td>
-                                            <td class="center">Odiongan</td>
-                                            <td class="center">Doctorate Units</td>
+                                            <td class="center"><?php echo hrTotalEmployees()[$i]["surname"];?></td>
+                                            <td class="center"><?php echo hrTotalEmployees()[$i]["firstname"];?></td>  
+                                            <td class="center"><?php echo hrTotalEmployees()[$i]["middlename"];?></td>
+                                            <td class="center"><?php echo hrTotalEmployees()[$i]["birthdate"];?></td>
+                                            <td class="center"><?php echo hrTotalEmployees()[$i]["academicRank"];?></td>
+                                            <td class="center"><?php echo hrTotalEmployees()[$i]["status"];?></td>
+                                            <td class="center"><?php echo hrTotalEmployees()[$i]["campus"];?></td>
+                                            <td class="center"><?php echo hrTotalEmployees()[$i]["educBackground"];?></td>
                                             <td class="center">Head, DIMU</td>
                                             <td class="center">11-05-2021</td>
                                         </tr>
+                                        <?php } ?>
                                    
                          
                                     </tbody>

@@ -16,7 +16,7 @@ class RequestForm
                   '".$accountinfo['fullname']."',
                   '".$accountinfo['college']."',
                   '".$accountinfo['campus']."',
-                  '".$accountinfo['status']."',
+                  'Released',
                   '".$accountinfo['emailAddress']."',
                   '".$date."',
                   '".$date."',

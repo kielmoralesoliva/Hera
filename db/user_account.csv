@@ -1,0 +1,744 @@
+employee_ID,id,username,password,emailAddress,phoneNumber,accountType,surname,firstname,middlename,name_ext,fullname,college,birthdate,birthdate_day,birthdate_month,birthdate_year,Age,gender,educBackground,academicRank,status,campus,appointment,apointment_day,apointment_month,appointment_year,yearsInService,sickLeave,vacationLeave,splLeave,mandatoryLeave,maternityLeave,PaternityLeave,SoloParentLeave
+2010-0005,1,Servanez,Shiela Buen,,,Employee,Servanez,Shiela Buen,Faigao,,"Servanez, Shiela Buen Faigao",Accounting Office,9/23/1988,23,9,1988,33,F,Masteral Graduate, Accountant I,Permanent,Main Campus,9/8/2010,8,9,2010,11.36111111,0,0,0,0,0,0,0
+2003-0006,2,Laynesa,Cynthia ,,,Employee,Laynesa,Cynthia ,Rodelas,,"Laynesa, Cynthia Rodelas",Accounting Office,9/9/1974,9,9,1974,47,F,Masteral Graduate, Accountant III,Permanent,Main Campus,1/6/2003,6,1,2003,19.03333333,0,0,0,0,0,0,0
+2017-0007,3,Lopez,Analyn Pearl,,,Employee,Lopez,Analyn Pearl,Noche,,"Lopez, Analyn Pearl Noche",Accounting Office,8/15/1991,15,8,1991,30,F,Masteral Graduate,Administrative Aide III,Permanent,Main Campus,10/25/2017,25,10,2017,4.230555556,0,0,0,0,0,0,0
+2005-0008,4,Serrano,Faith ,,,Employee,Serrano,Faith ,Faminialan,,"Serrano, Faith Faminialan",Accounting Office,10/21/1979,21,10,1979,42,F, Masteral-Ongoing,Administrative Aide VI,Permanent,Main Campus,10/17/2005,17,10,2005,16.25277778,0,0,0,0,0,0,0
+2014-0009,5,De Castro ,Joan Kristine,,,Employee,De Castro ,Joan Kristine,Fiedacan,,"De Castro, Joan Kristine Fiedacan",Accounting Office,10/28/1987,28,10,1987,34,F,Masteral Graduate,Administrative Assisstant II,Permanent,Main Campus,2/12/2014,12,2,2014,7.933333333,0,0,0,0,0,0,0
+2020-0010,6,Falceso,Davy Rose,,,Employee,Falceso,Davy Rose,Faminiano,,"Falceso, Davy Rose Faminiano",Accounting Office,12/26/1994,26,12,1994,27,F,Bachelor's Degree ,Administrative Assisstant II,Permanent,Main Campus,12/21/2020,21,12,2020,1.075,0,0,0,0,0,0,0
+2009-0011,7,Mortos,Jennifer ,,,Employee,Mortos,Jennifer ,Calambas,,"Mortos, Jennifer Calambas",Budget Office,7/4/1977,4,7,1977,44,F,With Masteral Units ,Administrative Aide I ,Permanent,Main Campus,7/17/2009,17,7,2009,12.50277778,0,0,0,0,0,0,0
+2005-0012,8,Fajarito,Pevely ,,,Employee,Fajarito,Pevely ,Fabro,,"Fajarito, Pevely Fabro",Budget Office,3/29/1975,29,3,1975,46,F,With Masteral Units ,Administrative Officer I,Permanent,Main Campus,10/17/2005,17,10,2005,16.25277778,0,0,0,0,0,0,0
+1994-0013,9,Foja,Lou ,,,Employee,Foja,Lou ,Venus,,"Foja, Lou Venus",Budget Office,9/24/1965,24,9,1965,56,M,Masteral Graduate,Administrative Officer V,Permanent,Main Campus,6/7/1994,7,6,1994,27.61388889,0,0,0,0,0,0,0
+2014-0014,10,Fornal,Delbert ,,,Employee,Fornal,Delbert ,Fallaria,,"Fornal, Delbert Fallaria",CAFF,4/24/1977,24,4,1977,44,M,Masteral Graduate,Assistant Professor I,Permanent,Main Campus,12/2/2014,2,12,2014,7.127777778,0,0,0,0,0,0,0
+2011-0015,11,Falculan,Ken ,,,Employee,Falculan,Ken ,Noche,,"Falculan, Ken Noche",CAFF,7/3/1969,3,7,1969,52,M,Doctorate Graduate,Assistant Professor II,Permanent,Main Campus,2/15/2011,15,2,2011,10.925,0,0,0,0,0,0,0
+2018-0016,12,Walitang,Denver ,,,Employee,Walitang,Denver ,Inladchang,,"Walitang, Denver Inladchang",CAFF,1/16/1982,16,1,1982,40,M,Doctorate Graduate,Assistant Professor II,Permanent,Main Campus,7/6/2018,6,7,2018,3.533333333,0,0,0,0,0,0,0
+2010-0017,13,Ferriol,Marjail ,,,Employee,Ferriol,Marjail ,Ibañez,,"Ferriol, Marjail Iba?Ez",CAFF,3/1/1974,1,3,1974,47,F,Doctorate Graduate,Assistant Professor III,Permanent,Main Campus,10/26/2010,26,10,2010,11.22777778,0,0,0,0,0,0,0
+1999-0018,14,Foja,Seth ,,,Employee,Foja,Seth ,Maduro,,"Foja, Seth Maduro",CAFF,9/24/1971,24,9,1971,50,M,Masteral Graduate,Assistant Professor III,Permanent,Main Campus,7/16/1999,16,7,1999,22.50555556,0,0,0,0,0,0,0
+1994-0019,15,Gregorio,Rosalito ,,,Employee,Gregorio,Rosalito ,Fortu,Jr.,"Gregorio, Rosalito Jr. Fortu",CAFF,3/6/1964,6,3,1964,57,M,Masteral Graduate,Assistant Professor III,Permanent,Main Campus,8/2/1994,2,8,1994,27.46111111,0,0,0,0,0,0,0
+2014-0020,16,Formilleza,Amelyn ,,,Employee,Formilleza,Amelyn ,Ambal,,"Formilleza, Amelyn Ambal",CAFF,4/12/1984,12,4,1984,37,F,Masteral Graduate,Assistant Professor III,Permanent,Main Campus,7/21/2014,21,7,2014,7.491666667,0,0,0,0,0,0,0
+2012-0021,17,Fornal,Mae Stella,,,Employee,Fornal,Mae Stella,Amar,,"Fornal, Mae Stella Amar",CAFF,8/6/1978,6,8,1978,43,F,Masteral Graduate,Assistant Professor III,Permanent,Main Campus,6/21/2012,21,6,2012,9.575,0,0,0,0,0,0,0
+1999-0022,18,Ferrancullo,Ely ,,,Employee,Ferrancullo,Ely ,Foja,,"Ferrancullo, Ely Foja",CAFF,7/22/1967,22,7,1967,54,M,Masteral Graduate,Assistant Professor IV,Permanent,Main Campus,7/16/1999,16,7,1999,22.50555556,0,0,0,0,0,0,0
+2011-0023,19,Lucidos,Juniel ,,,Employee,Lucidos,Juniel ,Galido,,"Lucidos, Juniel Galido",CAFF,6/9/1987,9,6,1987,34,M,Masteral Graduate,Assistant Professor IV,Permanent,Main Campus,2/1/2011,1,2,2011,10.96388889,0,0,0,0,0,0,0
+2011-0024,20,Chavez,Julio Romeo,,,Employee,Chavez,Julio Romeo,Tulay,,"Chavez, Julio Romeo Tulay",CAFF,7/4/1965,4,7,1965,56,M,Doctorate Graduate,Associate Professor II,Permanent,Main Campus,9/1/2011,1,9,2011,10.38055556,0,0,0,0,0,0,0
+1985-0025,21,Dalisay,Mary ,,,Employee,Dalisay,Mary ,Gado,,"Dalisay, Mary Gado",CAFF,9/13/1962,13,9,1962,59,F,Masteral Graduate,Associate Professor II,Permanent,Main Campus,8/15/1985,15,8,1985,36.425,0,0,0,0,0,0,0
+1986-0026,22,Andalecio,Edgar ,,,Employee,Andalecio,Edgar ,Villanueva,,"Andalecio, Edgar Villanueva",CAFF,4/14/1963,14,4,1963,58,M,Masteral Graduate,Associate Professor III,Permanent,Main Campus,4/7/1986,7,4,1986,35.78055556,0,0,0,0,0,0,0
+1993-0027,23,Ylagan,Cita ,,,Employee,Ylagan,Cita ,Carganillo,,"Ylagan, Cita Carganillo",CAFF,4/13/1963,13,4,1963,58,F,Masteral Graduate,Associate Professor IV,Permanent,Main Campus,4/1/1993,1,4,1993,28.79722222,0,0,0,0,0,0,0
+2016-0028,24,Galvero,Ruel ,,,Employee,Galvero,Ruel ,Elcarte,,"Galvero, Ruel Elcarte",CAFF,2/3/1983,3,2,1983,38,M,Masteral Graduate,Instructor I,Permanent,Main Campus,2/2/2016,2,2,2016,5.961111111,0,0,0,0,0,0,0
+2019-0029,25,Sayat,Marife ,,,Employee,Sayat,Marife ,Sarzona,,"Sayat, Marife Sarzona",CAFF,1/5/1992,5,1,1992,30,F,Masteral Graduate,Instructor I,Permanent,Main Campus,5/8/2019,8,5,2019,2.694444444,0,0,0,0,0,0,0
+2018-0030,26,Formento,Vlaire Jane,,,Employee,Formento,Vlaire Jane,Fallaria,,"Formento, Vlaire Jane Fallaria",CAFF,10/29/1989,29,10,1989,32,F,Masteral Graduate,Instructor I,Permanent,Main Campus,2/28/2018,28,2,2018,3.883333333,0,0,0,0,0,0,0
+2016-0031,27,Famero,Maria Lee,,,Employee,Famero,Maria Lee,Perez,,"Famero, Maria Lee Perez",CAFF,3/23/1980,23,3,1980,41,F,Masteral Graduate,Instructor II,Permanent,Main Campus,1/15/2016,15,1,2016,6.008333333,0,0,0,0,0,0,0
+2007-0032,28,Felia,Jeorge ,,,Employee,Felia,Jeorge ,Tambalque,,"Felia, Jeorge Tambalque",CAFF,11/19/1979,19,11,1979,42,M,With Masteral Units ,Instructor III,Permanent,Main Campus,10/1/2007,1,10,2007,14.29722222,0,0,0,0,0,0,0
+2010-0033,29,Gamol,Sherrly Hope,,,Employee,Gamol,Sherrly Hope,Servanez,,"Gamol, Sherrly Hope Servanez",CAFF,11/10/1980,10,11,1980,41,F,Masteral Graduate,Instructor III ,Permanent,Main Campus,1/12/2010,12,1,2010,12.01666667,0,0,0,0,0,0,0
+1985-0034,30,Juanzo,Chito ,,,Employee,Juanzo,Chito ,Fajilan,,"Juanzo, Chito Fajilan",Cajidiocan Campus,10/15/1957,15,10,1957,64,M,Masteral Graduate,Assistant Professor I,Permanent,Cajidiocan Campus,6/19/1985,19,6,1985,36.58055556,0,0,0,0,0,0,0
+1996-0035,31,Rabida,Rosemin ,,,Employee,Rabida,Rosemin ,Fortu,,"Rabida, Rosemin Fortu",Cajidiocan Campus,12/16/1966,16,12,1966,55,F,Masteral Graduate,Assistant Professor II,Permanent,Cajidiocan Campus,2/22/1996,22,2,1996,25.90555556,0,0,0,0,0,0,0
+1991-0036,32,Juanzo,Carmelinda ,,,Employee,Juanzo,Carmelinda ,Mame,,"Juanzo, Carmelinda Mame",Cajidiocan Campus,6/16/1959,16,6,1959,62,F,Doctorate Graduate,Associate Professor V,Permanent,Cajidiocan Campus,7/1/1991,1,7,1991,30.54722222,0,0,0,0,0,0,0
+2015-0037,33,Rivero,Domingo ,,,Employee,Rivero,Domingo ,Ramilo,,"Rivero, Domingo Ramilo",Cajidiocan Campus,12/29/1963,29,12,1963,58,M,Doctorate Graduate,Instructor I,Permanent,Cajidiocan Campus,6/2/2015,2,6,2015,6.627777778,0,0,0,0,0,0,0
+2019-0038,34,Ipedro,Raymund ,,,Employee,Ipedro,Raymund ,Rovira,,"Ipedro, Raymund Rovira",Cajidiocan Campus,8/22/1989,22,8,1989,32,M,Masteral Graduate,Instructor I,Permanent,Cajidiocan Campus,5/8/2019,8,5,2019,2.694444444,0,0,0,0,0,0,0
+2019-0039,35,Bacuna,Rodel ,,,Employee,Bacuna,Rodel ,Dela,,"Bacuna, Rodel Dela",Cajidiocan Campus,10/29/1980,29,10,1980,41,M,Masteral Graduate,Instructor I,Temporary,Cajidiocan Campus,5/8/2019,8,5,2019,2.694444444,0,0,0,0,0,0,0
+2019-0040,36,Juanzo,Clara Jean,,,Employee,Juanzo,Clara Jean,Mame,,"Juanzo, Clara Jean Mame",Cajidiocan Campus,7/11/1994,11,7,1994,27,F,Masteral Graduate,Instructor I,Permanent,Cajidiocan Campus,5/8/2019,8,5,2019,2.694444444,0,0,0,0,0,0,0
+2019-0041,37,Ribon,Gerardo ,,,Employee,Ribon,Gerardo ,Riano,,"Ribon, Gerardo Riano",Cajidiocan Campus,11/10/1993,10,11,1993,28,M,Masteral Graduate,Instructor I,Permanent,Cajidiocan Campus,1/14/2019,14,1,2019,3.011111111,0,0,0,0,0,0,0
+1999-0042,38,Faigmane,Giecelle ,,,Employee,Faigmane,Giecelle ,Olivay,,"Faigmane, Giecelle Olivay",Calatrava Campus,1/15/1973,15,1,1973,49,F,Bachelor's Degree ,Administrative Aide I,Permanent,Calatrava Campus,9/19/1999,19,9,1999,22.33055556,0,0,0,0,0,0,0
+1990-0043,39,Fradejas,Grace ,,,Employee,Fradejas,Grace ,Fetalsana,,"Fradejas, Grace Fetalsana",Calatrava Campus,12/23/1962,23,12,1962,59,F,Masteral Graduate,Assistant Professor I,Permanent,Calatrava Campus,6/15/1990,15,6,1990,31.59166667,0,0,0,0,0,0,0
+1982-0044,40,Morada,Renita ,,,Employee,Morada,Renita ,Jose,,"Morada, Renita Jose",Calatrava Campus,11/20/1960,20,11,1960,61,F,With Masteral Units ,Assistant Professor III,Permanent,Calatrava Campus,12/28/1982,28,12,1982,39.05555556,0,0,0,0,0,0,0
+1987-0045,41,Famorcan,Florame ,,,Employee,Famorcan,Florame ,Falceso,,"Famorcan, Florame Falceso",Calatrava Campus,5/3/1960,3,5,1960,61,F,Masteral Graduate,Assistant Professor III ,Permanent,Calatrava Campus,3/8/1987,8,3,1987,34.86111111,0,0,0,0,0,0,0
+1986-0046,42,Fadera ,Virgilio ,,,Employee,Fadera ,Virgilio ,Faa,,"Fadera, Virgilio Faa",Calatrava Campus,11/25/1965,25,11,1965,56,M,Doctorate Graduate,Associate Professor IV,Permanent,Calatrava Campus,6/30/1986,30,6,1986,35.55,0,0,0,0,0,0,0
+2016-0047,43,Moscoso ,Lucy ,,,Employee,Moscoso ,Lucy ,Fortu,,"Moscoso, Lucy Fortu",Calatrava Campus,9/2/1969,2,9,1969,52,F,Doctorate Graduate,Instructor I,Permanent,Calatrava Campus,1/25/2016,25,1,2016,5.980555556,0,0,0,0,0,0,0
+2016-0048,44,Moscoso ,Cresenciano ,,,Employee,Moscoso ,Cresenciano ,Bebet,,"Moscoso, Cresenciano Bebet",Calatrava Campus,10/13/1972,13,10,1972,49,M,Masteral Graduate,Instructor I,Permanent,Calatrava Campus,6/21/2016,21,6,2016,5.575,0,0,0,0,0,0,0
+2016-0049,45,Fiedacan ,Roy ,,,Employee,Fiedacan ,Roy ,Famadulan,,"Fiedacan, Roy Famadulan",Calatrava Campus,9/13/1977,13,9,1977,44,M,Doctorate-Ongoing,Instructor I,Permanent,Calatrava Campus,12/19/2016,19,12,2016,5.080555556,0,0,0,0,0,0,0
+1994-0050,46,Manipol ,Villamor ,,,Employee,Manipol ,Villamor ,Madalang,,"Manipol, Villamor Madalang",Calatrava Campus,5/31/1968,31,5,1968,53,M,Masteral Graduate,Instructor II,Permanent,Calatrava Campus,7/25/1994,25,7,1994,27.48055556,0,0,0,0,0,0,0
+2017-0051,47,Fabella ,Leila ,,,Employee,Fabella ,Leila ,Romero,,"Fabella, Leila Romero",Calatrava Campus,10/2/1976,2,10,1976,45,F,Doctorate Graduate,Instructor II,Permanent,Calatrava Campus,10/27/2017,27,10,2017,4.225,0,0,0,0,0,0,0
+2016-0052,48,Fadrequilan ,Myra ,,,Employee,Fadrequilan ,Myra ,Fallaria,,"Fadrequilan, Myra Fallaria",Calatrava Campus,3/31/1975,31,3,1975,46,F,Masteral Graduate,Instructor II ,Permanent,Calatrava Campus,1/25/2016,25,1,2016,5.980555556,0,0,0,0,0,0,0
+1989-0053,49,Constantino ,Analyn ,,,Employee,Constantino ,Analyn ,Asca?O,,"Constantino, Analyn Asca?O",Calatrava Campus,12/6/1960,6,12,1960,61,F,With Masteral Units ,Instructor III ,Permanent,Calatrava Campus,1/8/1989,8,1,1989,33.02777778,0,0,0,0,0,0,0
+2005-0054,50,Fanoy ,Rustico ,,,Employee,Fanoy ,Rustico ,Abenes,,"Fanoy, Rustico Abenes",Calatrava Campus,7/22/1961,22,7,1961,60,M,Bachelor's Degree ,Watchman I,Permanent,Calatrava Campus,7/22/2005,22,7,2005,16.48888889,0,0,0,0,0,0,0
+2001-0055,51,Fetalver ,Carolyn ,,,Employee,Fetalver ,Carolyn , Dela Rosa,,"Fetalver, Carolyn Dela Rosa",CAS,1/23/1977,23,1,1977,44,F,Masteral Graduate,Assistant Professor I,Permanent,Main Campus,1/24/2001,24,1,2001,20.98333333,0,0,0,0,0,0,0
+2013-0056,52,Galiga ,Henley ,,,Employee,Galiga ,Henley ,Fontamillas,,"Galiga, Henley Fontamillas",CAS,5/9/1975,9,5,1975,46,M,Doctorate Graduate,Assistant Professor II,Permanent,Main Campus,5/24/2013,24,5,2013,8.65,0,0,0,0,0,0,0
+2014-0057,53,Fadri ,Mary Jane,,,Employee,Fadri ,Mary Jane,Anyayahan,,"Fadri, Mary Jane Anyayahan",CAS,6/5/1984,5,6,1984,37,F,Doctorate Graduate,Assistant Professor II,Permanent,Main Campus,2/12/2014,12,2,2014,7.933333333,0,0,0,0,0,0,0
+2003-0058,54,Gagarin ,Mariel ,,,Employee,Gagarin ,Mariel ,Marquez,,"Gagarin , Mariel Marquez",CAS,3/27/1976,27,3,1976,45,F,Doctorate Graduate,Assistant Professor II,Permanent,Main Campus,3/10/2003,10,3,2003,18.85555556,0,0,0,0,0,0,0
+1990-0059,55,Quijano ,Ma. Chita,,,Employee,Quijano ,Ma. Chita,Chan,,"Quijano, Ma. Chita Chan",CAS,12/4/1957,4,12,1957,64,F,Masteral Graduate,Assistant Professor IV,Permanent,Main Campus,8/20/1990,20,8,1990,31.41111111,0,0,0,0,0,0,0
+2010-0060,56,Calimbo ,Mark ,,,Employee,Calimbo ,Mark ,Gervacio,,"Calimbo, Mark Gervacio",CAS,1/19/1975,19,1,1975,46,M,Doctorate Graduate,Associate Professor I,Permanent,Main Campus,1/25/2010,25,1,2010,11.98055556,0,0,0,0,0,0,0
+1981-0061,57,Fadallan ,Edgardo ,,,Employee,Fadallan ,Edgardo ,Famadico,,"Fadallan, Edgardo Famadico",CAS,4/16/1959,16,4,1959,62,M,Masteral Graduate,Associate Professor III,Permanent,Main Campus,11/2/1981,2,11,1981,40.21111111,0,0,0,0,0,0,0
+2020-0062,58,Mayor ,Anna Beatriz,,,Employee,Mayor ,Anna Beatriz,Rance,,"Mayor, Anna Beatriz Rance",CAS,5/3/1992,3,5,1992,29,F,Masteral Graduate,Instructor I,Permanent,Main Campus,1/6/2020,6,1,2020,2.033333333,0,0,0,0,0,0,0
+2019-0063,59,Dungog ,Vanesa ,,,Employee,Dungog ,Vanesa ,Briones,,"Dungog, Vanesa Briones",CAS,5/13/1995,13,5,1995,26,F,Masteral Graduate,Instructor I,Permanent,Main Campus,6/8/2019,8,6,2019,2.611111111,0,0,0,0,0,0,0
+2018-0064,60,Gicole ,Reinberg ,,,Employee,Gicole ,Reinberg ,Abiado,,"Gicole, Reinberg Abiado",CAS,9/24/1987,24,9,1987,34,M,Doctorate Graduate,Instructor I,Permanent,Main Campus,7/16/2018,16,7,2018,3.505555556,0,0,0,0,0,0,0
+2019-0065,61,Llorca ,Rachel ,,,Employee,Llorca ,Rachel ,Evangelista,,"Llorca, Rachel Evangelista",CAS,2/21/1980,21,2,1980,41,F, Masteral-Ongoing,Instructor I,Temporary,Main Campus,5/8/2019,8,5,2019,2.694444444,0,0,0,0,0,0,0
+2019-0066,62,Fabella ,April Joy,,,Employee,Fabella ,April Joy,Agustin,,"Fabella, April Joy Agustin",CAS,4/20/1992,20,4,1992,29,F, Masteral-Ongoing,Instructor I,Temporary,Main Campus,6/8/2019,8,6,2019,2.611111111,0,0,0,0,0,0,0
+2018-0067,63,Fontamillas ,Kreisler ,,,Employee,Fontamillas ,Kreisler ,Ingco,,"Fontamillas, Kreisler Ingco",CAS,1/8/1994,8,1,1994,28,M,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,11/26/2018,26,11,2018,3.144444444,0,0,0,0,0,0,0
+2020-0068,64,Ferrancullo ,Cielo Amor,,,Employee,Ferrancullo ,Cielo Amor,Mallorca,,"Ferrancullo, Cielo Amor Mallorca",CAS,2/13/1992,13,2,1992,29,F, Masteral-Ongoing,Instructor I,Temporary,Main Campus,9/9/2020,9,9,2020,1.358333333,0,0,0,0,0,0,0
+2007-0069,65,Maulion ,Alwin ,,,Employee,Maulion ,Alwin ,Fodra,,"Maulion, Alwin Fodra",CAS,7/18/1979,18,7,1979,42,M,Masteral Graduate,Instructor III,Permanent,Main Campus,6/4/2007,4,6,2007,14.62222222,0,0,0,0,0,0,0
+2005-0070,66,Balse ,Mary Jean,,,Employee,Balse ,Mary Jean,De La Vega,,"Balse, Mary Jean De La Vega",Cashier,5/24/1978,24,5,1978,43,F,Bachelor's Degree ,Administrative Aide I,Permanent,Main Campus,10/17/2005,17,10,2005,16.25277778,0,0,0,0,0,0,0
+2009-0071,67,Fajarito ,Victorina ,,,Employee,Fajarito ,Victorina ,Bagting,,"Fajarito, Victorina Bagting",Cashier,2/24/1964,24,2,1964,57,F,Bachelor's Degree ,Administrative Aide I,Permanent,Main Campus,7/17/2009,17,7,2009,12.50277778,0,0,0,0,0,0,0
+1998-0072,68,Gaa ,Allen ,,,Employee,Gaa ,Allen ,Alegre,,"Gaa, Allen Alegre",Cashier,4/24/1965,24,4,1965,56,M,Bachelor's Degree ,Administrative Aide VI,Permanent,Main Campus,10/1/1998,1,10,1998,23.29722222,0,0,0,0,0,0,0
+1999-0073,69,Montojo ,Alma ,,,Employee,Montojo ,Alma ,Gadon,,"Montojo, Alma Gadon",Cashier,9/9/1967,9,9,1967,54,F,Bachelor's Degree ,Administrative Officer I,Permanent,Main Campus,3/11/1999,11,3,1999,22.85277778,0,0,0,0,0,0,0
+1988-0074,70,Lopez ,Lucille ,,,Employee,Lopez ,Lucille ,Noche,,"Lopez, Lucille Noche",Cashier ,10/30/1961,30,10,1961,60,F,Bachelor's Degree ,Administrative Officer V,Permanent,Main Campus,2/1/1988,1,2,1988,33.96388889,0,0,0,0,0,0,0
+2012-0075,71,Fadriquela ,Marbeth ,,,Employee,Fadriquela ,Marbeth ,Marcelo,,"Fadriquela, Marbeth Marcelo",CBA,12/18/1981,18,12,1981,40,F,Doctorate Graduate,Assistant Professor III,Permanent,Main Campus,6/21/2012,21,6,2012,9.575,0,0,0,0,0,0,0
+2012-0076,72,Inocencio ,Ray Joseph,,,Employee,Inocencio ,Ray Joseph,Gadaoni,,"Inocencio, Ray Joseph  Gadaoni",CBA,9/19/1981,19,9,1981,40,M,Masteral Graduate,Assistant Professor III,Permanent,Main Campus,6/21/2012,21,6,2012,9.575,0,0,0,0,0,0,0
+1998-0077,73,Faeldan ,Feve ,,,Employee,Faeldan ,Feve ,Dela Vega,,"Faeldan, Feve Dela Vega",CBA,8/1/1972,1,8,1972,49,M,Masteral Graduate,Assistant Professor III,Permanent,Main Campus,8/1/1998,1,8,1998,23.46388889,0,0,0,0,0,0,0
+2016-0078,74,Mapalad ,Gina ,,,Employee,Mapalad ,Gina ,Villamor,,"Mapalad, Gina Villamor",CBA,11/23/1969,23,11,1969,52,F,Doctorate-Ongoing,Assistant Professor III,Permanent,Main Campus,1/15/2016,15,1,2016,6.008333333,0,0,0,0,0,0,0
+2003-0079,75,Eledia ,Olga ,,,Employee,Eledia ,Olga ,Gamol,,"Eledia, Olga Gamol",CBA,7/23/1962,23,7,1962,59,F,Masteral Graduate,Assistant Professor IV,Permanent,Main Campus,1/28/2003,28,1,2003,18.97222222,0,0,0,0,0,0,0
+2007-0080,76,Moreno ,Evaliza ,,,Employee,Moreno ,Evaliza ,Fajarito,,"Moreno, Evaliza Fajarito",CBA,3/17/1978,17,3,1978,43,F,Doctorate Graduate,Assistant Professor IV,Permanent,Main Campus,3/9/2007,9,3,2007,14.85833333,0,0,0,0,0,0,0
+1990-0081,77,Fosana ,Janilyn ,,,Employee,Fosana ,Janilyn ,Alubog,,"Fosana, Janilyn Alubog",CBA,3/2/1965,2,3,1965,56,F,Masteral Graduate,Associate Professor II,Permanent,Main Campus,12/11/1990,11,12,1990,31.10277778,0,0,0,0,0,0,0
+2000-0082,78,Manzo ,Orfelina ,,,Employee,Manzo ,Orfelina ,Ingco,,"Manzo, Orfelina Ingco",CBA,1/23/1967,23,1,1967,54,F,Doctorate Graduate,Associate Professor II,Permanent,Main Campus,9/10/2000,10,9,2000,21.35555556,0,0,0,0,0,0,0
+1992-0083,79,Foja ,Errol ,,,Employee,Foja ,Errol ,Solidum,,"Foja, Errol Solidum",CBA,2/5/1969,5,2,1969,52,M,Masteral Graduate,Associate Professor III,Permanent,Main Campus,6/12/1992,12,6,1992,29.6,0,0,0,0,0,0,0
+2003-0084,80,Vicente ,Ruth ,,,Employee,Vicente ,Ruth ,Fopalan,,"Vicente, Ruth Fopalan",CBA,4/11/1961,11,4,1961,60,F,Masteral Graduate,Associate Professor III,Permanent,Main Campus,2/20/2003,20,2,2003,18.91111111,0,0,0,0,0,0,0
+1987-0085,81,Formento ,Sisa ,,,Employee,Formento ,Sisa ,Fallaria,,"Formento, Sisa Fallaria",CBA,5/27/1961,27,5,1961,60,F,Masteral Graduate,Associate Professor III,Permanent,Main Campus,2/10/1987,10,2,1987,34.93888889,0,0,0,0,0,0,0
+2013-0086,82,Garcia ,Marife ,,,Employee,Garcia ,Marife ,Minerales,,"Garcia, Marife Minerales",CBA,9/4/1970,4,9,1970,51,F,Doctorate Graduate,Associate Professor III,Permanent,Main Campus,1/25/2013,25,1,2013,8.980555556,0,0,0,0,0,0,0
+2003-0087,83,Fetalvero ,Sherryll ,,,Employee,Fetalvero ,Sherryll ,Mindo,,"Fetalvero, Sherryll Mindo",CBA,7/26/1976,26,7,1976,45,F,Doctorate-Ongoing,Associate Professor V,Permanent,Main Campus,1/28/2003,28,1,2003,18.97222222,0,0,0,0,0,0,0
+1992-0004,84,Montoya ,Emelyn ,,,Employee,Montoya ,Emelyn ,Fornal,,"Montoya, Emelyn Fornal",CBA,2/19/1967,19,2,1967,54,F,Doctorate Graduate,Associate Professor V,Permanent,Main Campus,6/15/1992,15,6,1992,29.59166667,0,0,0,0,0,0,0
+1995-0089,85,Fabito ,Jessica ,,,Employee,Fabito ,Jessica ,Cabato,,"Fabito, Jessica Cabato",CBA,7/15/1995,15,7,1995,26,F,Masteral Graduate,Instructor I,Permanent,Main Campus,7/15/1995,15,7,1995,26.50833333,0,0,0,0,0,0,0
+2016-0090,86,Eusebio ,Ellaine Joy,,,Employee,Eusebio ,Ellaine Joy,Guyo,,"Eusebio, Ellaine Joy Guyo",CBA,3/28/1989,28,3,1989,32,F,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,6/14/2016,14,6,2016,5.594444444,0,0,0,0,0,0,0
+2020-0091,87,Gan ,Jacel Ruz,,,Employee,Gan ,Jacel Ruz,Fegurasin,,"Gan, Jacel Ruz Fegurasin",CBA,11/22/1994,22,11,1994,27,F,Masteral Graduate,Instructor I,Permanent,Main Campus,6/1/2020,1,6,2020,1.630555556,0,0,0,0,0,0,0
+2017-0092,88,Fabreo ,Desiree ,,,Employee,Fabreo ,Desiree ,Galindez,,"Fabreo, Desiree Galindez",CBA,12/19/1965,19,12,1965,56,F,Masteral Graduate,Instructor I,Permanent,Main Campus,6/21/2017,21,6,2017,4.575,0,0,0,0,0,0,0
+2017-0093,89,Andal ,Bless Faith,,,Employee,Andal ,Bless Faith,Fabro,,"Andal, Bless Faith Fabro",CBA,10/31/1993,31,10,1993,28,F,Masteral Graduate,Instructor I,Permanent,Main Campus,6/27/2017,27,6,2017,4.558333333,0,0,0,0,0,0,0
+2012-0094,90,Federico ,Jovy ,,,Employee,Federico ,Jovy ,Banzuelo,,"Federico, Jovy Banzuelo",CBA,12/21/1991,21,12,1991,30,F,Masteral Graduate,Instructor I,Permanent,Main Campus,4/7/2012,7,4,2012,9.780555556,0,0,0,0,0,0,0
+2018-0095,91,Fetalver ,Gina ,,,Employee,Fetalver ,Gina ,Ferrancullo,,"Fetalver, Gina Ferrancullo",CBA,8/13/1978,13,8,1978,43,F,Masteral Graduate,Instructor I,Permanent,Main Campus,7/6/2018,6,7,2018,3.533333333,0,0,0,0,0,0,0
+2018-0096,92,Vicente ,Khrisna ,,,Employee,Vicente ,Khrisna ,Fopalan,,"Vicente, Khrisna Fopalan",CBA,8/16/1990,16,8,1990,31,F,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,7/6/2018,6,7,2018,3.533333333,0,0,0,0,0,0,0
+2018-0097,93,Fadera ,Irene ,,,Employee,Fadera ,Irene ,Ignacio,,"Fadera, Irene Ignacio",CBA,8/25/1989,25,8,1989,32,F,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,7/6/2018,6,7,2018,3.533333333,0,0,0,0,0,0,0
+2018-0098,94,Faminialan ,Janine ,,,Employee,Faminialan ,Janine ,Mañalac,,"Faminialan, Janine Ma?Alac",CBA,8/1/1986,1,8,1986,35,F,Masteral Graduate,Instructor I,Permanent,Main Campus,5/11/2018,11,5,2018,3.686111111,0,0,0,0,0,0,0
+2019-0099,95,Llacer ,Julysses ,,,Employee,Llacer ,Julysses ,Poot,,"Llacer, Julysses Poot",CBA,7/16/1972,16,7,1972,49,M,Masteral Graduate,Instructor I,Temporary,Main Campus,8/8/2019,8,8,2019,2.444444444,0,0,0,0,0,0,0
+2019-0100,96,Contaoi ,Philip Henry,,,Employee,Contaoi ,Philip Henry,Francisco,,"Contaoi, Philip Henry Francisco",CBA,8/9/1995,9,8,1995,26,M,Masteral Graduate,Instructor I,Permanent,Main Campus,9/8/2019,8,9,2019,2.361111111,0,0,0,0,0,0,0
+2017-0101,97,Fesalboni ,Jerome ,,,Employee,Fesalboni ,Jerome ,Fabro,,"Fesalboni, Jerome Fabro",CBA,11/28/1994,28,11,1994,27,M, Masteral-Ongoing,Instructor I,Temporary,Main Campus,3/7/2017,7,3,2017,4.863888889,0,0,0,0,0,0,0
+2018-0102,98,Dalisay ,Joanne ,,,Employee,Dalisay ,Joanne ,Ricamora,,"Dalisay, Joanne Ricamora",CBA,3/28/1986,28,3,1986,35,F,Masteral Graduate,Instructor I,Permanent,Main Campus,9/11/2018,11,9,2018,3.352777778,0,0,0,0,0,0,0
+2020-0103,99,De Torres,Turner Evon,,,Employee,De Torres,Turner Evon,Fabon,,"De Torres, Turner Evon Fabon",CBA,10/13/1994,13,10,1994,27,M,Bachelor's Degree ,Instructor I,Temporary,Main Campus,10/12/2020,12,10,2020,1.266666667,0,0,0,0,0,0,0
+2016-0104,100,Sombria ,Charton ,,,Employee,Sombria ,Charton ,Fopalan,,"Sombria, Charton Fopalan",CBA,4/2/1977,2,4,1977,44,F,Bachelor's Degree ,Instructor II,Permanent,Main Campus,1/15/2016,15,1,2016,6.008333333,0,0,0,0,0,0,0
+2015-0105,101,Fajutnao ,Wennie ,,,Employee,Fajutnao ,Wennie ,Dela Rosa,,"Fajutnao, Wennie Dela Rosa",CBA,6/15/1977,15,6,1977,44,F,Doctorate Graduate,Instructor III,Permanent,Main Campus,6/8/2015,8,6,2015,6.611111111,0,0,0,0,0,0,0
+2015-0106,102,Galicha ,Sharon ,,,Employee,Galicha ,Sharon ,Morana,,"Galicha, Sharon Morana",CED,7/2/1961,2,7,1961,60,F,Masteral Graduate,Assistant Professor II,Permanent,Main Campus,6/8/2015,8,6,2015,6.611111111,0,0,0,0,0,0,0
+1985-0107,103,Lachica ,Alphee ,,,Employee,Lachica ,Alphee ,Formilleza,,"Lachica, Alphee Formilleza",CED,7/13/1963,13,7,1963,58,F,Doctorate-Ongoing,Assistant Professor II,Permanent,Main Campus,6/19/1985,19,6,1985,36.58055556,0,0,0,0,0,0,0
+1986-0108,104,Fabello ,Daniel ,,,Employee,Fabello ,Daniel ,Miñon,,"Fabello, Daniel Mi?On",CED,6/26/1962,26,6,1962,59,M,Masteral Graduate,Assistant Professor II,Permanent,Main Campus,10/1/1986,1,10,1986,35.29722222,0,0,0,0,0,0,0
+2013-0109,105,Frogosa ,Susan ,,,Employee,Frogosa ,Susan ,Fiedacan,,"Frogosa, Susan Fiedacan",CED,1/24/1967,24,1,1967,54,F,Doctorate Graduate,Assistant Professor III,Permanent,Main Campus,1/25/2013,25,1,2013,8.980555556,0,0,0,0,0,0,0
+2011-0110,106,Fabello ,John ,,,Employee,Fabello ,John ,Bulan,,"Fabello, John Bulan",CED,1/1/1988,1,1,1988,34,M,Doctorate-Ongoing,Assistant Professor IV,Permanent,Main Campus,12/8/2011,8,12,2011,10.11111111,0,0,0,0,0,0,0
+2002-0111,107,Fetalsana ,Domingo ,,,Employee,Fetalsana ,Domingo ,Diokno,Jr,"Fetalsana, Domingo Jr Diokno",CED,1/7/1959,7,1,1959,63,M,Masteral Graduate,Assistant Professor IV,Permanent,Main Campus,2/7/2002,7,2,2002,19.94722222,0,0,0,0,0,0,0
+1996-0112,108,Dalisay ,Jun ,,,Employee,Dalisay ,Jun ,Perez,,"Dalisay, Jun Perez",CED,4/26/1975,26,4,1975,46,M,Doctorate Graduate,Assistant Professor IV,Permanent,Main Campus,2/12/1996,12,2,1996,25.93333333,0,0,0,0,0,0,0
+2012-0113,109,Sy ,Donna Bel,,,Employee,Sy ,Donna Bel,Fran,,"Sy, Donna Bel Fran",CED,7/18/1977,18,7,1977,44,F,Doctorate-Ongoing,Associate Professor I,Permanent,Main Campus,6/4/2012,4,6,2012,9.622222222,0,0,0,0,0,0,0
+1999-0114,110,Meren ,Delia ,,,Employee,Meren ,Delia ,Caparros,,"Meren, Delia Caparros",CED,6/20/1965,20,6,1965,56,F,Masteral Graduate,Associate Professor II,Permanent,Main Campus,9/10/1999,10,9,1999,22.35555556,0,0,0,0,0,0,0
+1998-0115,111,Dulompori ,Jocelyn ,,,Employee,Dulompori ,Jocelyn ,Federico,,"Dulompori, Jocelyn Federico",CED,9/9/1968,9,9,1968,53,F,Doctorate Graduate,Associate Professor II ,Permanent,Main Campus,1/18/1998,18,1,1998,24,0,0,0,0,0,0,0
+1994-0116,112,Lazaro ,Metelyn ,,,Employee,Lazaro ,Metelyn ,Salazar,,"Lazaro, Metelyn Salazar",CED,10/24/1969,24,10,1969,52,F,Masteral Graduate,Associate Professor IV,Permanent,Main Campus,5/7/1994,7,5,1994,27.69722222,0,0,0,0,0,0,0
+2003-0117,113,Perlas ,Sherwin ,,,Employee,Perlas ,Sherwin ,Magracia,,"Perlas, Sherwin Magracia",CED,8/12/1975,12,8,1975,46,M,Doctorate Graduate,Associate Professor V,Permanent,Main Campus,2/4/2003,4,2,2003,18.95555556,0,0,0,0,0,0,0
+2002-0118,114,Fallesgon ,Ruth Mary,,,Employee,Fallesgon ,Ruth Mary,Punzalan,,"Fallesgon, Ruth Mary Punzalan",CED,3/29/1980,29,3,1980,41,F,Doctorate-Ongoing,Associate Professor V,Permanent,Main Campus,8/1/2002,1,8,2002,19.46388889,0,0,0,0,0,0,0
+1990-0119,115,Arsenio ,Fanny ,,,Employee,Arsenio ,Fanny ,Falcutila,,"Arsenio, Fanny Falcutila",CED,12/21/1958,21,12,1958,63,F,Doctorate-Ongoing,Associate Professor V,Permanent,Main Campus,6/16/1990,16,6,1990,31.58888889,0,0,0,0,0,0,0
+1994-0120,116,Lazaro ,Fernando ,,,Employee,Lazaro ,Fernando ,Marquez,,"Lazaro, Fernando Marquez",CED,3/7/1965,7,3,1965,56,M,Doctorate Graduate,Associate Professor V,Permanent,Main Campus,8/15/1994,15,8,1994,27.425,0,0,0,0,0,0,0
+2018-0121,117,Fran ,Frankie ,,,Employee,Fran ,Frankie ,Aspira,,"Fran, Frankie Aspira",CED,9/21/2009,21,9,2009,12,M,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,6/1/2018,1,6,2018,3.630555556,0,0,0,0,0,0,0
+2018-0122,118,Fabiala ,Dana Kaye,,,Employee,Fabiala ,Dana Kaye,Fallurin,,"Fabiala, Dana Kaye Fallurin",CED,1/9/1996,9,1,1996,26,F,Masteral Graduate,Instructor I,Permanent,Main Campus,1/10/2018,10,1,2018,4.022222222,0,0,0,0,0,0,0
+2021-0123,119,Falo ,Kim Jemar,,,Employee,Falo ,Kim Jemar,Factor,,"Falo, Kim Jemar Factor",CED,12/13/1994,13,12,1994,27,M, Masteral-Ongoing,Instructor I,Permanent,Main Campus,10/1/2021,1,10,2021,0.297222222,0,0,0,0,0,0,0
+2021-0124,120,De Castro ,Jasper John,,,Employee,De Castro ,Jasper John,Sarmiento,,"De Castro, Jasper John Sarmiento",CED,9/6/1995,6,9,1995,26,M,Masteral Graduate,Instructor I,Permanent,Main Campus,8/19/2021,19,8,2021,0.413888889,0,0,0,0,0,0,0
+2017-0125,121,Blancia ,Garry Vanz,,,Employee,Blancia ,Garry Vanz,Villanueva,,"Blancia, Garry Vanz Villanueva",CED,2/28/1996,28,2,1996,25,M,Masteral Graduate,Instructor I,Permanent,Main Campus,5/6/2017,6,5,2017,4.7,0,0,0,0,0,0,0
+2016-0126,122,Galiga ,Elma ,,,Employee,Galiga ,Elma ,Fiedalino,,"Galiga, Elma Fiedalino",CED,10/25/1960,25,10,1960,61,F,Masteral Graduate,Instructor I,Permanent,Main Campus,6/14/2016,14,6,2016,5.594444444,0,0,0,0,0,0,0
+2016-0127,123,Juanzo ,Cristina Marie,,,Employee,Juanzo ,Cristina Marie,Mame,,"Juanzo, Cristina Marie Mame",CED,12/28/1991,28,12,1991,30,F,Doctorate Graduate,Instructor I,Permanent,Main Campus,1/6/2016,6,1,2016,6.033333333,0,0,0,0,0,0,0
+2017-0128,124,Sarandin ,Marwin ,,,Employee,Sarandin ,Marwin ,Dalisay,,"Sarandin, Marwin Dalisay",CED,11/24/1993,24,11,1993,28,M,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,10/31/2017,31,10,2017,4.216666667,0,0,0,0,0,0,0
+2012-0129,125,Cunada ,Alvin Phil Christer,,,Employee,Cunada ,Alvin Phil Christer,Hiponia,,"Cunada, Alvin Phil Christer Hiponia",CED,10/26/1986,26,10,1986,35,M,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,8/10/2012,10,8,2012,9.438888889,0,0,0,0,0,0,0
+2013-0130,126,Cunada ,Charmaine Shane,,,Employee,Cunada ,Charmaine Shane,Sixon,,"Cunada, Charmaine Shane Sixon",CED,1/3/1991,3,1,1991,31,F,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,5/15/2013,15,5,2013,8.675,0,0,0,0,0,0,0
+2014-0131,127,Mendoza ,Pearl Joy,,,Employee,Mendoza ,Pearl Joy,Gamol,,"Mendoza, Pearl Joy Gamol",CED,12/22/1986,22,12,1986,35,F, Masteral-Ongoing,Instructor I,Temporary,Main Campus,6/18/2014,18,6,2014,7.583333333,0,0,0,0,0,0,0
+2019-0132,128,Rubion ,Joan ,,,Employee,Rubion ,Joan ,Naynes,,"Rubion, Joan Naynes",CED,10/25/1979,25,10,1979,42,F,Masteral Graduate,Instructor I,Permanent,Main Campus,5/8/2019,8,5,2019,2.694444444,0,0,0,0,0,0,0
+2021-0133,129,Flores ,Mhel Ryan,,,Employee,Flores ,Mhel Ryan,Ferriol,,"Flores, Mhel Ryan Ferriol",CED,7/29/1997,29,7,1997,24,M,Masteral Graduate,Instructor I,Permanent,Main Campus,8/19/2021,19,8,2021,0.413888889,0,0,0,0,0,0,0
+2019-0134,130,Alba ,Ann Janeth,,,Employee,Alba ,Ann Janeth,De Luna,,"Alba, Ann Janeth De Luna",CED,9/15/1994,15,9,1994,27,F,Masteral Graduate,Instructor I,Permanent,Main Campus,8/3/2019,3,8,2019,2.458333333,0,0,0,0,0,0,0
+2016-0135,131,Llasos ,Rhexem Greg,,,Employee,Llasos ,Rhexem Greg,Rufon,,"Llasos, Rhexem Greg Rufon",CED,5/16/1987,16,5,1987,34,M,Masteral Graduate,Instructor I,Permanent,Main Campus,8/8/2016,8,8,2016,5.444444444,0,0,0,0,0,0,0
+2019-0136,132,Falcutila ,Rea Bel,,,Employee,Falcutila ,Rea Bel,Federico,,"Falcutila, Rea Bel Federico",CED,4/9/1992,9,4,1992,29,F,Masteral Graduate,Instructor I,Permanent,Main Campus,6/8/2019,8,6,2019,2.611111111,0,0,0,0,0,0,0
+2019-0137,133,Lucas ,Villy Joe,,,Employee,Lucas ,Villy Joe,Arevalo,,"Lucas, Villy Joe Arevalo",CED,2/2/1996,2,2,1996,25,M, Masteral-Ongoing,Instructor I,Temporary,Main Campus,5/8/2019,8,5,2019,2.694444444,0,0,0,0,0,0,0
+2018-0138,134,Dalisay ,Alvin ,,,Employee,Dalisay ,Alvin ,Lozano,,"Dalisay, Alvin Lozano",CED,10/18/1992,18,10,1992,29,M,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,11/6/2018,6,11,2018,3.2,0,0,0,0,0,0,0
+2016-0139,135,Mayuga ,Charry ,,,Employee,Mayuga ,Charry ,Fallaria,,"Mayuga, Charry Fallaria",CED,1/31/1991,31,1,1991,30,F,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,12/19/2016,19,12,2016,5.080555556,0,0,0,0,0,0,0
+2006-0140,136,Fajilagutan ,Jackielyn Rose,,,Employee,Fajilagutan ,Jackielyn Rose,Arato,,"Fajilagutan, Jackielyn Rose  Arato",CED,8/27/1981,27,8,1981,40,F,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,6/9/2006,9,6,2006,15.60833333,0,0,0,0,0,0,0
+2015-0141,137,Gadon ,Menchie ,,,Employee,Gadon ,Menchie ,Fabro,,"Gadon, Menchie Fabro",CED,2/15/1992,15,2,1992,29,F,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,3/7/2015,7,3,2015,6.863888889,0,0,0,0,0,0,0
+2010-0142,138,Juanzo ,Carlo Joseph,,,Employee,Juanzo ,Carlo Joseph,Mame,,"Juanzo, Carlo Joseph Mame",CED,7/20/1988,20,7,1988,33,M,Doctorate Graduate,Instructor I,Permanent,Main Campus,2/11/2010,11,2,2010,11.93611111,0,0,0,0,0,0,0
+2015-0143,139,Ceballos ,Mutya ,,,Employee,Ceballos ,Mutya ,Dalisay,,"Ceballos, Mutya Dalisay",CED,1/5/1980,5,1,1980,42,F,Doctorate-Ongoing,Instructor II,Permanent,Main Campus,10/3/2015,3,10,2015,6.291666667,0,0,0,0,0,0,0
+2005-0144,140,Fetalvero ,Eddie ,,,Employee,Fetalvero ,Eddie ,Galigao,,"Fetalvero, Eddie Galigao",CED,9/30/1977,30,9,1977,44,M,Doctorate Graduate,Professor VI,Permanent,Main Campus,1/26/2005,26,1,2005,16.97777778,0,0,0,0,0,0,0
+2017-0145,141,Gabanan ,Reynold ,,,Employee,Gabanan ,Reynold ,Sarabia,,"Gabanan, Reynold Sarabia",CET,7/31/1981,31,7,1981,40,M,With Bachelor's Degree Units,Administrative Aide I,Permanent,Main Campus,10/242017,24,10,2017,4.233333333,0,0,0,0,0,0,0
+2000-0146,142,Fetalco ,Joey ,,,Employee,Fetalco ,Joey ,Cesar,,"Fetalco, Joey Cesar",CET,12/18/1974,18,12,1974,47,M,With Bachelor's Degree Units,Administrative Aide I,Permanent,Main Campus,3/3/2000,3,3,2000,21.875,0,0,0,0,0,0,0
+2007-0147,143,Dalisay ,Virne ,,,Employee,Dalisay ,Virne ,Bartolome,,"Dalisay, Virne Bartolome",CET,7/14/1979,14,7,1979,42,M,Masteral Graduate,Assistant Professor I,Permanent,Main Campus,6/4/2007,4,6,2007,14.62222222,0,0,0,0,0,0,0
+2014-0148,144,Fajanilan ,Hoyle ,,,Employee,Fajanilan ,Hoyle ,Forio,,"Fajanilan, Hoyle Forio",CET,1/8/1960,8,1,1960,62,M,Masteral Graduate,Assistant Professor I,Permanent,Main Campus,2/12/2014,12,2,2014,7.933333333,0,0,0,0,0,0,0
+1992-0149,145,Fabila ,Eddie ,,,Employee,Fabila ,Eddie ,Magada,,"Fabila, Eddie Magada",CET,5/1/1968,1,5,1968,53,M,Masteral Graduate,Assistant Professor I,Permanent,Main Campus,6/15/1992,15,6,1992,29.59166667,0,0,0,0,0,0,0
+2010-0150,146,Lilang ,Rey ,,,Employee,Lilang ,Rey ,Pampo,,"Lilang, Rey Pampo",CET,9/18/1972,18,9,1972,49,M,Masteral Graduate,Assistant Professor II,Permanent,Main Campus,12/1/2010,1,12,2010,11.13055556,0,0,0,0,0,0,0
+1998-0151,147,Guerra ,Joyce ,,,Employee,Guerra ,Joyce ,Famatigan,,"Guerra, Joyce Famatigan",CET,9/14/1966,14,9,1966,55,F,Masteral Graduate,Assistant Professor IV,Permanent,Main Campus,8/3/1998,3,8,1998,23.45833333,0,0,0,0,0,0,0
+2010-0152,148,Fortu ,Alfredo ,,,Employee,Fortu ,Alfredo ,Felia,Jr,"Fortu, Alfredo Jr Felia",CET,5/22/1984,22,5,1984,37,M,Doctorate Graduate,Assistant Professor IV,Permanent,Main Campus,12/1/2010,1,12,2010,11.13055556,0,0,0,0,0,0,0
+2006-0153,149,Rufon ,Jason ,,,Employee,Rufon ,Jason ,Fetalsana,,"Rufon, Jason Fetalsana",CET,9/21/1978,21,9,1978,43,M,Masteral Graduate,Associate Professor II,Permanent,Main Campus,9/21/2006,21,9,2006,15.325,0,0,0,0,0,0,0
+2005-0154,150,Sim ,Aprille Ann,,,Employee,Sim ,Aprille Ann,Mayuga,,"Sim, Aprille Ann Mayuga",CET,4/14/1981,14,4,1981,40,F,Doctorate-Ongoing,Associate Professor III,Permanent,Main Campus,10/17/2005,17,10,2005,16.25277778,0,0,0,0,0,0,0
+1991-0155,151,Gaac ,Elvin ,,,Employee,Gaac ,Elvin ,Fadriquela,,"Gaac, Elvin Fadriquela",CET,1/16/1969,16,1,1969,53,M,Doctorate Graduate,Associate Professor V,Permanent,Main Campus,12/4/1991,4,12,1991,30.12222222,0,0,0,0,0,0,0
+1999-0156,152,Fadriquel ,Orley ,,,Employee,Fadriquel ,Orley ,Gabutero,,"Fadriquel, Orley Gabutero",CET,3/4/1969,4,3,1969,52,M,Doctorate-Ongoing,Associate Professor V,Permanent,Main Campus,7/16/1999,16,7,1999,22.50555556,0,0,0,0,0,0,0
+1985-0157,153,Forlales ,Ester ,,,Employee,Forlales ,Ester ,Lilang,,"Forlales, Ester Lilang",CET,9/28/1961,28,9,1961,60,F,Doctorate Graduate,Associate Professor V,Permanent,Main Campus,6/17/1985,17,6,1985,36.58611111,0,0,0,0,0,0,0
+2015-0158,154,Ramos ,Reynaldo ,,,Employee,Ramos ,Reynaldo ,Perez,,"Ramos, Reynaldo Perez",CET,12/14/1965,14,12,1965,56,M,Doctorate Graduate,Associate Professor V,Permanent,Main Campus,6/1/2015,1,6,2015,6.630555556,0,0,0,0,0,0,0
+2006-0159,155,Bronce ,Olimpio Iris,,,Employee,Bronce ,Olimpio Iris,Fabello,Jr.,"Bronce, Olimpio Iris Jr. Fabello",CET,10/14/1964,14,10,1964,57,M,Masteral Graduate,Instructor I,Permanent,Main Campus,9/21/2006,21,9,2006,15.325,0,0,0,0,0,0,0
+1992-0160,156,Severo ,Raymond Jay,,,Employee,Severo ,Raymond Jay,Garcia,,"Severo, Raymond Jay Garcia",CET,2/16/1992,16,2,1992,29,M,Masteral Graduate,Instructor I,Permanent,Main Campus,2/16/1992,16,2,1992,29.92222222,0,0,0,0,0,0,0
+2018-0161,157,Garcia ,Elbert ,,,Employee,Garcia ,Elbert ,Mores,,"Garcia, Elbert Mores",CET,2/14/1993,14,2,1993,28,M,Masteral Graduate,Instructor I,Permanent,Main Campus,7/6/2018,6,7,2018,3.533333333,0,0,0,0,0,0,0
+2020-0162,158,Gacu ,Jerome ,,,Employee,Gacu ,Jerome ,Gabutero,,"Gacu, Jerome Gabutero",CET,8/30/1997,30,8,1997,24,M,Masteral Graduate,Instructor I,Temporary,Main Campus,6/1/2020,1,6,2020,1.630555556,0,0,0,0,0,0,0
+2015-0163,159,Mortel ,Christian ,,,Employee,Mortel ,Christian ,Malacapo,,"Mortel, Christian Malacapo",CET,1/3/1992,3,1,1992,30,M,Masteral Graduate,Instructor I,Permanent,Main Campus,7/1/2015,1,7,2015,6.547222222,0,0,0,0,0,0,0
+2020-0164,160,Calanoga ,Danica ,,,Employee,Calanoga ,Danica ,Famero,,"Calanoga, Danica Famero",CET,8/26/1993,26,8,1993,28,F,Masteral Graduate,Instructor I,Permanent,Main Campus,7/9/2020,9,7,2020,1.525,0,0,0,0,0,0,0
+2014-0165,161,Fetalver ,Charmaine ,,,Employee,Fetalver ,Charmaine ,Fos,,"Fetalver, Charmaine Fos",CET,8/30/1990,30,8,1990,31,F,Masteral Graduate,Instructor I,Permanent,Main Campus,2/24/2014,24,2,2014,7.9,0,0,0,0,0,0,0
+2014-0166,162,Garcia ,Junrey ,,,Employee,Garcia ,Junrey ,Dumaya,,"Garcia, Junrey Dumaya",CET,12/11/1989,11,12,1989,32,M,Masteral Graduate,Instructor I,Permanent,Main Campus,12/2/2014,2,12,2014,7.127777778,0,0,0,0,0,0,0
+1998-0167,163,Fos ,Richel ,,,Employee,Fos ,Richel ,Fetalver,,"Fos, Richel Fetalver",CET,8/25/1971,25,8,1971,50,M,With Masteral Units ,Instructor I,Permanent,Main Campus,3/8/1998,8,3,1998,23.86111111,0,0,0,0,0,0,0
+2020-0168,164,Manito ,Nikko Reymon,,,Employee,Manito ,Nikko Reymon,Recto,,"Manito, Nikko Reymon Recto",CET,8/16/1998,16,8,1998,23,M,Bachelor's Degree ,Instructor I,Temporary,Main Campus,6/1/2020,1,6,2020,1.630555556,0,0,0,0,0,0,0
+2019-0169,165,Agas ,Celenia ,,,Employee,Agas ,Celenia ,Menorca,,"Agas, Celenia Menorca",CET,1/15/1966,15,1,1966,56,F,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,11/2/2019,2,11,2019,2.211111111,0,0,0,0,0,0,0
+2020-0170,166,Dela Vega ,Kenreid Nuel,,,Employee,Dela Vega ,Kenreid Nuel,Famaran,,"Dela Vega, Kenreid Nuel Famaran",CET,10/11/1997,11,10,1997,24,M,Bachelor's Degree ,Instructor I,Temporary,Main Campus,6/1/2020,1,6,2020,1.630555556,0,0,0,0,0,0,0
+2019-0171,167,Atienza ,Mark Hendrix,,,Employee,Atienza ,Mark Hendrix,Yap,,"Atienza, Mark Hendrix Yap",CET,9/20/1996,20,9,1996,25,M, Masteral-Ongoing,Instructor I,Temporary,Main Campus,4/2/2019,2,4,2019,2.794444444,0,0,0,0,0,0,0
+2019-0172,168,Ical ,Mark Lawrence,,,Employee,Ical ,Mark Lawrence,Gaac,,"Ical, Mark Lawrence Gaac",CET,6/3/1994,3,6,1994,27,M,Masteral Graduate,Instructor I,Permanent,Main Campus,6/8/2019,8,6,2019,2.611111111,0,0,0,0,0,0,0
+2018-0173,169,Brecia ,Alvin John,,,Employee,Brecia ,Alvin John,Dulce,,"Brecia, Alvin John Dulce",CET,2/2/1993,2,2,1993,28,M,Masteral Graduate,Instructor I,Temporary,Main Campus,11/6/2018,6,11,2018,3.2,0,0,0,0,0,0,0
+2018-0174,170,Fajanilan ,Kim ,,,Employee,Fajanilan ,Kim ,Sediaco,,"Fajanilan, Kim Sediaco",CET,8/6/1995,6,8,1995,26,M,Masteral Graduate,Instructor I,Temporary,Main Campus,6/22/2018,22,6,2018,3.572222222,0,0,0,0,0,0,0
+2017-0175,171,Oliveros ,Jay ,,,Employee,Oliveros ,Jay ,Teodosio,,"Oliveros, Jay Teodosio",CET,2/5/1994,5,2,1994,27,M,Masteral Graduate,Instructor I,Permanent,Main Campus,2/13/2017,13,2,2017,4.930555556,0,0,0,0,0,0,0
+2021-0176,172,Lucidos ,Marjohn ,,,Employee,Lucidos ,Marjohn ,Escalona,,"Lucidos, Marjohn Escalona",CET,3/5/1994,5,3,1994,27,M,Bachelor's Degree ,Instructor I,Temporary,Main Campus,8/19/2021,19,8,2021,0.413888889,0,0,0,0,0,0,0
+1996-0177,173,Forlales ,Meliton ,,,Employee,Forlales ,Meliton ,Rubrico,Jr.,"Forlales, Meliton Jr. Rubrico",CET,12/11/1966,11,12,1966,55,M,Masteral Graduate,Instructor II,Permanent,Main Campus,7/1/1996,1,7,1996,25.54722222,0,0,0,0,0,0,0
+1998-0178,174,Galit ,Elmore ,,,Employee,Galit ,Elmore ,Gallos,,"Galit, Elmore Gallos",CET,9/6/1962,6,9,1962,59,M,Masteral Graduate,Instructor II,Permanent,Main Campus,8/3/1998,3,8,1998,23.45833333,0,0,0,0,0,0,0
+1994-0179,175,Maming ,Raymundo ,,,Employee,Maming ,Raymundo ,Millares,,"Maming, Raymundo Millares",CET,10/13/1967,13,10,1967,54,M,Bachelor's Degree ,Instructor III,Permanent,Main Campus,2/25/1994,25,2,1994,27.89722222,0,0,0,0,0,0,0
+2006-0180,176,Minon ,Jemima ,,,Employee,Minon ,Jemima ,Formilleza,,"Minon, Jemima Formilleza",CET,3/26/1979,26,3,1979,42,F,Masteral Graduate,Instructor III,Permanent,Main Campus,9/21/2006,21,9,2006,15.325,0,0,0,0,0,0,0
+2021-0181,177,Sartillo ,Glenn Nino,,,Employee,Sartillo ,Glenn Nino,Manalili,,"Sartillo, Glenn Nino Manalili",Chief Administrative  Office,5/25/1987,25,5,1987,34,M,Masteral Graduate,Chief Administrative Officer,Permanent,Main Campus,1/4/2021,4,1,2021,1.038888889,0,0,0,0,0,0,0
+2010-0182,178,Formilleza ,Alton ,,,Employee,Formilleza ,Alton ,Marquez,Jr.,"Formilleza, Alton Jr. Marquez",DRRMO,12/1/1969,1,12,1969,52,M,Bachelor's Degree ,Administrative Aide IV,Permanent,Main Campus,1/25/2010,25,1,2010,11.98055556,0,0,0,0,0,0,0
+2014-0183,179,Florendo ,Gregorio ,,,Employee,Florendo ,Gregorio ,Antonio,,"Florendo, Gregorio Antonio",Extension,7/19/1990,19,7,1990,31,M,Masteral Graduate,Agricultural Technician II,Permanent,Main Campus,2/14/2014,14,2,2014,7.927777778,0,0,0,0,0,0,0
+2013-0184,180,Godelusao ,Wilfredo ,,,Employee,Godelusao ,Wilfredo ,Palada,,"Godelusao, Wilfredo Palada",Food Processing Center,7/16/1970,16,7,1970,51,M,With Bachelor's Degree Units,Administrative Aide I ,Permanent,Main Campus,11/15/2013,15,11,2013,8.175,0,0,0,0,0,0,0
+2017-0185,181,Fajarito ,Jerome Adolfo,,,Employee,Fajarito ,Jerome Adolfo,Formilleza,,"Fajarito, Jerome Adolfo Formilleza",General Services,9/30/1964,30,9,1964,57,M,Bachelor's Degree ,Administrative Aide I,Permanent,Main Campus,10/25/2017,25,10,2017,4.230555556,0,0,0,0,0,0,0
+1990-0186,182,Fran ,Renato ,,,Employee,Fran ,Renato ,Rombines,,"Fran, Renato Rombines",General Services,1/3/1964,3,1,1964,58,M,Bachelor's Degree ,Administrative Aide IV,Permanent,Main Campus,6/5/1990,5,6,1990,31.61944444,0,0,0,0,0,0,0
+2005-0187,183,Rotoni ,Penwel ,,,Employee,Rotoni ,Penwel ,Fesarillo,,"Rotoni, Penwel Fesarillo",General Services,2/28/1960,28,2,1960,61,M,High School Graduate,Administrative Aide V,Permanent,Main Campus,10/17/2005,17,10,2005,16.25277778,0,0,0,0,0,0,0
+1998-0188,184,Sixon ,Edna ,,,Employee,Sixon ,Edna ,Mananguite,,"Sixon, Edna Mananguite",GEPS,1/18/1966,18,1,1966,56,F,Doctorate Graduate,Associate Professor V,Permanent,Main Campus,10/1/1998,1,10,1998,23.29722222,0,0,0,0,0,0,0
+2016-0189,185,Libo-On ,Joefel ,,,Employee,Libo-On ,Joefel ,Toledo,,"Libo-On, Joefel Toledo",GEPS,11/22/1988,22,11,1988,33,M,Doctorate Graduate,Instructor III,Permanent,Main Campus,1/15/2016,15,1,2016,6.008333333,0,0,0,0,0,0,0
+1999-0190,186,Fetalver ,Mario ,,,Employee,Fetalver ,Mario ,Amar,Jr.,"Fetalver, Mario Jr. Amar",GEPS,10/5/1972,5,10,1972,49,M,Doctorate Graduate,Professor VI,Permanent,Main Campus,7/16/1999,16,7,1999,22.50555556,0,0,0,0,0,0,0
+1986-0191,187,Fontamillas ,Hedy ,,,Employee,Fontamillas ,Hedy ,Fadri,,"Fontamillas, Hedy Fadri",Guidance Office,9/14/1962,14,9,1962,59,F,Masteral Graduate,Guidance Counselor III,Permanent,Main Campus,8/18/1986,18,8,1986,35.41666667,0,0,0,0,0,0,0
+2017-0192,188,Madali ,Abegail ,,,Employee,Madali ,Abegail ,Foja,,"Madali, Abegail Foja",Health Unit,12/14/1987,14,12,1987,34,F,Bachelor's Degree ,NURSE I,Permanent,Main Campus,5/15/2017,15,5,2017,4.675,0,0,0,0,0,0,0
+2017-0193,189,Alojado ,Daneca ,,,Employee,Alojado ,Daneca ,Gacilo,,"Alojado, Daneca Gacilo",Health Unit,7/2/1991,2,7,1991,30,F, Masteral-Ongoing,NURSE I,Permanent,Main Campus,6/5/2017,5,6,2017,4.619444444,0,0,0,0,0,0,0
+2017-0194,190,Barnachea ,Krys ,,,Employee,Barnachea ,Krys ,Fadriquela,,"Barnachea, Krys Fadriquela",Health Unit,4/18/1986,18,4,1986,35,F, Masteral-Ongoing,NURSE I,Permanent,Main Campus,5/29/2017,29,5,2017,4.636111111,0,0,0,0,0,0,0
+1985-0195,191,Firmalo ,Grace ,,,Employee,Firmalo ,Grace ,Fano,,"Firmalo, Grace Fano",Health Unit,10/18/1957,18,10,1957,64,F,Bachelor's Degree ,NURSE III,Permanent,Main Campus,1/1/1985,1,1,1985,37.04722222,0,0,0,0,0,0,0
+2017-0196,192,Balato ,Sarah Jane,,,Employee,Balato ,Sarah Jane,Duroy,,"Balato, Sarah Jane Duroy",HRDO,9/26/1988,26,9,1988,33,F, Masteral-Ongoing,Administrative Aide IV,Permanent,Main Campus,10/25/2017,25,10,2017,4.230555556,0,0,0,0,0,0,0
+2014-0197,193,Gaa ,Maria Charmaine,,,Employee,Gaa ,Maria Charmaine,Ramiro,,"Gaa, Maria Charmaine Ramiro",HRDO,9/29/1973,29,9,1973,48,F,Masteral Graduate,Assistant Professor II,Permanent,Main Campus,7/3/2014,3,7,2014,7.541666667,0,0,0,0,0,0,0
+2007-0198,194,Zuela ,Janily ,,,Employee,Zuela ,Janily ,Fausto,,"Zuela, Janily Fausto",HRMO,1/1/1965,1,1,1965,57,M,High School Graduate,Administrative Aide I,Permanent,Main Campus,10/1/2007,1,10,2007,14.29722222,0,0,0,0,0,0,0
+2019-0199,195,Ferrera ,Maribel ,,,HR Officer,Ferrera ,Maribel ,Gabales,,"Ferrera, Maribel Gabales",HRMO,1/8/1991,8,1,1991,31,F,Bachelor's Degree ,Administrative Aide III,Permanent,Main Campus,3/5/2019,5,3,2019,2.869444444,0,0,0,0,0,0,0
+2017-0200,196,Cortez ,Katherine ,,,Employee,Cortez ,Katherine ,Famero,,"Cortez, Katherine Famero",HRMO,5/22/1985,22,5,1985,36,F,With Masteral Units ,Administrative Aide IV,Permanent,Main Campus,2/13/2017,13,2,2017,4.930555556,0,0,0,0,0,0,0
+2003-0201,197,Tacasa ,Ilyn ,,,Employee,Tacasa ,Ilyn ,Magbata,,"Tacasa, Ilyn Magbata",HRMO,9/17/1977,17,9,1977,44,F,Bachelor's Degree ,Administrative Assisstant II,Permanent,Main Campus,9/16/2003,16,9,2003,18.33888889,0,0,0,0,0,0,0
+2013-0202,198,Alojado ,Melita ,,,Employee,Alojado ,Melita ,Gacilo,,"Alojado, Melita Gacilo",HRMO,11/3/1957,3,11,1957,64,F,Bachelor's Degree ,Administrative Assisstant II,Permanent,Main Campus,6/21/2013,21,6,2013,8.575,0,0,0,0,0,0,0
+2013-0203,199,Falogme ,Maricar ,,,Employee,Falogme ,Maricar ,Galit,,"Falogme, Maricar Galit",HRMO,5/26/1982,26,5,1982,39,F,Masteral Graduate,Administrative Assisstant II,Permanent,Main Campus,6/21/2013,21,6,2013,8.575,0,0,0,0,0,0,0
+1982-0204,200,Blancia ,Nonito ,,,Employee,Blancia ,Nonito ,Mapano,,"Blancia, Nonito Mapano",HRMO,12/26/1957,26,12,1957,64,M,Masteral Graduate,Associate Professor V,Permanent,Main Campus,7/1/1982,1,7,1982,39.54722222,0,0,0,0,0,0,0
+2013-0205,201,Rojero ,Isiah Rhowinn,,,Employee,Rojero ,Isiah Rhowinn,Fortes,,"Rojero, Isiah Rhowinn Fortes",ICJE,6/7/1988,7,6,1988,33,M,Doctorate-Ongoing,Assistant Professor I,Permanent,Main Campus,11/6/2013,6,11,2013,8.2,0,0,0,0,0,0,0
+2015-0206,202,Caagbay ,Ma. Cristina,,,Employee,Caagbay ,Ma. Cristina,Royo,,"Caagbay, Ma. Cristina Royo",ICJE,3/29/1994,29,3,1994,27,F,Bachelor's Degree ,Instructor I,Permanent,Main Campus,7/5/2015,5,7,2015,6.536111111,0,0,0,0,0,0,0
+2020-0207,203,Manago ,Jarem ,,,Employee,Manago ,Jarem ,Mazo,,"Manago, Jarem Mazo",ICJE,7/11/1997,11,7,1997,24,M,Bachelor's Degree ,Instructor I,Temporary,Main Campus,6/1/2020,1,6,2020,1.630555556,0,0,0,0,0,0,0
+2020-0208,204,Montoya ,Melody ,,,Employee,Montoya ,Melody ,Magbanua,,"Montoya, Melody Magbanua",ICJE,3/2/1995,2,3,1995,26,F,Masteral Graduate,Instructor I,Temporary,Main Campus,6/1/2020,1,6,2020,1.630555556,0,0,0,0,0,0,0
+2018-0209,205,Banagan ,Poly ,,,Employee,Banagan ,Poly ,Doce,,"Banagan, Poly Doce",ICJE,3/24/1986,24,3,1986,35,M,Doctorate Graduate,Instructor I,Permanent,Main Campus,11/6/2018,6,11,2018,3.2,0,0,0,0,0,0,0
+2018-0210,206,Tayco ,Augusto ,,,Employee,Tayco ,Augusto ,Dacman,Jr.,"Tayco Jr., Augusto Dacman",ICJE,2/28/1991,28,2,1991,30,M,Doctorate Graduate,Instructor I,Permanent,Main Campus,11/6/2018,6,11,2018,3.2,0,0,0,0,0,0,0
+2010-0211,207,Gaa ,Nympha ,,,Employee,Gaa ,Nympha ,Maligang,,"Gaa, Nympha Maligang",ICJE,6/18/1972,18,6,1972,49,F,Doctorate-Ongoing,Instructor III,Permanent,Main Campus,10/26/2010,26,10,2010,11.22777778,0,0,0,0,0,0,0
+2006-0212,208,Fabiala ,Lawrence Caesar,,,Employee,Fabiala ,Lawrence Caesar,Faigao,,"Fabiala, Lawrence Caesar Faigao",ICT,11/14/1974,14,11,1974,47,M,Bachelor's Degree ,Administrative Aide I,Permanent,Main Campus,9/21/2006,21,9,2006,15.325,0,0,0,0,0,0,0
+2013-0213,209,Aguila ,Catherine Bhel,,,Employee,Aguila ,Catherine Bhel,,,"Aguila, Catherine Bhel",IIT,5/9/1983,9,5,1983,38,F,Doctorate Graduate,Assistant Professor I,Permanent,Main Campus,1/25/2013,25,1,2013,8.980555556,0,0,0,0,0,0,0
+2021-0214,210,Oliva ,Ricky Michael,,,Employee,Oliva ,Ricky Michael,Morales,,"Oliva, Ricky Michael Morales",IIT,7/4/1997,4,7,1997,24,M,Doctorate-Ongoing,Assistant Professor I,Permanent,Main Campus,1/9/2021,9,1,2021,1.025,1,2,3,4,0,0,0
+2002-0215,211,Faeldan ,Cyril ,,,Employee,Faeldan ,Cyril ,Fadera,,"Faeldan, Cyril Fadera",IIT,6/29/1971,29,6,1971,50,M,Doctorate-Ongoing,Assistant Professor II,Permanent,Main Campus,11/5/2002,5,11,2002,19.20277778,0,0,0,0,0,0,0
+2011-0216,212,Motin ,Ma. Cielo,,,Employee,Motin ,Ma. Cielo,Amar,,"Motin, Ma. Cielo Amar",IIT,9/21/1974,21,9,1974,47,F,Doctorate-Ongoing,Assistant Professor IV,Permanent,Main Campus,5/1/2011,1,5,2011,10.71388889,0,0,0,0,0,0,0
+1998-0217,213,Fallaria ,Julie ,,,Employee,Fallaria ,Julie ,Foja,,"Fallaria, Julie Foja",IIT,7/21/1968,21,7,1968,53,M,Masteral Graduate,Assistant Professor IV,Permanent,Main Campus,8/3/1998,3,8,1998,23.45833333,0,0,0,0,0,0,0
+2002-0218,214,Fallaria ,Sarah Jane,,,Employee,Fallaria ,Sarah Jane,Fabroa,,"Fallaria, Sarah Jane Fabroa",IIT,10/3/1968,3,10,1968,53,F,Masteral Graduate,Assistant Professor IV,Permanent,Main Campus,8/1/2002,1,8,2002,19.46388889,0,0,0,0,0,0,0
+2003-0219,215,Dayagdag ,Carlwin ,,,Employee,Dayagdag ,Carlwin ,Vasquez,,"Dayagdag, Carlwin Vasquez",IIT,8/28/1979,28,8,1979,42,M,Doctorate Graduate,Associate Professor I,Permanent,Main Campus,6/20/2003,20,6,2003,18.57777778,0,0,0,0,0,0,0
+2020-0220,216,Fornal ,Jerryjay ,,,Employee,Fornal ,Jerryjay ,Gabutero,,"Fornal, Jerryjay Gabutero",IIT,8/3/1995,3,8,1995,26,M,Masteral Graduate,Instructor I,Temporary,Main Campus,10/12/2020,12,10,2020,1.266666667,0,0,0,0,0,0,0
+2018-0221,217,Pabilario ,Lailani ,,,Employee,Pabilario ,Lailani ,Evangelio,,"Pabilario, Lailani Evangelio",IIT,10/9/1994,9,10,1994,27,F,Masteral Graduate,Instructor I,Permanent,Main Campus,6/22/2018,22,6,2018,3.572222222,0,0,0,0,0,0,0
+2019-0222,218,Tupas ,Preexcy ,,,Employee,Tupas ,Preexcy ,Bacus,,"Tupas, Preexcy Bacus",IIT,8/25/1992,25,8,1992,29,F,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,11/2/2019,2,11,2019,2.211111111,0,0,0,0,0,0,0
+2019-0223,219,Fermanejo ,Robert Jeffrey,,,Employee,Fermanejo ,Robert Jeffrey,Fontamillas,,"Fermanejo, Robert Jeffrey Fontamillas",IIT,11/13/1985,13,11,1985,36,M,Masteral Graduate,Instructor I,Permanent,Main Campus,5/8/2019,8,5,2019,2.694444444,0,0,0,0,0,0,0
+2019-0224,220,Francisco ,Joey ,,,Employee,Francisco ,Joey ,Rodrigo,,"Francisco, Joey Rodrigo",IIT,10/4/1987,4,10,1987,34,M,Masteral Graduate,Instructor I,Permanent,Main Campus,5/8/2019,8,5,2019,2.694444444,0,0,0,0,0,0,0
+2018-0225,221,Ferranco ,Charevel ,,,Employee,Ferranco ,Charevel ,Frojo,,"Ferranco, Charevel Frojo",IIT,3/1/1994,1,3,1994,27,F,Masteral Graduate,Instructor I,Permanent,Main Campus,7/6/2018,6,7,2018,3.533333333,0,0,0,0,0,0,0
+2019-0226,222,Gadon ,Ana ,,,Employee,Gadon ,Ana ,Dianito,,"Gadon, Ana Dianito",IIT,9/21/1994,21,9,1994,27,F,Masteral Graduate,Instructor I,Temporary,Main Campus,5/8/2019,8,5,2019,2.694444444,0,0,0,0,0,0,0
+2019-0227,223,Forcado ,Marvin Rick,,,Employee,Forcado ,Marvin Rick,Gadon,,"Forcado, Marvin Rick Gadon",IIT,11/11/1983,11,11,1983,38,M,Masteral Graduate,Instructor I,Permanent,Main Campus,3/14/2019,14,3,2019,2.844444444,0,0,0,0,0,0,0
+2005-0228,224,Aguila ,John Joseph,,,Employee,Aguila ,John Joseph,Guerra,,"Aguila, John Joseph Guerra",IIT,1/17/1983,17,1,1983,39,M,Masteral Graduate,Instructor III,Permanent,Main Campus,7/1/2005,1,7,2005,16.54722222,0,0,0,0,0,0,0
+2014-0229,225,Ferranco ,Joan ,,,Employee,Ferranco ,Joan ,Fajutnao,,"Ferranco, Joan Fajutnao",IIT,6/12/1980,12,6,1980,41,F,Masteral Graduate,Instructor III,Permanent,Main Campus,7/4/2014,4,7,2014,7.538888889,0,0,0,0,0,0,0
+2015-0230,226,Rosas ,Nova Marie,,,Employee,Rosas ,Nova Marie,Faeldan,,"Rosas, Nova Marie Faeldan",IIT,6/11/1977,11,6,1977,44,F,Masteral Graduate,Instructor III ,Permanent,Main Campus,1/6/2015,6,1,2015,7.033333333,0,0,0,0,0,0,0
+2021-0231,227,Acepcion ,Sarah Joy,,,Employee,Acepcion ,Sarah Joy,Alfonso,,"Acepcion, Sarah Joy Alfonso",IIT,12/16/1993,16,12,1993,28,F,Masteral Graduate,Instructor III ,Temporary,Main Campus,8/19/2021,19,8,2021,0.413888889,0,0,0,0,0,0,0
+1998-0232,228,Servanez ,Lorena ,,,Employee,Servanez ,Lorena ,Fodra,,"Servanez, Lorena Fodra",Learning Resource Center,8/23/1967,23,8,1967,54,F,Bachelor's Degree ,Administrative Aide I ,Permanent,Main Campus,4/5/1998,5,4,1998,23.78611111,0,0,0,0,0,0,0
+1999-0233,229,Fabila ,Erna ,,,Employee,Fabila ,Erna ,Gado,,"Fabila, Erna Gado",Learning Resource Center,1/20/1965,20,1,1965,56,F,With Bachelor's Degree Units,Administrative Aide IV,Permanent,Main Campus,7/16/1999,16,7,1999,22.50555556,0,0,0,0,0,0,0
+2017-0234,230,Masangcay ,Nadie Joy,,,Employee,Masangcay ,Nadie Joy,Fabila,,"Masangcay, Nadie Joy Fabila",Learning Resource Center,10/10/1995,10,10,1995,26,F,Masteral Graduate,College Librarian I,Permanent,Main Campus,1/9/2017,9,1,2017,5.025,0,0,0,0,0,0,0
+1993-0235,231,Bantola ,Imelda ,,,Employee,Bantola ,Imelda ,Refe,,"Bantola, Imelda Refe",Learning Resource Center,12/11/1965,11,12,1965,56,F,Bachelor's Degree ,College Librarian III,Permanent,Main Campus,8/9/1993,9,8,1993,28.44166667,0,0,0,0,0,0,0
+1993-0236,232,Dela,"Austria, Arnel",,,Employee,Dela,"Austria, Arnel",Forcado,,"Dela Austria, Arnel Forcado",LSHS,6/5/1966,5,6,1966,55,M,Masteral Graduate,Associate Professor V,Permanent,Main Campus,6/18/1993,18,6,1993,28.58333333,0,0,0,0,0,0,0
+1988-0237,233,Fronda ,Alfredo ,,,Employee,Fronda ,Alfredo ,Jayme,Jr.,"Fronda, Alfredo Jr. Jayme",LSHS,10/29/1959,29,10,1959,62,M,Doctorate Graduate,Associate Professor V,Permanent,Main Campus,6/20/1988,20,6,1988,33.57777778,0,0,0,0,0,0,0
+2007-0238,234,Gamol ,Dave John,,,Employee,Gamol ,Dave John,Villanueva,,"Gamol, Dave John Villanueva",LSHS,2/11/1980,11,2,1980,41,M,With Masteral Units ,Instructor I,Permanent,Main Campus,6/1/2007,1,6,2007,14.63055556,0,0,0,0,0,0,0
+2018-0239,235,Famero ,Andrew ,,,Employee,Famero ,Andrew ,Moral,,"Famero, Andrew Moral",LSHS,10/11/1973,11,10,1973,48,M,Doctorate-Ongoing,Instructor I,Permanent,Main Campus,7/6/2018,6,7,2018,3.533333333,0,0,0,0,0,0,0
+2019-0240,236,Fetalver ,Realyn ,,,Employee,Fetalver ,Realyn ,Bañago,,"Fetalver, Realyn Ba?Ago",LSHS,11/1/1981,1,11,1981,40,F, Masteral-Ongoing,Instructor I,Temporary,Main Campus,5/9/2019,9,5,2019,2.691666667,0,0,0,0,0,0,0
+2019-0241,237,Magapan ,Maria Kristina,,,Employee,Magapan ,Maria Kristina,Aquino,,"Magapan, Maria Kristina Aquino",LSHS,1/9/1996,9,1,1996,26,F,Masteral Graduate,Instructor I,Permanent,Main Campus,5/9/2019,9,5,2019,2.691666667,0,0,0,0,0,0,0
+2017-0242,238,Francisco ,Vee ,,,Employee,Francisco ,Vee ,Formilleza,,"Francisco, Vee Formilleza",LSHS,8/31/1982,31,8,1982,39,F,Masteral Graduate,Instructor I,Permanent,Main Campus,2/13/2017,13,2,2017,4.930555556,0,0,0,0,0,0,0
+2005-0243,239,Fedelin ,Neil ,,,Employee,Fedelin ,Neil ,Saminado,,"Fedelin, Neil Saminado",LSHS,8/28/1977,28,8,1977,44,M,Masteral Graduate,Instructor III,Permanent,Main Campus,9/1/2005,1,9,2005,16.38055556,0,0,0,0,0,0,0
+2017-0244,240,Manliguez ,Raymund ,,,Employee,Manliguez ,Raymund ,Falogme,,"Manliguez, Raymund Falogme",Motorpool Unit,6/22/1995,22,6,1995,26,M,High School Graduate,Administrative Aide I ,Permanent,Main Campus,6/16/2017,16,6,2017,4.588888889,0,0,0,0,0,0,0
+2010-0245,241,Ferrancullo ,Dione ,,,Employee,Ferrancullo ,Dione ,Formento,,"Ferrancullo, Dione Formento",Motorpool Unit,11/26/1964,26,11,1964,57,M,High School Graduate,Administrative Aide III,Permanent,Main Campus,10/26/2010,26,10,2010,11.22777778,0,0,0,0,0,0,0
+2006-0246,242,Gonzales ,Rocky ,,,Employee,Gonzales ,Rocky ,Tumaob,,"Gonzales, Rocky Tumaob",Motorpool Unit,7/22/1969,22,7,1969,52,M,With Bachelor's Degree Units,Administrative Aide IV,Permanent,Main Campus,7/3/2006,3,7,2006,15.54166667,0,0,0,0,0,0,0
+2014-0247,243,Tamayo ,Michael ,,,Employee,Tamayo ,Michael ,Cruz,,"Tamayo, Michael Cruz",Motorpool Unit,3/15/1978,15,3,1978,43,M,With Bachelor's Degree Units,Mechanic II,Permanent,Main Campus,10/14/2014,14,10,2014,7.261111111,0,0,0,0,0,0,0
+2011-0248,244,Rico ,Marivic ,,,Employee,Rico ,Marivic ,Manzano,,"Rico, Marivic Manzano",Office of the Board Secretary,2/8/1962,8,2,1962,59,F,With Bachelor's Degree Units,Administrative Aide I,Permanent,Main Campus,10/24/2011,24,10,2011,10.23333333,0,0,0,0,0,0,0
+2017-0249,245,Penti?O ,Edissa Mae,,,Employee,Penti?O ,Edissa Mae,Fetalsana,,"Penti?O, Edissa Mae Fetalsana",Office of the Board Secretary,5/21/1982,21,5,1982,39,F,Bachelor's Degree ,Administrative Aide III,Permanent,Main Campus,10/25/2017,25,10,2017,4.230555556,0,0,0,0,0,0,0
+2001-0250,246,Rufon ,John ,,,Employee,Rufon ,John ,Fetalsana,,"Rufon, John Fetalsana",Office of the Board Secretary,3/29/1976,29,3,1976,45,M,Masteral Graduate,Board Secretary V,Permanent,Main Campus,1/24/2001,24,1,2001,20.98333333,0,0,0,0,0,0,0
+2017-0251,247,Dalisay ,Hiecel ,,,Employee,Dalisay ,Hiecel ,Fabula,,"Dalisay, Hiecel Fabula",Office of the President,12/11/1984,11,12,1984,37,F,Bachelor's Degree ,Administrative Assisstant II,Permanent,Main Campus,6/13/2017,13,6,2017,4.597222222,0,0,0,0,0,0,0
+2021-0252,248,Labicane ,Gianinna Elaine,,,Employee,Labicane ,Gianinna Elaine,M.,,"Labicane, Gianinna Elaine M.",Office of the President,12/4/1997,4,12,1997,24,F,Doctorate-Ongoing,Assistant Professor III,Permanent,Main Campus,10/12/2021,12,10,2021,0.266666667,0,0,0,0,0,0,0
+1986-0001,249,Mani ,Merian ,,,Employee,Mani ,Merian ,Catajay,,"Mani, Merian Catajay",Office of the President,10/1/1962,1,10,1962,59,F,Doctorate Graduate,SUC President II,Permanent,Main Campus,6/16/1986,16,6,1986,35.58888889,0,0,0,0,0,0,0
+2021-0254,250,Sevilla ,Anthony ,,,Employee,Sevilla ,Anthony ,Cruz,,"Sevilla, Anthony Cruz",OMPA,11/2/1988,2,11,1988,33,M,With Bachelor's Degree Units,Administrative Aide I ,Permanent,Main Campus,4/1/2021,1,4,2021,0.797222222,0,0,0,0,0,0,0
+2006-0255,251,Faeldan ,Rizalyn ,,,Employee,Faeldan ,Rizalyn ,Castillo,,"Faeldan, Rizalyn Castillo",PDO,6/19/1971,19,6,1971,50,F,Bachelor's Degree ,Administrative Aide I,Permanent,Main Campus,9/22/2006,22,9,2006,15.32222222,0,0,0,0,0,0,0
+2017-0256,252,Fetalver ,Mary Joy,,,Employee,Fetalver ,Mary Joy,Fadri,,"Fetalver, Mary Joy Fadri",PDO,12/21/1992,21,12,1992,29,F,Masteral Graduate,Administrative Aide III,Permanent,Main Campus,10/25/2017,25,10,2017,4.230555556,0,0,0,0,0,0,0
+2010-0257,253,Fadera ,Danny ,,,Employee,Fadera ,Danny ,Faminial,,"Fadera, Danny Faminial",PPFO,9/12/1964,12,9,1964,57,M,Bachelor's Degree ,Electricain II,Permanent,Main Campus,10/26/2010,26,10,2010,11.22777778,0,0,0,0,0,0,0
+2017-0258,254,Relano ,Sandro ,,,Employee,Relano ,Sandro ,Santiago,,"Relano, Sandro Santiago",Production Unit,12/13/1977,13,12,1977,44,M,Bachelor's Degree ,Agricultural Technician II,Permanent,Main Campus,8/5/2017,5,8,2017,4.452777778,0,0,0,0,0,0,0
+2014-0259,255,Fetalvero ,Ruzzel ,,,Employee,Fetalvero ,Ruzzel ,Impasta,,"Fetalvero, Ruzzel Impasta",Production Unit,5/19/1981,19,5,1981,40,M,Bachelor's Degree ,Farm Worker I,Permanent,Main Campus,12/2/2014,2,12,2014,7.127777778,0,0,0,0,0,0,0
+2017-0260,256,Faminialan ,Bilshan Roi,,,Employee,Faminialan ,Bilshan Roi,Badillo,,"Faminialan, Bilshan Roi Badillo",Production Unit,3/26/1993,26,3,1993,28,M,Bachelor's Degree ,School Farming Coordinator I,Permanent,Main Campus,5/8/2017,8,5,2017,4.694444444,0,0,0,0,0,0,0
+2014-0261,257,Foja ,Jenley ,,,Employee,Foja ,Jenley ,Ferriol,,"Foja, Jenley Ferriol",Records Office,5/19/1980,19,5,1980,41,F,Bachelor's Degree ,Administrative Aide I ,Permanent,Main Campus,12/2/2014,2,12,2014,7.127777778,0,0,0,0,0,0,0
+1989-0262,258,Solidum ,Reno ,,,Employee,Solidum ,Reno ,Umali,,"Solidum , Reno Umali",Records Office,8/29/1964,29,8,1964,57,M,Bachelor's Degree ,Administrative Officer V,Permanent,Main Campus,10/1/1989,1,10,1989,32.29722222,0,0,0,0,0,0,0
+2019-0263,259,Ida ,Annabelle ,,,Employee,Ida ,Annabelle ,Fampo,,"Ida, Annabelle Fampo",Records Office,1/6/1967,6,1,1967,55,F,Masteral Graduate,REGISTRAR III,Permanent,Main Campus,9/4/2019,4,9,2019,2.372222222,0,0,0,0,0,0,0
+2005-0264,260,Martinez ,Ma. Rhona,,,Employee,Martinez ,Ma. Rhona,Saldoga,,"Martinez, Ma. Rhona Saldoga",Registrar's Office,12/1/1976,1,12,1976,45,F,Bachelor's Degree ,Administrative Aide I,Permanent,Main Campus,10/17/2005,17,10,2005,16.25277778,0,0,0,0,0,0,0
+2017-0265,261,Maulion ,Angelo ,,,Employee,Maulion ,Angelo ,Quijano,,"Maulion, Angelo Quijano",Registrar's Office,5/14/1980,14,5,1980,41,M,Bachelor's Degree ,Administrative Aide I,Permanent,Main Campus,10/25/2017,25,10,2017,4.230555556,0,0,0,0,0,0,0
+2017-0266,262,Fabriquier ,Edwin Karl,,,Employee,Fabriquier ,Edwin Karl,Fetalvero,,"Fabriquier, Edwin Karl  Fetalvero",Registrar's Office,8/21/1985,21,8,1985,36,M,Bachelor's Degree ,Administrative Aide I,Permanent,Main Campus,10/27/2017,27,10,2017,4.225,0,0,0,0,0,0,0
+2017-0267,263,Gabo ,Sania ,,,Employee,Gabo ,Sania ,Manungay,,"Gabo, Sania Manungay",Registrar's Office,6/22/1987,22,6,1987,34,F,Masteral Graduate,Administrative Aide III,Permanent,Main Campus,10/25/2017,25,10,2017,4.230555556,0,0,0,0,0,0,0
+2015-0268,264,Miñon ,Rosanette ,,,Employee,Miñon ,Rosanette ,Fontamillas,,"Mi?On, Rosanette Fontamillas",Registrar's Office,6/14/1972,14,6,1972,49,F,Masteral Graduate,Administrative Assisstant I,Permanent,Main Campus,9/16/2015,16,9,2015,6.338888889,0,0,0,0,0,0,0
+2016-0269,265,Maaba ,Joseph ,,,Employee,Maaba ,Joseph ,Montojo,,"Maaba, Joseph Montojo",Romblon Campus,5/14/1967,14,5,1967,54,M,High School Graduate,Administrative Aide I ,Permanent,Romblon Campus,1/6/2016,6,1,2016,6.033333333,0,0,0,0,0,0,0
+2013-0270,266,Merida ,Rex ,,,Employee,Merida ,Rex ,Corong,,"Merida, Rex Corong",Romblon Campus,9/15/1980,15,9,1980,41,M,Bachelor's Degree ,Administrative Aide II,Permanent,Romblon Campus,11/15/2013,15,11,2013,8.175,0,0,0,0,0,0,0
+2017-0271,267,Maaba ,Christian ,,,Employee,Maaba ,Christian ,Moaje,,"Maaba, Christian Moaje",Romblon Campus,6/11/1982,11,6,1982,39,F,With Masteral Units ,Administrative Aide IV,Permanent,Romblon Campus,10/24/2017,24,10,2017,4.233333333,0,0,0,0,0,0,0
+2014-0272,268,Glori ,Monica ,,,Employee,Glori ,Monica ,Mortel,,"Glori, Monica Mortel",Romblon Campus,1/28/1974,28,1,1974,47,F,Doctorate Graduate,Assistant Professor II,Permanent,Romblon Campus,6/2/2014,2,6,2014,7.627777778,0,0,0,0,0,0,0
+2017-0273,269,Wong ,Amaranth ,,,Employee,Wong ,Amaranth ,Molina,,"Wong, Amaranth Molina",Romblon Campus,11/17/1982,17,11,1982,39,F,Masteral Graduate,Assistant Professor II,Permanent,Romblon Campus,6/26/2017,26,6,2017,4.561111111,0,0,0,0,0,0,0
+2000-0274,270,Wong ,Jonathan ,,,Employee,Wong ,Jonathan ,Perez,,"Wong, Jonathan Perez",Romblon Campus,7/4/1975,4,7,1975,46,M,Doctorate Graduate,Associate Professor III,Permanent,Romblon Campus,9/10/2000,10,9,2000,21.35555556,0,0,0,0,0,0,0
+2020-0275,271,Marzonia ,John Paul,,,Employee,Marzonia ,John Paul,Asis,,"Marzonia, John Paul Asis",Romblon Campus,5/21/1987,21,5,1987,34,M, Masteral-Ongoing,Instructor I,Permanent,Romblon Campus,5/5/2020,5,5,2020,1.702777778,0,0,0,0,0,0,0
+2017-0276,272,Mores ,Jerson ,,,Employee,Mores ,Jerson ,Martos,,"Mores, Jerson Martos",Romblon Campus,3/3/1986,3,3,1986,35,M,Doctorate-Ongoing,Instructor I,Permanent,Romblon Campus,6/21/2017,21,6,2017,4.575,0,0,0,0,0,0,0
+2017-0277,273,Villaraza ,Lizette ,,,Employee,Villaraza ,Lizette ,Ilao,,"Villaraza, Lizette Ilao",Romblon Campus,7/14/1980,14,7,1980,41,F,Doctorate-Ongoing,Instructor I,Permanent,Romblon Campus,6/22/2017,22,6,2017,4.572222222,0,0,0,0,0,0,0
+2018-0278,274,Morgado ,Christine ,,,Employee,Morgado ,Christine ,Tome,,"Morgado, Christine Tome",Romblon Campus,5/9/1986,9,5,1986,35,F,Doctorate-Ongoing,Instructor I,Permanent,Romblon Campus,10/7/2018,7,10,2018,3.280555556,0,0,0,0,0,0,0
+2019-0279,275,Mindoro ,Joy Mariz,,,Employee,Mindoro ,Joy Mariz,Maulion,,"Mindoro, Joy Mariz Maulion",Romblon Campus,6/23/1990,23,6,1990,31,F, Masteral-Ongoing,Instructor I,Temporary,Romblon Campus,7/8/2019,8,7,2019,2.527777778,0,0,0,0,0,0,0
+2019-0280,276,Montojo ,Erpie Christ,,,Employee,Montojo ,Erpie Christ,Carolino,,"Montojo, Erpie Christ Carolino",Romblon Campus,11/2/1992,2,11,1992,29,M,Masteral Graduate,Instructor I,Permanent,Romblon Campus,7/8/2019,8,7,2019,2.527777778,0,0,0,0,0,0,0
+2019-0281,277,Mesana ,James Patrick,,,Employee,Mesana ,James Patrick,Mortel,,"Mesana, James Patrick Mortel",Romblon Campus,5/8/1991,8,5,1991,30,M,Masteral Graduate,Instructor I,Temporary,Romblon Campus,7/8/2019,8,7,2019,2.527777778,0,0,0,0,0,0,0
+2019-0282,278,Mariño,Lynie ,,,Employee,Mariño,Lynie ,Manrique,,"Mari?O, Lynie Manrique",Romblon Campus,2/16/1986,16,2,1986,35,F,Masteral Graduate,Instructor I,Temporary,Romblon Campus,7/8/2019,8,7,2019,2.527777778,0,0,0,0,0,0,0
+2004-0283,279,Mindoro ,Milady Love,,,Employee,Mindoro ,Milady Love,Ferrer,,"Mindoro, Milady Love Ferrer",Romblon Campus,12/7/1978,7,12,1978,43,F,Doctorate-Ongoing,Instructor I,Permanent,Romblon Campus,3/6/2004,6,3,2004,17.86666667,0,0,0,0,0,0,0
+2005-0284,280,Adriguez ,Ruel Virgil,,,Employee,Adriguez ,Ruel Virgil,Mingo,,"Adriguez, Ruel Virgil Mingo",Romblon Campus,8/18/1982,18,8,1982,39,M,Doctorate Graduate,Instructor I,Permanent,Romblon Campus,6/4/2005,4,6,2005,16.62222222,0,0,0,0,0,0,0
+2005-0285,281,Mindoro ,Orlando Laurico,,,Employee,Mindoro ,Orlando Laurico,,,"Mindoro, Orlando Laurico",Romblon Campus,10/28/1969,28,10,1969,52,M,Masteral Graduate,Instructor I,Permanent,Romblon Campus,7/22/2005,22,7,2005,16.48888889,0,0,0,0,0,0,0
+2010-0286,282,Magbanua ,Mario ,,,Employee,Magbanua ,Mario ,Gabutero,,"Magbanua, Mario Gabutero",San Agustin Campus,12/24/1977,24,12,1977,44,M,Bachelor's Degree ,Administrative Aide I,Permanent,San Agustin Campus,10/26/2010,26,10,2010,11.22777778,0,0,0,0,0,0,0
+2013-0287,283,Manabo ,Lino ,,,Employee,Manabo ,Lino ,Magracia,Jr.,"Manabo , Lino Magracia Jr.",San Agustin Campus,4/28/1964,28,4,1964,57,M,Bachelor's Degree ,Administrative Aide I,Permanent,San Agustin Campus,8/8/2013,8,8,2013,8.444444444,0,0,0,0,0,0,0
+2013-0288,284,Molo ,Rexy ,,,Employee,Molo ,Rexy ,Osorio,,"Molo, Rexy Osorio",San Agustin Campus,9/22/1984,22,9,1984,37,M,Doctorate Graduate,Assistant Professor I,Permanent,San Agustin Campus,1/28/2013,28,1,2013,8.972222222,0,0,0,0,0,0,0
+1987-0289,285,Muyo ,Diwane ,,,Employee,Muyo ,Diwane ,Mallorca,,"Muyo, Diwane Mallorca",San Agustin Campus,3/14/1957,14,3,1957,64,F,Bachelor's Degree ,Assistant Professor I,Permanent,San Agustin Campus,6/16/1987,16,6,1987,34.58888889,0,0,0,0,0,0,0
+2006-0290,286,Manliguez ,Joseph ,,,Employee,Manliguez ,Joseph ,Magracia,,"Manliguez, Joseph Magracia",San Agustin Campus,3/21/1980,21,3,1980,41,M,Masteral Graduate,Assistant Professor I,Permanent,San Agustin Campus,1/10/2006,10,1,2006,16.02222222,0,0,0,0,0,0,0
+1996-0291,287,Muyo ,Emily ,,,Employee,Muyo ,Emily ,Fallaria,,"Muyo, Emily Fallaria",San Agustin Campus,3/21/1960,21,3,1960,61,F,Masteral Graduate,Assistant Professor II,Permanent,San Agustin Campus,5/2/1996,2,5,1996,25.71111111,0,0,0,0,0,0,0
+1994-0292,288,Solano ,Nelian ,,,Employee,Solano ,Nelian ,Mirabete,,"Solano, Nelian Mirabete",San Agustin Campus,5/6/1971,6,5,1971,50,F,Doctorate Graduate,Assistant Professor II,Permanent,San Agustin Campus,9/28/1994,28,9,1994,27.30555556,0,0,0,0,0,0,0
+1994-0293,289,Mantes ,Bernie ,,,Employee,Mantes ,Bernie ,Galicha,,"Mantes, Bernie Galicha",San Agustin Campus,2/22/1968,22,2,1968,53,F,Masteral Graduate,Assistant Professor III,Permanent,San Agustin Campus,2/10/1994,10,2,1994,27.93888889,0,0,0,0,0,0,0
+2010-0294,290,Motin ,Borromeo ,,,Employee,Motin ,Borromeo ,Billones,,"Motin, Borromeo Billones",San Agustin Campus,11/4/1967,4,11,1967,54,M,Doctorate Graduate,Associate Professor III,Permanent,San Agustin Campus,11/2/2010,2,11,2010,11.21111111,0,0,0,0,0,0,0
+1993-0295,291,Mutia ,Merlinda ,,,Employee,Mutia ,Merlinda ,Magoncia,,"Mutia, Merlinda Magoncia",San Agustin Campus,5/9/1959,9,5,1959,62,F,Doctorate Graduate,Associate Professor V,Permanent,San Agustin Campus,1/12/1993,12,1,1993,29.01666667,0,0,0,0,0,0,0
+1978-0296,292,Muyo ,Flaviano ,,,Employee,Muyo ,Flaviano ,Manipol,Jr.,"Muyo, Flaviano Jr Manipol",San Agustin Campus,10/25/1956,25,10,1956,65,M,Doctorate Graduate,Associate Professor V,Permanent,San Agustin Campus,1/8/1978,8,1,1978,44.02777778,0,0,0,0,0,0,0
+1985-0297,293,Cabadongga ,Beatriz ,,,Employee,Cabadongga ,Beatriz ,Manlolo,,"Cabadongga, Beatriz Manlolo",San Agustin Campus,7/29/1958,29,7,1958,63,F,Doctorate Graduate,Associate Professor V,Permanent,San Agustin Campus,3/7/1985,7,3,1985,36.86388889,0,0,0,0,0,0,0
+1994-0298,294,Morada ,Antonio ,,,Employee,Morada ,Antonio ,Moreno,,"Morada, Antonio Moreno",San Agustin Campus,1/16/1972,16,1,1972,50,M,Bachelor's Degree ,Farm Worker I,Permanent,San Agustin Campus,4/2/1994,2,4,1994,27.79444444,0,0,0,0,0,0,0
+2016-0299,295,Santos ,Jeniel ,,,Employee,Santos ,Jeniel ,Albarico,,"Santos, Jeniel Albarico",San Agustin Campus,6/17/1992,17,6,1992,29,M,Masteral Graduate,Instructor I,Permanent,San Agustin Campus,1/6/2016,6,1,2016,6.033333333,0,0,0,0,0,0,0
+2017-0300,296,Gonzales ,Jeric ,,,Employee,Gonzales ,Jeric ,Bocol,,"Gonzales, Jeric Bocol",San Agustin Campus,1/19/1990,19,1,1990,31,M,Masteral Graduate,Instructor I,Permanent,San Agustin Campus,6/13/2017,13,6,2017,4.597222222,0,0,0,0,0,0,0
+2019-0301,297,Mazo ,Xyrra Jeremiah,,,Employee,Mazo ,Xyrra Jeremiah,Carbonel,,"Mazo, Xyrra Jeremiah Carbonel",San Agustin Campus,8/4/1997,4,8,1997,24,F,Masteral Graduate,Instructor I,Permanent,San Agustin Campus,9/9/2019,9,9,2019,2.358333333,0,0,0,0,0,0,0
+2000-0302,298,Morada ,Joseph ,,,Employee,Morada ,Joseph ,Moreno,,"Morada, Joseph Moreno",San Agustin Campus,3/19/1970,19,3,1970,51,M,Masteral Graduate,Instructor I,Permanent,San Agustin Campus,1/7/2000,7,1,2000,22.03055556,0,0,0,0,0,0,0
+2000-0303,299,Magura ,Gina ,,,Employee,Magura ,Gina ,Gutierrez,,"Magura, Gina Gutierrez",San Agustin Campus,1/31/1970,31,1,1970,51,F,Masteral Graduate,Instructor I,Permanent,San Agustin Campus,9/10/2000,10,9,2000,21.35555556,0,0,0,0,0,0,0
+2016-0304,300,Lota ,Christine ,,,Employee,Lota ,Christine ,Mallen,,"Lota, Christine Mallen",San Agustin Campus,12/9/1988,9,12,1988,33,F,Bachelor's Degree ,Nurse I,Permanent,San Agustin Campus,10/3/2016,3,10,2016,5.291666667,0,0,0,0,0,0,0
+1989-0305,301,Moreno ,Kennedy ,,,Employee,Moreno ,Kennedy ,Mora,,"Moreno, Kennedy Mora",San Agustin Campus,6/20/1969,20,6,1969,52,M,With Bachelor's Degree Units,Security Guard I,Permanent,San Agustin Campus,4/24/1989,24,4,1989,32.73333333,0,0,0,0,0,0,0
+1982-0306,302,Molo ,Erly ,,,Employee,Molo ,Erly ,Moreno,,"Molo, Erly Moreno",San Agustin Campus,1/12/1958,12,1,1958,64,F,Bachelor's Degree ,Vocational School Administrator I,Permanent,San Agustin Campus,1/8/1982,8,1,1982,40.02777778,0,0,0,0,0,0,0
+1985-0307,303,Maulion ,Shirley ,,,Employee,Maulion ,Shirley ,Ureta,,"Maulion, Shirley Ureta",San Andres Campus,11/14/1957,14,11,1957,64,F,Bachelor's Degree ,Administrative Aide IV,Permanent,San Andres Campus,1/7/1985,7,1,1985,37.03055556,0,0,0,0,0,0,0
+2001-0308,304,Marcelino ,Godwin ,,,Employee,Marcelino ,Godwin ,Obrique,,"Marcelino, Godwin Obrique",San Andres Campus,7/18/1975,18,7,1975,46,M, Masteral-Ongoing,Assistant Professor I,Permanent,San Andres Campus,10/16/2001,16,10,2001,20.25555556,0,0,0,0,0,0,0
+1987-0309,305,Gadon ,Leme ,,,Employee,Gadon ,Leme ,Ganan,,"Gadon, Leme Ganan",San Andres Campus,11/1/1958,1,11,1958,63,F,Doctorate Graduate,Associate Professor III,Permanent,San Andres Campus,5/1/1987,1,5,1987,34.71388889,0,0,0,0,0,0,0
+1983-0310,306,Madeja ,Melba ,,,Employee,Madeja ,Melba ,Mallorca,,"Madeja, Melba Mallorca",San Andres Campus,5/27/1959,27,5,1959,62,F,Doctorate Graduate,Associate Professor V,Permanent,San Andres Campus,1/17/1983,17,1,1983,39.00277778,0,0,0,0,0,0,0
+1996-0311,307,Vestido ,Jun Fely,,,Employee,Vestido ,Jun Fely,Rico,,"Vestido, Jun Fely Rico",San Andres Campus,2/1/1996,1,2,1996,25,F,Doctorate-Ongoing,Instructor I,Permanent,San Andres Campus,2/1/1996,1,2,1996,25.96388889,0,0,0,0,0,0,0
+2017-0312,308,Reyes ,Lyn ,,,Employee,Reyes ,Lyn ,Falla,,"Reyes, Lyn Falla",San Andres Campus,11/23/1976,23,11,1976,45,F,Doctorate-Ongoing,Instructor I,Permanent,San Andres Campus,6/22/2017,22,6,2017,4.572222222,0,0,0,0,0,0,0
+2017-0313,309,Gado ,Vincent Jay,,,Employee,Gado ,Vincent Jay,Hindap,,"Gado, Vincent Jay Hindap",San Andres Campus,3/19/1991,19,3,1991,30,M,Doctorate-Ongoing,Instructor I,Permanent,San Andres Campus,8/24/2017,24,8,2017,4.4,0,0,0,0,0,0,0
+2003-0314,310,Madeja ,Ronald ,,,Employee,Madeja ,Ronald ,Ancheta,,"Madeja, Ronald Ancheta",San Andres Campus,10/2/1969,2,10,1969,52,M,Bachelor's Degree ,Security Guard I,Permanent,San Andres Campus,2/20/2003,20,2,2003,18.91111111,0,0,0,0,0,0,0
+2014-0315,311,Taladtad ,Richard ,,,Employee,Taladtad ,Richard ,Zacarias,,"Taladtad, Richard Zacarias",San Andres Campus,4/12/1969,12,4,1969,52,M,Bachelor's Degree ,Watchman I,Permanent,San Andres Campus,3/3/2014,3,3,2014,7.875,0,0,0,0,0,0,0
+2011-0316,312,Dela,"Cruz, Mar",,,Employee,Dela,"Cruz, Mar",Albarico,,"Dela Cruz, Mar Albarico",San Fernando Campus,9/22/1972,22,9,1972,49,M,Bachelor's Degree ,Administrative Aide I,Permanent,San Fernando Campus,1/8/2011,8,1,2011,11.02777778,0,0,0,0,0,0,0
+2019-0317,313,Ribon ,Rommel ,,,Employee,Ribon ,Rommel ,Zoleta,,"Ribon, Rommel Zoleta",San Fernando Campus,5/5/1987,5,5,1987,34,M,Bachelor's Degree ,Administrative Aide I,Permanent,San Fernando Campus,1/15/2019,15,1,2019,3.008333333,0,0,0,0,0,0,0
+1998-0318,314,Riano ,Teresita ,,,Employee,Riano ,Teresita ,Rafol,,"Riano, Teresita Rafol",San Fernando Campus,7/17/1959,17,7,1959,62,F,With Bachelor's Degree Units,Administrative Aide I,Permanent,San Fernando Campus,11/3/1998,3,11,1998,23.20833333,0,0,0,0,0,0,0
+2002-0319,315,Andres ,Roberto ,,,Employee,Andres ,Roberto ,Sucgang,,"Andres, Roberto Sucgang",San Fernando Campus,10/24/1960,24,10,1960,61,M,Bachelor's Degree ,Administrative Aide I,Permanent,San Fernando Campus,5/16/2002,16,5,2002,19.67222222,0,0,0,0,0,0,0
+2018-0320,316,Rezano ,Catherine ,,,Employee,Rezano ,Catherine ,Nablea,,"Rezano, Catherine Nablea",San Fernando Campus,2/27/1991,27,2,1991,30,F,Bachelor's Degree ,Administrative Aide III,Permanent,San Fernando Campus,6/7/2018,7,6,2018,3.613888889,0,0,0,0,0,0,0
+1986-0321,317,Molo ,Lore ,,,Employee,Molo ,Lore ,Alegre,,"Molo, Lore Alegre",San Fernando Campus,11/21/1959,21,11,1959,62,M,Bachelor's Degree ,Administrative Aide IV,Permanent,San Fernando Campus,1/20/1986,20,1,1986,35.99444444,0,0,0,0,0,0,0
+2000-0322,318,Riano ,Gene ,,,Employee,Riano ,Gene ,Romillo,,"Riano, Gene Romillo",San Fernando Campus,12/8/1968,8,12,1968,53,F,Bachelor's Degree ,Administrative Aide IV,Permanent,San Fernando Campus,11/3/2000,3,11,2000,21.20833333,0,0,0,0,0,0,0
+1984-0323,319,Recto ,Margie ,,,Employee,Recto ,Margie ,Ruga,,"Recto, Margie Ruga",San Fernando Campus,10/22/1961,22,10,1961,60,F,With Bachelor's Degree Units,Administrative Aide VI,Permanent,San Fernando Campus,3/26/1984,26,3,1984,37.81111111,0,0,0,0,0,0,0
+2003-0324,320,Murchante ,Ma. Lyra,,,Employee,Murchante ,Ma. Lyra,Gubaton,,"Murchante, Ma. Lyra Gubaton",San Fernando Campus,9/14/1979,14,9,1979,42,F,Bachelor's Degree ,Administrative Officer I,Permanent,San Fernando Campus,10/27/2003,27,10,2003,18.225,0,0,0,0,0,0,0
+2011-0325,321,Vibas ,Villaren ,,,Employee,Vibas ,Villaren ,Mortel,,"Vibas, Villaren Mortel",San Fernando Campus,1/28/1988,28,1,1988,33,M,Doctorate Graduate,Assistant Professor I,Permanent,San Fernando Campus,12/1/2011,1,12,2011,10.13055556,0,0,0,0,0,0,0
+2008-0326,322,Riño ,Amelia ,,,Employee,Riño ,Amelia ,Regala,,"Ri?O, Amelia Regala",San Fernando Campus,4/15/1985,15,4,1985,36,F,Masteral Graduate,Assistant Professor I,Permanent,San Fernando Campus,1/7/2008,7,1,2008,14.03055556,0,0,0,0,0,0,0
+2002-0327,323,Rafol ,Maricon ,,,Employee,Rafol ,Maricon ,Rollan,,"Rafol, Maricon Rollan",San Fernando Campus,9/12/1980,12,9,1980,41,F, Masteral-Ongoing,Assistant Professor I,Permanent,San Fernando Campus,2/1/2002,1,2,2002,19.96388889,0,0,0,0,0,0,0
+2007-0328,324,Bangalisan ,Blezilda ,,,Employee,Bangalisan ,Blezilda ,Romero,,"Bangalisan, Blezilda Romero",San Fernando Campus,7/11/1980,11,7,1980,41,F,Masteral Graduate,Assistant Professor II,Permanent,San Fernando Campus,6/20/2007,20,6,2007,14.57777778,0,0,0,0,0,0,0
+2003-0329,325,Rubia ,Nixon ,,,Employee,Rubia ,Nixon ,Roldan,,"Rubia, Nixon Roldan",San Fernando Campus,4/12/1979,12,4,1979,42,M,Masteral Graduate,Assistant Professor II,Permanent,San Fernando Campus,2/4/2003,4,2,2003,18.95555556,0,0,0,0,0,0,0
+1989-0330,326,Banzuelo ,Bernabe ,,,Employee,Banzuelo ,Bernabe ,Madrona,,"Banzuelo, Bernabe Madrona",San Fernando Campus,4/19/1966,19,4,1966,55,M,With Masteral Units ,Assistant Professor II,Permanent,San Fernando Campus,1/11/1989,11,1,1989,33.01944444,0,0,0,0,0,0,0
+2008-0331,327,Rada ,Betcieva ,,,Employee,Rada ,Betcieva ,Garcia,,"Rada, Betcieva Garcia",San Fernando Campus,8/20/1984,20,8,1984,37,F,Doctorate-Ongoing,Assistant Professor III,Permanent,San Fernando Campus,7/1/2008,1,7,2008,13.54722222,0,0,0,0,0,0,0
+1983-0332,328,Rutor ,Rosenie ,,,Employee,Rutor ,Rosenie ,Banzuelo,,"Rutor, Rosenie Banzuelo",San Fernando Campus,1/31/1962,31,1,1962,59,F,With Masteral Units ,Assistant Professor IV,Permanent,San Fernando Campus,6/8/1983,8,6,1983,38.61111111,0,0,0,0,0,0,0
+1988-0333,329,Royo ,Noel ,,,Employee,Royo ,Noel ,Romano,,"Royo, Noel Romano",San Fernando Campus,8/17/1965,17,8,1965,56,M,With Masteral Units ,Assistant Professor IV,Permanent,San Fernando Campus,7/19/1988,19,7,1988,33.49722222,0,0,0,0,0,0,0
+1989-0334,330,Arboleda,Mary Jane,,,Employee,Arboleda,Mary Jane,Rios,,"Arboleda, Mary Jane Rios",San Fernando Campus,6/27/1967,27,6,1967,54,F,Doctorate-Ongoing,Assistant Professor IV,Permanent,San Fernando Campus,11/7/1989,7,11,1989,32.19722222,0,0,0,0,0,0,0
+1991-0335,331,Ruado,Lilian ,,,Employee,Ruado,Lilian ,Rogero,,"Ruado, Lilian Rogero",San Fernando Campus,5/17/1962,17,5,1962,59,F,Masteral Graduate,Associate Professor III,Permanent,San Fernando Campus,8/23/1991,23,8,1991,30.40277778,0,0,0,0,0,0,0
+1985-0336,332,Llavor,Marilou ,,,Employee,Llavor,Marilou ,Banzuelo,,"Llavor, Marilou Banzuelo",San Fernando Campus,3/19/1965,19,3,1965,56,F,Doctorate Graduate,Associate Professor IV,Permanent,San Fernando Campus,6/17/1985,17,6,1985,36.58611111,0,0,0,0,0,0,0
+1991-0337,333,Ramos,Emelia ,,,Employee,Ramos,Emelia ,Banzuelo,,"Ramos, Emelia Banzuelo",San Fernando Campus,8/9/1966,9,8,1966,55,F,Doctorate Graduate,Associate Professor V,Permanent,San Fernando Campus,10/6/1991,6,10,1991,30.28333333,0,0,0,0,0,0,0
+1988-0338,334,Romias,Irene ,,,Employee,Romias,Irene ,Rugas,,"Romias, Irene Rugas",San Fernando Campus,3/26/1958,26,3,1958,63,F,Doctorate Graduate,Associate Professor V,Permanent,San Fernando Campus,7/7/1988,7,7,1988,33.53055556,0,0,0,0,0,0,0
+1982-0339,335,Riva,Carmen ,,,Employee,Riva,Carmen ,Jamilla,,"Riva, Carmen Jamilla",San Fernando Campus,7/10/1960,10,7,1960,61,F,With Doctorate Units,Associate Professor V,Permanent,San Fernando Campus,6/14/1982,14,6,1982,39.59444444,0,0,0,0,0,0,0
+2007-0340,336,Bullas,Dennis ,,,Employee,Bullas,Dennis ,Doloso,,"Bullas, Dennis Doloso",San Fernando Campus,8/11/1974,11,8,1974,47,M,Masteral Graduate,Instructor I,Permanent,San Fernando Campus,8/20/2007,20,8,2007,14.41111111,0,0,0,0,0,0,0
+2015-0341,337,Garcia,Goldefar ,,,Employee,Garcia,Goldefar ,Moral,,"Garcia, Goldefar Moral",San Fernando Campus,11/25/1986,25,11,1986,35,M,Masteral Graduate,Instructor I,Permanent,San Fernando Campus,3/8/2015,8,3,2015,6.861111111,0,0,0,0,0,0,0
+2019-0342,338,Ramos,Mylene ,,,Employee,Ramos,Mylene ,Rotoni,,"Ramos, Mylene Rotoni",San Fernando Campus,11/7/1980,7,11,1980,41,F,Masteral Graduate,Instructor I,Permanent,San Fernando Campus,8/26/2019,26,8,2019,2.394444444,0,0,0,0,0,0,0
+2019-0343,339,Vibas,Mary Grace,,,Employee,Vibas,Mary Grace,Rodas,,"Vibas, Mary Grace Rodas",San Fernando Campus,9/7/1992,7,9,1992,29,F,Masteral Graduate,Instructor I,Permanent,San Fernando Campus,4/2/2019,2,4,2019,2.794444444,0,0,0,0,0,0,0
+2019-0344,340,Ramilo,Sandy ,,,Employee,Ramilo,Sandy ,Ramilo,,"Ramilo, Sandy Ramilo",San Fernando Campus,12/14/1986,14,12,1986,35,M,Masteral Graduate,Instructor I,Permanent,San Fernando Campus,3/14/2019,14,3,2019,2.844444444,0,0,0,0,0,0,0
+2019-0345,341,Marzan,Ruben ,,,Employee,Marzan,Ruben ,Rubin,,"Marzan, Ruben Rubin",San Fernando Campus,1/23/1993,23,1,1993,28,M,Masteral Graduate,Instructor I,Permanent,San Fernando Campus,9/26/2019,26,9,2019,2.311111111,0,0,0,0,0,0,0
+2016-0346,342,Penuela,Virgil ,,,Employee,Penuela,Virgil ,Lacerna,,"Penuela, Virgil Lacerna",San Fernando Campus,1/15/1984,15,1,1984,38,M,Doctorate-Ongoing,Instructor I,Permanent,San Fernando Campus,12/19/2016,19,12,2016,5.080555556,0,0,0,0,0,0,0
+2016-0347,343,Relox,Annelle ,,,Employee,Relox,Annelle ,Rafol,,"Relox, Annelle Rafol",San Fernando Campus,2/7/1986,7,2,1986,35,F,Masteral Graduate,Instructor I,Permanent,San Fernando Campus,12/19/2016,19,12,2016,5.080555556,0,0,0,0,0,0,0
+2016-0348,344,Cordero,Jouena ,,,Employee,Cordero,Jouena ,Perez,,"Cordero, Jouena Perez",San Fernando Campus,1/7/1992,7,1,1992,30,F,With Doctorate Units,Instructor I,Permanent,San Fernando Campus,12/19/2016,19,12,2016,5.080555556,0,0,0,0,0,0,0
+2016-0349,345,Anayan,Nathanstee ,,,Employee,Anayan,Nathanstee ,Quezon,,"Anayan, Nathanstee Quezon",San Fernando Campus,5/12/1987,12,5,1987,34,M,Doctorate-Ongoing,Instructor I,Permanent,San Fernando Campus,12/19/2016,19,12,2016,5.080555556,0,0,0,0,0,0,0
+2019-0350,346,Hellwig,Laarni ,,,Employee,Hellwig,Laarni ,Repil,,"Hellwig, Laarni Repil",San Fernando Campus,1/1/1980,1,1,1980,42,F,Doctorate-Ongoing,Instructor I,Permanent,San Fernando Campus,1/14/2019,14,1,2019,3.011111111,0,0,0,0,0,0,0
+2016-0351,347,Famorcan,Shiela ,,,Employee,Famorcan,Shiela ,Rada,,"Famorcan, Shiela Rada",San Fernando Campus,9/3/1985,3,9,1985,36,F,Masteral Graduate,Instructor I,Permanent,San Fernando Campus,2/11/2016,11,2,2016,5.936111111,0,0,0,0,0,0,0
+2016-0352,348,Barabas,Noreen ,,,Employee,Barabas,Noreen ,Decena,,"Barabas, Noreen Decena",San Fernando Campus,8/24/1990,24,8,1990,31,F,With Masteral Units ,Instructor II,Permanent,San Fernando Campus,6/1/2016,1,6,2016,5.630555556,0,0,0,0,0,0,0
+2013-0353,349,Ruga,Reynaldo ,,,Employee,Ruga,Reynaldo ,Villaruel,,"Ruga, Reynaldo Villaruel",San Fernando Campus,8/24/1964,24,8,1964,57,M,Doctorate Graduate,Instructor III,Permanent,San Fernando Campus,5/28/2013,28,5,2013,8.638888889,0,0,0,0,0,0,0
+2008-0354,350,Romias,Eduardo ,,,Employee,Romias,Eduardo ,Rugas,,"Romias, Eduardo Rugas",San Fernando Campus,1/1/1963,1,1,1963,59,M,With Masteral Units ,Instructor III,Permanent,San Fernando Campus,1/7/2008,7,1,2008,14.03055556,0,0,0,0,0,0,0
+2017-0355,351,Molo,Maria Noreeza Amor,,,Employee,Molo,Maria Noreeza Amor,Balcorta,,"Molo, Maria Noreeza Amor Balcorta",San Fernando Campus,8/24/1987,24,8,1987,34,F, Masteral-Ongoing,Nurse I,Permanent,San Fernando Campus,5/15/2017,15,5,2017,4.675,0,0,0,0,0,0,0
+2018-0356,352,Abelong,Julie ,,,Employee,Abelong,Julie ,Riano,,"Abelong, Julie Riano",San Fernando Campus,3/7/1985,7,3,1985,36,F,Masteral Graduate,School Librarian III,Permanent,San Fernando Campus,1/6/2018,6,1,2018,4.033333333,0,0,0,0,0,0,0
+2012-0357,353,Robles,Davy ,,,Employee,Robles,Davy ,Perez,,"Robles, Davy Perez",San Fernando Campus,4/19/1974,19,4,1974,47,M,With Bachelor's Degree Units,Security Guard I,Permanent,San Fernando Campus,7/2/2012,2,7,2012,9.544444444,0,0,0,0,0,0,0
+1997-0358,354,Marin,Alejandro ,,,Employee,Marin,Alejandro ,Rivas,Jr,"Marin, Alejandro Jr Rivas",San Fernando Campus,7/1/1959,1,7,1959,62,M,With Bachelor's Degree Units,Security Guard I,Permanent,San Fernando Campus,3/17/1997,17,3,1997,24.83611111,0,0,0,0,0,0,0
+2017-0359,355,Pinos,Rodmanric ,,,Employee,Pinos,Rodmanric ,Mondoy,,"Pinos, Rodmanric Mondoy",Santa Fe Campus,10/31/1971,31,10,1971,50,M,With Bachelor's Degree Units,Administrative Aide I,Permanent,Santa Fe Campus,8/14/2017,14,8,2017,4.427777778,0,0,0,0,0,0,0
+2004-0360,356,Galiga,Jonas ,,,Employee,Galiga,Jonas ,Mendoza,,"Galiga, Jonas Mendoza",Santa Fe Campus,9/18/1966,18,9,1966,55,M,Bachelor's Degree ,Administrative Aide I,Permanent,Santa Fe Campus,7/27/2004,27,7,2004,17.475,0,0,0,0,0,0,0
+2015-0361,357,Espenida,Romel ,,,Employee,Espenida,Romel ,Fernando,,"Espenida, Romel Fernando",Santa Fe Campus,11/28/1988,28,11,1988,33,M,Bachelor's Degree ,Administrative Aide I,Permanent,Santa Fe Campus,9/16/2015,16,9,2015,6.338888889,0,0,0,0,0,0,0
+2014-0362,358,Gusmo,Joey ,,,Employee,Gusmo,Joey ,Castillon,,"Gusmo, Joey Castillon",Santa Fe Campus,3/7/1977,7,3,1977,44,M,With Bachelor's Degree Units,Administrative Aide I,Permanent,Santa Fe Campus,3/3/2014,3,3,2014,7.875,0,0,0,0,0,0,0
+2013-0363,359,Visca,Miguel ,,,Employee,Visca,Miguel ,De Jesus,Jr.,"Visca, Miguel Jr. De Jesus",Santa Fe Campus,4/13/1992,13,4,1992,29,M,Doctorate Graduate,Assistant Professor I,Permanent,Santa Fe Campus,1/3/2013,3,1,2013,9.041666667,0,0,0,0,0,0,0
+1993-0364,360,Rasgo,Marites ,,,Employee,Rasgo,Marites ,Fortu,,"Rasgo, Marites Fortu",Santa Fe Campus,8/28/1968,28,8,1968,53,F,Masteral Graduate,Assistant Professor II,Permanent,Santa Fe Campus,8/6/1993,6,8,1993,28.45,0,0,0,0,0,0,0
+1997-0365,361,Rasgo,Rey ,,,Employee,Rasgo,Rey ,Perlas,,"Rasgo, Rey Perlas",Santa Fe Campus,10/4/1970,4,10,1970,51,M,Doctorate Graduate,Associate Professor I,Permanent,Santa Fe Campus,6/2/1997,2,6,1997,24.62777778,0,0,0,0,0,0,0
+2014-0366,362,Rasgo,Randy ,,,Employee,Rasgo,Randy ,Perlas,,"Rasgo, Randy Perlas",Santa Fe Campus,2/16/1972,16,2,1972,49,M,High School Graduate,Farm Worker I,Permanent,Santa Fe Campus,10/1/2014,1,10,2014,7.297222222,0,0,0,0,0,0,0
+2016-0367,363,Gallano,Randy ,,,Employee,Gallano,Randy ,Manliguez,,"Gallano, Randy Manliguez",Santa Fe Campus,11/25/1991,25,11,1991,30,M,Masteral Graduate,Instructor I,Permanent,Santa Fe Campus,1/27/2016,27,1,2016,5.975,0,0,0,0,0,0,0
+2016-0368,364,Liberato,Rick Vincent,,,Employee,Liberato,Rick Vincent,Sejane,,"Liberato, Rick Vincent Sejane",Santa Fe Campus,4/17/1986,17,4,1986,35,M,Masteral Graduate,Instructor I,Temporary,Santa Fe Campus,1/27/2016,27,1,2016,5.975,0,0,0,0,0,0,0
+2013-0369,365,Gadon,Deanazon ,,,Employee,Gadon,Deanazon ,Cawaling,,"Gadon, Deanazon Cawaling",Santa Fe Campus,6/23/1989,23,6,1989,32,F, Masteral-Ongoing,Instructor II,Permanent,Santa Fe Campus,1/21/2013,21,1,2013,8.991666667,0,0,0,0,0,0,0
+2009-0370,366,Tiaga,Menchie ,,,Employee,Tiaga,Menchie ,Macaraya,,"Tiaga, Menchie Macaraya",Santa Fe Campus,12/30/1979,30,12,1979,42,F, Masteral-Ongoing,Instructor III,Permanent,Santa Fe Campus,9/14/2009,14,9,2009,12.34444444,0,0,0,0,0,0,0
+1996-0371,367,Tiaga,Lily ,,,Employee,Tiaga,Lily ,Bartolome,,"Tiaga , Lily Bartolome",Santa Fe Campus,11/11/1970,11,11,1970,51,F, Masteral-Ongoing,Instructor III ,Permanent,Santa Fe Campus,1/7/1996,7,1,1996,26.03055556,0,0,0,0,0,0,0
+2013-0372,368,Arbis,Ronald ,,,Employee,Arbis,Ronald ,Mariano,,"Arbis, Ronald Mariano",Santa Maria Campus,6/8/1978,8,6,1978,43,M,With Bachelor's Degree Units,Administrative Aide I,Permanent,Santa Maria Campus,6/8/2013,8,6,2013,8.611111111,0,0,0,0,0,0,0
+1981-0373,369,Miñon,Danilo ,,,Employee,Miñon,Danilo ,Manlolo,,"Mi?On, Danilo Manlolo",Santa Maria Campus,12/2/1957,2,12,1957,64,M,Masteral Graduate,Associate Professor I,Permanent,Santa Maria Campus,7/6/1981,6,7,1981,40.53333333,0,0,0,0,0,0,0
+1983-0374,370,Manliguez,Precelita ,,,Employee,Manliguez,Precelita ,Galang,,"Manliguez, Precelita Galang",Santa Maria Campus,1/16/1960,16,1,1960,62,F,Doctorate Graduate,Associate Professor III,Permanent,Santa Maria Campus,6/20/1983,20,6,1983,38.57777778,0,0,0,0,0,0,0
+1985-0375,371,Bantang,Rosario ,,,Employee,Bantang,Rosario ,Arbis,,"Bantang, Rosario Arbis",Santa Maria Campus,10/16/1961,16,10,1961,60,F,Doctorate Graduate,Associate Professor V,Permanent,Santa Maria Campus,3/7/1985,7,3,1985,36.86388889,0,0,0,0,0,0,0
+2017-0376,372,Galan,Marilyn ,,,Employee,Galan,Marilyn ,Madrilejos,,"Galan, Marilyn Madrilejos",Santa Maria Campus,3/25/1991,25,3,1991,30,F,Masteral Graduate,Instructor I,Permanent,Santa Maria Campus,3/7/2017,7,3,2017,4.863888889,0,0,0,0,0,0,0
+2018-0377,373,De La Crus,Reigner Cristobal,,,Employee,De La Crus,Reigner Cristobal,,,"De La Cruz, Reigner Cristobal",Santa Maria Campus,3/11/1983,11,3,1983,38,M,Masteral Graduate,Instructor I,Permanent,Santa Maria Campus,6/22/2018,22,6,2018,3.572222222,0,0,0,0,0,0,0
+2014-0378,374,Manzo,Joemar ,,,Employee,Manzo,Joemar ,Felices,,"Manzo, Joemar Felices",Santa Maria Campus,6/22/1977,22,6,1977,44,M,Doctorate Graduate,Instructor III,Permanent,Santa Maria Campus,6/23/2014,23,6,2014,7.569444444,0,0,0,0,0,0,0
+2014-0379,375,Castro,Carlo ,,,Employee,Castro,Carlo ,Rico,,"Castro, Carlo Rico",Santa Maria Campus,7/16/1976,16,7,1976,45,M,Doctorate Graduate,Instructor III ,Permanent,Santa Maria Campus,2/20/2014,20,2,2014,7.911111111,0,0,0,0,0,0,0
+2006-0380,376,Jagoriles,Arnel ,,,Employee,Jagoriles,Arnel ,Parcon,,"Jagoriles, Arnel Parcon",Santa Maria Campus,4/26/1971,26,4,1971,50,M,With Bachelor's Degree Units,Watchman I,Permanent,Santa Maria Campus,3/22/2006,22,3,2006,15.82222222,0,0,0,0,0,0,0
+2010-0381,377,Faminialan,Matt ,,,Employee,Faminialan,Matt ,Badillo,,"Faminialan, Matt Badillo",Security Services,4/29/1981,29,4,1981,40,M,Bachelor's Degree ,Security Guard I,Permanent,Main Campus,10/26/2010,26,10,2010,11.22777778,0,0,0,0,0,0,0
+2016-0382,378,Chua,Rolly ,,,Employee,Chua,Rolly ,Fermanejo,,"Chua, Rolly Fermanejo",Security Services,4/7/1981,7,4,1981,40,M,With Bachelor's Degree Units,Watchman I,Permanent,Main Campus,12/7/2016,7,12,2016,5.113888889,0,0,0,0,0,0,0
+2014-0383,379,Hernandez,Jay Phillip,,,Employee,Hernandez,Jay Phillip,Villanueva,,"Hernandez, Jay Phillip Villanueva",Security Services,5/13/1980,13,5,1980,41,M,With Bachelor's Degree Units,Watchman I,Permanent,Main Campus,6/2/2014,2,6,2014,7.627777778,0,0,0,0,0,0,0
+2010-0384,380,Faeldan,Francis ,,,Employee,Faeldan,Francis ,Tan,,"Faeldan, Francis Tan",Security Services,7/20/1978,20,7,1978,43,M,Bachelor's Degree ,Watchman I,Permanent,Main Campus,10/26/2010,26,10,2010,11.22777778,0,0,0,0,0,0,0
+2015-0385,381,Guirindola,Roger ,,,Employee,Guirindola,Roger ,Casidsid,,"Guirindola, Roger Casidsid",Security Services,10/24/1980,24,10,1980,41,M,With Bachelor's Degree Units,Watchman I,Permanent,Main Campus,8/17/2015,17,8,2015,6.419444444,0,0,0,0,0,0,0
+2017-0386,382,Aungon,Marvin ,,,Employee,Aungon,Marvin ,Madrona,,"Aungon, Marvin Madrona",Security Services,9/12/1978,12,9,1978,43,M,High School Graduate,Watchman I,Permanent,Main Campus,8/14/2017,14,8,2017,4.427777778,0,0,0,0,0,0,0
+2010-0387,383,Fedelin,Reneil ,,,Employee,Fedelin,Reneil ,Saminado,,"Fedelin, Reneil Saminado",Security Services,7/11/1976,11,7,1976,45,M,Bachelor's Degree ,Watchman I,Permanent,Main Campus,10/26/2010,26,10,2010,11.22777778,0,0,0,0,0,0,0
+2020-0388,384,Faner,Pedro ,,,Employee,Faner,Pedro ,Menorca,,"Faner, Pedro Menorca",Special projects,3/10/1962,10,3,1962,59,M,Elementary Graduate,Farm Worker I,Permanent,Main Campus,2/24/2020,24,2,2020,1.9,0,0,0,0,0,0,0
+2010-0389,385,Inocencio,Lito ,,,Employee,Inocencio,Lito ,Fadriquela,,"Inocencio, Lito Fadriquela",Special projects,8/10/1965,10,8,1965,56,M,Elementary Graduate,Farm Worker I,Permanent,Main Campus,10/26/2010,26,10,2010,11.22777778,0,0,0,0,0,0,0
+2006-0390,386,Foja,Phelan ,,,Employee,Foja,Phelan ,Ferrancullo,,"Foja, Phelan Ferrancullo",Supply Office,7/15/1977,15,7,1977,44,M,Bachelor's Degree ,Administrative Aide I,Permanent,Main Campus,7/17/2006,17,7,2006,15.50277778,0,0,0,0,0,0,0
+2003-0391,387,Maulion,Cheryl ,,,Employee,Maulion,Cheryl ,Manzala,,"Maulion, Cheryl Manzala",Supply Office,1/9/1980,9,1,1980,42,F,Masteral Graduate,Administrative Officer V,Permanent,Main Campus,9/16/2003,16,9,2003,18.33888889,0,0,0,0,0,0,0
+2005-0392,388,Faa,Charlie ,,,Employee,Faa,Charlie ,Fedelin,,"Faa, Charlie Fedelin",Supply Office,11/30/1968,30,11,1968,53,M,Bachelor's Degree ,Farm Worker II,Permanent,Main Campus,7/16/2005,16,7,2005,16.50555556,0,0,0,0,0,0,0
+1995-0002,389,Villanueva,Emelyn ,,,Employee,Villanueva,Emelyn ,Rico,,"Villanueva, Emelyn Rico",VPAA,1/9/1972,9,1,1972,50,F,Doctorate Graduate,Associate Professor V,Permanent,Main Campus,6/26/1995,26,6,1995,26.56111111,0,0,0,0,0,0,0
+2002-0003,390,Faminial,Tomas ,,,Employee,Faminial,Tomas ,Teologo,,"Faminial, Tomas Teologo",VPAF,10/7/1963,7,10,1963,58,M,Doctorate Graduate,Associate Professor V,Permanent,Main Campus,8/1/2002,1,8,2002,19.46388889,0,0,0,0,0,0,0
+2017-0395,391,Servañez,Bilshan ,,,Employee,Servañez,Bilshan ,Fondevilla,,"Serva?Ez, Bilshan Fondevilla",VPREdi,10/25/1960,25,10,1960,61,M,Doctorate Graduate,Associate Professor V,Permanent,Main Campus,4/25/2017,25,4,2017,4.730555556,0,0,0,0,0,0,0
+2021-001,392,Casinto,Olivia,,,Employee,Casinto,Olivia,Magura,,"Casinto, Olivia Magura",Accounting Office,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-002,393,Pangilinan,Vilma,,,Employee,Pangilinan,Vilma,Festin,,"Pangilinan, Vilma Festin",Accounting Office,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-003,394,Aungon,April Ann,,,Employee,Aungon,April Ann,Balida,,"Aungon, April Ann Balida",Admission,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-004,395,Famisaran,Renalyn,,,Employee,Famisaran,Renalyn,Fortu,,"Famisaran, Renalyn Fortu",Auditor's Office,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-005,396,Tagon,Gemali,,,Employee,Tagon,Gemali,Fortu,,"Tagon, Gemali Fortu",Auditor's Office,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-006,397,Cano,Christian,,,Employee,Cano,Christian,Mariano,,"Cano, Christian Mariano",BAC,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-007,398,Motin,April Joyce,,,Employee,Motin,April Joyce,Menes,,"Motin, April Joyce Menes",BAC,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-008,399,Cortez,Joy,,,Employee,Cortez,Joy,Forcadas,,"Cortez, Joy Forcadas",BAC,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-009,400,Venus,Edmar Jr.,,,Employee,Venus,Edmar Jr.,Galvero,,"Venus, Edmar Jr. Galvero",BAC and Procurement,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-010,401,Merculesio,Charlene,,,Employee,Merculesio,Charlene,Rivera,,"Merculesio, Charlene Rivera",Bio-Lab,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-011,402,Gaa,Mark Anthony,,,Employee,Gaa,Mark Anthony,Alegre,,"Gaa, Mark Anthony Alegre",Bio-Lab,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-012,403,Aungon,Mark Ian,,,Employee,Aungon,Mark Ian,Fetalver,,"Aungon, Mark Ian Fetalver",Business Center,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-013,404,Felia,Leo,,,Employee,Felia,Leo,Rafol,,"Felia, Leo Rafol",Business Center,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-014,405,Billiones,Junel,,,Employee,Billiones,Junel,Venus,,"Billiones, Junel Venus",Business Center,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-015,406,Fronda,Mary Jo,,,Employee,Fronda,Mary Jo,Mary Jo,,"Fronda, Mary Jo Mary Jo",Cashier,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-016,407,Fabito,Jomel,,,Employee,Fabito,Jomel,Osorio,,"Fabito, Jomel Osorio",CAO/BAC,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-017,408,Rioja,Wiemer,,,Employee,Rioja,Wiemer,,,"Rioja, Wiemer ",CAO,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-018,409,Moncawe,Lemuel,,,Employee,Moncawe,Lemuel,Miralles,,"Moncawe, Lemuel Miralles",DRRMO,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-019,410,Fontabla ,Jizabelle,,,Employee,Fontabla ,Jizabelle,Mindo,,"Fontabla , Jizabelle Mindo",Extension Office,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-020,411,Magbanua,Nick,,,Employee,Magbanua,Nick,Ballon,,"Magbanua, Nick Ballon",Extension Office,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-021,412,Ferrancullo,Lenlie,,,Employee,Ferrancullo,Lenlie,Gaguis,,"Ferrancullo, Lenlie Gaguis",Extension Office,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-022,413,Gabay,Jemar,,,Employee,Gabay,Jemar,Sulabo,,"Gabay, Jemar Sulabo",Food Processing,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-023,414,Riano,Mark Henry,,,Employee,Riano,Mark Henry,De pedro,,"Riano, Mark Henry De pedro",Food Processing,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-024,415,Moraleda,Leater,,,Employee,Moraleda,Leater,Famatiga,,"Moraleda, Leater Famatiga",Food Processing,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-025,416,Dela Vega,Mary Joy,,,Employee,Dela Vega,Mary Joy,Rocero,,"Dela Vega, Mary Joy Rocero",Food Processing,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-026,417,Feller,Lelibeth,,,Employee,Feller,Lelibeth,Gabayno,,"Feller, Lelibeth Gabayno",GAD,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-027,418,Gado,Archie,,,Employee,Gado,Archie,Villanueva,,"Gado, Archie Villanueva",General Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-028,419,Falculan,Roper,,,Employee,Falculan,Roper,Dela Vega,,"Falculan, Roper Dela Vega",General Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-029,420,Mangao,Elmer,,,Employee,Mangao,Elmer,Patnongon,,"Mangao, Elmer Patnongon",General Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-030,421,Balse,Bryan,,,Employee,Balse,Bryan,Maligo,,"Balse, Bryan Maligo",General Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-031,422,Malunes,Wilson,,,Employee,Malunes,Wilson,Forca,,"Malunes, Wilson Forca",General Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-032,423,Formilleza,Edward,,,Employee,Formilleza,Edward,Fabellore,,"Formilleza, Edward Fabellore",General Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-033,424,Fabroa,Mark David,,,Employee,Fabroa,Mark David,,,"Fabroa, Mark David ",General Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-034,425,Tamboon,Roger,,,Employee,Tamboon,Roger,Victoriano,,"Tamboon, Roger Victoriano",General Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-035,426,Ferrancullo,Jordan,,,Employee,Ferrancullo,Jordan,Tambacan,,"Ferrancullo, Jordan Tambacan",General Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-036,427,Ferrancullo,Edgar,,,Employee,Ferrancullo,Edgar,Cortez,,"Ferrancullo, Edgar Cortez",General Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-037,428,Fuentes,Christine Lee,,,Employee,Fuentes,Christine Lee,Mortel,,"Fuentes, Christine Lee Mortel",Guidance,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-038,429,Galicia,Rowelyn,,,Employee,Galicia,Rowelyn,Dalisay,,"Galicia, Rowelyn Dalisay",Guidance,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-039,430,Rendon,Don,,,Employee,Rendon,Don,Famorcan,,"Rendon, Don Famorcan",High School,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-040,431,Fajanilan,Mary Grace,,,Employee,Fajanilan,Mary Grace,Gan,,"Fajanilan, Mary Grace Gan",HRMO,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-041,432,Mantac,Joemar,,,Employee,Mantac,Joemar,Gregorio,,"Mantac, Joemar Gregorio",HRMO,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-042,433,Gapi,Christine Grace,,,Employee,Gapi,Christine Grace,Baslan,,"Gapi, Christine Grace Baslan",ILAO,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-043,434,"Diokno,",Maricel,,,Employee,"Diokno,",Maricel,Perez,,"Diokno,, Maricel Perez",Internal Auditor's Office,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-044,435,Mantes,Donald,,,Employee,Mantes,Donald,Juanzo,,"Mantes, Donald Juanzo",LRC,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-045,436,Magcalayo,Monica,,,Employee,Magcalayo,Monica,Fabrigas,,"Magcalayo, Monica Fabrigas",LRC,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-046,437,Forcadas,Elhlaisa,,,Employee,Forcadas,Elhlaisa,,,"Forcadas, Elhlaisa ",Media and Public Affairs,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-047,438,Falcunitin,Nova Jane,,,Employee,Falcunitin,Nova Jane,Fornea,,"Falcunitin, Nova Jane Fornea",MIS/DPO,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-048,439,Yap,Raf,,,Employee,Yap,Raf,Nagaño,,"Yap, Raf Nagaño",Motorpool,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-049,440,Mortel,Maverick,,,Employee,Mortel,Maverick,Formilleza,,"Mortel, Maverick Formilleza",NSTP,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-050,441,Dacara,Jess,,,Employee,Dacara,Jess,Famatiga,,"Dacara, Jess Famatiga",Office of the President,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-051,442,Fodra,Jean,,,Employee,Fodra,Jean,Faminialan,,"Fodra, Jean Faminialan",OSA,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-052,443,Manalon,Johnel Steve,,,Employee,Manalon,Johnel Steve,Fabro,,"Manalon, Johnel Steve Fabro",PPFO,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-053,444,Morta,Hannah,,,Employee,Morta,Hannah,Pereña,,"Morta, Hannah Pereña",PPFO,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-054,445,Capili,Boniel Christian,,,Employee,Capili,Boniel Christian,Sombria,,"Capili, Boniel Christian Sombria",PPFO,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-055,446,Tianga,Noel Jr.,,,Employee,Tianga,Noel Jr.,Magbanwa,,"Tianga, Noel Jr. Magbanwa",PPFO,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-056,447,Rabino,Daisy Jane,,,Employee,Rabino,Daisy Jane,Fallaria,,"Rabino, Daisy Jane Fallaria",PPFO,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-057,448,Malamo,Angelika,,,Employee,Malamo,Angelika,Andora,,"Malamo, Angelika Andora",PPFO,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-058,449,Fruelda,John Kevin,,,Employee,Fruelda,John Kevin,Mesa,,"Fruelda, John Kevin Mesa",PPFO,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-059,450,Fajarito,Arian,,,Employee,Fajarito,Arian,Fontamillas,,"Fajarito, Arian Fontamillas",PPFO,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-060,451,Teologo,Archie,,,Employee,Teologo,Archie,Zuela,,"Teologo, Archie Zuela",PPFO,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-061,452,Fallarcuna,Mark Daniel,,,Employee,Fallarcuna,Mark Daniel,Fajilan,,"Fallarcuna, Mark Daniel Fajilan",PPFO,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-062,453,Montoya,Bernie,,,Employee,Montoya,Bernie,Salsona,,"Montoya, Bernie Salsona",PPFO,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-063,454,Pampo,Restituto,,,Employee,Pampo,Restituto,Tiopez,,"Pampo, Restituto Tiopez",PPFO,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-064,455,Formelos,Mark,,,Employee,Formelos,Mark,Fabro,,"Formelos, Mark Fabro",PPFO,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-065,456,Madeja,John Kelly,,,Employee,Madeja,John Kelly,,,"Madeja, John Kelly ",President's Office,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-066,457,Fallaria,Justin Cedric,,,Employee,Fallaria,Justin Cedric,Fabroa,,"Fallaria, Justin Cedric Fabroa",Procurement,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-067,458,Galang,Terese Angelica,,,Employee,Galang,Terese Angelica,Maling,,"Galang, Terese Angelica Maling",Procurement,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-068,459,Abunas,Oliver Alan,,,Employee,Abunas,Oliver Alan,Bernardo,,"Abunas, Oliver Alan Bernardo",Procurement,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-069,460,Madali,Chastine,,,Employee,Madali,Chastine,Uyaan,,"Madali, Chastine Uyaan",Production,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-070,461,Gaa,Donna Mycah,,,Employee,Gaa,Donna Mycah,Pastor,,"Gaa, Donna Mycah Pastor",Production,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-071,462,Fetalco,Zachary,,,Employee,Fetalco,Zachary,Nadura,,"Fetalco, Zachary Nadura",QA,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-072,463,Dulce,Maribel,,,Employee,Dulce,Maribel,Manliguez,,"Dulce, Maribel Manliguez",QA,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-073,464,Dalisay,Ruth Jemima,,,Employee,Dalisay,Ruth Jemima,Mariano,,"Dalisay, Ruth Jemima Mariano",Registrar,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-074,465,Bullos,Maria Nelda,,,Employee,Bullos,Maria Nelda,Rubion,,"Bullos, Maria Nelda Rubion",Registrar,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-075,466,Solis,Jayson,,,Employee,Solis,Jayson,Famaran,,"Solis, Jayson Famaran",Research,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-076,467,Fallurin,Aira,,,Employee,Fallurin,Aira,Fesalbon,,"Fallurin, Aira Fesalbon",Research,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-077,468,Rodelas,Prince Allen Jay,,,Employee,Rodelas,Prince Allen Jay,Musa,,"Rodelas, Prince Allen Jay Musa",Research,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-078,469,Factor,Preschel,,,Employee,Factor,Preschel,Garcia,,"Factor, Preschel Garcia",Research,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-079,470,Panoy,Patricio Jr.,,,Employee,Panoy,Patricio Jr.,Asturias,,"Panoy, Patricio Jr. Asturias",Research,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-080,471,Aquino,Ennelyn,,,Employee,Aquino,Ennelyn,Gaspar,,"Aquino, Ennelyn Gaspar",Security Services,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-081,472,Dalisay,Maria,,,Employee,Dalisay,Maria,Gado,,"Dalisay, Maria Gado",Security Services,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-082,473,Quijano,Alvin,,,Employee,Quijano,Alvin,Chan,,"Quijano, Alvin Chan",Security Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-083,474,Tadea,Vic,,,Employee,Tadea,Vic,Romero,,"Tadea, Vic Romero",Security Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-084,475,Platon,Michael,,,Employee,Platon,Michael,Fradejas,,"Platon, Michael Fradejas",Security Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-085,476,Dela Vega,Richard,,,Employee,Dela Vega,Richard,Felia,,"Dela Vega, Richard Felia",Security Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-086,477,Tan,Ragel,,,Employee,Tan,Ragel,Fajarito,,"Tan, Ragel Fajarito",Security Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-087,478,Recto,Belkris,,,Employee,Recto,Belkris,Sespeñe,,"Recto, Belkris Sespeñe",Security Services,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-088,479,Fallaria,Jufel,,,Employee,Fallaria,Jufel,Lorenzo,,"Fallaria, Jufel Lorenzo",Security Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-089,480,Ferrancullo,Jun Jun,,,Employee,Ferrancullo,Jun Jun,Tambacan,,"Ferrancullo, Jun Jun Tambacan",Security Services,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-090,481,Fabon,Joan,,,Employee,Fabon,Joan,Dela Austria,,"Fabon, Joan Dela Austria",Senior High School,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-091,482,Falcutila,Lyndon,,,Employee,Falcutila,Lyndon,Galisanao,,"Falcutila, Lyndon Galisanao",TTAS,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-092,483,Tugnao,Macy Flor,,,Employee,Tugnao,Macy Flor,Agustin,,"Tugnao, Macy Flor Agustin",VP Redi's Office,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-093,484,Punla,Ma. Levi,,,Employee,Punla,Ma. Levi,R,,"Punla, Ma. Levi R",VPAA's Office,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-094,485,Balla,Joey,,,Employee,Balla,Joey,Menorca,,"Balla, Joey Menorca",CAFF,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-095,486,Cruz,Geraldine,,,Employee,Cruz,Geraldine,Ylagan,,"Cruz, Geraldine Ylagan",CAFF,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-096,487,Galisanao,Rowelyn,,,Employee,Galisanao,Rowelyn,Formilleza,,"Galisanao, Rowelyn Formilleza",CAFF,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-097,488,Balanza,Rosario,,,Employee,Balanza,Rosario,Faeldan,,"Balanza, Rosario Faeldan",CAS,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-098,489,Vergara,Savannah,,,Employee,Vergara,Savannah,Fabella,,"Vergara, Savannah Fabella",CAS,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-099,490,Selodio,Anita,,,Employee,Selodio,Anita,Fetalver,,"Selodio, Anita Fetalver",CAS,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-100,491,Elisan,Angelique,,,Employee,Elisan,Angelique,Guardian,,"Elisan, Angelique Guardian",CBA,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-101,492,Flores,Rowena,,,Employee,Flores,Rowena,Abecentado,,"Flores, Rowena Abecentado",CBA,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-102,493,Mayuga,Wendy,,,Employee,Mayuga,Wendy,Famatiga,,"Mayuga, Wendy Famatiga",CBA,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-103,494,Rico,Shiela,,,Employee,Rico,Shiela,Feruelo,,"Rico, Shiela Feruelo",CED,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-104,495,Lanzaderas,Mary Ann,,,Employee,Lanzaderas,Mary Ann,Malunes,,"Lanzaderas, Mary Ann Malunes",CED,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-105,496,Forcadas,Julius,,,Employee,Forcadas,Julius,Jacinto,,"Forcadas, Julius Jacinto",CET,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-106,497,Espinosa,Jupissa,,,Employee,Espinosa,Jupissa,Pimentel,,"Espinosa, Jupissa Pimentel",CET,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-107,498,Madali,Joemari,,,Employee,Madali,Joemari,Uyaan,,"Madali, Joemari Uyaan",ICJE,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-108,499,Rafael,Jerome,,,Employee,Rafael,Jerome,Dalisay,,"Rafael, Jerome Dalisay",ICJE,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-109,500,Alto,Peter John,,,Employee,Alto,Peter John,Fortu,,"Alto, Peter John Fortu",ICTS,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-110,501,Noche,Benjie,,,Employee,Noche,Benjie,Dalisay,,"Noche, Benjie Dalisay",IIT,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-111,502,Foja,Jinky Grace,,,Employee,Foja,Jinky Grace,Gervacio,,"Foja, Jinky Grace Gervacio",IIT,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-112,503,Faalam,Lian Debide,,,Employee,Faalam,Lian Debide,Debide,,"Faalam, Lian Debide Debide",IIT,,,,,,F,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-113,504,Cabajes,Jasper,,,Employee,Cabajes,Jasper,Catajay,,"Cabajes, Jasper Catajay",GEPS,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-114,505,Selodio,Dexter John,,,Employee,Selodio,Dexter John,Fetalver,,"Selodio, Dexter John Fetalver",GEPS,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-115,506,Lozano,John Darrel,,,Employee,Lozano,John Darrel,Lozano,,"Lozano, John Darrel Lozano",Special Projects,,,,,,M,,,Job Order,Main Campus,,,,,,,,,,,,
+2021-116,507,Fos,Percival,,,Employee,Fos,Percival,Ferrancullo,,"Fos, Percival Ferrancullo",Agpudlos,,,,,,M,,,Job Order,Agpudlos,,,,,,,,,,,,
+2021-117,508,Gacu,Rayan,,,Employee,Gacu,Rayan,Mores,,"Gacu, Rayan Mores",Agpudlos,,,,,,M,,,Job Order,Agpudlos,,,,,,,,,,,,
+2021-118,509,Gacu,Bryan,,,Employee,Gacu,Bryan,Lucas,,"Gacu, Bryan Lucas",Agpudlos,,,,,,M,,,Job Order,Agpudlos,,,,,,,,,,,,
+2021-119,510,Salvadico,Ronald,,,Employee,Salvadico,Ronald,Talimay,,"Salvadico, Ronald Talimay",Agpudlos,,,,,,M,,,Job Order,Agpudlos,,,,,,,,,,,,
+2021-120,511,Menorca,Philip,,,Employee,Menorca,Philip,Marcelino,,"Menorca, Philip Marcelino",Agpudlos,,,,,,M,,,Job Order,Agpudlos,,,,,,,,,,,,
+2021-121,512,Fos,Florencia,,,Employee,Fos,Florencia,Capiopnes,,"Fos, Florencia Capiopnes",Agpudlos,,,,,,F,,,Job Order,Agpudlos,,,,,,,,,,,,
+2021-122,513,Fajutnao,Jonie,,,Employee,Fajutnao,Jonie,Casimero,,"Fajutnao, Jonie Casimero",Agpudlos,,,,,,M,,,Job Order,Agpudlos,,,,,,,,,,,,
+2021-123,514,Manoy,Reymark,,,Employee,Manoy,Reymark,Ferrancullo,,"Manoy, Reymark Ferrancullo",Agpudlos,,,,,,M,,,Job Order,Agpudlos,,,,,,,,,,,,
+2021-124,515,Antonio,John John,,,Employee,Antonio,John John,Cesar,,"Antonio, John John Cesar",Agpudlos,,,,,,M,,,Job Order,Agpudlos,,,,,,,,,,,,
+2021-125,516,Tibon,Rogelio,,,Employee,Tibon,Rogelio,Fernando,,"Tibon, Rogelio Fernando",Agpudlos,,,,,,M,,,Job Order,Agpudlos,,,,,,,,,,,,
+2021-126,517,Fabic,Arnel,,,Employee,Fabic,Arnel,Baylosis,,"Fabic, Arnel Baylosis",Calatrava,,,,,,M,,,Job Order,Calatrava,,,,,,,,,,,,
+2021-127,518,Fabellar,Alvin,,,Employee,Fabellar,Alvin,Falqueza,,"Fabellar, Alvin Falqueza",Calatrava,,,,,,M,,,Job Order,Calatrava,,,,,,,,,,,,
+2021-128,519,Fajutina,Jeffrey,,,Employee,Fajutina,Jeffrey,Fallaria,,"Fajutina, Jeffrey Fallaria",Calatrava,,,,,,M,,,Job Order,Calatrava,,,,,,,,,,,,
+2021-129,520,Largueza,Rick Jayson,,,Employee,Largueza,Rick Jayson,Manzano,,"Largueza, Rick Jayson Manzano",San Agustin,,,,,,M,,,Job Order,San Agustin,,,,,,,,,,,,
+2021-130,521,Morada,Catherine,,,Employee,Morada,Catherine,Recto,,"Morada, Catherine Recto",San Agustin,,,,,,F,,,Job Order,San Agustin,,,,,,,,,,,,
+2021-131,522,Magracia,Marinette,,,Employee,Magracia,Marinette,Domingo,,"Magracia, Marinette Domingo",San Agustin,,,,,,F,,,Job Order,San Agustin,,,,,,,,,,,,
+2021-132,523,Sy,Kathleen Glaze,,,Employee,Sy,Kathleen Glaze,Maquinto,,"Sy, Kathleen Glaze Maquinto",San Agustin,,,,,,F,,,Job Order,San Agustin,,,,,,,,,,,,
+2021-133,524,Moron,J'Ceasar,,,Employee,Moron,J'Ceasar,Madeja,,"Moron, J'Ceasar Madeja",San Andres,,,,,,M,,,Job Order,San Andres,,,,,,,,,,,,
+2021-134,525,Mortel,Hanjirel,,,Employee,Mortel,Hanjirel,Agustin,,"Mortel, Hanjirel Agustin",San Andres,,,,,,M,,,Job Order,San Andres,,,,,,,,,,,,
+2021-135,526,Largueza,Romel,,,Employee,Largueza,Romel,Delos Santos,,"Largueza, Romel Delos Santos",Sta. Maria,,,,,,M,,,Job Order,Sta. Maria,,,,,,,,,,,,
+2021-136,527,Galang,Richard,,,Employee,Galang,Richard,Lota,,"Galang, Richard Lota",Sta. Maria,,,,,,M,,,Job Order,Sta. Maria,,,,,,,,,,,,
+2021-137,528,Falcunit,Kiarah Cate,,,Employee,Falcunit,Kiarah Cate,,,"Falcunit, Kiarah Cate ",Sta. Maria,,,,,,F,,,Job Order,Sta. Maria,,,,,,,,,,,,
+2021-138,529,Robiso,Veronica,,,Employee,Robiso,Veronica,R,,"Robiso, Veronica R",Cajidiocan,,,,,,F,,,Job Order,Cajidiocan,,,,,,,,,,,,
+2021-139,530,Roa,Ma. Liliza,,,Employee,Roa,Ma. Liliza,B,,"Roa, Ma. Liliza B",Cajidiocan,,,,,,F,,,Job Order,Cajidiocan,,,,,,,,,,,,
+2021-140,531,Rosas,Remy Rose,,,Employee,Rosas,Remy Rose,R,,"Rosas, Remy Rose R",Cajidiocan,,,,,,F,,,Job Order,Cajidiocan,,,,,,,,,,,,
+2021-141,532, Laurio,Henejay ,,,Employee, Laurio,Henejay ,A,," Laurio, Henejay  A",Cajidiocan,,,,,,M,,,Job Order,Cajidiocan,,,,,,,,,,,,
+2021-142,533,Tansiongco,Florante ,,,Employee,Tansiongco,Florante ,R,,"Tansiongco, Florante  R",Cajidiocan,,,,,,M,,,Job Order,Cajidiocan,,,,,,,,,,,,
+2021-143,534,Rojas,Freddie ,,,Employee,Rojas,Freddie ,,,"Rojas, Freddie  ",Cajidiocan,,,,,,M,,,Job Order,Cajidiocan,,,,,,,,,,,,
+2021-144,535,Rio,Jaime ,,,Employee,Rio,Jaime ,,,"Rio, Jaime  ",Cajidiocan,,,,,,M,,,Job Order,Cajidiocan,,,,,,,,,,,,
+2021-145,536,Romion,Novelito ,,,Employee,Romion,Novelito ,R,," Romion, Novelito  R",Cajidiocan,,,,,,M,,,Job Order,Cajidiocan,,,,,,,,,,,,
+2021-146,537,Jamio,Allen Dominique,,,Employee,Jamio,Allen Dominique,M.,,Allen Dominique M. Jamio,CAS,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-147,538,Fetalver,Andrea Leigh,,,Employee,Fetalver,Andrea Leigh,D.,,Andrea Leigh D. Fetalver,CAS,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-148,539,Fornal,Elaizel ,,,Employee,Fornal,Elaizel ,I.,,Elaizel I. Fornal,CAS,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-149,540,Liwanag,Emil ,,,Employee,Liwanag,Emil ,D.,,Emil D. Liwanag,CAS,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-150,541,Famero,Evaristo ,,,Employee,Famero,Evaristo ,,,Evaristo Famero,CAS,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-151,542,Cano,Geraldo ,,,Employee,Cano,Geraldo ,G.,Jr.,"Geraldo G. Cano, Jr.",CAS,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-152,543,Ferrancullo,Jane ,,,Employee,Ferrancullo,Jane ,G.,,Jane G. Ferrancullo,CAS,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-153,544,Enciso.,Jayson ,,,Employee,Enciso.,Jayson ,,,Jayson Enciso.,CAS,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-154,545,Federico,Jayverd Rey,,,Employee,Federico,Jayverd Rey,M.,,Jayverd Rey M. Federico,CAS,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-155,546,Mangao,John Lester,,,Employee,Mangao,John Lester,F.,,John Lester F. Mangao,CAS,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-156,547,Lachica,John Roeder,,,Employee,Lachica,John Roeder,F.,,John Roeder F. Lachica,CAS,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-157,548,Tumbokon,Kazhel Joy,,,Employee,Tumbokon,Kazhel Joy,M.,,Kazhel Joy M. Tumbokon,CAS,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-158,549,Estilloso,Klaire ,,,Employee,Estilloso,Klaire ,B.,,Klaire B. Estilloso,CAS,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-159,550,Salvador,Ranalyn ,,,Employee,Salvador,Ranalyn ,,,Ranalyn Salvador,CAS,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-160,551,Arucio,Rhea ,,,Employee,Arucio,Rhea ,M.,,Rhea M. Arucio,CAS,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-161,552,Gaspar,Salvador ,,,Employee,Gaspar,Salvador ,G.,,Salvador G. Gaspar,CAS,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-162,553,Mariveles,Shaira Cassandra,,,Employee,Mariveles,Shaira Cassandra,R.,,Shaira Cassandra R. Mariveles,CAS,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-163,554,Casinto,Shane ,,,Employee,Casinto,Shane ,F.,,Shane F. Casinto,CAS,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-164,555,Llaga,Shiena Jeanne,,,Employee,Llaga,Shiena Jeanne,F.,,Shiena Jeanne F. Llaga,CAS,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-165,556,Fadera,Vans ,,,Employee,Fadera,Vans ,D.,,Vans D. Moshe Fadera,CAS,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-166,557,Fontamillas,Vanz Russel,,,Employee,Fontamillas,Vanz Russel,I.,,Vanz Russel I. Fontamillas,CAS,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-167,558,Atilano,Wedelyn Faith,,,Employee,Atilano,Wedelyn Faith,M.,,Wedelyn Faith M. Atilano,CAS,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-168,559,Atilano,Wenadel Joy,,,Employee,Atilano,Wenadel Joy,M.,,Wenadel Joy M. Atilano,CAS,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-169,560,Visca,Jebelou  ,,,Employee,Visca,Jebelou  ,M.,,JEBELOU M. VISCA,CAFF,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-170,561,Mangoba,Alexander ,,,Employee,Mangoba,Alexander ,A.,Jr.,"ALEXANDER A. MANGOBA, JR",CAFF,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-171,562,Arreza,Marimie ,,,Employee,Arreza,Marimie ,,,Marimie Arreza,CBA,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-172,563,Cabato,Pauline ,,,Employee,Cabato,Pauline ,F.,,Pauline F. Cabato,CBA,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-173,564,De Juan,Angel Anne,,,Employee,De Juan,Angel Anne,,,Angel Anne De Juan,CBA,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-174,565,Dulce,Ermengarde ,,,Employee,Dulce,Ermengarde ,F.,,Ermengarde F. Dulce,CBA,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-175,566,Fabila,Jhonathan ,,,Employee,Fabila,Jhonathan ,F.,,Jhonathan F. Fabila   ,CBA,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-176,567,Fabello,Daniel Fiel,,,Employee,Fabello,Daniel Fiel,,,Daniel Fiel Fabello,CBA,,,,,,,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-177,568,Foja,Mariane ,,,Employee,Foja,Mariane ,S.,,Mariane S. Foja,CBA,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-178,569,Fruelda,Mc Anthony,,,Employee,Fruelda,Mc Anthony,,,Mc Anthony Fruelda,CBA,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-179,570,Gadon,Kimberly ,,,Employee,Gadon,Kimberly ,,,Kimberly Gadon,CBA,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-180,571,Ignacio,Valerine ,,,Employee,Ignacio,Valerine ,G.,,Valerine G. Ignacio,CBA,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-181,572,Miñon,Emmanuel ,,,Employee,Miñon,Emmanuel ,G.,,Emmanuel G. Miñon,CBA,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-182,573,Quarie,Mary Ann,,,Employee,Quarie,Mary Ann,,,Mary Ann Quarie,CBA,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-183,574,Baldera,Aljhun ,,,Employee,Baldera,Aljhun ,,,Aljhun Baldera,CED,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-184,575,Fallesgon,Ruel ,,,Employee,Fallesgon,Ruel ,,,Ruel Fallesgon,CED,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-185,576,Forio,Ysrael BJ,,,Employee,Forio,Ysrael BJ,,,Ysrael BJ Forio,CED,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-186,577,Francisco,Earl ,,,Employee,Francisco,Earl ,,,Earl Francisco,CED,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-187,578,Lanzaderas,Anjely ,,,Employee,Lanzaderas,Anjely ,,,Anjely Lanzaderas,CED,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-188,579,Olarte,Jewel ,,,Employee,Olarte,Jewel ,,,Jewel Olarte,CED,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-189,580,Villanueva,Charles Louie,,,Employee,Villanueva,Charles Louie,,,Charles Louie Villanueva,CED,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-190,581,Tiongson,Alfredo ,,,Employee,Tiongson,Alfredo ,,,Alfredo Tiongson,CED,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-191,582,Victoriano,Rowelyn ,,,Employee,Victoriano,Rowelyn ,,,Rowelyn Victoriano,CED,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-192,583,Fabila,Lysa Dee,,,Employee,Fabila,Lysa Dee,S.,,Lysa Dee S.  Fabila,CET,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-193,584,Fajanilan,Ytell ,,,Employee,Fajanilan,Ytell ,S.,,Ytell S.  Fajanilan,CET,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-194,585,Fajanilan,Krysha ,,,Employee,Fajanilan,Krysha ,S.,,Krysha S.  Fajanilan,CET,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-195,586,Fetalvero,Riza Anysius,,,Employee,Fetalvero,Riza Anysius,M.,,Riza Anysius M.  Fetalvero,CET,,,,,,F,,,Lecturer,Main Campus,,,,,   ,,,,,,,
+2021-196,587,Famini,Robert ,,,Employee,Famini,Robert ,,,Robert  Famini,CET,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-197,588,Fetalvero,Jeffry Jones,,,Employee,Fetalvero,Jeffry Jones,F.,,Jeffry Jones F.  Fetalvero,CET,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-198,589,Tamayo,Jaybie ,,,Employee,Tamayo,Jaybie ,M.,,Jaybie M. Tamayo,CET,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-199,590,Meñez,Alejo ,,,Employee,Meñez,Alejo ,L.,,Alejo L.  Meñez,CET,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-200,591,Perez,Arjan ,,,Employee,Perez,Arjan ,,,Arjan  Perez,CET,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-201,592,Fajarito,Lara Ann,,,Employee,Fajarito,Lara Ann,G.,,"Fajarito, Lara Ann G.",ICJE,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-202,593,Rufon,Melchor ,,,Employee,Rufon,Melchor ,,,"Rufon, Melchor",ICJE,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-203,594,Fiedacan,Bernalyn ,,,Employee,Fiedacan,Bernalyn ,M.,,"Fiedacan, Bernalyn M.",ICJE,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-204,595,Gaa,Devina ,,,Employee,Gaa,Devina ,G.,,"Gaa, Devina G.",ICJE,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-205,596,Gallos,Mary Ann,,,Employee,Gallos,Mary Ann,M.,,"Gallos, Mary Ann M.",ICJE,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-206,597,Taladtad,Mary Rose,,,Employee,Taladtad,Mary Rose,,,"Taladtad, Mary Rose",ICJE,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-207,598,Perez,Shyleen ,,,Employee,Perez,Shyleen ,D.,,"Perez, Shyleen D.",ICJE,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-208,599,Dela Cruz,John Richard,,,Employee,Dela Cruz,John Richard,F.,,"Dela Cruz, John Richard F.",ICJE,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-209,600,Fetalver,Mary Ann,,,Employee,Fetalver,Mary Ann,,,"Fetalver, Mary Ann",ICJE,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-210,601,Drilon,Pj Zeder,,,Employee,Drilon,Pj Zeder,M.,,"  Drilon, Pj Zeder M.",IIT,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-211,602,Fajanilan,Hoyle ,,,Employee,Fajanilan,Hoyle ,,,"Fajanilan, Hoyle",IIT,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-212,603,Fetalver,Raziel ,,,Employee,Fetalver,Raziel ,F.,,"Fetalver, Raziel F.",IIT,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-213,604,Fradejas,Dayne ,,,Employee,Fradejas,Dayne ,,,"Fradejas, Dayne",IIT,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-214,605,Gabales,Mark Jezreel,,,Employee,Gabales,Mark Jezreel,,,"Gabales, Mark Jezreel",IIT,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-215,606,Gervacio,Ronald ,,,Employee,Gervacio,Ronald ,P.,,"Gervacio, Ronald P.",IIT,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-216,607,Lota,Dave ,,,Employee,Lota,Dave ,,,"Lota, Dave",IIT,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-217,608,Tadia,Mitchel ,,,Employee,Tadia,Mitchel ,F.,,"Tadia, Mitchel F.",IIT,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-218,609,Visca,Ramnick ,,,Employee,Visca,Ramnick ,F.,,"Visca, Ramnick F.",IIT,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-219,610,Abrantes,Joshua ,,,Employee,Abrantes,Joshua ,F.,,Joshua F.  Abrantes,Junior High School,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-220,611,Ascotia,James ,,,Employee,Ascotia,James ,O.,,James O.  Ascotia,Junior High School,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-221,612,Barrios,Alexis Jay,,,Employee,Barrios,Alexis Jay,F.,,Alexis Jay F.  Barrios,Junior High School,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-222,613,Fabellar,Claire ,,,Employee,Fabellar,Claire ,,,Claire  Fabellar,Junior High School,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-223,614,Fajiculay,Lalyn ,,,Employee,Fajiculay,Lalyn ,F.,,Lalyn F.  Fajiculay,Junior High School,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-224,615,Falcunitin,Elmar ,,,Employee,Falcunitin,Elmar ,,,Elmar  Falcunitin,Junior High School,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-225,616,Falcutila,Andrew ,,,Employee,Falcutila,Andrew ,A.,,Andrew A.  Falcutila ,Junior High School,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-226,617,Falo,Maica Jean,,,Employee,Falo,Maica Jean,F.,,Maica Jean F.  Falo,Junior High School,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-227,618,Gacula,Alona ,,,Employee,Gacula,Alona ,O.,,Alona O.  Gacula,Junior High School,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-228,619,Galang,Regie ,,,Employee,Galang,Regie ,G.,,Regie G.  Galang,Junior High School,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-229,620,Lazaro,Jan Christian,,,Employee,Lazaro,Jan Christian,S.,,Jan Christian S.  Lazaro,Junior High School,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-230,621,Maming,Rica Mariz,,,Employee,Maming,Rica Mariz,G.,,Rica Mariz G.  Maming,Junior High School,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-231,622,Rodelas,Judith ,,,Employee,Rodelas,Judith ,M.,,Judith M.  Rodelas,Junior High School,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-232,623,Soledad,Jessa ,,,Employee,Soledad,Jessa ,T.,,Jessa T.  Soledad,Junior High School,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-233,624,Andres,Jolyn ,,,Employee,Andres,Jolyn ,,,Jolyn  Andres,Senior High School ,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-234,625,Antiquera,Jerrime ,,,Employee,Antiquera,Jerrime ,N.,,Jerrime N.  Antiquera,Senior High School ,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-235,626,Arcasitas,Ailyn ,,,Employee,Arcasitas,Ailyn ,F.,,Ailyn F.  Arcasitas,Senior High School ,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-236,627,Cawaling,Joeylene ,,,Employee,Cawaling,Joeylene ,D.,,Joeylene D.  Cawaling,Senior High School ,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-237,628,Dahilan,Rafael ,,,Employee,Dahilan,Rafael ,M.,II,Rafael M.  Dahilan II,Senior High School ,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-238,629,De Juan,Princess ,,,Employee,De Juan,Princess ,S.,,Princess S.  De Juan,Senior High School ,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-239,630,Fetalver,Sheena Lyn,,,Employee,Fetalver,Sheena Lyn,L.,,Sheena Lyn L.  Fetalver,Senior High School ,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-240,631,Francisco,Maricar ,,,Employee,Francisco,Maricar ,R.,,Maricar R.  Francisco,Senior High School ,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-241,632,Galoso,Mark Joseph,,,Employee,Galoso,Mark Joseph,,,Mark Joseph  Galoso,Senior High School ,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-242,633,Lota,Meiah Hillery,,,Employee,Lota,Meiah Hillery,S.,,"Meiah Hillery S.  Lota,",Senior High School ,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-243,634,Magapi,Mariel Joyce,,,Employee,Magapi,Mariel Joyce,F.,,Mariel Joyce F.  Magapi,Senior High School ,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-244,635,Mandigma,Marella Franchesca Denise,,,Employee,Mandigma,Marella Franchesca Denise,L.,,MarellaFranchesca Denise L.  Mandigma,Senior High School ,,,,,,F,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-245,636,Masangkay,Emmanuel John,,,Employee,Masangkay,Emmanuel John,A.,,Emmanuel John A.  Masangkay,Senior High School ,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-246,637,Molina,Richard ,,,Employee,Molina,Richard ,M.,,Richard M.  Molina,Senior High School ,,,,,,M,,,Lecturer,Main Campus,,,,,,,,,,,,
+2021-247,638,Frogosa,Cyd ,,,Employee,Frogosa,Cyd ,M.,,Cyd M. Frogosa,San Andres,,,,,,M,,,Lecturer,San Andres,,,,,,,,,,,,
+2021-248,639,Galus,Marco ,,,Employee,Galus,Marco ,P.,,Marco P. Galus,San Andres,,,,,,M,,,Lecturer,San Andres,,,,,,,,,,,,
+2021-249,640,Famisan,Jemelyn ,,,Employee,Famisan,Jemelyn ,D.,,Jemelyn D. Famisan,San Andres,,,,,,F,,,Lecturer,San Andres,,,,,,,,,,,,
+2021-250,641,Francisco,Lovely Joy,,,Employee,Francisco,Lovely Joy,F.,,Lovely Joy F. Francisco,San Andres,,,,,,F,,,Lecturer,San Andres,,,,,,,,,,,,
+2021-251,642,Romero,Zoro ,,,Employee,Romero,Zoro ,B.,,Zoro B. Romero,San Andres,,,,,,M,,,Lecturer,San Andres,,,,,,,,,,,,
+2021-252,643,Mabunga,Shalom ,,,Employee,Mabunga,Shalom ,F.,,Shalom F. Mabunga,San Andres,,,,,,F,,,Lecturer,San Andres,,,,,,,,,,,,
+2021-253,644,Mores,Jhon Gelbert,,,Employee,Mores,Jhon Gelbert,D.,,Jhon Gelbert D. Mores,San Andres,,,,,,M,,,Lecturer,San Andres,,,,,,,,,,,,
+2021-254,645,Cawaling,Ronnah ,,,Employee,Cawaling,Ronnah ,M.,,Ronnah M. Cawaling,San Andres,,,,,,F,,,Lecturer,San Andres,,,,,,,,,,,,
+2021-255,646,Largueza,Mike Jefferson,,,Employee,Largueza,Mike Jefferson,M.,,Mike Jefferson M. Largueza,San Andres,,,,,,M,,,Lecturer,San Andres,,,,,,,,,,,,
+2021-256,647,Fontabla,Mary Aurea,,,Employee,Fontabla,Mary Aurea,M.,,Mary Aurea M. Fontabla,San Andres,,,,,,F,,,Lecturer,San Andres,,,,,,,,,,,,
+2021-257,648,Mores,Grethel ,,,Employee,Mores,Grethel ,M.,,Grethel M. Mores,San Andres,,,,,,F,,,Lecturer,San Andres,,,,,,,,,,,,
+2021-258,649,Aquino,Joyce Ann,,,Employee,Aquino,Joyce Ann,B.,,Joyce Ann B. Aquino,San Andres,,,,,,F,,,Lecturer,San Andres,,,,,,,,,,,,
+2021-259,650,Fedilus,Patrick ,,,Employee,Fedilus,Patrick ,,,Patrick Fedilus,Calatrava,,,,,,M,,,Lecturer,Calatrava,,,,,,,,,,,,
+2021-260,651,Fanoy,Vince Roi,,,Employee,Fanoy,Vince Roi,C.,,Vince Roi C. Fanoy,Calatrava,,,,,,M,,,Lecturer,Calatrava,,,,,,,,,,,,
+2021-261,652,Ambagan,Florelyn ,,,Employee,Ambagan,Florelyn ,M.,,Florelyn M. Ambagan,Sta. Fe,,,,,,F,,,Lecturer,Sta. Fe,,,,,,,,,,,,
+2021-262,653,Cawaling,Finella Marie,,,Employee,Cawaling,Finella Marie,Y.,,Finella Marie Y. Cawaling,Sta. Fe,,,,,,F,,,Lecturer,Sta. Fe,,,,,,,,,,,,
+2021-263,654,Leuterio,Annaliza ,,,Employee,Leuterio,Annaliza ,E.,,Annaliza E. Leuterio,Sta. Maria,,,,,,F,,,Lecturer,Sta. Maria,,,,,,,,,,,,
+2021-264,655,Rivas,Rosville ,,,Employee,Rivas,Rosville ,L.,,Rosville L. Rivas,Sta. Maria,,,,,,F,,,Lecturer,Sta. Maria,,,,,,,,,,,,
+2021-265,656,Venus,Rearose ,,,Employee,Venus,Rearose ,M.,,Rearose M. Venus,Sta. Maria,,,,,,F,,,Lecturer,Sta. Maria,,,,,,,,,,,,
+2021-266,657,Gacul,Raphael ,,,Employee,Gacul,Raphael ,R.,,Raphael R. Gacul,Sta. Maria,,,,,,M,,,Lecturer,Sta. Maria,,,,,,,,,,,,
+2021-267,658,Molo,Addie ,,,Employee,Molo,Addie ,O.,,Addie O. Molo,Sta. Maria,,,,,,F,,,Lecturer,Sta. Maria,,,,,,,,,,,,
+2021-268,659,Lota,Alezon ,,,Employee,Lota,Alezon ,G.,,Alezon G. Lota,Sta. Maria,,,,,,F,,,Lecturer,Sta. Maria,,,,,,,,,,,,
+2021-269,660,Rosa,Cherwin ,,,Employee,Rosa,Cherwin ,M.,,Cherwin M. Rosa,Sta. Maria,,,,,,M,,,Lecturer,Sta. Maria,,,,,,,,,,,,
+2021-270,661,Bantang,Fatima Olga,,,Employee,Bantang,Fatima Olga,A.,,Fatima Olga A. Bantang,Sta. Maria,,,,,,F,,,Lecturer,Sta. Maria,,,,,,,,,,,,
+2021-271,662,Gabales,Joy ,,,Employee,Gabales,Joy ,G.,,Joy G. Gabales,Sta. Maria,,,,,,F,,,Lecturer,Sta. Maria,,,,,,,,,,,,
+2021-272,663,Galicha,Patrick ,,,Employee,Galicha,Patrick ,M.,,Patrick M. Galicha,Sta. Maria,,,,,,M,,,Lecturer,Sta. Maria,,,,,,,,,,,,
+2021-273,664,Maca,Jestone ,,,Employee,Maca,Jestone ,R.,,Jestone R. Maca,Sta. Maria,,,,,,M,,,Lecturer,Sta. Maria,,,,,,,,,,,,
+2021-274,665,Adremesin,Jodel ,,,Employee,Adremesin,Jodel ,R.,,Jodel R. Adremesin,Cajidiocan,,,,,,M,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-275,666,Bacalso,Debbie ,,,Employee,Bacalso,Debbie ,R.,,Debbie R. Bacalso,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-276,667,Canulo,Randy ,,,Employee,Canulo,Randy ,R.,,Randy R. Canulo,Cajidiocan,,,,,,M,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-277,668,Carabuena,Francis ,,,Employee,Carabuena,Francis ,R.,,Francis R. Carabuena,Cajidiocan,,,,,,M,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-278,669,Cortez,Reinaline Ann,,,Employee,Cortez,Reinaline Ann,B.,,Reinaline Ann B. Cortez,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-279,670,De La Cruz,Floro ,,,Employee,De La Cruz,Floro ,M.,,Floro M. De La Cruz,Cajidiocan,,,,,,M,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-280,671,Fontamillas,John Paul,,,Employee,Fontamillas,John Paul,M.,,John Paul M. Fontamillas,Cajidiocan,,,,,,M,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-281,672,Magadia,Arlene Joy,,,Employee,Magadia,Arlene Joy,R.,,Arlene Joy R. Magadia,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-282,673,Monguez,Careen Jhoanna,,,Employee,Monguez,Careen Jhoanna,I.,,Careen Jhoanna I. Monguez,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-283,674,Rabida,Justin ,,,Employee,Rabida,Justin ,R.,,Justin R. Rabida,Cajidiocan,,,,,,M,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-284,675,Rabino,Romeylene ,,,Employee,Rabino,Romeylene ,L.,,Romeylene L. Rabino,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-285,676,Ramos,Aries ,,,Employee,Ramos,Aries ,J.,,Aries J. Ramos,Cajidiocan,,,,,,M,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-286,677,Ramos,Francis ,,,Employee,Ramos,Francis ,A.,,Francis A. Ramos,Cajidiocan,,,,,,M,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-287,678,Rance,Mary Joy,,,Employee,Rance,Mary Joy,R.,,Mary Joy R. Rance,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-288,679,Repil,Elezear ,,,Employee,Repil,Elezear ,R.,,Elezear R. Repil,Cajidiocan,,,,,,M,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-289,680,Repil,Elisor ,,,Employee,Repil,Elisor ,R.,,Elisor R. Repil,Cajidiocan,,,,,,M,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-290,681,Reta,Mary Grace,,,Employee,Reta,Mary Grace,P.,,Mary Grace P. Reta,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-291,682,Rico,Angelica ,,,Employee,Rico,Angelica ,R.,,Angelica R. Rico,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-292,683,Rico,Kristine ,,,Employee,Rico,Kristine ,A.,,Kristine A. Rico,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-293,684,Rivero,Quennie ,,,Employee,Rivero,Quennie ,R.,,Quennie R. Rivero,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-294,685,Rodeo,Elena ,,,Employee,Rodeo,Elena ,R.,,Elena R. Rodeo,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-295,686,Rojas,Cristel Marie,,,Employee,Rojas,Cristel Marie,M.,,Cristel Marie M. Rojas,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-296,687,Rone,Rose Ann,,,Employee,Rone,Rose Ann,S.,,Rose Ann S. Rone,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-297,688,Ortiz,Ismaelita ,,,Employee,Ortiz,Ismaelita ,B.,,Ismaelita B. Ortiz,Cajidiocan,,,,,,F,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-298,689,Rubas,Ryan ,,,Employee,Rubas,Ryan ,M.,,Ryan M. Rubas,Cajidiocan,,,,,,M,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-299,690,Sedurante,Yuri ,,,Employee,Sedurante,Yuri ,R.,,Yuri R. Sedurante,Cajidiocan,,,,,,M,,,Lecturer,Cajidiocan,,,,,,,,,,,,
+2021-300,691,Rafol,Gittele ,,,Employee,Rafol,Gittele ,,,Gittele Rafol,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-301,692,Paloma,Ella ,,,Employee,Paloma,Ella ,B.,,Ella B. Paloma,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-302,693,Rafol,Aldrin ,,,Employee,Rafol,Aldrin ,R.,,Aldrin R. Rafol,San Fernando,,,,,,M,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-303,694,Barabas,Nalvin ,,,Employee,Barabas,Nalvin ,D.,,Nalvin D. Barabas,San Fernando,,,,,,M,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-304,695,Repil,Archie ,,,Employee,Repil,Archie ,R.,,Archie R. Repil,San Fernando,,,,,,M,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-305,696,Bolano,Angelic Therese,,,Employee,Bolano,Angelic Therese,D.,,Angelic Therese D. Bolano,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-306,697,Garcia,Jessebelle ,,,Employee,Garcia,Jessebelle ,M.,,Jessebelle M. Garcia,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-307,698,Alimon,Corrie Jane,,,Employee,Alimon,Corrie Jane,B.,,Corrie Jane B. Alimon,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-308,699,Rocero,Ryan Christian,,,Employee,Rocero,Ryan Christian,P.,,Ryan Christian P. Rocero,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-309,700,Rafol,John Paul,,,Employee,Rafol,John Paul,R.,,John Paul R. Rafol,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-310,701,Rutor,Kendall ,,,Employee,Rutor,Kendall ,R.,,Kendall R. Rutor,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-311,702,Macato,Neil John,,,Employee,Macato,Neil John,,,Neil John Macato,San Fernando,,,,,,M,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-312,703,Porsona,Japhet ,,,Employee,Porsona,Japhet ,,,Japhet Porsona,San Fernando,,,,,,M,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-313,704,Romero,Rosemarie ,,,Employee,Romero,Rosemarie ,,,Rosemarie Romero,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-314,705,Ramo,Christine ,,,Employee,Ramo,Christine ,,,Christine Ramo,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-315,706,Riva,Lyn Lyn,,,Employee,Riva,Lyn Lyn,B.,,Lyn Lyn B. Riva,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-316,707,Rugas,Romano ,,,Employee,Rugas,Romano ,J.,,Romano J. Rugas,San Fernando,,,,,,M,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-317,708,Roy,Redan ,,,Employee,Roy,Redan ,A.,,Redan A. Roy,San Fernando,,,,,,M,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-318,709,Ruga,Marie Kristine,,,Employee,Ruga,Marie Kristine,O.,,Marie Kristine  O. Ruga,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-319,710,Batuigas,Aubrey Kim,,,Employee,Batuigas,Aubrey Kim,H.,,Aubrey Kim H. Batuigas,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-320,711,Azares,Ma. Victoria,,,Employee,Azares,Ma. Victoria,E.,,Ma. Victoria E. Azares,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-321,712,Banzuelo,Roy John,,,Employee,Banzuelo,Roy John,,,Roy John Banzuelo,San Fernando,,,,,,M,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-322,713,Robiso,Faith Marigold,,,Employee,Robiso,Faith Marigold,,,Faith Marigold Robiso,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-323,714,Alvador,Jesica ,,,Employee,Alvador,Jesica ,,,Jesica Alvador,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-324,715,Royo,Apple ,,,Employee,Royo,Apple ,,,Apple Royo,San Fernando,,,,,,F,,,Lecturer,San Fernando,,,,,,,,,,,,
+2021-325,716,Adenig,Junito ,,,Employee,Adenig,Junito ,,,Junito Adenig,Romblon,,,,,,M,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-326,717,Atanoc,Juliemar ,,,Employee,Atanoc,Juliemar ,E.,,Juliemar E. Atanoc,Romblon,,,,,,M,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-327,718,Fetalino,Allan Kennet Mill,,,Employee,Fetalino,Allan Kennet Mill,D.,,Allan Kennet Mill D. Fetalino,Romblon,,,,,,M,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-328,719,Esquerra,James Russell,,,Employee,Esquerra,James Russell,M.,,James Russell M. Esquerra,Romblon,,,,,,M,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-329,720,Gadia,Anna Rose,,,Employee,Gadia,Anna Rose,M.,,Anna Rose M. Gadia,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-330,721,Gonzales,Hydee ,,,Employee,Gonzales,Hydee ,G.,,Hydee G. Gonzales,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-331,722,Maaba,Jessalyn Marie,,,Employee,Maaba,Jessalyn Marie,E.,,Jessalyn Marie E. Maaba,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-332,723,Mabas,Nelson ,,,Employee,Mabas,Nelson ,M.,Jr.,Nelson M. Mabas Jr.,Romblon,,,,,,M,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-333,724,Malate,Warren ,,,Employee,Malate,Warren ,M.,,Warren M. Malate,Romblon,,,,,,M,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-334,725,Maligang,Evelyn ,,,Employee,Maligang,Evelyn ,M.,,Evelyn M. Maligang,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-335,726,Managaring,Noah ,,,Employee,Managaring,Noah ,M.,,Noah M. Managaring,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-336,727,Manipol,Joyce ,,,Employee,Manipol,Joyce ,M.,,Joyce M. Manipol,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-337,728,Mariño,Argerie ,,,Employee,Mariño,Argerie ,R.,,Argerie R. Mariño,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-338,729,Mellendrez,Kris Pauline,,,Employee,Mellendrez,Kris Pauline,M.,,Kris Pauline M. Mellendrez,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-339,730,mendez,Wilson ,,,Employee,mendez,Wilson ,M.,,Wilson M. mendez,Romblon,,,,,,M,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-340,731,Merabite,Mylene ,,,Employee,Merabite,Mylene ,M.,,Mylene M. Merabite,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-341,732,Merano,Joan ,,,Employee,Merano,Joan ,F.,,Joan F. Merano,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-342,733,Merano,Lita ,,,Employee,Merano,Lita ,M.,,Lita M. Merano,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-343,734,Mindoro,Jolina Razell,,,Employee,Mindoro,Jolina Razell,M.,,Jolina Razell M. Mindoro,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-344,735,Molo,Juan ,,,Employee,Molo,Juan ,M.,,Juan M. Molo,Romblon,,,,,,M,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-345,736,Montojo,Ejay ,,,Employee,Montojo,Ejay ,C.,,Ejay C. Montojo,Romblon,,,,,,M,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-346,737,Montojo,Kimberly ,,,Employee,Montojo,Kimberly ,M.,,Kimberly M. Montojo,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-347,738,Moreno,Lorena ,,,Employee,Moreno,Lorena ,V.,,Lorena V. Moreno,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-348,739,Morente,Hazel ,,,Employee,Morente,Hazel ,M.,,Hazel M. Morente,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-349,740,Muros,Florabel ,,,Employee,Muros,Florabel ,M.,,Florabel M. Muros,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-350,741,Pablo,Marjorie ,,,Employee,Pablo,Marjorie ,M.,,Marjorie M. Pablo,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-351,742,Robis,Norlan ,,,Employee,Robis,Norlan ,I.,,Norlan I. Robis,Romblon,,,,,,M,,,Lecturer,Romblon,,,,,,,,,,,,
+2021-352,743,Villanueva,Irish ,,,Employee,Villanueva,Irish ,M.,, Irish  M. Villanueva,Romblon,,,,,,F,,,Lecturer,Romblon,,,,,,,,,,,,

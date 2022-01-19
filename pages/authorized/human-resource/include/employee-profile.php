@@ -199,7 +199,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" id="logout">
+                                        <a href="#" onClick="return false;">
                                             <i class="material-icons">power_settings_new</i>Logout
                                         </a>
                                     </li>
@@ -231,7 +231,7 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name"> <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?> </div>
+                            <div class="sidebar-userpic-name"> Maricar Falogme </div>
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
@@ -264,7 +264,7 @@
 
 
 
-                    <li class="active">
+                    <li>
                         <a href="downloadable">
                             <i data-feather="check-circle"></i>
                             <span>Request Forms</span>
@@ -285,7 +285,7 @@
                                 
 
 
-                    <li class="">
+                    <li class="active">
                     <a href="employee-profile">
                             <i data-feather="users"></i>
                             <span>My Profile</span>
@@ -327,178 +327,298 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">HERA</h4>
+                                <h4 class="page-title">Profile</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
                                 <a href="../../index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
-                            <li class="breadcrumb-item active">Request a Form</li>
+                            <li class="breadcrumb-item bcrumb-2">
+                                <a href="#" onClick="return false;">Extra</a>
+                            </li>
+                            <li class="breadcrumb-item active">Profile</li>
                         </ul>
                     </div>
                 </div>
             </div>
-           
-
-
-            <div class="block-header">
-                <h2>
-                   HERA Downloadable Forms
-                </h2>
-            </div>
+            <!-- Your content goes here  -->
             <div class="row clearfix">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-4 col-md-12">
                     <div class="card">
-                        <div class="header bg-red">
-                            <h2>
-                               Civil Service Commission Forms
-                                <small>Government Released form</small>
-                            </h2>
-                            
+                        <div class="m-b-20">
+                            <div class="contact-grid">
+                                <div class="profile-header bg-dark">
+                                    <div class="user-name"><h3>Ricky Michael M. Oliva</h3></div>
+                                    <div class="name-center"><h4>Assistant Professor I</h4></div>
+                                </div>
+                                <img src="assets/images/logo/hewa.png" class="user-img" alt="">
+                                <p>
+                                    2017-201420
+                                    <br />Permanent Status
+                                </p>
+                                <div>
+                                    <span class="phone">
+                                        <i class="material-icons">phone</i> +639312104093</span><br>
+                                    <p> kielmoralesoliva@gmail.com</p>
+                                    <h5> Head, Data and Information Management Unit </h5>
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <h5>Calatrava Campus</h5>
+                                        <small>Assigned Campus</small>
+                                    </div>
+                                    <div class="col-6">
+                                        <h5>Planning and Development Office</h5>
+                                        <small>Office/Department</small>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+                    </div>
+                    <div class="card">
+                    <img src="assets/images/logo/hewa5.png" alt="Hera Cute" width="344" height="335"> 
 
-                      
-<div class="container">
-  <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                            <p>Statement of Assets and Liabilities</p> <button type="button" documenttype="Statement of Assets and Liabilities" requestfile="SALN Form" downloadlink ="./assets/downloadables/SALN.doc" id="downloadSALN" class="btn btn-outline-danger btn-border-radius">Download SALN Form</button>
-                            <p>Personal Data Sheet</p> <button type="button" documenttype="Personal Data Sheet" downloadlink ="./assets/downloadables/PDS.xlsx" requestfile="PDS Form" id="downloadPDS" class="btn btn-outline-danger btn-border-radius">Download PDS Form  </button>
-                            <p>Work Experience Sheet</p> <button type="button" documenttype="Work Experience Sheet" downloadlink ="./assets/downloadables/WSE.docx" requestfile="WSE Form" id="downloadWSE" class="btn btn-outline-danger btn-border-radius">Download WSE Form  </button>
-                                     </div>
 
-                        </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/csc.png" alt="">
-                                    
-    </div>
-  </div>
 </div>
-
-
-                    </div>
+                 
                 </div>
-
-
-
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="col-lg-8 col-md-12">
                     <div class="card">
-                        <div class="header bg-light-green">
-                            <h2>
-                                RSU Local Forms
-                                <small>Romblon State University Local Forms</small>
-                            </h2>
-                        </div>
-
-                        <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Leave Form</p> <button type="button" documenttype="Leave Form" downloadlink ="./assets/downloadables/LEAVE.pdf" requestfile="WLeave Form" id="downloadLF" class="btn btn-outline-success btn-border-radius">Download Leave Form  </button>
-                            <p>Clearance Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download Clearance Form  </button>
-                            <p>Certificate of Leave Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download COL Form  </button>
+                        <div class="profile-tab-box">
+                            <div class="p-l-20">
+                                <ul class="nav ">
+                                    <li class="nav-item tab-all">
+                                        <a class="nav-link active show" href="#project" data-bs-toggle="tab">About
+                                            Me</a>
+                                    </li>
+                                    <li class="nav-item tab-all p-l-20">
+                                        <a class="nav-link" href="#usersettings" data-bs-toggle="tab">Settings</a>
+                                    </li>
+                                </ul>
                             </div>
-                            
                         </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/rsu.png" alt="">
-                                    
-    </div>
-  </div>
                     </div>
-                </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-green">
-                            <h2>
-                                GSIS Forms
-                                <small>Description text here...</small>
-                            </h2>
-                            <ul class="header-dropdown m-r-0">
-                                <li>
-                                    <a href="#" onClick="return false;">
-                                        <i class="material-icons">info_outline</i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#" onClick="return false;">
-                                        <i class="material-icons">help_outline</i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
+                    <div class="tab-content">
+                        <div role="tabpanel" class="tab-pane active" id="project" aria-expanded="true">
+                            <div class="row clearfix">
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="card project_widget">
+                                        <div class="header">
+                                            <h2>About</h2>
+                                        </div>
+                                        <div class="body">
+                                            <div class="row">
+                                                <div class="col-md-3 col-6 b-r">
+                                                    <strong>Surname</strong>
+                                                    <br>
+                                                    <p class="text-muted">Oliva</p>
+                                                </div>
+                                                <div class="col-md-3 col-6 b-r">
+                                                    <strong>First Name</strong>
+                                                    <br>
+                                                    <p class="text-muted">Ricky Michael</p>
+                                                </div>
+                                                <div class="col-md-3 col-6 b-r">
+                                                    <strong>Middle Name</strong>
+                                                    <br>
+                                                    <p class="text-muted">Morales</p>  
+                                                   </div>
+                                                <div class="col-md-3 col-6">
+                                                    <strong>Birth Date</strong>
+                                                    <br>
+                                                    <p class="text-muted">07/04/1997</p>
+                                                </div>
+                                            </div>
+                                        
+                                          
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="card project_widget">
+                                        <div class="header">
+                                            <h2>Education</h2>
+                                        </div>
+                                        <div class="body">
+                                        <div class="row">
+                                                <div class="col">
+                                                    <strong>Bachelor's Degree</strong>
+                                                    <br>
+                                                    <p class="text-muted">Bachelor of Science in Computer Science</p>
+                                                    <strong>Major</strong>
+                                                    <p class="text-muted">Game Development</p>
+                                                    <strong>University</strong>
+                                                    <br>
+                                                    <p class="text-muted">University of Caloocan City</p>
+                                                </div>
 
-
-                        <div class="container">
-  <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Retirement and Separation Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download RS Form</button>
-                            <p>Life Insurance Benefit Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download LIB Form  </button>
-                            <p>Declaration of Pendency and Non Pendency Case Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download DPNPC Form  </button>
-                       
+                                                <div class="col">
+                                                    <strong>Master's Degree</strong>
+                                                    <br>
+                                                    <p class="text-muted">Master in Information Technology</p>
+                                                    <strong>Major</strong>
+                                                    <p class="text-muted">Augmented Reality and Game Development</p>
+                                                    <strong>University</strong>
+                                                    <br>
+                                                    <p class="text-muted">University of Caloocan City</p>
+                                                </div>
+                                                <div class="col">
+                                                    <strong>Doctorate Degree</strong>
+                                                    <br>
+                                                    <p class="text-muted">Master in Information Technology</p>
+                                                    <strong>Major</strong>
+                                                    <p class="text-muted">Augmented Reality and Game Development</p>
+                                                    <strong>University</strong>
+                                                    <br>
+                                                    <p class="text-muted">University of Caloocan City</p>
+                                                   </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="card project_widget">
+                                        <div class="header">
+                                            <h2>Experience</h2>
+                                        </div>
+                                        <div class="body">
+                                        wqe
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-md-12 col-sm-12">
+                                    <div class="card project_widget">
+                                        <div class="header">
+                                            <h2>Conferences, Cources &amp; Workshop Attended</h2>
+                                        </div>
+                                        <div class="body">
+                                           qwe
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-
                         </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/gsis.png" alt="">
-                                    
-    </div>
-  </div>
-</div>                    
+                        <div role="tabpanel" class="tab-pane" id="timeline" aria-expanded="false">
+                        </div>
+                        <div role="tabpanel" class="tab-pane" id="usersettings" aria-expanded="false">
+                            <div class="card">
+                                <div class="header">
+                                    <h2>
+                                        <strong>Security</strong> Settings</h2>
+                                </div>
+                                <div class="body">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Username">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="Current Password">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder="New Password">
+                                    </div>
+                                    <button class="btn btn-info btn-round">Save Changes</button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="header">
+                                    <h2>
+                                        <strong>Account</strong> Settings</h2>
+                                </div>
+                                <div class="body">
+                                    <div class="row clearfix">
+                                        <div class="col-lg-6 col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="First Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Last Name">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="City">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="E-mail">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-md-12">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Country">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <textarea rows="4" class="form-control no-resize"
+                                                    placeholder="Address Line 1"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="form-group">
+                                                <div class="form-check m-l-10">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox" id="checkbox"
+                                                            name="checkbox"> Profile Visibility For Everyone
+                                                        <span class="form-check-sign">
+                                                            <span class="check"></span>
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-check m-l-10">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox" id="checkbox1"
+                                                            name="checkbox"> New task notifications
+                                                        <span class="form-check-sign">
+                                                            <span class="check"></span>
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="form-check m-l-10">
+                                                    <label class="form-check-label">
+                                                        <input class="form-check-input" type="checkbox" id="checkbox2"
+                                                            name="checkbox"> New friend request notifications
+                                                        <span class="form-check-sign">
+                                                            <span class="check"></span>
+                                                        </span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <button class="btn btn-primary btn-round">Save Changes</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-       
-            <div class="block-header">
-                <h2>Record Request</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-light-blue">
-                            <h2>
-                                Official Release Forms
-                                <small>Signatory forms</small>
-                            </h2>
-
-                        </div>
-
-
-                        <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Service Record</p> <button type="button" class="btn btn-outline-info btn-border-radius">Request for Service Record</button>
-                        <p>Certificate of Employment</p> <button type="button" class="btn btn-outline-info btn-border-radius">Request for Certificate</button>
-                            </div>
-
-                        </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/hewa.png" alt="">
-                                    
-    </div>
-  </div>
-</div>                    
-
-
-
-                    </div>
-                </div>
-             
-            </div>
-            <!-- #END# Colored Card - With Loading -->
-    
-            
         </div>
     </section>
        
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     <script src="assets/js/app.min.js"></script>
@@ -508,8 +628,6 @@
     <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
-    <script src="assets/js/main/request-file.js"></script>
-    <script src="assets/js/main/logout.js"></script>
 </body>
 
 

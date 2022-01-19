@@ -318,6 +318,7 @@
         </aside>
         <!-- #END# Right Sidebar -->
     </div>
+
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
@@ -364,16 +365,17 @@
                                         </tr>
                                     </thead>
                                     <tbody>
+                                    <?php for ($i=0, $fc = count(Directory()); $i < $fc; $i++) {?>
                                         <tr class="odd gradeX">
-                                            <td class="center font-bold col-red">Ricky Michael M. Oliva, MIT
+                                            <td class="center"><?php echo var_dump(Directory()[$i]["Name"];?>
                                             </td>
-                                            <td class="center">Head, Data Information and Management Unit, PDO</td>
+                                            <td class="center"><?php echo Directory()[$i]["Position"];?></td>
                                             <td class="center">None</td>
                                             <td class="center">+639312194983</td>
                                             <td class="center">Planning and Development Office</td>
                                             <td class="center font-bold col-blue">kielmoralesoliva@gmail.com</td>
                                         </tr>
-                        
+                                            <?php }?>
                                
                                     </tbody>
                                     <tfoot>
@@ -465,7 +467,4 @@
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
 </body>
-
-
-<!-- Mirrored from www.radixtouch.com/templates/admin/atrio/source/lighthr/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 29 Nov 2021 19:34:28 GMT -->
 </html>

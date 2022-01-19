@@ -199,7 +199,8 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" onClick="return false;">
+                                        <a href="#"   id ="logout">
+
                                             <i class="material-icons">power_settings_new</i>Logout
                                         </a>
                                     </li>
@@ -242,7 +243,7 @@
         
 
                     <li class="active">
-                        <a href="employee-landing">
+                        <a href="hr-all-requests">
                             <i data-feather="calendar"></i>
                             <span>All Requests</span>
                         </a>
@@ -265,7 +266,7 @@
 
 
                     <li class="">
-                        <a href="downloadable">
+                        <a href="hr-employees">
                             <i data-feather="check-circle"></i>
                             <span>Employee Data</span>
                         </a>
@@ -303,7 +304,7 @@
                                 <h4 class="page-title">All Request</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="../../index.html">
+                                <a href="index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
                             <li class="breadcrumb-item active">All Requests</li>
@@ -346,39 +347,67 @@
                                         <tr>
                                             <th class="center">Request ID</th>
                                             <th class="center"> Requestee</th>
-                                            <th class="center"> Requested Document </th>
+                                            <th class="center"> Department</th>
+                                            <th class="center"> Campus</th>
+                                            <th class="center"> Email </th>
+                                            <th class="center"> Document </th>
                                             <th class="center"> Date Requested </th>
-                                            <th class="center"> Authorized Officer </th>
-                                            <th class="center"> Authorized Official </th>
                                             <th class="center"> Date Released </th>
                                             <th class="center"> Status </th>
+                                            <th class="center"> Action </th>
                                         </tr>
                                     </thead>
                                     <tbody>
+                                    <?php for ($i=0, $fc = count((userRequests())); $i < $fc; $i++) {?>
                                         <tr class="odd gradeX">
-                                            <td class="center">1
-                                            </td>
-                                            <td class="center">Oliva, Ricky Michael</td>
-                                            <td class="center">SALN</td>
-                                            <td class="center">07-07-1997</td>
-                                            <td class="center">N/A</td>
-                                            <td class="center">N/A</td>
-                                            <td class="center">07-07-1997</td>
-                                            <td class="center">Released</td>
-                                        </tr>
+                                        <td class="center"><?php echo userRequests()[$i]["Request_ID"];?></td>
+                                        <td class="center"><?php echo userRequests()[$i]["Employee"];?></td>
+                                        <td class="center"><?php echo userRequests()[$i]["College"];?></td>
+                                        <td class="center"><?php echo userRequests()[$i]["Campus"];?></td>
+                                        <td class="center"><?php echo userRequests()[$i]["Email"];?></td>
+                                        <td class="center"><?php echo userRequests()[$i]["Request_Type"];?></td>
+                                        <td class="center"><?php echo userRequests()[$i]["Data_Requested"];?></td>
+                                        <td class="center"><?php echo userRequests()[$i]["Date_Released"];?></td>
+                                        <td class="center"><?php 
+                                        $status =  userRequests()[$i]["Status"];
+                                    
+                                        if ($status =="Released") { echo '<button type="button" class="btn btn-success btn-border-radius waves-effect"
+                                            disabled="disabled">Released</button>'; }
+                                        else  if ($status =="Declined") { echo '<button type="button" class="btn btn-warning btn-border-radius waves-effect"
+                                            disabled="disabled">Declined</button>'; }
+                                        else  if ($status =="Pending") { echo '<button type="button" class="btn btn-warning btn-border-radius waves-effect"
+                                            disabled="disabled">Pending</button>'; }?>
+                                       
+                                      </td> 
+                                     
                                         
+                                        
+                                       
+
+                                        <td class="center">
+                                                <a href="print-request?id=<?php echo userRequests()[$i]["Request_ID"]?>" class="btn btn-tbl-edit">
+                                                    <i class="material-icons">create</i>
+                                                </a>
+                                                <a href="" class="btn btn-tbl-delete">
+                                                    <i class="material-icons">delete_forever</i>
+                                                </a>
+                                            </td>
+                                        </tr>
+                                        <?php } ?>
 
                                     </tbody>
                                     <tfoot>
                                         <tr>
                                         <th class="center">Request ID</th>
                                             <th class="center"> Requestee</th>
-                                            <th class="center"> Requested Document </th>
+                                            <th class="center"> Department</th>
+                                            <th class="center"> Campus</th>
+                                            <th class="center"> Email </th>
+                                            <th class="center"> Document </th>
                                             <th class="center"> Date Requested </th>
-                                            <th class="center"> Authorized Officer </th>
-                                            <th class="center"> Authorized Official </th>
                                             <th class="center"> Date Released </th>
                                             <th class="center"> Status </th>
+                                            <th class="center"> Action </th>
                                         </tr>
                                     </tfoot>
                                 </table>
@@ -415,6 +444,10 @@
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
     <script src="assets/js/pages/tables/jquery-datatable.js"></script>
+    <script src="assets/js/main/logout.js"></script>>
+    
+
+
 </body>
 
 

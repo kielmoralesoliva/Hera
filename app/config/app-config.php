@@ -20,7 +20,7 @@
 		// Database Configurations
 		define('SERVERNAME', 'localhost');
 		define('USERNAME', 'root');
-		define('PASSWORD', 'root');
+		define('PASSWORD', '');
 		define('DATABASE', 'hera_db');
 
 	}
