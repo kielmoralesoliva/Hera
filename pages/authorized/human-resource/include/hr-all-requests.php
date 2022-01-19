@@ -344,25 +344,25 @@
                                         <td class="center"><?php 
                                         $status =  userRequests()[$i]["Status"];
                                     
-                                        if ($status =="Released") { echo '<button type="button" class="btn btn-success btn-border-radius waves-effect"
+                                        if ($status =="Released") { echo '<button type="button" class="btn btn-info btn-border-radius waves-effect"
                                             disabled="disabled">Released</button>'; }
                                         else  if ($status =="Declined") { echo '<button type="button" class="btn btn-warning btn-border-radius waves-effect"
                                             disabled="disabled">Declined</button>'; }
+                                        else  if ($status =="Approved") { echo '<button type="button" class="btn btn-success btn-border-radius waves-effect"
+                                            disabled="disabled">Approved</button>'; }
                                         else  if ($status =="Pending") { echo '<button type="button" class="btn btn-warning btn-border-radius waves-effect"
                                             disabled="disabled">Pending</button>'; }?>
                                        
                                       </td> 
                                      
-                                        
-                                        
-                                       
-
                                         <td class="center">
                                                 <a target="_blank" href="print-request?id=<?php echo userRequests()[$i]["Request_ID"]?>" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
                                                 </a>
-                                                <a href="" class="btn btn-tbl-delete">
-                                                    <i class="material-icons">delete_forever</i>
+                                                <a href="#"
+                                                    class="btn btn-tbl-delete btn-approved-request"
+                                                    data-request-id="<?php echo userRequests()[$i]["Request_ID"];?>">
+                                                    <i class="material-icons">playlist_add_check</i>
                                                 </a>
                                             </td>
                                         </tr>
@@ -391,25 +391,9 @@
         </div>
     </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="assets/js/app.min.js"></script>
     <script src="assets/js/chart.min.js"></script>
     <script src="assets/js/table.min.js"></script>
-    <!-- Custom Js -->
     <script src="assets/js/admin.js"></script>
     <script src="assets/js/pages/tables/jquery-datatable.js"></script>
     <script src="assets/js/bundles/export-tables/dataTables.buttons.min.js"></script>
@@ -418,8 +402,7 @@
     <script src="assets/js/bundles/export-tables/vfs_fonts.js"></script>
     <script src="assets/js/bundles/export-tables/buttons.html5.min.js"></script>
     <script src="assets/js/main/logout.js"></script>
-
-
+    <script src="assets/js/main/hr-all-request.js"></script>
 </body>
 
 </html>
