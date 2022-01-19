@@ -199,7 +199,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" onClick="return false;">
+                                        <a href="#" id="logout">
                                             <i class="material-icons">power_settings_new</i>Logout
                                         </a>
                                     </li>
@@ -231,7 +231,7 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name"> Maricar Falogme </div>
+                            <div class="sidebar-userpic-name"> <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?> </div>
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
@@ -264,17 +264,18 @@
 
 
 
-                    <li>
+                    <li class="active">
                         <a href="downloadable">
                             <i data-feather="check-circle"></i>
                             <span>Request Forms</span>
                         </a>
+</li>
 
 
                     <li class="header">-- Personal</li>
                     
                     <li class="">
-                         <a href="employee-announcement">
+                         <a href="my-files">
                             <i data-feather="mail"></i>
                             <span>My Files</span>
                         </a>
@@ -285,12 +286,19 @@
                                 
 
 
-                    <li class="active">
+                    <li class="">
                     <a href="employee-profile">
                             <i data-feather="users"></i>
                             <span>My Profile</span>
                         </a>
                     </li>
+                    
+                    <li>
+                        <a href="my-requests">
+                            <i data-feather="check-circle"></i>
+                            <span>My Requests</span>
+                        </a>
+</li>
                     <li class="header">-- Others</li>
                     <li class="">
                         <a href="directory">  
@@ -299,7 +307,7 @@
                         </a>
                     </li>
 
-                    <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
+                    <li class="">
                         <a href="holiday">
                             <i data-feather="calendar"></i>
                             <span>Holiday</span>
@@ -318,6 +326,7 @@
         </aside>
         <!-- #END# Right Sidebar -->
     </div>
+
 
 
     <section class="content">

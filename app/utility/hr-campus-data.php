@@ -22,6 +22,23 @@ function userRequests() {
 
 
 
+function myRequests() {
+
+    
+    global $conn;
+
+    $sql = "SELECT * FROM `request_traffic` where Employee = '".ACCOUNT_INFO['fullname']."'";
+    $result = $conn->query($sql);
+    $list = array();
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc()) {
+            array_push($list,$row);
+        }
+    } 
+    return $list;
+
+}
+
 
 
 

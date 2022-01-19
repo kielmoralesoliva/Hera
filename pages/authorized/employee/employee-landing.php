@@ -269,6 +269,7 @@
                             <i data-feather="check-circle"></i>
                             <span>Request Forms</span>
                         </a>
+</li>
 
 
                     <li class="header">-- Personal</li>
@@ -291,6 +292,13 @@
                             <span>My Profile</span>
                         </a>
                     </li>
+                    
+                    <li>
+                        <a href="my-requests">
+                            <i data-feather="check-circle"></i>
+                            <span>My Requests</span>
+                        </a>
+</li>
                     <li class="header">-- Others</li>
                     <li class="">
                         <a href="directory">  
