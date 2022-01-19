@@ -437,9 +437,9 @@
     <div class="col-sm">
     <div class="body">
                         <div class="button-demo">
-                        <p>Retirement and Separation Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download RS Form</button>
-                            <p>Life Insurance Benefit Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download LIB Form  </button>
-                            <p>Declaration of Pendency and Non Pendency Case Form</p> <button type="button" class="btn btn-outline-warning btn-border-radius">Download DPNPC Form  </button>
+                        <p>Retirement and Separation Form</p> <button type="button" documenttype="Retirement and Separation Form" downloadlink ="./assets/downloadables/RS.pdf" requestfile="Retirement Form" id="downloadRSF" class="btn btn-outline-warning btn-border-radius">Download RS Form</button>
+                            <p>Life Insurance Benefit Form</p> <button type="button" documenttype="Life Insurance Benefit Form" downloadlink ="./assets/downloadables/LIB.pdf" requestfile="Life Insurance Benefit Form" id="downloadLIBF" class="btn btn-outline-warning btn-border-radius">Download LIB Form  </button>
+                            <p>Declaration of Pendency and Non Pendency Case Form</p> <button type="button" documenttype="Declaration of Pendency and Non Pendency Case Form" downloadlink ="./assets/downloadables/DPNDPC.pdf" requestfile="Declaration of Pendency" id="downloadDPNPCF" class="btn btn-outline-warning btn-border-radius">Download DPNPC Form  </button>
                        
                             </div>
 

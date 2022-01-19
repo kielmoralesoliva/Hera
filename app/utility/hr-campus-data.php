@@ -8,7 +8,7 @@ function userRequests() {
     
     global $conn;
 
-    $sql = "SELECT * FROM request_traffic";
+    $sql = "SELECT * FROM request_traffic ORDER BY Request_ID DESC";
     $result = $conn->query($sql);
     $list = array();
 

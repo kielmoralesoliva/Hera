@@ -1,6 +1,6 @@
 var RequestFilePage = {
   init: function () {
-    $("#downloadWSE,#downloadSALN,#downloadPDS,#downloadLF").click(function (e) {
+    $("#downloadWSE,#downloadSALN,#downloadPDS,#downloadLF,#downloadRSF,#downloadLIBF,#downloadDPNPCF").click(function (e) {
       console.log("wew");
       var requestfile = $(this).attr("requestfile");
       var downloadlink = $(this).attr("downloadlink");
@@ -10,12 +10,12 @@ var RequestFilePage = {
       e.preventDefault();
       swal(
         {
-          title: "Are you sure?",
-          text: "You will not be able to recover this imaginary file!",
-          type: "warning",
+          title: "Confirm Request/Download File",
+          text: "Your data will be uploaded in the requests.",
+          type: "success",
           showCancelButton: true,
           confirmButtonColor: "#DD6B55",
-          confirmButtonText: "Log Out",
+          confirmButtonText: "Request Form",
           cancelButtonText: "Cancel",
           closeOnConfirm: false,
           closeOnCancel: false,
@@ -30,7 +30,7 @@ var RequestFilePage = {
 
 
           } else {
-            swal("Cancelled", "Your imaginary file is safe :)", "error");
+            swal("Cancelled", "You cancelled your download:)", "error");
           }
         }
       );

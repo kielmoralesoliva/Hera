@@ -385,7 +385,7 @@
                                        
 
                                         <td class="center">
-                                                <a href="print-request?id=<?php echo userRequests()[$i]["Request_ID"]?>" class="btn btn-tbl-edit">
+                                                <a target="_blank" href="print-request?id=<?php echo userRequests()[$i]["Request_ID"]?>" class="btn btn-tbl-edit">
                                                     <i class="material-icons">create</i>
                                                 </a>
                                                 <a href="" class="btn btn-tbl-delete">
