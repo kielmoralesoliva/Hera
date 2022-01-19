@@ -22,8 +22,8 @@
 				
 				<form class="login100-form validate-form" id="signin-form">
 				<div class="header">
-					<img src="assets/images/logo/hewa.png" alt="Hera Cute" width="200" height="185"> </div>
-				Log in to HERA
+				<center>	<img src="assets/images/logo/hewa.png" alt="Hera Cute" width="200" height="185"> </center></div>
+				<h4 class="text-center">Log in to HERA </h4>
 					</span>
 					<div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
 						<input class="input100" type="text" name="username">

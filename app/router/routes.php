@@ -94,10 +94,19 @@ $router->get('/request-form', function () {
           
                 include './pages/authorized/human-resource/include/hr-employees.php';
             });
+            $router->get('/hr-leave-management', function () {
+          
+                include './pages/authorized/human-resource/include/leave-management.php';
+            });
             $router->get('/hr-add-employee', function () {
               
                 include './pages/authorized/human-resource/include/hr-add-employee.php';
             });
+            $router->get('/hr-campus-data', function () {
+              
+                include './pages/authorized/human-resource/include/hr-campus-data.php';
+            });
+       
        
             $router->get('/hr-landing', function () {
               

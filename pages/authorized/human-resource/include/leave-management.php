@@ -199,7 +199,8 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" id="logout">
+                                        <a href="#"   id ="logout">
+
                                             <i class="material-icons">power_settings_new</i>Logout
                                         </a>
                                     </li>
@@ -231,8 +232,8 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name"> <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?> </div>
-                            <div class="profile-usertitle-job ">Employee </div>
+                            <div class="sidebar-userpic-name"> Maricar Falogme </div>
+                            <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
 
@@ -242,69 +243,44 @@
         
 
                     <li class="">
-                        <a href="employee-landing">
+                        <a href="hr-all-requests">
                             <i data-feather="calendar"></i>
-                            <span>Announcement</span>
+                            <span>All Requests</span>
                         </a>
                     </li>
                     
                     <li>
                         <a href="employee-dashboard">
                             <i data-feather="calendar"></i>
-                            <span>Campus Data</span>
+                            <span>Announcements</span>
                         </a>
                     </li>
                     <li>
                         <a href="employee-leave-balance">
+                            <i data-feather="mail"></i>
+                            <span>Campus Data</span>
+                        </a>
+                    </li>
+
+
+
+
+                    <li class="">
+                        <a href="hr-employees">
+                            <i data-feather="check-circle"></i>
+                            <span>Employee Data</span>
+                        </a>
+
+                    <li class="active">
+                         <a href="hr-leave-management">
                             <i data-feather="clipboard"></i>
                             <span>Leave Management</span>
                         </a>
                     </li>
 
-
-
-
-                    <li class="active">
-                        <a href="downloadable">
-                            <i data-feather="check-circle"></i>
-                            <span>Request Forms</span>
-                        </a>
-
-
-                    <li class="header">-- Personal</li>
-                    
-                    <li class="">
-                         <a href="employee-announcement">
-                            <i data-feather="mail"></i>
-                            <span>My Files</span>
-                        </a>
-                    </li>
-
            
                                         
-                                
-
-
-                    <li class="">
-                    <a href="employee-profile">
-                            <i data-feather="users"></i>
-                            <span>My Profile</span>
-                        </a>
-                    </li>
-                    <li class="header">-- Others</li>
-                    <li class="">
-                        <a href="directory">  
-                    <i class="fas fa-phone-volume"></i>
-                            <span>Officials Directory</span>
-                        </a>
-                    </li>
-
-                    <li class="<?php echo $activation == "holiday"? "active": ""; ?>">
-                        <a href="holiday">
-                            <i data-feather="calendar"></i>
-                            <span>Holiday</span>
-                        </a>
-                    </li>
+                            
 
 
 
@@ -318,8 +294,7 @@
         </aside>
         <!-- #END# Right Sidebar -->
     </div>
-
-
+    
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
@@ -327,189 +302,344 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">HERA</h4>
+                                <h4 class="page-title">Dashboard</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="../../index.html">
+                                <a href="index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
-                            <li class="breadcrumb-item active">Request a Form</li>
+                            <li class="breadcrumb-item active">Dashboard</li>
                         </ul>
                     </div>
                 </div>
             </div>
-           
+            <div class="header"> 
+           <h3> <strong>Available</strong> Leave Balance<br></h3>
 
-
-            <div class="block-header">
-                <h2>
-                   HERA Downloadable Forms
-                </h2>
-            </div>
-            <div class="row clearfix">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-red">
-                            <h2>
-                               Civil Service Commission Forms
-                                <small>Government Released form</small>
-                            </h2>
-                            
-                        </div>
-
-                      
-<div class="container">
-  <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                            <p>Statement of Assets and Liabilities</p> <button type="button" documenttype="Statement of Assets and Liabilities" requestfile="SALN Form" downloadlink ="./assets/downloadables/SALN.doc" id="downloadSALN" class="btn btn-outline-danger btn-border-radius">Download SALN Form</button>
-                            <p>Personal Data Sheet</p> <button type="button" documenttype="Personal Data Sheet" downloadlink ="./assets/downloadables/PDS.xlsx" requestfile="PDS Form" id="downloadPDS" class="btn btn-outline-danger btn-border-radius">Download PDS Form  </button>
-                            <p>Work Experience Sheet</p> <button type="button" documenttype="Work Experience Sheet" downloadlink ="./assets/downloadables/WSE.docx" requestfile="WSE Form" id="downloadWSE" class="btn btn-outline-danger btn-border-radius">Download WSE Form  </button>
-                                     </div>
-
-                        </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/csc.png" alt="">
-                                    
-    </div>
-  </div>
-</div>
-
-
-                    </div>
-                </div>
-
-
-
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                    <div class="card">
-                        <div class="header bg-light-green">
-                            <h2>
-                                RSU Local Forms
-                                <small>Romblon State University Local Forms</small>
-                            </h2>
-                        </div>
-
-                        <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Leave Form</p> <button type="button" documenttype="Leave Form" downloadlink ="./assets/downloadables/LEAVE.pdf" requestfile="WLeave Form" id="downloadLF" class="btn btn-outline-success btn-border-radius">Download Leave Form  </button>
-                            <p>Clearance Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download Clearance Form  </button>
-                            <p>Certificate of Leave Form</p> <button type="button" class="btn btn-outline-success btn-border-radius">Download COL Form  </button>
+            <div class="row ">
+                <div class="col-xl-3 col-sm-6">
+                    <div class="card l-bg-purple">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="far fa-window-restore"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Vacation Leave</h5>
                             </div>
-                            
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h1 class="d-flex align-items-right mb-0">
+                                    <?php echo  ACCOUNT_INFO['vacationLeave']; ?>
+                                    </h1>
+                                </div>
+                               
+                            </div>
+                           
                         </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/rsu.png" alt="">
-                                    
-    </div>
-  </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+              
+
+                <div class="col-xl-3 col-sm-6">
+                    <div class="card l-bg-blue-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-walking"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Force Leave</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h1 class="d-flex align-items-right mb-0">
+                                    <?php echo  ACCOUNT_INFO['mandatoryLeave']; ?>
+                                    </h1>
+                                </div>
+                               
+                            </div>
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-green">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Sick Leave</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php echo  ACCOUNT_INFO['sickLeave']; ?>
+                                    </h2>
+                                </div>
+                              
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-red">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Maternity leave</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php echo  ACCOUNT_INFO['maternityLeave']; ?>
+                                    </h2>
+                                </div>
+                              
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-orange-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Paternity Leave</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php echo  ACCOUNT_INFO['PaternityLeave']; ?>
+                                    </h2>
+                                </div>
+                              
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-green-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Special Privilege</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                    <?php echo  ACCOUNT_INFO['splLeave']; ?>
+                                    </h2>
+                                </div>
+                              
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-green-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Solo Parent Leave</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                        0
+                                    </h2>
+                                </div>
+                              
+                            </div>
+                         
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6">
+                    <div class="card l-bg-orange-dark">
+                        <div class="info-box-5 p-4">
+                            <div class="card-icon card-icon-large"><i class="fas fa-money-check-alt"></i></div>
+                            <div class="mb-4">
+                                <h5 class="font-20 mb-0">Study Leave</h5>
+                            </div>
+                            <div class="row align-items-center mb-2 d-flex">
+                                <div class="col-8">
+                                    <h2 class="d-flex align-items-center mb-0">
+                                       0
+                                    </h2>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+        
+      
+        </div>
+
+        <div class="row">
+        <div class="col-xl-9">
                     <div class="card">
-                        <div class="header bg-green">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                    <div class="card">
+                        <div class="header">
                             <h2>
-                                GSIS Forms
-                                <small>Description text here...</small>
-                            </h2>
-                            <ul class="header-dropdown m-r-0">
-                                <li>
-                                    <a href="#" onClick="return false;">
-                                        <i class="material-icons">info_outline</i>
+                                <strong>Leave</strong> Guide</h2>
+                            <ul class="header-dropdown m-r--5">
+                                <li class="dropdown">
+                                    <a href="#" onClick="return false;" class="dropdown-toggle"
+                                        data-bs-toggle="dropdown" role="button" aria-haspopup="true"
+                                        aria-expanded="false">
+                                        <i class="material-icons">more_vert</i>
                                     </a>
-                                </li>
-                                <li>
-                                    <a href="#" onClick="return false;">
-                                        <i class="material-icons">help_outline</i>
-                                    </a>
+                                   
                                 </li>
                             </ul>
                         </div>
-
-
-                        <div class="container">
-  <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Retirement and Separation Form</p> <button type="button" documenttype="Retirement and Separation Form" downloadlink ="./assets/downloadables/RS.pdf" requestfile="Retirement Form" id="downloadRSF" class="btn btn-outline-warning btn-border-radius">Download RS Form</button>
-                            <p>Life Insurance Benefit Form</p> <button type="button" documenttype="Life Insurance Benefit Form" downloadlink ="./assets/downloadables/LIB.pdf" requestfile="Life Insurance Benefit Form" id="downloadLIBF" class="btn btn-outline-warning btn-border-radius">Download LIB Form  </button>
-                            <p>Declaration of Pendency and Non Pendency Case Form</p> <button type="button" documenttype="Declaration of Pendency and Non Pendency Case Form" downloadlink ="./assets/downloadables/DPNDPC.pdf" requestfile="Declaration of Pendency" id="downloadDPNPCF" class="btn btn-outline-warning btn-border-radius">Download DPNPC Form  </button>
-                       
-                            </div>
-
+                        <div class="body table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Leave Type</th>
+                                        <th>Status</th>
+                                        <th>Advance Filing Required</th>
+                                        <th>Limit</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Vacation Leave</td>   
+                                        <td> <button type="button" class="btn btn-success waves-effect"
+                                  >Paid Leave</button></td>
+                                    <td>5 Days</td> 
+                                    <td>N/A</td> 
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Mandatory/Force Leave</td>   
+                                        <td> <button type="button" class="btn btn-success waves-effect"
+                                    >Paid Leave</button></td>
+                                    <td>5 Days</td> 
+                                    <td>5 Days</td> 
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>Sick Leave</td>   
+                                        <td> <button type="button" class="btn btn-danger waves-effect"
+                                    >Unpaid</button></td>
+                                    <td>5 Days Before/After</td> 
+                                    <td>N/A</td> 
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>Maternity Leave</td>   
+                                        <td> <button type="button" class="btn btn-success waves-effect"
+                                    >Paid Leave</button></td>
+                                    <td>N/A</td> 
+                                    <td>105 Days</td> 
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>Paternity Leave</td>   
+                                        <td> <button type="button" class="btn btn-success waves-effect"
+                                    >Paid Leave</button></td>
+                                    <td>N/A</td> 
+                                    <td>7 Days</td> 
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">6</th>
+                                        <td>Special Privilege Leave</td>   
+                                        <td> <button type="button" class="btn btn-success waves-effect"
+                                    >Paid Leave</button></td>
+                                    <td>1 Week</td> 
+                                    <td>3 Days</td> 
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">7</th>
+                                        <td>Solo Parent Leave</td>   
+                                        <td> <button type="button" class="btn btn-success waves-effect"
+                                    >Paid Leave</button></td>
+                                    <td>5 Days</td> 
+                                    <td>7 Days</td> 
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">8</th>
+                                        <td>Study Leave</td>   
+                                        <td> <button type="button" class="btn btn-success waves-effect"
+                                    >Paid Leave</button></td>
+                                    <td>N/A</td> 
+                                    <td>6 Months</td> 
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/gsis.png" alt="">
-                                    
-    </div>
-  </div>
-</div>                    
                     </div>
                 </div>
-            </div>
-       
-            <div class="block-header">
-                <h2>Record Request</h2>
-            </div>
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+</div></div>
+                <div class="col-lg-3">
+                    
                     <div class="card">
-                        <div class="header bg-light-blue">
-                            <h2>
-                                Official Release Forms
-                                <small>Signatory forms</small>
-                            </h2>
+                        
+                        <div class="header">
+                         
 
+       
+                  
+                                <img src="assets/images/logo/hewa4.png" alt="Hera Cute" width="394" height="345"> 
+                                <div class="header">
+                      
+
+                                <div class="row clearfix js-sweetalert">
+                        
+
+                                <center><button type="button" class="btn btn-danger" onclick="location.href='file-leave'">Click here to file Leave</button></center>
+                                </div>
+                               
+
+                               
+</div>
+                             
+
+
+                 
                         </div>
+                        
 
 
-                        <div class="row">  
-    <div class="col-sm">
-    <div class="body">
-                        <div class="button-demo">
-                        <p>Service Record</p> <button type="button" documenttype="Service Record"  requestfile="Service Record" id="requestSR" class="btn btn-outline-info btn-border-radius">Request for Service Record</button>
-                        <p>Certificate of Employment</p> <button type="button" documenttype="Certificate of Employment"  requestfile="Certificate of Employment" id="requestCOE" class="btn btn-outline-info btn-border-radius">Request for Certificate</button>
-                            </div>
+                        
+                    </div>
+                </div>
 
-                        </div>
-    </div>
-    <div class="col-sm">
-                                                <img src="assets/images/logo/hewa.png" alt="">
-                                    
-    </div>
-  </div>
-</div>                    
-
+           
 
 
                     </div>
                 </div>
-             
             </div>
-            <!-- #END# Colored Card - With Loading -->
-    
             
-        </div>
-    </section>
        
+
+        
+    </section>
+
+
+
+
 
 
     <script src="assets/js/app.min.js"></script>
+    <script src="assets/js/chart.min.js"></script>
+
+    
     <!-- Custom Js -->
     <script src="assets/js/admin.js"></script>
     <script src="assets/js/bundles/echart/echarts.js"></script>
     <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
-    <script src="assets/js/main/request-file.js"></script>
-    <script src="assets/js/main/request-file-pending.js"></script>
+    <script src="assets/js/pages/ui/dialogs.js"></script>
+
     <script src="assets/js/main/logout.js"></script>
 </body>
 

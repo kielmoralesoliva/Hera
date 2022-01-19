@@ -232,7 +232,7 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name"> Maricar Falogme </div>
+                            <div class="sidebar-userpic-name"> <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?> </div>
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
@@ -256,33 +256,41 @@
                         </a>
                     </li>
                     <li>
-                        <a href="employee-leave-balance">
+                        <a href="hr-campus-data">
                             <i data-feather="mail"></i>
                             <span>Campus Data</span>
                         </a>
                     </li>
 
-
-
-
                     <li class="">
-                        <a href="hr-employees">
-                            <i data-feather="check-circle"></i>
-                            <span>Employee Data</span>
-                        </a>
-
-                    <li class="">
-                         <a href="employee-announcement">
+                         <a href="hr-leave-management">
                             <i data-feather="clipboard"></i>
                             <span>Leave Management</span>
                         </a>
                     </li>
-
+                    <li class="header">-- Employee Data</li>
            
-                                        
+                        
+                    <li class="">
+                        <a href="hr-employees">
+                            <i data-feather="check-circle"></i>
+                            <span>Regular Employee</span>
+                        </a>
+                    </li>                  
                             
+                    <li class="">
+                        <a href="hr-employees">
+                            <i data-feather="check-circle"></i>
+                            <span>College Lecturers</span>
+                        </a>
+                    </li>      
 
-
+                    <li class="">
+                        <a href="hr-employees">
+                            <i data-feather="check-circle"></i>
+                            <span>Job Orders</span>
+                        </a>
+                    </li>      
 
 
 

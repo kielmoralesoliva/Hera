@@ -504,7 +504,7 @@
                                                     <br>
                                                     <p class="text-muted"><?php echo  ACCOUNT_INFO['tinID'];?></p>
                                                     <p class="text-muted"></p>
-                                                    <strong>AGENCY EMPLOYEE Number</strong>
+                                                    <strong>Employee Number</strong>
                                                     <br>
                                                     <p class="text-muted"><?php echo  ACCOUNT_INFO['empID'];?></p>
                                                    </div>

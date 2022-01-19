@@ -373,8 +373,8 @@
                                             <td class="center"><?php echo hrTotalEmployees()[$i]["status"];?></td>
                                             <td class="center"><?php echo hrTotalEmployees()[$i]["campus"];?></td>
                                             <td class="center"><?php echo hrTotalEmployees()[$i]["educBackground"];?></td>
-                                            <td class="center">Head, DIMU</td>
-                                            <td class="center">11-05-2021</td>
+                                            <td class="center"></td>
+                                            <td class="center"><?php echo hrTotalEmployees()[$i]["appointment"];?></td>
                                         </tr>
                                         <?php } ?>
                                    
@@ -392,7 +392,7 @@
                                             <th class="center"> Campus </th>
                                             <th class="center"> Education </th>
                                             <th class="center"> Designation </th>
-                                            <th class="center"> Appointment Date </th>
+                                            <th class="center"> Appointment </th>
                                         </tr>
                                     </tfoot>
                                 </table>
