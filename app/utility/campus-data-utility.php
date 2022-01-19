@@ -271,17 +271,23 @@ function totalRegularNonTeaching() {
 
 
 
-function Directory() {
- 
 
+function Directory() {
+
+    
     global $conn;
 
-    $result = $conn->query("SELECT * FROM `directory`");
+    $sql = "SELECT * FROM directory";
+    $result = $conn->query($sql);
+    $list = array();
+    if ($result->num_rows > 0) {
+        while($row = $result->fetch_assoc()) {
+            array_push($list,$row);
+        }
+    } 
+    return $list;
 
-    $row =  mysqli_num_rows( $result);
-    echo $row;
 }
-
 
 
 

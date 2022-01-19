@@ -506,7 +506,7 @@
                                                     <p class="text-muted"></p>
                                                     <strong>Employee Number</strong>
                                                     <br>
-                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['empID'];?></p>
+                                                    <p class="text-muted"><?php echo  ACCOUNT_INFO['employee_ID'];?></p>
                                                    </div>
                                             </div>
                                         </div>

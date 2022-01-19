@@ -373,20 +373,20 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <?php for ($i=0, $fc = count(hrTotalEmployees()); $i < $fc; $i++) {?>
+                                        <?php for ($i=0, $fc = count(hrLecturers()); $i < $fc; $i++) {?>
                                         <tr class="odd gradeX">
-                                            <td class="center"><?php echo hrTotalEmployees()[$i]["employee_ID"];?>
+                                            <td class="center"><?php echo hrLecturers()[$i]["employee_ID"];?>
                                             </td>
-                                            <td class="center"><?php echo hrTotalEmployees()[$i]["surname"];?></td>
-                                            <td class="center"><?php echo hrTotalEmployees()[$i]["firstname"];?></td>  
-                                            <td class="center"><?php echo hrTotalEmployees()[$i]["middlename"];?></td>
-                                            <td class="center"><?php echo hrTotalEmployees()[$i]["birthdate"];?></td>
-                                            <td class="center"><?php echo hrTotalEmployees()[$i]["academicRank"];?></td>
-                                            <td class="center"><?php echo hrTotalEmployees()[$i]["status"];?></td>
-                                            <td class="center"><?php echo hrTotalEmployees()[$i]["campus"];?></td>
-                                            <td class="center"><?php echo hrTotalEmployees()[$i]["educBackground"];?></td>
+                                            <td class="center"><?php echo hrLecturers()[$i]["surname"];?></td>
+                                            <td class="center"><?php echo hrLecturers()[$i]["firstname"];?></td>  
+                                            <td class="center"><?php echo hrLecturers()[$i]["middlename"];?></td>
+                                            <td class="center"><?php echo hrLecturers()[$i]["birthdate"];?></td>
+                                            <td class="center"><?php echo hrLecturers()[$i]["academicRank"];?></td>
+                                            <td class="center"><?php echo hrLecturers()[$i]["status"];?></td>
+                                            <td class="center"><?php echo hrLecturers()[$i]["campus"];?></td>
+                                            <td class="center"><?php echo hrLecturers()[$i]["educBackground"];?></td>
                                             <td class="center"></td>
-                                            <td class="center"><?php echo hrTotalEmployees()[$i]["appointment"];?></td>
+                                            <td class="center"><?php echo hrLecturers()[$i]["appointment"];?></td>
                                         </tr>
                                         <?php } ?>
                                    

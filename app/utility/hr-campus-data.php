@@ -35,7 +35,7 @@ function hrTotalEmployees() {
 
     global $conn;
 
-    $sql = "SELECT * FROM user_account";
+    $sql = "SELECT * FROM user_account where status='Permanent' OR status='Temporary'";
     $result = $conn->query($sql);
     $list = array();
 
@@ -49,6 +49,30 @@ function hrTotalEmployees() {
     } 
     return $list;
 }
+
+
+function hrLecturers() {
+ 
+
+    global $conn;
+
+    $sql = "SELECT * FROM user_account where status='Lecturer'";
+    $result = $conn->query($sql);
+    $list = array();
+
+
+    if ($result->num_rows > 0) {
+    
+
+        while($row = $result->fetch_assoc()) {
+            array_push($list,$row);
+        }
+    } 
+    return $list;
+}
+
+
+
 
 
 

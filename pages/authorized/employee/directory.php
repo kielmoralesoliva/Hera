@@ -367,13 +367,13 @@
                                     <tbody>
                                     <?php for ($i=0, $fc = count(Directory()); $i < $fc; $i++) {?>
                                         <tr class="odd gradeX">
-                                            <td class="center"><?php echo var_dump(Directory()[$i]["Name"];?>
+                                            <td class="center"><?php echo Directory()[$i]["Name"];?>    
                                             </td>
                                             <td class="center"><?php echo Directory()[$i]["Position"];?></td>
-                                            <td class="center">None</td>
-                                            <td class="center">+639312194983</td>
-                                            <td class="center">Planning and Development Office</td>
-                                            <td class="center font-bold col-blue">kielmoralesoliva@gmail.com</td>
+                                            <td class="center"><?php echo Directory()[$i]["Telephone #"];?></td>
+                                            <td class="center"><?php echo Directory()[$i]["Cellphone #"];?></td>
+                                            <td class="center"><?php echo Directory()[$i]["Position"];?></td>
+                                            <td class="center font-bold col-blue"><?php echo Directory()[$i]["EmailAddress"];?></td>
                                         </tr>
                                             <?php }?>
                                
@@ -413,7 +413,7 @@
                                 <div class="row clearfix js-sweetalert">
                         
 
-                                <center><button type="button" class="btn btn-danger" onclick="location.href='file-leave'">Click here to file Leave</button></center>
+                                <center><button type="button" class="btn btn-danger" onclick="location.href='file-leave'">Missing Directory? Ask here</button></center>
                                 </div>
                                
 

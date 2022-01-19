@@ -97,6 +97,11 @@ $router->get('/request-form', function () {
           
                 include './pages/authorized/human-resource/include/hr-employees.php';
             });
+            $router->get('/hr-lecturers', function () {
+          
+                include './pages/authorized/human-resource/include/hr-lecturers.php';
+            });
+      
       
             $router->get('/hr-leave-management', function () {
           
