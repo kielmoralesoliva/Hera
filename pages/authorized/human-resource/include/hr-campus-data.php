@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -262,27 +261,35 @@
                         </a>
                     </li>
 
-
-
-
-                    <li class="">
-                        <a href="hr-employees">
-                            <i data-feather="check-circle"></i>
-                            <span>Employee Data</span>
-                        </a>
-
                     <li class="">
                          <a href="hr-leave-management">
                             <i data-feather="clipboard"></i>
                             <span>Leave Management</span>
                         </a>
                     </li>
-
+                    <li class="header">-- Employee Data</li>
            
-                                        
+                        
+                    <li class="">
+                        <a href="hr-employees">
+                            <i data-feather="check-circle"></i>
+                            <span>Regular Employee</span>
+                        </a>
+                    </li>                  
                             
+                    <li class="">
+                        <a href="hr-lecturers">
+                            <i data-feather="check-circle"></i>
+                            <span>College Lecturers</span>
+                        </a>
+                    </li>      
 
-
+                    <li class="">
+                        <a href="hr-employees">
+                            <i data-feather="check-circle"></i>
+                            <span>Job Orders</span>
+                        </a>
+                    </li>      
 
 
 
@@ -294,7 +301,6 @@
         </aside>
         <!-- #END# Right Sidebar -->
     </div>
-
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">

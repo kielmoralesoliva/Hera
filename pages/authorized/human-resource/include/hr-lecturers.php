@@ -270,15 +270,15 @@
                     <li class="header">-- Employee Data</li>
            
                         
-                    <li class="active">
+                    <li class="">
                         <a href="hr-employees">
                             <i data-feather="check-circle"></i>
                             <span>Regular Employee</span>
                         </a>
                     </li>                  
                             
-                    <li class="">
-                        <a href="hr-employees">
+                    <li class="active">
+                        <a href="hr-lecturers">
                             <i data-feather="check-circle"></i>
                             <span>College Lecturers</span>
                         </a>

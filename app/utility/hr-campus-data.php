@@ -71,6 +71,25 @@ function hrLecturers() {
     return $list;
 }
 
+function hrJobOrders() {
+ 
+
+    global $conn;
+
+    $sql = "SELECT * FROM user_account where status='Job Order'";
+    $result = $conn->query($sql);
+    $list = array();
+
+
+    if ($result->num_rows > 0) {
+    
+
+        while($row = $result->fetch_assoc()) {
+            array_push($list,$row);
+        }
+    } 
+    return $list;
+}
 
 
 

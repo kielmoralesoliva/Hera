@@ -261,7 +261,7 @@
                         </a>
                     </li>
 
-                    <li class="active">
+                    <li class="">
                          <a href="hr-leave-management">
                             <i data-feather="clipboard"></i>
                             <span>Leave Management</span>
@@ -284,7 +284,7 @@
                         </a>
                     </li>      
 
-                    <li class="">
+                    <li class="active">
                         <a href="hr-employees">
                             <i data-feather="check-circle"></i>
                             <span>Job Orders</span>
@@ -303,6 +303,8 @@
     </div>
 
 
+
+
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
@@ -310,188 +312,27 @@
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <ul class="breadcrumb breadcrumb-style ">
                             <li class="breadcrumb-item">
-                                <h4 class="page-title">Dashboard</h4>
+                                <h4 class="page-title">All Employees</h4>
                             </li>
                             <li class="breadcrumb-item bcrumb-1">
-                                <a href="index.html">
+                                <a href="../../index.html">
                                     <i class="fas fa-home"></i> Home</a>
                             </li>
-                            <li class="breadcrumb-item active">Dashboard</li>
+                            <li class="breadcrumb-item bcrumb-2">
+                                <a href="#" onClick="return false;">Employee</a>
+                            </li>
+                            <li class="breadcrumb-item active">All Employees</li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="header"> 
-           <h3> <strong>Available</strong> Leave Balance<br></h3>
-
-            <div class="row ">
-                <div class="col-xl-3 col-sm-6">
-                    <div class="card l-bg-purple">
-                        <div class="info-box-5 p-4">
-                            <div class="card-icon card-icon-large"><i class="far fa-window-restore"></i></div>
-                            <div class="mb-4">
-                                <h5 class="font-20 mb-0">Vacation Leave</h5>
-                            </div>
-                            <div class="row align-items-center mb-2 d-flex">
-                                <div class="col-8">
-                                    <h1 class="d-flex align-items-right mb-0">
-                                    <?php echo  ACCOUNT_INFO['vacationLeave']; ?>
-                                    </h1>
-                                </div>
-                               
-                            </div>
-                           
-                        </div>
-                    </div>
-                </div>
-              
-
-                <div class="col-xl-3 col-sm-6">
-                    <div class="card l-bg-blue-dark">
-                        <div class="info-box-5 p-4">
-                            <div class="card-icon card-icon-large"><i class="fas fa-walking"></i></div>
-                            <div class="mb-4">
-                                <h5 class="font-20 mb-0">Force Leave</h5>
-                            </div>
-                            <div class="row align-items-center mb-2 d-flex">
-                                <div class="col-8">
-                                    <h1 class="d-flex align-items-right mb-0">
-                                    <?php echo  ACCOUNT_INFO['mandatoryLeave']; ?>
-                                    </h1>
-                                </div>
-                               
-                            </div>
-                           
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6">
-                    <div class="card l-bg-green">
-                        <div class="info-box-5 p-4">
-                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
-                            <div class="mb-4">
-                                <h5 class="font-20 mb-0">Sick Leave</h5>
-                            </div>
-                            <div class="row align-items-center mb-2 d-flex">
-                                <div class="col-8">
-                                    <h2 class="d-flex align-items-center mb-0">
-                                    <?php echo  ACCOUNT_INFO['sickLeave']; ?>
-                                    </h2>
-                                </div>
-                              
-                            </div>
-                         
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6">
-                    <div class="card l-bg-red">
-                        <div class="info-box-5 p-4">
-                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
-                            <div class="mb-4">
-                                <h5 class="font-20 mb-0">Maternity leave</h5>
-                            </div>
-                            <div class="row align-items-center mb-2 d-flex">
-                                <div class="col-8">
-                                    <h2 class="d-flex align-items-center mb-0">
-                                    <?php echo  ACCOUNT_INFO['maternityLeave']; ?>
-                                    </h2>
-                                </div>
-                              
-                            </div>
-                         
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6">
-                    <div class="card l-bg-orange-dark">
-                        <div class="info-box-5 p-4">
-                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
-                            <div class="mb-4">
-                                <h5 class="font-20 mb-0">Paternity Leave</h5>
-                            </div>
-                            <div class="row align-items-center mb-2 d-flex">
-                                <div class="col-8">
-                                    <h2 class="d-flex align-items-center mb-0">
-                                    <?php echo  ACCOUNT_INFO['PaternityLeave']; ?>
-                                    </h2>
-                                </div>
-                              
-                            </div>
-                         
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6">
-                    <div class="card l-bg-green-dark">
-                        <div class="info-box-5 p-4">
-                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
-                            <div class="mb-4">
-                                <h5 class="font-20 mb-0">Special Privilege</h5>
-                            </div>
-                            <div class="row align-items-center mb-2 d-flex">
-                                <div class="col-8">
-                                    <h2 class="d-flex align-items-center mb-0">
-                                    <?php echo  ACCOUNT_INFO['splLeave']; ?>
-                                    </h2>
-                                </div>
-                              
-                            </div>
-                         
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6">
-                    <div class="card l-bg-green-dark">
-                        <div class="info-box-5 p-4">
-                            <div class="card-icon card-icon-large"><i class="fas fa-tasks"></i></div>
-                            <div class="mb-4">
-                                <h5 class="font-20 mb-0">Solo Parent Leave</h5>
-                            </div>
-                            <div class="row align-items-center mb-2 d-flex">
-                                <div class="col-8">
-                                    <h2 class="d-flex align-items-center mb-0">
-                                        0
-                                    </h2>
-                                </div>
-                              
-                            </div>
-                         
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xl-3 col-lg-6">
-                    <div class="card l-bg-orange-dark">
-                        <div class="info-box-5 p-4">
-                            <div class="card-icon card-icon-large"><i class="fas fa-money-check-alt"></i></div>
-                            <div class="mb-4">
-                                <h5 class="font-20 mb-0">Study Leave</h5>
-                            </div>
-                            <div class="row align-items-center mb-2 d-flex">
-                                <div class="col-8">
-                                    <h2 class="d-flex align-items-center mb-0">
-                                       0
-                                    </h2>
-                                </div>
-                               
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-        
-      
-        </div>
-
-        <div class="row">
-        <div class="col-xl-9">
-                    <div class="card">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12">
                     <div class="card">
                         <div class="header">
                             <h2>
-                                <strong>Leave</strong> Guide</h2>
+                                <strong>All</strong> Employees
+                            </h2>
                             <ul class="header-dropdown m-r--5">
                                 <li class="dropdown">
                                     <a href="#" onClick="return false;" class="dropdown-toggle"
@@ -499,137 +340,91 @@
                                         aria-expanded="false">
                                         <i class="material-icons">more_vert</i>
                                     </a>
-                                   
+                                    <ul class="dropdown-menu float-end">
+                                        <li>
+                                            <a href="#" onClick="return false;">Action</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">Another action</a>
+                                        </li>
+                                        <li>
+                                            <a href="#" onClick="return false;">Something else here</a>
+                                        </li>
+                                    </ul>
                                 </li>
                             </ul>
                         </div>
-                        <div class="body table-responsive">
-                            <table class="table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th>#</th>
-                                        <th>Leave Type</th>
-                                        <th>Status</th>
-                                        <th>Advance Filing Required</th>
-                                        <th>Limit</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <th scope="row">1</th>
-                                        <td>Vacation Leave</td>   
-                                        <td> <button type="button" class="btn btn-success waves-effect"
-                                  >Paid Leave</button></td>
-                                    <td>5 Days</td> 
-                                    <td>N/A</td> 
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">2</th>
-                                        <td>Mandatory/Force Leave</td>   
-                                        <td> <button type="button" class="btn btn-success waves-effect"
-                                    >Paid Leave</button></td>
-                                    <td>5 Days</td> 
-                                    <td>5 Days</td> 
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">3</th>
-                                        <td>Sick Leave</td>   
-                                        <td> <button type="button" class="btn btn-danger waves-effect"
-                                    >Unpaid</button></td>
-                                    <td>5 Days Before/After</td> 
-                                    <td>N/A</td> 
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">4</th>
-                                        <td>Maternity Leave</td>   
-                                        <td> <button type="button" class="btn btn-success waves-effect"
-                                    >Paid Leave</button></td>
-                                    <td>N/A</td> 
-                                    <td>105 Days</td> 
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">5</th>
-                                        <td>Paternity Leave</td>   
-                                        <td> <button type="button" class="btn btn-success waves-effect"
-                                    >Paid Leave</button></td>
-                                    <td>N/A</td> 
-                                    <td>7 Days</td> 
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">6</th>
-                                        <td>Special Privilege Leave</td>   
-                                        <td> <button type="button" class="btn btn-success waves-effect"
-                                    >Paid Leave</button></td>
-                                    <td>1 Week</td> 
-                                    <td>3 Days</td> 
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">7</th>
-                                        <td>Solo Parent Leave</td>   
-                                        <td> <button type="button" class="btn btn-success waves-effect"
-                                    >Paid Leave</button></td>
-                                    <td>5 Days</td> 
-                                    <td>7 Days</td> 
-                                    </tr>
-                                    <tr>
-                                        <th scope="row">8</th>
-                                        <td>Study Leave</td>   
-                                        <td> <button type="button" class="btn btn-success waves-effect"
-                                    >Paid Leave</button></td>
-                                    <td>N/A</td> 
-                                    <td>6 Months</td> 
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-</div></div>
-                <div class="col-lg-3">
-                    
-                    <div class="card">
-                        
-                        <div class="header">
+                        <div class="body">
+                            <div class="table-responsive">
+                                <table class="table table-hover js-basic-example contact_list">
+                                    <thead>
+                                        <tr>
+                                            <th class="center">ID</th>
+                                            <th class="center"> Last Name </th>
+                                            <th class="center"> First Name </th>
+                                            <th class="center"> Middle Name </th>
+                                            <th class="center"> Birth Date </th>
+                                            <th class="center">Academic Rank</th>
+                                            <th class="center"> Status </th>
+                                            <th class="center"> Campus </th>
+                                            <th class="center"> Education </th>
+                                            <th class="center"> Designation </th>
+                                            <th class="center"> Appointment Date</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <?php for ($i=0, $fc = count(hrJobOrders()); $i < $fc; $i++) {?>
+                                        <tr class="odd gradeX">
+                                            <td class="center"><?php echo hrJobOrders()[$i]["employee_ID"];?>
+                                            </td>
+                                            <td class="center"><?php echo hrJobOrders()[$i]["surname"];?></td>
+                                            <td class="center"><?php echo hrJobOrders()[$i]["firstname"];?></td>  
+                                            <td class="center"><?php echo hrJobOrders()[$i]["middlename"];?></td>
+                                            <td class="center"><?php echo hrJobOrders()[$i]["birthdate"];?></td>
+                                            <td class="center"><?php echo hrJobOrders()[$i]["academicRank"];?></td>
+                                            <td class="center"><?php echo hrJobOrders()[$i]["status"];?></td>
+                                            <td class="center"><?php echo hrJobOrders()[$i]["campus"];?></td>
+                                            <td class="center"><?php echo hrJobOrders()[$i]["educBackground"];?></td>
+                                            <td class="center"></td>
+                                            <td class="center"><?php echo hrJobOrders()[$i]["appointment"];?></td>
+                                        </tr>
+                                        <?php } ?>
+                                   
                          
-
-       
-                  
-                                <img src="assets/images/logo/hewa4.png" alt="Hera Cute" width="394" height="345"> 
-                                <div class="header">
-                      
-
-                                <div class="row clearfix js-sweetalert">
-                        
-
-                                <center><button type="button" class="btn btn-danger" onclick="location.href='file-leave'">Click here to file Leave</button></center>
-                                </div>
-                               
-
-                               
-</div>
-                             
-
-
-                 
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                        <th class="center">ID</th>
+                                            <th class="center"> Last Name </th>
+                                            <th class="center"> First Name </th>
+                                            <th class="center"> Middle Name </th>
+                                            <th class="center"> Birth Date </th>
+                                            <th class="center">Academic Rank</th>
+                                            <th class="center"> Status </th>
+                                            <th class="center"> Campus </th>
+                                            <th class="center"> Education </th>
+                                            <th class="center"> Designation </th>
+                                            <th class="center"> Appointment </th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+                            </div>
                         </div>
-                        
-
-
-                        
-                    </div>
-                </div>
-
-           
-
-
                     </div>
                 </div>
             </div>
-            
-       
-
-        
+        </div>
     </section>
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -638,17 +433,20 @@
 
     <script src="assets/js/app.min.js"></script>
     <script src="assets/js/chart.min.js"></script>
-
-    
+    <script src="assets/js/table.min.js"></script>
     <!-- Custom Js -->
     <script src="assets/js/admin.js"></script>
     <script src="assets/js/bundles/echart/echarts.js"></script>
     <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
-    <script src="assets/js/pages/ui/dialogs.js"></script>
+    <script src="assets/js/pages/tables/jquery-datatable.js"></script>
+    <script src="assets/js/bundles/export-tables/dataTables.buttons.min.js"></script>
+    <script src="assets/js/bundles/export-tables/buttons.flash.min.js"></script>
+    <script src="assets/js/bundles/export-tables/jszip.min.js"></script>
+    <script src="assets/js/bundles/export-tables/vfs_fonts.js"></script>
+    <script src="assets/js/bundles/export-tables/buttons.html5.min.js"></script>
 
-    <script src="assets/js/main/logout.js"></script>
 </body>
 
 

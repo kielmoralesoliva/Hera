@@ -286,7 +286,7 @@
                     </li>      
 
                     <li class="">
-                        <a href="hr-employees">
+                        <a href="hr-job-order">
                             <i data-feather="check-circle"></i>
                             <span>Job Orders</span>
                         </a>

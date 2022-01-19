@@ -102,6 +102,11 @@ $router->get('/request-form', function () {
                 include './pages/authorized/human-resource/include/hr-lecturers.php';
             });
       
+            $router->get('/hr-job-order', function () {
+          
+                include './pages/authorized/human-resource/include/hr-job-order.php';
+            });
+      
       
             $router->get('/hr-leave-management', function () {
           
