@@ -11,7 +11,15 @@
     include './classes/file-leave.php';
     include './classes/request-form.php';
 
-    // include './classes/employee.php';
+
+   include './classes/employee.php';
+
+   $router->post('/add-employee-form', function () {
+    $rf = new Employee();
+    $rf->add_employee($_POST);
+ });
+
+
 
     $router->post('/signin', function () {
         $entry = new Entry();

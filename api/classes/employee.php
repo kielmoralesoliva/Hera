@@ -27,28 +27,28 @@ class Employee
     {
         
         global $conn;
-        echo $post['furname'];
+   
         
         try {
-            $sql = "INSERT INTO `user_account`(`id`, `username`, `password`, `emailAddress`, `phoneNumber`, `accountType`, `gender`, `employeeIdNumber`, `furname`, `name`, `middle`, `college`, `birthdate`, `educBackground`, `academicRank`, `status`, `campus`, `sickLeave`, `vacationLeave`, `splLeave`, `mandatoryLeave`, `maternityLeave`, `PaternityLeave`, `SoloParentLeave`)
+            $sql = "INSERT INTO `user_account`(`id`, `username`, `password`, `emailAddress`, `phoneNumber`, `accountType`, `gender`, `employee_ID`, `surname`, `firstname`, `middlename`, `college`, `birthdate`, `educBackground`, `academicRank`, `status`, `campus`, `sickLeave`, `vacationLeave`, `splLeave`, `mandatoryLeave`, `maternityLeave`, `PaternityLeave`, `SoloParentLeave`)
                               VALUES (
                                   null,
-                                  '".$post['username']."',
-                                  '".$post['password']."',
+                                  '".$post['surname']."',
+                                  '".$post['firstname']."',
                                   '',
                                   '',
-                                  'HR Officer',
-                                  'female',
+                                  'Employee',
+                                  '".$post['gender']."',
                                   '',
-                                  '".$post['furname']."',
-                                  '".$post['name']."',
-                                  '".$post['middle']."',
-                                  '',
-                                  '',
-                                  '',
-                                  '',
-                                  'Temporary',
-                                  '',
+                                  '".$post['surname']."',
+                                  '".$post['firstname']."',
+                                  '".$post['middlename']."',
+                                  '".$post['college']."',
+                                  '".$post['birthdate']."',
+                                  '".$post['educBackground']."',
+                                  '".$post['academicRank']."',
+                                  '".$post['status']."',
+                                  '".$post['campus']."',
                                   '',
                                   '',
                                   '',

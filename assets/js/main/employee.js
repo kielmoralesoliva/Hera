@@ -22,6 +22,9 @@ var EmployeePage = {
       data: formData,
       success: function (res) {
         console.log("res ", res);
+        if (res.success) {
+          location.href=  SITE_URL;
+        }
       },
     });
   },

@@ -200,7 +200,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#" id ="logout">
+                                        <a href="#" id="logout">
                                             <i class="material-icons">power_settings_new</i>Logout
                                         </a>
                                     </li>
@@ -232,7 +232,7 @@
                             </div>
                         </div>
                         <div class="profile-usertitle">
-                            <div class="sidebar-userpic-name">  <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?></div>
+                            <div class="sidebar-userpic-name"> <?php echo  ACCOUNT_INFO['password'] ." ". ACCOUNT_INFO['username']; ?> </div>
                             <div class="profile-usertitle-job ">HR Staff </div>
                         </div>
                     </li>
@@ -265,17 +265,18 @@
 
 
 
-                    <li>
+                    <li class="">
                         <a href="downloadable">
                             <i data-feather="check-circle"></i>
                             <span>Request Forms</span>
                         </a>
+</li>
 
 
                     <li class="header">-- Personal</li>
                     
                     <li class="">
-                         <a href="employee-announcement">
+                         <a href="my-files">
                             <i data-feather="mail"></i>
                             <span>My Files</span>
                         </a>
@@ -292,6 +293,13 @@
                             <span>My Profile</span>
                         </a>
                     </li>
+                    
+                    <li>
+                        <a href="my-requests">
+                            <i data-feather="check-circle"></i>
+                            <span>My Requests</span>
+                        </a>
+</li>
                     <li class="header">-- Others</li>
                     <li class="">
                         <a href="directory">  
@@ -319,10 +327,6 @@
         </aside>
         <!-- #END# Right Sidebar -->
     </div>
-
-
-
-
 
     
     <section class="content">

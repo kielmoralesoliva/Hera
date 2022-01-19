@@ -328,6 +328,7 @@
                                 <table class="table table-hover js-basic-example contact_list">
                                     <thead>
                                         <tr>
+                                        <th class="center"> Request ID</th>
                                             <th class="center"> Requestee</th>
                                             <th class="center"> Department</th>
                                             <th class="center"> Campus</th>
@@ -342,6 +343,8 @@
                                     <tbody>
                                     <?php for ($i=0, $fc = count((userRequests())); $i < $fc; $i++) {?>
                                         <tr class="odd gradeX">
+ 
+                                        <td class="center"><?php echo userRequests()[$i]["Request_ID"];?></td>
                                         <td class="center"><?php echo userRequests()[$i]["Employee"];?></td>
                                         <td class="center"><?php echo userRequests()[$i]["College"];?></td>
                                         <td class="center"><?php echo userRequests()[$i]["Campus"];?></td>
@@ -379,6 +382,7 @@
                                     </tbody>
                                     <tfoot>
                                         <tr>
+                                            <th class="center"> Request ID</th>
                                             <th class="center"> Requestee</th>
                                             <th class="center"> Department</th>
                                             <th class="center"> Campus</th>

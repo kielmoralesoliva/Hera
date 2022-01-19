@@ -4,6 +4,7 @@
     include './app/utility/campus-data-utility.php';
     include './app/utility/hr-campus-data.php';
     include './app/utility/print-request.php';
+    include './api/classes/employee.php';
 
 ?>
 
@@ -84,6 +85,11 @@ $router->get('/request-form', function () {
           
             include './pages/authorized/employee//include/my-files.php';
         });
+        $router->get('/my-requests', function () {
+          
+            include './pages/authorized/employee//my-requests.php';
+        });
+
 
     }
     

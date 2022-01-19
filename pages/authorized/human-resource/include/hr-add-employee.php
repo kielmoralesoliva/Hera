@@ -294,7 +294,7 @@
         <!-- #END# Right Sidebar -->
     </div>
 
-
+<form id="add-employee-form" method="post">
     <section class="content">
         <div class="container-fluid">
             <div class="block-header">
@@ -347,14 +347,14 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="First Name" />
+                                            <input type="text" name= "firstname" class="form-control" placeholder="First Name" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="Middle Name" />
+                                            <input type="text" name= "middlename" class="form-control" placeholder="Middle Name" />
                                         </div>
                                     </div>
                                 </div>
@@ -363,14 +363,14 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                     <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="Last Name" />
+                                            <input type="text" class="form-control" name= "surname"  placeholder="Last Name" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="Name Ext. Ex ( Jr. , III )" />
+                                            <input type="text" name= "name_ext"  lass="form-control" placeholder="Name Ext. Ex ( Jr. , III )" />
                                         </div>
                                     </div>
                                 </div>
@@ -379,17 +379,17 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <div class="form-line">
-                                            <input type="text" class="form-control" placeholder="Birth Date" />
+                                            <input type="text" class="form-control" name= "birthdate"  placeholder="Birth Date" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <select class="col-12 m-t-20 p-l-0">
+                                            <select name= "gender" class="col-12 m-t-20 p-l-0">
                                                 <option disabled selected>Gender</option>
-                                                <option>Male</option>
-                                                <option>Female</option>
+                                                <option value="Male">Male</option>
+                                                <option value="Female">Female</option>
                                             </select>
                                         </div>
                                     </div>
@@ -400,21 +400,21 @@
                                     <div class="form-group">
                                     <div class="form-group form-float">
                                         <div class="form-line">
-                                            <select class="col-12 m-t-20 p-l-0">
+                                            <select name="academicRank" class="col-12 m-t-20 p-l-0">
                                                 <option disabled selected>Academic Rank</option>
-                                                <option>Instructor I</option>
-                                                <option>Instructor II</option>
-                                                <option>Instructor III</option>
-                                                <option>Assistant Professor I</option>
-                                                <option>Assistant Professor II</option>
-                                                <option>Assistant Professor III</option>
-                                                <option>Assistant Professor IV</option>
-                                                <option>Associate Professor I</option>
-                                                <option>Associate Professor II</option>
-                                                <option>Associate Professor III</option>
-                                                <option>Associate Professor IV</option>
-                                                <option>Associate Professor V</option>
-                                                <option>Professor</option>
+                                                <option value="Instructor I">Instructor I</option>
+                                                <option value="Instructor II">Instructor II</option>
+                                                <option value="Instructor III">Instructor III</option>
+                                                <option value="Assistant Professor I">Assistant Professor I</option>
+                                                <option value="Assistant Professor II">Assistant Professor II</option>
+                                                <option value="Assistant Professor III">Assistant Professor III</option>
+                                                <option value="Assistant Professor IV">Assistant Professor IV</option>
+                                                <option value="Associate Professor I">Associate Professor I</option>
+                                                <option value="Associate Professor II">Associate Professor II</option>
+                                                <option value="Associate Professor III">Associate Professor III</option>
+                                                <option value="Associate Professor IV">Associate Professor IV</option>
+                                                <option value="Associate Professor V">Associate Professor V</option>
+                                                <option value="Professor">Professor</option>
                                             </select>
                                         </div>
                                     </div>
@@ -423,10 +423,10 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <div class="form-line">
-                                        <select class="col-12 m-t-20 p-l-0">
+                                        <select name="status" class="col-12 m-t-20 p-l-0">
                                                 <option disabled selected>Status</option>
-                                                <option>Permanent</option>
-                                                <option>Temporary</option>
+                                                <option value="Permanent">Permanent</option>
+                                                <option value="Temporary">Temporary</option>
                                             </select>
                                         </div>
                                     </div>
@@ -436,17 +436,17 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <div class="form-line">
-                                        <select class="col-12 m-t-20 p-l-0">
+                                        <select name="campus" class="col-12 m-t-20 p-l-0">
                                                 <option disabled selected>Campus</option>
-                                                <option>Odiongan</option>
-                                                <option>Romblon</option>
-                                                <option>Cajidiocan</option>
-                                                <option>San Fernando</option>
-                                                <option>San Andres</option>
-                                                <option>San Agustin</option>
-                                                <option>Calatrava</option>
-                                                <option>Santa Fe</option>
-                                                <option>Santa Maria</option>
+                                                <option value="Odiongan">Odiongan</option>
+                                                <option value="Romblon">Romblon</option>
+                                                <option value="Cajidiocan">Cajidiocan</option>
+                                                <option value="San Fernando">San Fernando</option>
+                                                <option value="San Andres">San Andres</option>
+                                                <option value="San Agustin">San Agustin</option>
+                                                <option value="Calatrava">Calatrava</option>
+                                                <option value="Santa Fe">Santa Fe</option>
+                                                <option value="Santa Maria">Santa Maria</option>
                                             </select>
                                         </div>
                                     </div>
@@ -454,13 +454,13 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <div class="form-line">
-                                        <select class="col-12 m-t-20 p-l-0">
+                                        <select name="educBackground" class="col-12 m-t-20 p-l-0">
                                                 <option disabled selected>Education</option>
-                                                <option>Bachelor Graduate</option>
-                                                <option>Masteral Units</option>
-                                                <option>Masteral Graduate</option>
-                                                <option>Doctorate Units</option>
-                                                <option>Doctorate Graduate</option>
+                                                <option value="Bachelor Graduate">Bachelor Graduate</option>
+                                                <option value="Masteral Units">Masteral Units</option>
+                                                <option value="Masteral Graduate">Masteral Graduate</option>
+                                                <option value="Doctorate Units">Doctorate Units</option>
+                                                <option value="Doctorate Graduate">Doctorate Graduate</option>
                                             </select>
                                         </div>
                                     </div>
@@ -470,21 +470,39 @@
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Designation" />
+                                        <input type="text" name="designation" class="form-control" placeholder="Designation" />
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
                                         <div class="form-line">
-                                        <input type="text" class="form-control" placeholder="Date of Appointment" />
+                                        <input type="text" name="dateOfAppointment" class="form-control" placeholder="Date of Appointment" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row clearfix">
+                                <div class="col-sm-6">
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                        <input type="text" name="college" class="form-control" placeholder="College" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+
+                                    <div class="form-group">
+                                        <div class="form-line">
+                                       
+
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="col-lg-12 p-t-20 text-center">
-                                <button type="button" class="btn btn-primary waves-effect m-r-15">Submit</button>
+                                <button type="submit" class="btn btn-primary waves-effect m-r-15">Submit</button>
                                 <button type="button" class="btn btn-danger waves-effect">Cancel</button>
                             </div>
                         </div>
@@ -493,6 +511,7 @@
             </div>
         </div>
     </section>
+</form>
     <script src="assets/js/app.min.js"></script>
     <script src="assets/js/form.min.js"></script>
     <script src="assets/js/chart.min.js"></script>
@@ -502,6 +521,8 @@
     <script src="assets/js/bundles/apexcharts/apexcharts.min.js"></script>
     <script src="assets/js/pages/index.js"></script>
     <script src="assets/js/pages/todo/todo.js"></script>
-    
+    <script src="assets/js/pages/todo/todo.js"></script>
     <script src="assets/js/pages/forms/form-data.js"></script>
+    <script src="assets/js/main/employee.js"></script>
+
 </body>
